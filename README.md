@@ -1,0 +1,2 @@
+# dotfiles
+my hyprland dotfiles
