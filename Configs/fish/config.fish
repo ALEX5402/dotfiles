@@ -196,7 +196,7 @@ alias .... 'cd ../../..'
 alias ..... 'cd ../../../..'
 alias ...... 'cd ../../../../..'
 alias big 'expac -H M "%m\t%n" | sort -h | nl'     # Sort installed packages according to size in MB (expac must be installed)
-alias dir 'dir --color=auto'
+alias dir 'lsd --color=auto'
 alias fixpacman 'sudo rm /var/lib/pacman/db.lck'
 alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
 alias grep 'ugrep --color=auto'
