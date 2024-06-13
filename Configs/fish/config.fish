@@ -167,8 +167,8 @@ alias clear "printf '\033[2J\033[3J\033[1;1H'"
 
 
 # Common use
-alias code 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
-alias code-oss 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
+# alias code 'code --ozone-platform=wayland'
+# alias code-oss 'code --ozone-platform=wayland'
 alias vesktop 'vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias discord 'discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias youtube-music 'youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
