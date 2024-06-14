@@ -1,6 +1,7 @@
 [Appearance]
-ColorScheme=BlueOnBlack
-Font=Liberation Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+AntiAliasFonts=true
+ColorScheme=Sweet-Ambar-Blue
+Font=JetBrainsMono Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=22,25,37,0
 UseFontLineChararacters=false
 
@@ -17,3 +18,6 @@ UnderlineFilesEnabled=false
 
 [Keyboard]
 KeyBindings=default
+
+[Scrolling]
+HistoryMode=2
