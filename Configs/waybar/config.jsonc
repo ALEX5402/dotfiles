@@ -17,7 +17,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/weather","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/notifications","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","custom/weather","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/notifications","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -330,17 +330,6 @@
         "interval": 1,
         "tooltip": true,
         "escape": true
-    },
-
-    "custom/theme": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰟡 switch theme",
-        "on-click": "themeswitch.sh -n",
-        "on-click-right": "themeswitch.sh -p",
-        "on-click-middle": "sleep 0.1 && themeselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
     },
 
     "custom/wbar": {
