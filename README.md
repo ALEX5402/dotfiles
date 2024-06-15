@@ -2,7 +2,7 @@
   Don't Touch My dot files 🙂
  
  
-## Changelog Sat Jun 15 04:44:58 AM IST 2024
+## Changelog Sat Jun 15 05:05:54 AM IST 2024
 ```
  README.md | 6 +-----
  1 file changed, 1 insertion(+), 5 deletions(-)

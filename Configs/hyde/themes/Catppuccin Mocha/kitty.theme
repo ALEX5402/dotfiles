@@ -43,39 +43,49 @@ mark2_background #CBA6F7
 mark3_foreground #1E1E2E
 mark3_background #74C7EC
 
-# The 16 terminal colors
+# Special
+background #0d0f18
+foreground #a5b6cf
 
-# black
-color0 #43465A
-color8 #43465A
+# Black
+color0 #151720
+color8 #1c1e27
 
-# red
-color1 #F38BA8
-color9 #F38BA8
+# Red
+color1 #dd6777
+color9 #e26c7c
 
-# green
-color2  #A6E3A1
-color10 #A6E3A1
+# Green
+color4  #90ceaa
+color12 #95d3af
 
-# yellow
-color3  #F9E2AF
-color11 #F9E2AF
+# Yellow
+color3  #ecd3a0
+color11 #f1d8a5
 
-# blue
-color4  #87B0F9
-color12 #87B0F9
+# Blue
+color2  #86aaec
+color10 #8baff1
 
-# magenta
-color5  #F5C2E7
-color13 #F5C2E7
+# Magenta
+color5  #c296eb
+color13 #c79bf0
 
-# cyan
-color6  #94E2D5
-color14 #94E2D5
+# Cyan
+color6  #93cee9
+color14 #98d3ee
 
-# white
-color7  #CDD6F4
-color15 #A1A8C9
+# White
+color7  #cbced3
+color15 #d0d3d8
+
+# Cursor
+cursor #cbced3
+cursor_text_color #a5b6cf
+
+# Selection highlight
+selection_foreground #a5b6cf
+selection_background #1c1e27
 
 # Title bar
 macos_titlebar_color #16161e
@@ -83,7 +93,6 @@ macos_titlebar_color #16161e
 # {{{ Keybindings
 map kitty_mod+t     new_tab_with_cwd
 # }}
-
 
 
 
