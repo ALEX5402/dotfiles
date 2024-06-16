@@ -246,8 +246,6 @@ function __hyprkeys_debug
     end
 end
 
-#fastfetch
-fastfetch
 
 function __hyprkeys_perform_completion
     __hyprkeys_debug "Starting __hyprkeys_perform_completion"
