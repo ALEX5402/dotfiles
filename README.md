@@ -6,11 +6,12 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Sat Jun 22 12:03:51 PM IST 2024
+## Changelog Sat Jun 22 06:49:07 PM IST 2024
 ```
- Configs/fish/config.fish                      | 2 +-
- Configs/hyde/themes/Catppuccin Mocha/wall.set | 2 +-
- README.md                                     | 7 +------
- 3 files changed, 3 insertions(+), 8 deletions(-)
+ Configs/hyde/themes/Catppuccin Mocha/wall.set |  2 +-
+ Configs/hyde/themes/Graphite Mono/wall.set    |  2 +-
+ Configs/kitty/theme.conf                      | 11 +++++++----
+ README.md                                     |  8 +-------
+ 4 files changed, 10 insertions(+), 13 deletions(-)
 ```
  
