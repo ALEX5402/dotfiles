@@ -141,7 +141,7 @@ alias yt-search 'ytfzf -cO'
 alias haru-play 'ytfzf -u haruna -t'
 
 #playgif
-alias play-gif 'chafa'
+alias gifplay 'chafa'
 
 # Replace ls with eza
 alias ls 'eza -a --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
