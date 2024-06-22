@@ -6,12 +6,11 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Sat Jun 22 06:49:07 PM IST 2024
+## Changelog Sat Jun 22 07:45:50 PM IST 2024
 ```
- Configs/hyde/themes/Catppuccin Mocha/wall.set |  2 +-
- Configs/hyde/themes/Graphite Mono/wall.set    |  2 +-
- Configs/kitty/theme.conf                      | 11 +++++++----
- README.md                                     |  8 +-------
- 4 files changed, 10 insertions(+), 13 deletions(-)
+ Configs/kitty/theme.conf | 52 +-----------------------------------------------
+ README.md                |  9 +--------
+ nvim                     |  1 -
+ 3 files changed, 2 insertions(+), 60 deletions(-)
 ```
  
