@@ -6,9 +6,10 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Sun Jun 23 07:27:33 PM IST 2024
+## Changelog Mon Jun 24 10:57:23 AM IST 2024
 ```
- README.md | 6 +-----
- 1 file changed, 1 insertion(+), 5 deletions(-)
+ Configs/hypr/hyprland.conf | 3 ---
+ README.md                  | 6 +-----
+ 2 files changed, 1 insertion(+), 8 deletions(-)
 ```
  
