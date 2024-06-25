@@ -6,11 +6,11 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Mon Jun 24 08:36:18 PM IST 2024
+## Changelog Tue Jun 25 09:29:44 AM IST 2024
 ```
- "Configs/hyde/themes/Ros\303\251 Pine/wall.set" |  2 +-
- Configs/kitty/theme.conf                        | 81 ++++++++++++++-----------
- README.md                                       |  7 +--
- 3 files changed, 49 insertions(+), 41 deletions(-)
+ Configs/hyde/themes/Catppuccin Mocha/kitty.theme |   1 +
+ Configs/kitty/theme.conf                         | 136 +++++++++++++++--------
+ README.md                                        |   8 +-
+ 3 files changed, 90 insertions(+), 55 deletions(-)
 ```
  
