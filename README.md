@@ -6,10 +6,10 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Fri Jun 28 08:54:25 PM IST 2024
+## Changelog Sat Jun 29 01:23:47 PM IST 2024
 ```
  Configs/hyde/themes/Catppuccin Mocha/wall.set | 2 +-
- README.md                                     | 8 +-------
- 2 files changed, 2 insertions(+), 8 deletions(-)
+ README.md                                     | 7 +------
+ 2 files changed, 2 insertions(+), 7 deletions(-)
 ```
  
