@@ -6,10 +6,10 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Mon Jul 22 12:12:51 PM IST 2024
+## Changelog Mon Jul 22 12:19:43 PM IST 2024
 ```
- Local/share/bin/audiorelay-setup.sh | 8 ++++----
- README.md                           | 8 +-------
- 2 files changed, 5 insertions(+), 11 deletions(-)
+ Configs/hypr/hyprland.conf | 2 +-
+ README.md                  | 7 +------
+ 2 files changed, 2 insertions(+), 7 deletions(-)
 ```
  
