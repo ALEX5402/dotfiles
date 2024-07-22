@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# the virtual audio device
-pactl load-module module-null-sink \
-	sink_name=audiorelay-speakers \
-	sink_properties=device.description=AudioRelay-Speakers
+# # the virtual audio device
+# pactl load-module module-null-sink \
+# 	sink_name=audiorelay-speakers \
+# 	sink_properties=device.description=AudioRelay-Speakers
 
 
 	# set the sink device
