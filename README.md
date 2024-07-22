@@ -6,9 +6,11 @@
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
  
-## Changelog Mon Jul 22 11:40:47 AM IST 2024
+## Changelog Mon Jul 22 11:42:50 AM IST 2024
 ```
- README.md | 7 +------
- 1 file changed, 1 insertion(+), 6 deletions(-)
+ Configs/hypr/hyprland.conf | 2 +-
+ Configs/pulse/default.pa   | 2 +-
+ README.md                  | 6 +-----
+ 3 files changed, 3 insertions(+), 7 deletions(-)
 ```
  
