@@ -3,7 +3,7 @@
 load-module module-null-sink sink_name=audiorelay-speakers sink_properties=device.description=AudioRelay-Speakers
 
 # Creates a device where AudioRelay can stream audio into
-#load-module module-null-sink sink_name=audiorelay-virtual-mic-sink sink_properties=device.description=Virtual-Mic-Sink
+load-module module-null-sink sink_name=audiorelay-virtual-mic-sink sink_properties=device.description=Virtual-Mic-Sink
 
 # Creates a device usable by communications apps (e.g: skype)
 load-module module-remap-source master=audiorelay-virtual-mic-sink.monitor source_name=audiorelay-virtual-mic-sink source_properties=device.description=Virtual-Mic
