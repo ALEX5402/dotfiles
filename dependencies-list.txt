@@ -38,7 +38,7 @@ cliphist                                               # clipboard manager
 
 # --------------------------------------------------- // Dependencies
 polkit-gnome                                           # authentication agent
-gnome-keyrings
+gnome-keyring
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 pacman-contrib                                         # for system update check
 python-pyamdgpuinfo                                    # for amd gpu info
@@ -69,11 +69,13 @@ vim                                                    # terminal text editor
 code                                                   # ide text editor
 
 # --------------------------------------------------- // Shell
-eza|nu                                                # file lister for zsh
-lsd|fish                                               # file lister for fish
-starship|fish                                          # customizable shell prompt
+eza                                                    # ls replacement
+fish                                                   # file lister for fish
+nushell                                                     # nu shell
+starship                                               # customizable shell prompt
 fastfetch                                              # system information fetch tool
 
 
 # --------------------------------------------------- // social
-vesktop-bin                                            # best discord clint for wayland
+vesktop                                                # best discord clint for wayland
+64gram-desktop-bin                                        # best telegram clint for wayland
