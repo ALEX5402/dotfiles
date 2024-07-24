@@ -27,7 +27,7 @@ bell_border_color       #EBA0AC
 
 # OS Window titlebar colors
 wayland_titlebar_color system
-macos_titlebar_color system
+#macos_titlebar_color system
 
 # Tab bar colors
 active_tab_foreground   #11111B
@@ -89,7 +89,7 @@ selection_foreground #a5b6cf
 selection_background #1c1e27
 
 # Title bar
-macos_titlebar_color #16161e
+#macos_titlebar_color #16161e
 
 # {{{ Keybindings
 map kitty_mod+t     new_tab_with_cwd
