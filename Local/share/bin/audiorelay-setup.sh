@@ -17,4 +17,4 @@ pactl load-module module-remap-source \
 	source_name=audiorelay-virtual-mic-sink \
 	source_properties=device.description=Virtual-Mic
 
-audiorelay --minimized
+# audiorelay --minimized

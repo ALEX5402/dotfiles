@@ -13,7 +13,7 @@
         },
         {
             "type": "custom",
-            "format": "┌──────────────────────────────────────────┐"
+            "format": "┌─────────────────────────────────────────────────────┐"
         },
         {
             "type": "os",
@@ -39,7 +39,7 @@
             "type": "command",
             "key": "  󱦟 OS Age ",
             "keyColor": "31",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); days_with_addition=$((days_difference + 422)); echo $days_with_addition days"
         },
         {
             "type": "wm",
@@ -53,7 +53,7 @@
         },
         {
             "type": "custom",
-            "format": "└──────────────────────────────────────────┘"
+            "format": "└─────────────────────────────────────────────────────┘"
         },
         "break",
         {
@@ -62,7 +62,7 @@
         },
         {
             "type": "custom",
-            "format": "┌──────────────────────────────────────────┐"
+            "format": "┌─────────────────────────────────────────────────────┐"
         },
         {
             "type": "cpu",
@@ -84,7 +84,7 @@
         },
         {
             "type": "custom",
-            "format": "└──────────────────────────────────────────┘"
+            "format": "└─────────────────────────────────────────────────────┘"
         },
         "break",
         {
