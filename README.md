@@ -10,9 +10,21 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Fri Jul 26 07:30:22 PM IST 2024
+## Changelog Fri Jul 26 08:22:31 PM IST 2024
 ```
- README.md | 10 +---------
- 1 file changed, 1 insertion(+), 9 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig    |   98 +-
+ Configs/Kvantum/wallbash/wallbash.svg         | 1196 ++++++++++++-------------
+ Configs/hyde/themes/Catppuccin Mocha/wall.set |    2 +-
+ Configs/hypr/autostart.conf                   |    1 +
+ Configs/hypr/hyprland.conf                    |    2 +-
+ Configs/hypr/keybindings.conf                 |   16 +-
+ Configs/hypr/themes/colors.conf               |   10 +-
+ Configs/kitty/theme.conf                      |   48 +-
+ Configs/spicetify/Themes/Sleek/color.ini      |   40 +-
+ Configs/waybar/config.ctl                     |    4 +-
+ Configs/waybar/config.jsonc                   |   34 +-
+ Configs/waybar/theme.css                      |   14 +-
+ README.md                                     |    6 +-
+ 13 files changed, 738 insertions(+), 733 deletions(-)
 ```
  
