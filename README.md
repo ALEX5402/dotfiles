@@ -10,13 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Fri Jul 26 02:29:13 PM IST 2024
+## Changelog Fri Jul 26 07:30:22 PM IST 2024
 ```
- Configs/fastfetch/config.jsonc                  |   10 +-
- "Configs/hyde/themes/Ros\303\251 Pine/wall.set" |    2 +-
- Configs/tmux/tmux.conf                          | 1792 ++++++++++++++++++++++-
- Local/share/bin/audiorelay-setup.sh             |    2 +-
- README.md                                       |    8 +-
- 5 files changed, 1744 insertions(+), 70 deletions(-)
+ README.md | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
 ```
  
