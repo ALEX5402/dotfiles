@@ -189,7 +189,7 @@
 		"format": "{icon}",
 		"rotate": 0,
 		"icon-size": 18,
-		"icon-theme": "Tela-circle-dracula",
+		"icon-theme": "BeautyLine",
         "spacing": 0,
 		"tooltip-format": "{title}",
 		"on-click": "activate",

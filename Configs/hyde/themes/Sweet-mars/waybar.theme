@@ -1,0 +1,12 @@
+$HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
+@define-color bar-bg rgba(0,0,0,0);
+
+@define-color main-bg rgba(49,40,48,0.8);
+@define-color main-fg rgba(240,170,232,0.8);
+
+@define-color wb-act-bg rgba(215,129,106,0.4);
+@define-color wb-act-fg rgba(255,215,204,1);
+
+@define-color wb-hvr-bg rgba(125,75,85,0.4);
+@define-color wb-hvr-fg rgba(240,170,171,0.8);
+
