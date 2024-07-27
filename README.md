@@ -10,11 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 01:28:20 AM IST 2024
+## Changelog Sun Jul 28 01:28:42 AM IST 2024
 ```
- README.md             | 15 +--------------
- dependencies-list.txt |  2 ++
- init.sh               |  4 +++-
- 3 files changed, 6 insertions(+), 15 deletions(-)
+ README.md | 8 +-------
+ init.sh   | 2 +-
+ 2 files changed, 2 insertions(+), 8 deletions(-)
 ```
  
