@@ -10,9 +10,14 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 02:06:02 PM IST 2024
+## Changelog Sun Jul 28 02:21:34 PM IST 2024
 ```
- README.md | 6 +-----
- 1 file changed, 1 insertion(+), 5 deletions(-)
+ Configs/hyde/themes/Catppuccin Mocha/hypr.theme |  4 ++++
+ Configs/hyde/themes/Gruvbox Retro/hypr.theme    |  8 ++++----
+ Configs/hyde/themes/Sweet-mars/hypr.theme       | 10 +++++++---
+ Configs/hyde/themes/Tokyo Night/hypr.theme      | 12 ++++++++++--
+ Configs/hypr/hyprland.conf                      |  2 +-
+ README.md                                       |  6 +-----
+ 6 files changed, 27 insertions(+), 15 deletions(-)
 ```
  

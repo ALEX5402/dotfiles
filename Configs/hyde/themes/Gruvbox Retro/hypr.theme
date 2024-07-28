@@ -11,8 +11,8 @@ exec = gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox-Retro'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 exec = gsettings set org.gnome.desktop.interface cursor-theme 'Gruvbox-Retro'
-exec = gsettings set org.gnome.desktop.interface cursor-size 20
-exec = hyprctl setcursor Gruvbox-Retro 20
+exec = gsettings set org.gnome.desktop.interface cursor-size 24
+exec = hyprctl setcursor Gruvbox-Retro 24
 
 general {
     gaps_in = 3
@@ -36,7 +36,7 @@ decoration {
     drop_shadow = false
 
     blur {
-        enabled = yes
+        enabled = false
         size = 4
         passes = 2
         new_optimizations = on
@@ -45,4 +45,4 @@ decoration {
     }
 }
 
-layerrule = blur,waybar
+#layerrule = blur,waybar

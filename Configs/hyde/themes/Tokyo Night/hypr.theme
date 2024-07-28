@@ -3,6 +3,14 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-purple'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Tokyo-Night'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Ice'
+exec = gsettings set org.gnome.desktop.interface cursor-size 24
+exec = hyprctl setcursor Gruvbox-Retro 24
+
+env = HYPRCURSOR_THEME,Bibata-Modern-Ice  # Replace Bibata-Modern-Ice with the name of the theme you dosnloaded
+env = HYPRCURSOR_SIZE,24
+
 general {
     gaps_in = 3
     gaps_out = 8
@@ -25,7 +33,7 @@ decoration {
     drop_shadow = false
 
     blur {
-        enabled = yes
+        enabled = false
         size = 6
         passes = 3
         new_optimizations = on
@@ -34,4 +42,4 @@ decoration {
     }
 }
 
-layerrule = blur,waybar
+#layerrule = blur,waybar
