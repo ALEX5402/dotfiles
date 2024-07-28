@@ -10,14 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 05:52:46 PM IST 2024
+## Changelog Sun Jul 28 05:57:14 PM IST 2024
 ```
- Configs/hyde/themes/Catppuccin Mocha/hypr.theme |   4 ++--
- Configs/hyde/themes/Gruvbox Retro/hypr.theme    |   6 +++---
- Configs/hyde/themes/Sweet-Dark/hypr.theme       |   6 +++---
- Configs/hypr/themes/theme.conf                  |   6 +++---
- Icon-Packs/Bibata-Modern-Ice.zip                | Bin 44731228 -> 0 bytes
- README.md                                       |   6 +-----
- 6 files changed, 12 insertions(+), 16 deletions(-)
+ Configs/gtk-3.0/settings.ini               |  4 ++--
+ Configs/hyde/themes/Tokyo Night/hypr.theme |  6 +++---
+ Configs/hyde/themes/Tokyo Night/wall.set   |  2 +-
+ README.md                                  | 11 +----------
+ 4 files changed, 7 insertions(+), 16 deletions(-)
 ```
  
