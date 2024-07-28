@@ -216,7 +216,7 @@
         "tooltip": true,
         "format-wifi": " ",
         "rotate": 0,
-        "format-ethernet": "<span foreground='#ffcc66'> {bandwidthUpBits}</span> <span foreground='#99ffdd'> {bandwidthDownBits}</span>",
+        "format-ethernet": "<span foreground='#ffcc66'> {bandwidthUpBytes}</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span>",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
