@@ -5,15 +5,15 @@
   ![image](https://github.com/ALEX5402/dotfiles/assets/76860596/2fbe6020-4d76-4cf7-b052-58ff43cda405)
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
 
-## Install
+## Install ( I use cachy os Repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 01:28:42 AM IST 2024
+## Changelog Sun Jul 28 10:29:37 AM IST 2024
 ```
- README.md | 8 +-------
- init.sh   | 2 +-
- 2 files changed, 2 insertions(+), 8 deletions(-)
+ README.md | 9 ++-------
+ info.txt  | 2 +-
+ 2 files changed, 3 insertions(+), 8 deletions(-)
 ```
  
