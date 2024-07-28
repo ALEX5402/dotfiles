@@ -10,9 +10,14 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 05:39:36 PM IST 2024
+## Changelog Sun Jul 28 05:52:46 PM IST 2024
 ```
- README.md | 46 +---------------------------------------------
- 1 file changed, 1 insertion(+), 45 deletions(-)
+ Configs/hyde/themes/Catppuccin Mocha/hypr.theme |   4 ++--
+ Configs/hyde/themes/Gruvbox Retro/hypr.theme    |   6 +++---
+ Configs/hyde/themes/Sweet-Dark/hypr.theme       |   6 +++---
+ Configs/hypr/themes/theme.conf                  |   6 +++---
+ Icon-Packs/Bibata-Modern-Ice.zip                | Bin 44731228 -> 0 bytes
+ README.md                                       |   6 +-----
+ 6 files changed, 12 insertions(+), 16 deletions(-)
 ```
  
