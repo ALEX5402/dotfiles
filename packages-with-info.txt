@@ -36,7 +36,7 @@ local/alsa-utils 1.2.12-1.1
     Advanced Linux Sound Architecture - Utilities
 local/amd-ucode 20240703.e94a2a3b-1
     Microcode update image for AMD CPUs
-local/amdvlk 2024.Q2.1-1.1
+local/amdvlk 2024.Q2.3-1.1
     AMD's standalone Vulkan driver
 local/ananicy-cpp 1.1.1-1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
@@ -660,6 +660,8 @@ local/java-runtime-common 3-5
     Common files for Java Runtime Environments
 local/jbigkit 2.1-8.1
     Data compression library/utilities for bi-level high-resolution images
+local/jdk-openjdk 22.0.2.u9-1
+    OpenJDK Java 22 development kit
 local/jdk17-openjdk 17.0.12.u7-2
     OpenJDK Java 17 development kit
 local/jemalloc 1:5.3.0-4.1
@@ -2482,7 +2484,7 @@ local/srt 1.5.3-2.1
     Secure Reliable Transport library
 local/stacer-bin 1.1.0-5
     Linux System Optimizer and Monitoring
-local/starship 1.20.0-1.1
+local/starship 1.20.1-1.1
     The cross-shell prompt for astronauts
 local/startup-notification 0.12-8.1
     Libary to monitor and display application startup

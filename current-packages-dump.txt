@@ -329,6 +329,7 @@ jasper
 java-environment-common
 java-runtime-common
 jbigkit
+jdk-openjdk
 jdk17-openjdk
 jemalloc
 jetbrains-toolbox

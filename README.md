@@ -10,10 +10,21 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 10:35:27 AM IST 2024
+## Changelog Sun Jul 28 12:58:25 PM IST 2024
 ```
- Configs/xdg-desktop-portal/portals.conf | 2 +-
- README.md                               | 7 +------
- 2 files changed, 2 insertions(+), 7 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig |   98 +--
+ Configs/Kvantum/wallbash/wallbash.svg      | 1196 ++++++++++++++--------------
+ Configs/hyde/themes/Sweet-mars/wall.set    |    2 +-
+ Configs/hypr/themes/colors.conf            |   10 +-
+ Configs/hypr/windowrules.conf              |    2 +
+ Configs/kitty/theme.conf                   |   48 +-
+ Configs/rofi/theme.rasi                    |   12 +-
+ Configs/spicetify/Themes/Sleek/color.ini   |   40 +-
+ Configs/waybar/theme.css                   |   14 +-
+ Configs/xdg-desktop-portal/portals.conf    |    1 +
+ README.md                                  |    7 +-
+ current-packages-dump.txt                  |    1 +
+ packages-with-info.txt                     |    6 +-
+ 13 files changed, 719 insertions(+), 718 deletions(-)
 ```
  
