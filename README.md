@@ -10,10 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 08:34:22 PM IST 2024
+## Changelog Mon Jul 29 12:37:57 AM IST 2024
 ```
- Configs/hypr/windowrules.conf | 22 ++++++++++++++++++++--
- README.md                     |  6 +-----
- 2 files changed, 21 insertions(+), 7 deletions(-)
+ README.md                    | 7 +------
+ Theme-Confs/qt5ct/qt5ct.conf | 2 +-
+ current-packages-dump.txt    | 4 ++--
+ packages-with-info.txt       | 8 ++++----
+ 4 files changed, 8 insertions(+), 13 deletions(-)
 ```
  

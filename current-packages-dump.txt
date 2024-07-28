@@ -330,12 +330,12 @@ java-environment-common
 java-runtime-common
 jbigkit
 jdk-openjdk
-jdk17-openjdk
+jdk21-openjdk
 jemalloc
 jetbrains-toolbox
 jfsutils
 jq
-jre21-openjdk
+jre17-openjdk
 json-c
 json-glib
 jsoncpp
