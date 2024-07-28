@@ -10,12 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 05:57:14 PM IST 2024
+## Changelog Sun Jul 28 08:01:07 PM IST 2024
 ```
- Configs/gtk-3.0/settings.ini               |  4 ++--
- Configs/hyde/themes/Tokyo Night/hypr.theme |  6 +++---
- Configs/hyde/themes/Tokyo Night/wall.set   |  2 +-
- README.md                                  | 11 +----------
- 4 files changed, 7 insertions(+), 16 deletions(-)
+ README.md | 9 +--------
+ 1 file changed, 1 insertion(+), 8 deletions(-)
 ```
  
