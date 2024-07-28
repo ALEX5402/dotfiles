@@ -1393,6 +1393,7 @@ xorg-server
 xorg-server-common
 xorg-setxkbmap
 xorg-xauth
+xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xhost
 xorg-xinit

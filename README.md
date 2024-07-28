@@ -10,21 +10,21 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 12:58:25 PM IST 2024
+## Changelog Sun Jul 28 02:00:04 PM IST 2024
 ```
- Configs/Kvantum/wallbash/wallbash.kvconfig |   98 +--
- Configs/Kvantum/wallbash/wallbash.svg      | 1196 ++++++++++++++--------------
- Configs/hyde/themes/Sweet-mars/wall.set    |    2 +-
- Configs/hypr/themes/colors.conf            |   10 +-
- Configs/hypr/windowrules.conf              |    2 +
- Configs/kitty/theme.conf                   |   48 +-
- Configs/rofi/theme.rasi                    |   12 +-
- Configs/spicetify/Themes/Sleek/color.ini   |   40 +-
- Configs/waybar/theme.css                   |   14 +-
- Configs/xdg-desktop-portal/portals.conf    |    1 +
- README.md                                  |    7 +-
+ Configs/Kvantum/wallbash/wallbash.kvconfig |  110 +-
+ Configs/Kvantum/wallbash/wallbash.svg      | 9163 ++++++++++++++++++++++------
+ Configs/gtk-3.0/settings.ini               |    2 +-
+ Configs/hyde/hyde.conf                     |    2 +-
+ Configs/hyde/themes/Sweet-mars/hypr.theme  |    4 +
+ Configs/hypr/themes/colors.conf            |   14 -
+ Configs/hypr/themes/theme.conf             |    4 +
+ Configs/kitty/theme.conf                   |   89 +-
+ Configs/rofi/theme.rasi                    |   14 +-
+ Configs/waybar/theme.css                   |   18 +-
+ README.md                                  |   18 +-
  current-packages-dump.txt                  |    1 +
- packages-with-info.txt                     |    6 +-
- 13 files changed, 719 insertions(+), 718 deletions(-)
+ packages-with-info.txt                     |    2 +
+ 13 files changed, 7376 insertions(+), 2065 deletions(-)
 ```
  

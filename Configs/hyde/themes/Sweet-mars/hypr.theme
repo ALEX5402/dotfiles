@@ -13,6 +13,10 @@ general {
     resize_on_border = true
 }
 
+env = HYPRCURSOR_THEME,Bibata-Modern-Ice  # Replace Bibata-Modern-Ice with the name of the theme you dosnloaded
+env = HYPRCURSOR_SIZE,24                  # Replace 24 with your desired size
+
+
 master{
   drop_at_cursor = true
   smart_resizing = true
