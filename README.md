@@ -10,10 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Jul 28 10:29:37 AM IST 2024
+## Changelog Sun Jul 28 10:35:27 AM IST 2024
 ```
- README.md | 9 ++-------
- info.txt  | 2 +-
- 2 files changed, 3 insertions(+), 8 deletions(-)
+ Configs/xdg-desktop-portal/portals.conf | 2 +-
+ README.md                               | 7 +------
+ 2 files changed, 2 insertions(+), 7 deletions(-)
 ```
  
