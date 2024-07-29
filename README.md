@@ -10,12 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Jul 29 12:46:51 PM IST 2024
+## Changelog Mon Jul 29 02:32:22 PM IST 2024
 ```
- Configs/hypr/windowrules.conf | 2 +-
- README.md                     | 6 +-----
- current-packages-dump.txt     | 4 ----
- packages-with-info.txt        | 8 --------
- 4 files changed, 2 insertions(+), 18 deletions(-)
+ README.md                 | 9 +--------
+ current-packages-dump.txt | 1 +
+ packages-with-info.txt    | 2 ++
+ 3 files changed, 4 insertions(+), 8 deletions(-)
 ```
  

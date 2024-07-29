@@ -44,6 +44,8 @@ local/android-apktool-bin 2.9.3-2
     A tool for reverse engineering Android .apk files
 local/android-sdk-platform-tools 35.0.1-1
     Platform-Tools for Google Android SDK (adb and fastboot)
+local/android-studio 2024.1.1.12-1
+    The official Android IDE (Stable branch)
 local/android-tools 35.0.1-2.1
     Android platform tools
 local/android-udev 20240625-1
