@@ -21,10 +21,10 @@ amdvlk
 ananicy-cpp
 android-apktool-bin
 android-sdk-platform-tools
-android-studio
 android-tools
 android-udev
 aom
+appimagelauncher
 appstream
 archlinux-java-run
 archlinux-keyring
@@ -472,6 +472,7 @@ libaccounts-glib
 libaccounts-qt
 libadwaita
 libaio
+libappimage
 libappindicator-gtk3
 libarchive
 libass
@@ -1235,6 +1236,7 @@ spotify
 spotify-adblock-git
 sqlite
 squashfs-tools
+squashfuse
 sratom
 srt
 stacer-bin

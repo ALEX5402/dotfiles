@@ -44,14 +44,14 @@ local/android-apktool-bin 2.9.3-2
     A tool for reverse engineering Android .apk files
 local/android-sdk-platform-tools 35.0.1-1
     Platform-Tools for Google Android SDK (adb and fastboot)
-local/android-studio 2024.1.1.12-1
-    The official Android IDE (Stable branch)
 local/android-tools 35.0.1-2.1
     Android platform tools
 local/android-udev 20240625-1
     Udev rules to connect Android devices to your linux box
 local/aom 3.9.1-1.1
     Alliance for Open Media video codec
+local/appimagelauncher 2.2.0-8
+    Helper for running and integrating AppImages
 local/appstream 1.0.3-1.1
     Provides a standard for creating app stores across distributions
 local/archlinux-java-run 10-1
@@ -946,6 +946,8 @@ local/libadwaita 1:1.5.2-1.1
     Building blocks for modern adaptive GNOME applications
 local/libaio 0.3.113-3.1
     The Linux-native asynchronous I/O facility (aio) library
+local/libappimage 1.0.4.5-6.1
+    Reference implementation of the AppImage specification
 local/libappindicator-gtk3 12.10.0.r298-4
     Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
 local/libarchive 3.7.4-1.1
@@ -2472,6 +2474,8 @@ local/sqlite 3.46.0-2
     A C library that implements an SQL database engine
 local/squashfs-tools 4.6.1-2.1
     Tools for squashfs, a highly compressed read-only filesystem for Linux
+local/squashfuse 0.5.2-1.1
+    FUSE filesystem to mount squashfs archives
 local/sratom 0.6.16-1.1
     An LV2 Atom RDF serialisation library
 local/srt 1.5.3-2.1
