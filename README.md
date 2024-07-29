@@ -10,9 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Jul 29 08:33:47 PM IST 2024
+## Changelog Mon Jul 29 08:34:25 PM IST 2024
 ```
- README.md | 6 +-----
- 1 file changed, 1 insertion(+), 5 deletions(-)
+ .github/wirkflows/snapshot.yml | 37 -------------------------------------
+ README.md                      |  6 +-----
+ 2 files changed, 1 insertion(+), 42 deletions(-)
 ```
  
