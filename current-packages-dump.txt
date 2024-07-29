@@ -326,13 +326,9 @@ iwd
 jadx
 jansson
 jasper
-java-environment-common
 java-runtime-common
 jbigkit
-jdk-openjdk
-jdk21-openjdk
 jemalloc
-jetbrains-toolbox
 jfsutils
 jq
 jre17-openjdk

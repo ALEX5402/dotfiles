@@ -654,20 +654,12 @@ local/jansson 2.14-4.1
     C library for encoding, decoding and manipulating JSON data
 local/jasper 4.2.4-1.1
     Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
-local/java-environment-common 3-5
-    Common files for Java Development Kits
 local/java-runtime-common 3-5
     Common files for Java Runtime Environments
 local/jbigkit 2.1-8.1
     Data compression library/utilities for bi-level high-resolution images
-local/jdk-openjdk 22.0.2.u9-1
-    OpenJDK Java 22 development kit
-local/jdk21-openjdk 21.0.4.u7-2
-    OpenJDK Java 21 development kit
 local/jemalloc 1:5.3.0-4.1
     General-purpose scalable concurrent malloc implementation
-local/jetbrains-toolbox 2.4.1.32573-1
-    Manage all your JetBrains Projects and Tools
 local/jfsutils 1.1.15-9.1
     JFS filesystem utilities
 local/jq 1.7.1-2.1
