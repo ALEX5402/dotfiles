@@ -2850,6 +2850,8 @@ local/yay 12.3.5-1
     Yet another yogurt. Pacman wrapper and AUR helper written in go.
 local/youtube-dl-git 2021.12.17.r364.ge1b3fa242-1
     A small command-line program to download videos from YouTube.com and a few more sites (git version)
+local/youtube-music-bin 3.4.1-1
+    YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
 local/ytfzf-git r2073.71b9a6d-1
     A posix script to find and watch youtube videos from the terminal. (Without API)
 local/yyjson 0.10.0-1.1

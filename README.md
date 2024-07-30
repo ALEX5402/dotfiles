@@ -10,15 +10,17 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Jul 30 07:02:13 PM IST 2024
+## Changelog Tue Jul 30 10:45:20 PM IST 2024
 ```
- Configs/hyde/themes/Sweet-Dark/wall.set  |  2 +-
- Configs/spicetify/Themes/Sleek/color.ini | 40 ++++++++++----------
- README.md                                |  8 +---
- Theme-Confs/qt5ct/colors.conf            |  6 +--
- Theme-Confs/qt6ct/colors.conf            |  6 +--
- current-packages-dump.txt                |  6 ++-
- packages-with-info.txt                   | 64 ++++++++++++++++++--------------
- 7 files changed, 69 insertions(+), 63 deletions(-)
+ Configs/hypr/windowrules.conf |   2 +
+ Extra-files/dolphinrc         |   2 +-
+ Extra-files/kdeglobals        |   3 +
+ Extra-files/mimeapps.list     |  46 +++++++-
+ Extra-files/starship.toml     | 239 +++++++++++++++++++++++++++---------------
+ Extra-files/starship2.toml    | 172 ------------------------------
+ README.md                     |  12 +--
+ current-packages-dump.txt     |   1 +
+ packages-with-info.txt        |   2 +
+ 9 files changed, 211 insertions(+), 268 deletions(-)
 ```
  

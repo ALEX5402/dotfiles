@@ -1424,6 +1424,7 @@ yajl
 yara
 yay
 youtube-dl-git
+youtube-music-bin
 ytfzf-git
 yyjson
 zbar
