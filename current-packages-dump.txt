@@ -126,6 +126,8 @@ device-mapper
 dhcpcd
 diffutils
 ding-libs
+distro-info
+distro-info-data
 dmidecode
 dmraid
 dnsmasq
@@ -327,12 +329,14 @@ iwd
 jadx
 jansson
 jasper
+java-environment-common
 java-runtime-common
 jbigkit
+jdk17-openjdk
+jdk21-openjdk
 jemalloc
 jfsutils
 jq
-jre17-openjdk
 json-c
 json-glib
 jsoncpp

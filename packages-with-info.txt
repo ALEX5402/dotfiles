@@ -218,7 +218,7 @@ local/cpio 2.15-1.1
     A tool to copy files into or out of a cpio or tar archive
 local/cppdap 1.58.0-2.1
     C++ library for the Debug Adapter Protocol
-local/cpupower 6.10-2 (linux-tools)
+local/cpupower 6.10-3 (linux-tools)
     Linux kernel tool to examine and tune power saving related features of your processor
 local/cryptsetup 2.7.3-1.1
     Userspace setup tool for transparent encryption of block devices using dm-crypt
@@ -238,7 +238,7 @@ local/dconf 0.40.0-3.1
     Configuration database system
 local/ddcutil 2.1.4-1.1
     Query and change Linux monitor settings using DDC/CI and USB.
-local/debootstrap 1.0.134-2
+local/debootstrap 1.0.135-1
     Bootstrap a basic Debian system
 local/debugedit 5.0-6
     Tool to mangle source locations in .debug files
@@ -254,6 +254,10 @@ local/diffutils 3.10-1.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
+local/distro-info 1.7-4.1
+    Information about all releases of Debian and Ubuntu
+local/distro-info-data 0.62-2
+    Information about all releases of Debian and Ubuntu (data files)
 local/dmidecode 3.6-1.1
     Desktop Management Interface table related utilities
 local/dmraid 1.0.0.rc16.3-15.1
@@ -516,27 +520,27 @@ local/gssdp 1.6.3-1.1
     GObject-based API for handling resource discovery and announcement over SSDP
 local/gssproxy 0.9.2-1.1
     GSSAPI Proxy
-local/gst-libav 1.24.5-2
+local/gst-libav 1.24.6-1
     Multimedia graph framework - libav plugin
 local/gst-plugin-pipewire 1:1.2.1-1.1
     Multimedia graph framework - pipewire plugin
-local/gst-plugin-va 1.24.5-2
+local/gst-plugin-va 1.24.6-1
     Multimedia graph framework - va plugin
-local/gst-plugins-bad 1.24.5-2
+local/gst-plugins-bad 1.24.6-1
     Multimedia graph framework - bad plugins
-local/gst-plugins-bad-libs 1.24.5-2
+local/gst-plugins-bad-libs 1.24.6-1
     Multimedia graph framework - bad
-local/gst-plugins-base 1.24.5-2
+local/gst-plugins-base 1.24.6-1
     Multimedia graph framework - base plugins
-local/gst-plugins-base-libs 1.24.5-2
+local/gst-plugins-base-libs 1.24.6-1
     Multimedia graph framework - base
-local/gst-plugins-good 1.24.5-2
+local/gst-plugins-good 1.24.6-1
     Multimedia graph framework - good plugins
-local/gst-plugins-ugly 1.24.5-2
+local/gst-plugins-ugly 1.24.6-1
     Multimedia graph framework - ugly plugins
-local/gstreamer 1.24.5-2
+local/gstreamer 1.24.6-1
     Multimedia graph framework - core
-local/gstreamer-vaapi 1.24.5-2
+local/gstreamer-vaapi 1.24.6-1
     Multimedia graph framework - vaapi plugin
 local/gtest 1.14.0-2.1
     Google Test - C++ testing utility
@@ -600,7 +604,7 @@ local/hunspell 1.7.2-2.1
     Spell checker and morphological analyzer library and program
 local/hwdata 0.384-1
     hardware identification databases
-local/hwdetect 2024.07.22.2117-1
+local/hwdetect 2024.07.29.0933-1
     Hardware detection script with loading modules and mkinitcpio.conf
 local/hwinfo 23.2-2.1
     Hardware detection tool from openSUSE
@@ -628,7 +632,7 @@ local/icoextract 0.1.5-1
     Icon extractor for Windows PE files (.exe/.dll) with optional thumbnailer functionality
 local/icu 75.1-1.1
     International Components for Unicode library
-local/imagemagick 7.1.1.35-1.1
+local/imagemagick 7.1.1.36-1.1
     An image viewing/manipulation program
 local/imath 3.1.11-2.1
     A C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
@@ -656,18 +660,22 @@ local/jansson 2.14-4.1
     C library for encoding, decoding and manipulating JSON data
 local/jasper 4.2.4-1.1
     Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
+local/java-environment-common 3-5
+    Common files for Java Development Kits
 local/java-runtime-common 3-5
     Common files for Java Runtime Environments
 local/jbigkit 2.1-8.1
     Data compression library/utilities for bi-level high-resolution images
+local/jdk17-openjdk 17.0.12.u7-2
+    OpenJDK Java 17 development kit
+local/jdk21-openjdk 21.0.4.u7-2
+    OpenJDK Java 21 development kit
 local/jemalloc 1:5.3.0-4.1
     General-purpose scalable concurrent malloc implementation
 local/jfsutils 1.1.15-9.1
     JFS filesystem utilities
 local/jq 1.7.1-2.1
     Command-line JSON processor
-local/jre17-openjdk 17.0.12.u7-2
-    OpenJDK Java 17 full runtime environment
 local/json-c 0.17-2.1
     A JSON implementation in C
 local/json-glib 1.8.0-2.1
@@ -1412,11 +1420,11 @@ local/libtirpc 1.3.4-1.1
     Transport Independent RPC library (SunRPC replacement)
 local/libtommath 1.3.0-1.1
     Highly optimized and portable routines for integer based number theoretic applications
-local/libtool 2.5.0+14+g9a4a0261-3
+local/libtool 2.5.1-2
     A generic library support script
-local/libtraceevent 1:1.8.2-2.1
+local/libtraceevent 1:1.8.3-1.1
     Linux kernel trace event library
-local/libtracefs 1.8.0-1.1
+local/libtracefs 1.8.1-1.1
     Linux kernel trace file system library
 local/libunibreak 6.1-1.1
     An implementation of the line breaking algorithm as described in Unicode 5.2.0 Standard Annex 14, Revision 24
@@ -1438,7 +1446,7 @@ local/libutf8proc 2.9.0-1.1
     C library for processing UTF-8 encoded Unicode strings
 local/libuv 1.48.0-2.1
     Multi-platform support library with a focus on asynchronous I/O
-local/libva 2.21.0-1.1
+local/libva 2.22.0-1.1
     Video Acceleration (VA) API for Linux
 local/libva-mesa-driver 1:24.1.4-3
     Open-source VA-API drivers
@@ -1462,7 +1470,7 @@ local/libvorbis 1.3.7-3
     Reference implementation of the Ogg Vorbis audio format
 local/libvpl 2.12.0-1.1
     Intel Video Processing Library
-local/libvpx 1.14.0-1.1
+local/libvpx 1.14.1-1.1
     VP8 and VP9 codec
 local/libvterm 0.3.3-2.1
     Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
@@ -1568,11 +1576,11 @@ local/libzip 1.10.1-2.1
     C library for reading, creating, and modifying zip archives
 local/libzmf 0.0.2-16.1
     a library for import of Zoner drawing and bitmap files
-local/licenses 20240206-1
+local/licenses 20240728-1
     A set of common license files
 local/lilv 0.24.24-2
     A C library interface to the LV2 plug-in standard
-local/linux 6.10.1.arch1-1
+local/linux 6.10.2.arch1-1
     The Linux kernel and modules
 local/linux-api-headers 6.10-2
     Kernel headers sanitized for use in userspace
@@ -1584,15 +1592,15 @@ local/linux-firmware 20240703.e94a2a3b-1
     Firmware files for Linux
 local/linux-firmware-whence 20240703.e94a2a3b-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-headers 6.10.1.arch1-1
+local/linux-headers 6.10.2.arch1-1
     Headers and scripts for building modules for the Linux kernel
 local/linux-xanmod 6.9.10-1
     The Linux kernel and modules with Xanmod patches
 local/linux-xanmod-headers 6.9.10-1
     Headers and scripts for building modules for the Linux Xanmod - Stable Mainline [MAIN] kernel
-local/linux-zen 6.10.1.zen1-1
+local/linux-zen 6.10.2.zen1-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.10.1.zen1-1
+local/linux-zen-headers 6.10.2.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/llvm-libs 18.1.8-5
     LLVM runtime libraries
@@ -2504,7 +2512,7 @@ local/suitesparse 7.7.0-2.1
     A collection of sparse matrix libraries
 local/supermin 5.3.2-1
     Tool for creating supermin appliances
-local/svt-av1 2.1.0-1.1
+local/svt-av1 2.1.2-1.1
     Scalable Video Technology AV1 encoder and decoder
 local/svt-hevc 1.5.1-3.1
     Scalable Video Technology HEVC encoder
@@ -2552,7 +2560,7 @@ local/tldr 3.3.0-1
     Command line client for tldr, a collection of simplified man pages.
 local/tmate 2.4.0-4.1
     Instant terminal sharing
-local/tmux 3.4-9.1
+local/tmux 3.4-10.1
     Terminal multiplexer
 local/tomlplusplus 3.4.0-1.1
     Header-only TOML config file parser and serializer for C++17
