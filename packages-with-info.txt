@@ -1970,6 +1970,8 @@ local/ppp 2.5.0-3.1
     A daemon which implements the Point-to-Point Protocol for dial-up networking
 local/procps-ng 4.0.4-3.1
     Utilities for monitoring your system and its processes
+local/proot 5.4.0-1
+    chroot, mount --bind, and binfmt_misc without privilege/setup
 local/protobuf 27.2-1.1
     Protocol Buffers - Google's data interchange format
 local/psmisc 23.7-1.1
@@ -2012,6 +2014,8 @@ local/python-defusedxml 0.7.1-6
     XML bomb protection for Python stdlib modules
 local/python-docopt 0.6.2-13
     Pythonic argument parser, that will make you smile
+local/python-docutils 1:0.21.2-1
+    Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX
 local/python-fastjsonschema 2.20.0-1
     Fast JSON schema validator for Python
 local/python-future 1.0.0-1
@@ -2470,6 +2474,8 @@ local/spotify 1:1.2.42.290-1
     A proprietary music streaming service
 local/spotify-adblock-git 1:1.0.3.r0.g5a3281d-1
     Adblocker for Spotify
+local/spotube-bin 3.7.1-2
+    Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!
 local/sqlite 3.46.0-2
     A C library that implements an SQL database engine
 local/squashfs-tools 4.6.1-2.1

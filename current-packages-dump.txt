@@ -984,6 +984,7 @@ portaudio
 power-profiles-daemon
 ppp
 procps-ng
+proot
 protobuf
 psmisc
 pulseaudio-qt
@@ -1005,6 +1006,7 @@ python-conda-package-streaming
 python-dbus
 python-defusedxml
 python-docopt
+python-docutils
 python-fastjsonschema
 python-future
 python-gobject
@@ -1234,6 +1236,7 @@ spicetify-cli
 spirv-tools
 spotify
 spotify-adblock-git
+spotube-bin
 sqlite
 squashfs-tools
 squashfuse

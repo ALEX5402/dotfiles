@@ -10,11 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Jul 29 11:02:00 PM IST 2024
+## Changelog Tue Jul 30 02:36:51 PM IST 2024
 ```
- README.md                 | 7 +------
- current-packages-dump.txt | 4 +++-
- packages-with-info.txt    | 8 ++++++--
- 3 files changed, 10 insertions(+), 9 deletions(-)
+ README.md                 | 8 +-------
+ current-packages-dump.txt | 3 +++
+ packages-with-info.txt    | 6 ++++++
+ 3 files changed, 10 insertions(+), 7 deletions(-)
 ```
  
