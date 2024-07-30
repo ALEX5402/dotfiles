@@ -10,17 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Jul 30 10:45:20 PM IST 2024
+## Changelog Tue Jul 30 11:11:06 PM IST 2024
 ```
- Configs/hypr/windowrules.conf |   2 +
- Extra-files/dolphinrc         |   2 +-
- Extra-files/kdeglobals        |   3 +
- Extra-files/mimeapps.list     |  46 +++++++-
- Extra-files/starship.toml     | 239 +++++++++++++++++++++++++++---------------
- Extra-files/starship2.toml    | 172 ------------------------------
- README.md                     |  12 +--
- current-packages-dump.txt     |   1 +
- packages-with-info.txt        |   2 +
- 9 files changed, 211 insertions(+), 268 deletions(-)
+ README.md | 14 +-------------
+ 1 file changed, 1 insertion(+), 13 deletions(-)
 ```
  
