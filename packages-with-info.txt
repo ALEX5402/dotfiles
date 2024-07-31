@@ -204,6 +204,8 @@ local/chromaprint 1.5.1-8.1
     Library for extracting fingerprints from any audio source
 local/cifs-utils 7.0-4.1
     CIFS filesystem user-space tools
+local/clang 18.1.8-2.1
+    C language family frontend for LLVM
 local/cliphist 1:0.5.0-1.1
     wayland clipboard manager
 local/cloudflare-warp-bin 2024.4.133-2
@@ -212,6 +214,8 @@ local/clucene 2.3.3.4-15.1
     C++ port of the high-performance text search engine Lucene
 local/cmake 3.30.1-1.1
     A cross-platform open-source make system
+local/compiler-rt 18.1.8-1.1
+    Compiler runtime libraries for clang
 local/conmon 1:2.1.12-1.1
     OCI container runtime monitor
 local/containerd 1.7.20-1.1
@@ -266,6 +270,8 @@ local/distro-info 1.7-4.1
     Information about all releases of Debian and Ubuntu
 local/distro-info-data 0.62-2
     Information about all releases of Debian and Ubuntu (data files)
+local/dkms 3.0.13-2
+    Dynamic Kernel Modules System
 local/dmidecode 3.6-1.1
     Desktop Management Interface table related utilities
 local/dmraid 1.0.0.rc16.3-15.1
@@ -278,8 +284,6 @@ local/docker 1:27.1.1-1.1
     Pack, ship and run any application as a lightweight container
 local/docker-compose 2.29.1-1.1
     Fast, isolated development environments using Docker
-local/docker-desktop 4.33.0-1
-    Docker Desktop is an easy-to-install application that enables you to locally build and share containerized applications and microservices.
 local/dolphin 24.05.2-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-4.1
@@ -356,8 +360,6 @@ local/expac 10-10.1
     alpm data (pacman database) extraction utility
 local/expat 2.6.2-1.1
     An XML parser library
-local/extra-cmake-modules 6.4.0-1 (kf6)
-    Extra modules and scripts for CMake
 local/eza 0.18.23-1.1
     A modern replacement for ls (community fork of exa)
 local/f2fs-tools 1.16.0-3.1
@@ -668,6 +670,8 @@ local/iputils 20240117-1.1
     Network monitoring tools, including ping
 local/iso-codes 4.16.0-1
     Lists of the country, language, and currency names
+local/it87-dkms-git 265.92fecfe-1
+    Linux Driver for ITE LPC chips
 local/iwd 2.19-1.1
     Internet Wireless Daemon
 local/jadx 1.5.0-1
@@ -1666,6 +1670,10 @@ local/linux-firmware-whence 20240703.e94a2a3b-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
 local/linux-headers 6.10.2.arch1-1
     Headers and scripts for building modules for the Linux kernel
+local/linux-lts 6.6.42-1
+    The LTS Linux kernel and modules
+local/linux-lts-headers 6.6.42-1
+    Headers and scripts for building modules for the LTS Linux kernel
 local/linux-xanmod 6.9.10-1
     The Linux kernel and modules with Xanmod patches
 local/linux-xanmod-headers 6.9.10-1
@@ -1674,6 +1682,10 @@ local/linux-zen 6.10.2.zen1-1
     The Linux ZEN kernel and modules
 local/linux-zen-headers 6.10.2.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
+local/lld 18.1.8-1.1
+    Linker from the LLVM project
+local/llvm 18.1.8-5
+    Compiler infrastructure
 local/llvm-libs 18.1.8-5
     LLVM runtime libraries
 local/lm_sensors 1:3.6.0.r41.g31d1f125-3.1
@@ -1934,8 +1946,6 @@ local/partitionmanager 24.05.2-1.1 (kde-applications kde-system)
     A KDE utility that allows you to manage disks, partitions, and file systems
 local/paru 2.0.3-2
     Feature packed AUR helper
-local/pass 1.7.4-5
-    Stores, retrieves, generates, and synchronizes passwords securely
 local/passt 2024_07_26.57a21d2-1.1
     Plug A Simple Socket Transport
 local/patch 2.7.6-10.1
@@ -2784,8 +2794,6 @@ local/vulkan-tools 1.3.269-1.1 (vulkan-devel)
     Vulkan Utilities and Tools
 local/vulkan-validation-layers 1.3.275-1.1 (vulkan-devel)
     Vulkan Validation Layers
-local/w3m 0.5.3.git20230713_1-1.1
-    Text-based Web browser as well as pager
 local/wavpack 5.7.0-1.1
     Audio compression format with lossless, lossy and hybrid compression modes
 local/waybar 0.10.4-1.1
@@ -2896,8 +2904,6 @@ local/xorg-setxkbmap 1.3.4-2.1 (xorg-apps xorg)
     Set the keyboard using the X Keyboard Extension
 local/xorg-xauth 1.1.3-1.1 (xorg-apps xorg)
     X.Org authorization settings program
-local/xorg-xcursorgen 1.0.8-2.1 (xorg-apps xorg)
-    Create an X cursor file from PNG images
 local/xorg-xdpyinfo 1.3.4-2.1 (xorg-apps xorg)
     Display information utility for X
 local/xorg-xhost 1.0.9-2.1 (xorg-apps xorg)

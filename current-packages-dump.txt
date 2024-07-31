@@ -101,10 +101,12 @@ chaotic-mirrorlist
 check
 chromaprint
 cifs-utils
+clang
 cliphist
 cloudflare-warp-bin
 clucene
 cmake
+compiler-rt
 conmon
 containerd
 containers-common
@@ -132,13 +134,13 @@ diffutils
 ding-libs
 distro-info
 distro-info-data
+dkms
 dmidecode
 dmraid
 dnsmasq
 dnssec-anchors
 docker
 docker-compose
-docker-desktop
 dolphin
 dosfstools
 double-conversion
@@ -177,7 +179,6 @@ exfatprogs
 exiv2
 expac
 expat
-extra-cmake-modules
 eza
 f2fs-tools
 faac
@@ -333,6 +334,7 @@ iproute2
 iptables-nft
 iputils
 iso-codes
+it87-dkms-git
 iwd
 jadx
 jansson
@@ -832,10 +834,14 @@ linux-cachyos-headers
 linux-firmware
 linux-firmware-whence
 linux-headers
+linux-lts
+linux-lts-headers
 linux-xanmod
 linux-xanmod-headers
 linux-zen
 linux-zen-headers
+lld
+llvm
 llvm-libs
 lm_sensors
 lmdb
@@ -966,7 +972,6 @@ parallel
 parted
 partitionmanager
 paru
-pass
 passt
 patch
 patool
@@ -1391,7 +1396,6 @@ vulkan-icd-loader
 vulkan-radeon
 vulkan-tools
 vulkan-validation-layers
-w3m
 wavpack
 waybar
 wayland
@@ -1447,7 +1451,6 @@ xorg-server
 xorg-server-common
 xorg-setxkbmap
 xorg-xauth
-xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xhost
 xorg-xinit

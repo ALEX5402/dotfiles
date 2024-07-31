@@ -10,11 +10,15 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Jul 31 08:22:53 PM IST 2024
+## Changelog Thu Aug  1 01:34:30 AM IST 2024
 ```
- README.md                 |  8 +----
- current-packages-dump.txt | 40 ++++++++++++++++++++++++
- packages-with-info.txt    | 80 +++++++++++++++++++++++++++++++++++++++++++++++
- 3 files changed, 121 insertions(+), 7 deletions(-)
+ Configs/hyde/themes/Sweet-Dark/wall.set  |  2 +-
+ Configs/spicetify/Themes/Sleek/color.ini | 40 ++++++++++++++++----------------
+ README.md                                |  8 +------
+ Theme-Confs/qt5ct/colors.conf            |  6 ++---
+ Theme-Confs/qt6ct/colors.conf            |  6 ++---
+ current-packages-dump.txt                | 13 +++++++----
+ packages-with-info.txt                   | 26 +++++++++++++--------
+ 7 files changed, 52 insertions(+), 49 deletions(-)
 ```
  
