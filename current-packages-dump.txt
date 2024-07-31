@@ -1,6 +1,7 @@
 64gram-desktop-bin
 a52dec
 aalib
+aardvark-dns
 abseil-cpp
 accounts-qml-module
 accountsservice
@@ -89,6 +90,7 @@ cairomm
 cairomm-1.16
 cantarell-fonts
 capstone
+catatonit
 cava
 cblas
 cdparanoia
@@ -103,7 +105,9 @@ cliphist
 cloudflare-warp-bin
 clucene
 cmake
+conmon
 containerd
+containers-common
 convertlit
 coreutils
 cpio
@@ -133,6 +137,7 @@ dmraid
 dnsmasq
 dnssec-anchors
 docker
+docker-compose
 dolphin
 dosfstools
 double-conversion
@@ -860,6 +865,7 @@ ncurses
 ndctl
 neon
 neovim
+netavark
 netctl
 nettle
 network-manager-applet
@@ -929,6 +935,7 @@ parallel
 parted
 partitionmanager
 paru
+passt
 patch
 patool
 pavucontrol
@@ -976,6 +983,7 @@ pkgconf
 pkgfile
 plasma-activities
 playerctl
+podman
 polkit
 polkit-gnome
 polkit-qt6

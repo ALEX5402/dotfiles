@@ -4,6 +4,8 @@ local/a52dec 0.8.0-2.1
     Library for decoding ATSC A/52 (AC-3) audio streams
 local/aalib 1.4rc5-18
     ASCII art graphic library
+local/aardvark-dns 1.11.0-1.1
+    Authoritative dns server for A/AAAA container records
 local/abseil-cpp 20240116.2-2.1
     Collection of C++ library code designed to augment the C++ standard library
 local/accounts-qml-module 0.7-6.1
@@ -180,6 +182,8 @@ local/cantarell-fonts 1:0.303.1-2
     Humanist sans serif font
 local/capstone 5.0.1-3.1
     Lightweight multi-platform, multi-architecture disassembly framework
+local/catatonit 0.2.0-3.1
+    A container init that is so simple it's effectively brain-dead.
 local/cava 0.10.2-2.1
     Console-based Audio Visualizer for Alsa
 local/cblas 3.12.0-5.1
@@ -208,8 +212,12 @@ local/clucene 2.3.3.4-15.1
     C++ port of the high-performance text search engine Lucene
 local/cmake 3.30.1-1.1
     A cross-platform open-source make system
+local/conmon 1:2.1.12-1.1
+    OCI container runtime monitor
 local/containerd 1.7.20-1.1
     An open and reliable container runtime
+local/containers-common 1:0.59.2-1
+    Configuration files and manpages for containers
 local/convertlit 1.8-12
     An extractor/converter for .LIT eBooks
 local/coreutils 9.5-1.1
@@ -268,6 +276,8 @@ local/dnssec-anchors 20190629-4
     DNSSEC trust anchors for the root zone
 local/docker 1:27.1.1-1.1
     Pack, ship and run any application as a lightweight container
+local/docker-compose 2.29.1-1.1
+    Fast, isolated development environments using Docker
 local/dolphin 24.05.2-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-4.1
@@ -1722,6 +1732,8 @@ local/neon 0.33.0-1.1
     HTTP/1.1 and WebDAV client library
 local/neovim 0.10.1-2.1
     Fork of Vim aiming to improve user experience, plugins, and GUIs
+local/netavark 1.11.0-2.1
+    Container network stack
 local/netctl 1.29-2
     Profile based systemd network management
 local/nettle 3.10-1.1
@@ -1860,6 +1872,8 @@ local/partitionmanager 24.05.2-1.1 (kde-applications kde-system)
     A KDE utility that allows you to manage disks, partitions, and file systems
 local/paru 2.0.3-2
     Feature packed AUR helper
+local/passt 2024_07_26.57a21d2-1.1
+    Plug A Simple Socket Transport
 local/patch 2.7.6-10.1
     A utility to apply patch files to original sources
 local/patool 2.3.0-1
@@ -1954,6 +1968,8 @@ local/plasma-activities 6.1.3-1.1 (plasma)
     Core components for KDE Activities
 local/playerctl 2.4.1-3.1
     mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
+local/podman 5.1.2-1.1
+    Tool and library for running OCI-based containers in pods
 local/polkit 124-2.1
     Application development toolkit for controlling system-wide privileges
 local/polkit-gnome 0.105-11.1
