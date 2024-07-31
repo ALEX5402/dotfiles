@@ -278,6 +278,8 @@ local/docker 1:27.1.1-1.1
     Pack, ship and run any application as a lightweight container
 local/docker-compose 2.29.1-1.1
     Fast, isolated development environments using Docker
+local/docker-desktop 4.33.0-1
+    Docker Desktop is an easy-to-install application that enables you to locally build and share containerized applications and microservices.
 local/dolphin 24.05.2-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-4.1
@@ -354,6 +356,8 @@ local/expac 10-10.1
     alpm data (pacman database) extraction utility
 local/expat 2.6.2-1.1
     An XML parser library
+local/extra-cmake-modules 6.4.0-1 (kf6)
+    Extra modules and scripts for CMake
 local/eza 0.18.23-1.1
     A modern replacement for ls (community fork of exa)
 local/f2fs-tools 1.16.0-3.1
@@ -364,6 +368,8 @@ local/faad2 2.11.1-1.1
     Freeware Advanced Audio (AAC) Decoder
 local/fakeroot 1.35-1.1
     Tool for simulating superuser privileges
+local/fancontrol-gui 0.8-2
+    GUI for fancontrol and the fancontrol systemd service
 local/fastfetch 2.20.0-1.1
     Like Neofetch, but much faster because written in C
 local/fcitx5 5.1.10-1.1 (fcitx5-im)
@@ -696,17 +702,25 @@ local/kaccounts-integration 24.05.2-1.1
     Online account management system and its Plasma integration components
 local/karchive 6.4.0-1.1 (kf6)
     Qt addon providing access to numerous types of archives
+local/karchive5 5.116.0-1.1 (kf5)
+    Qt 5 addon providing access to numerous types of archives
 local/kate 24.05.2-1.1 (kde-applications kde-utilities)
     Advanced text editor
 local/kauth 6.4.0-1.1 (kf6)
+    Abstraction to system policy and authentication features
+local/kauth5 5.116.0-1.1 (kf5)
     Abstraction to system policy and authentication features
 local/kbd 2.6.4-1.1
     Keytable files and keyboard utilities
 local/kbookmarks 6.4.0-1.1 (kf6)
     Support for bookmarks and the XBEL format
+local/kbookmarks5 5.116.0-1.1 (kf5)
+    Support for bookmarks and the XBEL format
 local/kcmutils 6.4.0-1.1 (kf6)
     Utilities for interacting with KCModules
 local/kcodecs 6.4.0-1.1 (kf6)
+    Provide a collection of methods to manipulate strings using various encodings
+local/kcodecs5 5.116.0-1.2 (kf5)
     Provide a collection of methods to manipulate strings using various encodings
 local/kcolorpicker 0.3.1-4
     Qt based Color Picker with popup menu
@@ -714,24 +728,40 @@ local/kcolorscheme 6.4.0-1.1 (kf6)
     Classes to read and interact with KColorScheme
 local/kcompletion 6.4.0-1.1 (kf6)
     Text completion helpers and widgets
+local/kcompletion5 5.116.0-1.1 (kf5)
+    Text completion helpers and widgets
 local/kconfig 6.4.0-1.1 (kf6)
     Configuration system
+local/kconfig5 5.116.0-1.1 (kf5)
+    Configuration system
 local/kconfigwidgets 6.4.0-1.1 (kf6)
+    Widgets for KConfig
+local/kconfigwidgets5 5.116.0-1.1 (kf5)
     Widgets for KConfig
 local/kcontacts 1:6.4.0-1.1 (kf6)
     Address book API for KDE
 local/kcoreaddons 6.4.0-1.1 (kf6)
     Addons to QtCore
+local/kcoreaddons5 5.116.0-1.1 (kf5)
+    Addons to QtCore
 local/kcrash 6.4.0-1.1 (kf6)
     Support for application crash analysis and bug report from apps
+local/kcrash5 5.116.0-1.1 (kf5)
+    Support for application crash analysis and bug report from apps
 local/kdbusaddons 6.4.0-1.1 (kf6)
+    Addons to QtDBus
+local/kdbusaddons5 5.116.0-1.1 (kf5)
     Addons to QtDBus
 local/kde-cli-tools 6.1.3-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
 local/kdeclarative 6.4.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
+local/kdeclarative5 5.116.0-1.1 (kf5)
+    Provides integration of QML and KDE Frameworks
 local/kdeconnect 24.05.2-2.1 (kde-applications kde-network)
     Adds communication between KDE and your smartphone
+local/kded5 5.116.0-1.1 (kf5)
+    Extensible deamon for providing system level services
 local/kdenlive 24.05.2-1.1 (kde-applications kde-multimedia)
     A non-linear video editor for Linux using the MLT video framework
 local/kdesu 6.4.0-1.1 (kf6)
@@ -748,11 +778,19 @@ local/kfilemetadata 6.4.0-1.1 (kf6)
     A library for extracting file metadata
 local/kglobalaccel 6.4.0-1.1 (kf6)
     Add support for global workspace shortcuts
+local/kglobalaccel5 5.116.0-1.1 (kf5)
+    Add support for global workspace shortcuts
 local/kguiaddons 6.4.0-1.1 (kf6)
+    Addons to QtGui
+local/kguiaddons5 5.116.0-1.1 (kf5)
     Addons to QtGui
 local/ki18n 6.4.0-1.1 (kf6)
     Advanced internationalization framework
+local/ki18n5 5.116.0-1.1 (kf5)
+    Advanced internationalization framework
 local/kiconthemes 6.4.0-1.1 (kf6)
+    Support for icon themes
+local/kiconthemes5 5.116.0-1.1 (kf5)
     Support for icon themes
 local/kidletime 6.4.0-1.1 (kf6)
     Monitoring user activity
@@ -764,13 +802,19 @@ local/kio-admin 24.05.2-1.1 (kde-applications kde-system)
     Manage files as administrator using the admin:// KIO protocol
 local/kio-extras 24.05.2-1.1 (kde-applications kde-network)
     Additional components to increase the functionality of KIO
+local/kio5 5.116.0-1.1 (kf5)
+    Resource and network access abstraction
 local/kirigami 6.4.0-2.1 (kf6)
     A QtQuick based components set
 local/kirigami-addons 1.4.0-1.1
     Add-ons for the Kirigami framework
+local/kirigami2 5.116.0-1.1 (kf5)
+    A QtQuick based components set
 local/kitemmodels 6.4.0-1.1 (kf6)
     Models for Qt Model/View system
 local/kitemviews 6.4.0-1.1 (kf6)
+    Widget addons for Qt Model/View
+local/kitemviews5 5.116.0-1.1 (kf5)
     Widget addons for Qt Model/View
 local/kitty 0.35.2-1.1
     A modern, hackable, featureful, OpenGL-based terminal emulator
@@ -780,17 +824,23 @@ local/kitty-terminfo 0.35.2-1.1
     Terminfo for kitty, an OpenGL-based terminal emulator
 local/kjobwidgets 6.4.0-1.1 (kf6)
     Widgets for tracking KJob instances
+local/kjobwidgets5 5.116.0-1.1 (kf5)
+    Widgets for tracking KJob instances
 local/kmod 32-1.1
     Linux kernel module management tools and library
 local/knewstuff 6.4.0-1.1 (kf6)
     Support for downloading application assets from the network
 local/knotifications 6.4.0-1.1 (kf6)
     Abstraction for system notifications
+local/knotifications5 5.116.0-1.1 (kf5)
+    Abstraction for system notifications
 local/knotifyconfig 6.4.0-1.1 (kf6)
     Configuration system for KNotify
 local/konsole 24.05.2-1.1 (kde-applications kde-utilities)
     KDE terminal emulator
 local/kpackage 6.4.0-1.1 (kf6)
+    Framework that lets applications manage user installable packages of non-binary assets
+local/kpackage5 5.116.0-1.1 (kf5)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kparts 6.4.0-1.1 (kf6)
     Document centric plugin system
@@ -804,6 +854,8 @@ local/krb5 1.21.3-1.1
     The Kerberos network authentication system
 local/kservice 6.4.0-1.1 (kf6)
     Advanced plugin and service introspection
+local/kservice5 5.116.0-1.1 (kf5)
+    Advanced plugin and service introspection
 local/kstatusnotifieritem 6.4.0-1.1 (kf6)
     Implementation of Status Notifier Items
 local/ksvg 6.4.0-1.1 (kf6)
@@ -811,6 +863,8 @@ local/ksvg 6.4.0-1.1 (kf6)
 local/ktexteditor 6.4.0-1.1 (kf6)
     Advanced embeddable text editor
 local/ktextwidgets 6.4.0-1.1 (kf6)
+    Advanced text editing widgets
+local/ktextwidgets5 5.116.0-1.1 (kf5)
     Advanced text editing widgets
 local/kuserfeedback 6.4.0-1.1
     Framework for collecting user feedback for applications via telemetry and surveys
@@ -820,13 +874,19 @@ local/kvantum-qt5 1.1.2-1.1
     SVG-based theme engine for Qt5
 local/kwallet 6.4.0-1.1 (kf6)
     Secure and unified container for user passwords
+local/kwallet5 5.116.0-1.1 (kf5)
+    Secure and unified container for user passwords
 local/kwidgetsaddons 6.4.1-1.1 (kf6)
+    Addons to QtWidgets
+local/kwidgetsaddons5 5.116.0-1.1 (kf5)
     Addons to QtWidgets
 local/kwindowsystem 6.4.0-1.1 (kf6)
     Access to the windowing system
 local/kwindowsystem5 5.116.0-1.1 (kf5)
     Access to the windowing system
 local/kxmlgui 6.4.0-1.1 (kf6)
+    User configurable main windows
+local/kxmlgui5 5.116.0-1.1 (kf5)
     User configurable main windows
 local/l-smash 2.14.5-4.1
     MP4 muxer and other tools
@@ -1064,6 +1124,8 @@ local/libdbusmenu-glib 16.04.0.r498-2
     Library for passing menus over DBus
 local/libdbusmenu-gtk3 16.04.0.r498-2
     Library for passing menus over DBus (GTK+ 3 library)
+local/libdbusmenu-qt5 0.9.3+16.04.20160218-7
+    A library that provides a Qt implementation of the DBusMenu spec
 local/libdc1394 2.2.7-1.1
     Library to control IEEE 1394 based cameras
 local/libdca 0.0.7-2.1
@@ -1872,6 +1934,8 @@ local/partitionmanager 24.05.2-1.1 (kde-applications kde-system)
     A KDE utility that allows you to manage disks, partitions, and file systems
 local/paru 2.0.3-2
     Feature packed AUR helper
+local/pass 1.7.4-5
+    Stores, retrieves, generates, and synchronizes passwords securely
 local/passt 2024_07_26.57a21d2-1.1
     Plug A Simple Socket Transport
 local/patch 2.7.6-10.1
@@ -1974,6 +2038,8 @@ local/polkit 124-2.1
     Application development toolkit for controlling system-wide privileges
 local/polkit-gnome 0.105-11.1
     Legacy polkit authentication agent for GNOME
+local/polkit-qt5 0.200.0-1
+    A library that allows developers to access PolicyKit API with a nice Qt-style API
 local/polkit-qt6 0.200.0-1
     A library that allows developers to access PolicyKit API with a nice Qt-style API
 local/poppler 24.06.1-1.1
@@ -2146,6 +2212,8 @@ local/python-yaml 6.0.1-4.1
     Python bindings for YAML, using fast libYAML library
 local/python-zstandard 0.22.0-2.1
     Python bindings to the Zstandard (zstd) compression library
+local/qca-qt5 2.3.9-2
+    Qt Cryptographic Architecture
 local/qca-qt6 2.3.9-2
     Qt Cryptographic Architecture
 local/qemu-audio-alsa 9.0.2-1
@@ -2318,10 +2386,14 @@ local/qt5-graphicaleffects 5.15.14-1.1 (qt5)
     Graphical effects for use with Qt Quick 2
 local/qt5-imageformats 5.15.14+kde+r7-1.1 (qt5)
     Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+local/qt5-multimedia 5.15.14+kde+r2-1.1 (qt5)
+    Classes for audio, video, radio and camera functionality
 local/qt5-quickcontrols 5.15.14-1.1 (qt5)
     Reusable Qt Quick based UI controls to create classic desktop-style user interfaces
 local/qt5-quickcontrols2 5.15.14+kde+r5-1.1 (qt5)
     Next generation user interface controls based on Qt Quick
+local/qt5-speech 5.15.14+kde+r1-1.1 (qt5)
+    Qt module to make text to speech and speech recognition easy
 local/qt5-svg 5.15.14+kde+r5-1.1 (qt5)
     Classes for displaying the contents of SVG files
 local/qt5-translations 5.15.14-1 (qt5)
@@ -2466,8 +2538,12 @@ local/sof-firmware 2024.06-1
     Sound Open Firmware
 local/solid 6.4.0-1.1 (kf6)
     Hardware integration and detection
+local/solid5 5.116.0-1.1 (kf5)
+    Hardware integration and detection
 local/sonnet 6.4.0-1.1 (kf6)
     Spelling framework for Qt
+local/sonnet5 5.116.0-1.1 (kf5)
+    Spelling framework for Qt5
 local/sord 0.16.16-1.1
     A lightweight C library for storing RDF data in memory
 local/sound-theme-freedesktop 0.8-6
@@ -2584,6 +2660,8 @@ local/tpm2-tss 4.0.1-1.1
     Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 local/tracker3 3.7.3-2.1
     SQLite-based RDF triplestore database with SPARQL interface
+local/tree 2.1.3-1
+    A directory listing program displaying a depth indented list of files
 local/tree-sitter 0.22.6-1.1
     Incremental parsing library
 local/tree-sitter-c 0.21.4-1.1 (tree-sitter-grammars)
@@ -2706,6 +2784,8 @@ local/vulkan-tools 1.3.269-1.1 (vulkan-devel)
     Vulkan Utilities and Tools
 local/vulkan-validation-layers 1.3.275-1.1 (vulkan-devel)
     Vulkan Validation Layers
+local/w3m 0.5.3.git20230713_1-1.1
+    Text-based Web browser as well as pager
 local/wavpack 5.7.0-1.1
     Audio compression format with lossless, lossy and hybrid compression modes
 local/waybar 0.10.4-1.1
