@@ -10,15 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Thu Aug  1 01:34:30 AM IST 2024
+## Changelog Thu Aug  1 10:58:48 AM IST 2024
 ```
- Configs/hyde/themes/Sweet-Dark/wall.set  |  2 +-
- Configs/spicetify/Themes/Sleek/color.ini | 40 ++++++++++++++++----------------
- README.md                                |  8 +------
- Theme-Confs/qt5ct/colors.conf            |  6 ++---
- Theme-Confs/qt6ct/colors.conf            |  6 ++---
- current-packages-dump.txt                | 13 +++++++----
- packages-with-info.txt                   | 26 +++++++++++++--------
- 7 files changed, 52 insertions(+), 49 deletions(-)
+ README.md | 12 +-----------
+ 1 file changed, 1 insertion(+), 11 deletions(-)
 ```
  
