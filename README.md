@@ -10,13 +10,14 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Thu Aug  1 02:45:05 PM IST 2024
+## Changelog Thu Aug  1 08:13:58 PM IST 2024
 ```
- Configs/hyde/themes/Sweet-Dark/wall.set  |  2 +-
- Configs/spicetify/Themes/Sleek/color.ini | 40 ++++++++++++++++----------------
- README.md                                |  6 +----
- Theme-Confs/qt5ct/colors.conf            |  6 ++---
- Theme-Confs/qt6ct/colors.conf            |  6 ++---
- 5 files changed, 28 insertions(+), 32 deletions(-)
+ Configs/hyde/themes/Sweet-Dark/hypr.theme |  7 +++
+ Configs/hypr/hyprland.conf                | 29 ++++---------
+ Configs/hypr/themes/theme.conf            |  8 ++++
+ README.md                                 | 10 +----
+ current-packages-dump.txt                 | 34 +++++++--------
+ packages-with-info.txt                    | 72 +++++++++++++++----------------
+ 6 files changed, 74 insertions(+), 86 deletions(-)
 ```
  

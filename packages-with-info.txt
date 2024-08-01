@@ -370,8 +370,6 @@ local/faad2 2.11.1-1.1
     Freeware Advanced Audio (AAC) Decoder
 local/fakeroot 1.35-1.1
     Tool for simulating superuser privileges
-local/fancontrol-gui 0.8-2
-    GUI for fancontrol and the fancontrol systemd service
 local/fastfetch 2.20.0-1.1
     Like Neofetch, but much faster because written in C
 local/fcitx5 5.1.10-1.1 (fcitx5-im)
@@ -458,7 +456,7 @@ local/giflib 5.2.2-1
     Library for reading and writing gif images
 local/gimp 2.10.38-1
     GNU Image Manipulation Program
-local/git 2.45.2-1.1
+local/git 2.46.0-1.1
     the fast distributed version control system
 local/github-desktop 3.4.2-1
     GUI for managing Git and GitHub
@@ -706,8 +704,6 @@ local/kaccounts-integration 24.05.2-1.1
     Online account management system and its Plasma integration components
 local/karchive 6.4.0-1.1 (kf6)
     Qt addon providing access to numerous types of archives
-local/karchive5 5.116.0-1.1 (kf5)
-    Qt 5 addon providing access to numerous types of archives
 local/kate 24.05.2-1.1 (kde-applications kde-utilities)
     Advanced text editor
 local/kauth 6.4.0-1.1 (kf6)
@@ -717,8 +713,6 @@ local/kauth5 5.116.0-1.1 (kf5)
 local/kbd 2.6.4-1.1
     Keytable files and keyboard utilities
 local/kbookmarks 6.4.0-1.1 (kf6)
-    Support for bookmarks and the XBEL format
-local/kbookmarks5 5.116.0-1.1 (kf5)
     Support for bookmarks and the XBEL format
 local/kcmutils 6.4.0-1.1 (kf6)
     Utilities for interacting with KCModules
@@ -731,8 +725,6 @@ local/kcolorpicker 0.3.1-4
 local/kcolorscheme 6.4.0-1.1 (kf6)
     Classes to read and interact with KColorScheme
 local/kcompletion 6.4.0-1.1 (kf6)
-    Text completion helpers and widgets
-local/kcompletion5 5.116.0-1.1 (kf5)
     Text completion helpers and widgets
 local/kconfig 6.4.0-1.1 (kf6)
     Configuration system
@@ -750,8 +742,6 @@ local/kcoreaddons5 5.116.0-1.1 (kf5)
     Addons to QtCore
 local/kcrash 6.4.0-1.1 (kf6)
     Support for application crash analysis and bug report from apps
-local/kcrash5 5.116.0-1.1 (kf5)
-    Support for application crash analysis and bug report from apps
 local/kdbusaddons 6.4.0-1.1 (kf6)
     Addons to QtDBus
 local/kdbusaddons5 5.116.0-1.1 (kf5)
@@ -760,12 +750,8 @@ local/kde-cli-tools 6.1.3-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
 local/kdeclarative 6.4.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
-local/kdeclarative5 5.116.0-1.1 (kf5)
-    Provides integration of QML and KDE Frameworks
 local/kdeconnect 24.05.2-2.1 (kde-applications kde-network)
     Adds communication between KDE and your smartphone
-local/kded5 5.116.0-1.1 (kf5)
-    Extensible deamon for providing system level services
 local/kdenlive 24.05.2-1.1 (kde-applications kde-multimedia)
     A non-linear video editor for Linux using the MLT video framework
 local/kdesu 6.4.0-1.1 (kf6)
@@ -782,8 +768,6 @@ local/kfilemetadata 6.4.0-1.1 (kf6)
     A library for extracting file metadata
 local/kglobalaccel 6.4.0-1.1 (kf6)
     Add support for global workspace shortcuts
-local/kglobalaccel5 5.116.0-1.1 (kf5)
-    Add support for global workspace shortcuts
 local/kguiaddons 6.4.0-1.1 (kf6)
     Addons to QtGui
 local/kguiaddons5 5.116.0-1.1 (kf5)
@@ -793,8 +777,6 @@ local/ki18n 6.4.0-1.1 (kf6)
 local/ki18n5 5.116.0-1.1 (kf5)
     Advanced internationalization framework
 local/kiconthemes 6.4.0-1.1 (kf6)
-    Support for icon themes
-local/kiconthemes5 5.116.0-1.1 (kf5)
     Support for icon themes
 local/kidletime 6.4.0-1.1 (kf6)
     Monitoring user activity
@@ -806,19 +788,13 @@ local/kio-admin 24.05.2-1.1 (kde-applications kde-system)
     Manage files as administrator using the admin:// KIO protocol
 local/kio-extras 24.05.2-1.1 (kde-applications kde-network)
     Additional components to increase the functionality of KIO
-local/kio5 5.116.0-1.1 (kf5)
-    Resource and network access abstraction
 local/kirigami 6.4.0-2.1 (kf6)
     A QtQuick based components set
 local/kirigami-addons 1.4.0-1.1
     Add-ons for the Kirigami framework
-local/kirigami2 5.116.0-1.1 (kf5)
-    A QtQuick based components set
 local/kitemmodels 6.4.0-1.1 (kf6)
     Models for Qt Model/View system
 local/kitemviews 6.4.0-1.1 (kf6)
-    Widget addons for Qt Model/View
-local/kitemviews5 5.116.0-1.1 (kf5)
     Widget addons for Qt Model/View
 local/kitty 0.35.2-1.1
     A modern, hackable, featureful, OpenGL-based terminal emulator
@@ -827,8 +803,6 @@ local/kitty-shell-integration 0.35.2-1.1
 local/kitty-terminfo 0.35.2-1.1
     Terminfo for kitty, an OpenGL-based terminal emulator
 local/kjobwidgets 6.4.0-1.1 (kf6)
-    Widgets for tracking KJob instances
-local/kjobwidgets5 5.116.0-1.1 (kf5)
     Widgets for tracking KJob instances
 local/kmod 32-1.1
     Linux kernel module management tools and library
@@ -843,8 +817,6 @@ local/knotifyconfig 6.4.0-1.1 (kf6)
 local/konsole 24.05.2-1.1 (kde-applications kde-utilities)
     KDE terminal emulator
 local/kpackage 6.4.0-1.1 (kf6)
-    Framework that lets applications manage user installable packages of non-binary assets
-local/kpackage5 5.116.0-1.1 (kf5)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kparts 6.4.0-1.1 (kf6)
     Document centric plugin system
@@ -868,8 +840,6 @@ local/ktexteditor 6.4.0-1.1 (kf6)
     Advanced embeddable text editor
 local/ktextwidgets 6.4.0-1.1 (kf6)
     Advanced text editing widgets
-local/ktextwidgets5 5.116.0-1.1 (kf5)
-    Advanced text editing widgets
 local/kuserfeedback 6.4.0-1.1
     Framework for collecting user feedback for applications via telemetry and surveys
 local/kvantum 1.1.2-1.1
@@ -889,8 +859,6 @@ local/kwindowsystem 6.4.0-1.1 (kf6)
 local/kwindowsystem5 5.116.0-1.1 (kf5)
     Access to the windowing system
 local/kxmlgui 6.4.0-1.1 (kf6)
-    User configurable main windows
-local/kxmlgui5 5.116.0-1.1 (kf5)
     User configurable main windows
 local/l-smash 2.14.5-4.1
     MP4 muxer and other tools
@@ -2086,6 +2054,10 @@ local/python 3.12.4-2
     The Python programming language
 local/python-annotated-types 0.7.0-1
     Reusable constraint types to use with typing.Annotated
+local/python-anyio 4.4.0-1
+    High level compatibility layer for multiple asynchronous event loop implementations
+local/python-asgiref 3.7.2-2
+    Reference ASGI adapters and channel layers
 local/python-autocommand 2.2.2-6
     A library to create a command-line program from a function
 local/python-cairo 1.26.1-1.1
@@ -2112,10 +2084,16 @@ local/python-dbus 1.3.2-4
     Python bindings for D-Bus
 local/python-defusedxml 0.7.1-6
     XML bomb protection for Python stdlib modules
+local/python-dirty-equals 0.7.1.post0-4
+    Doing dirty (but extremely useful) things with equals
 local/python-docopt 0.6.2-13
     Pythonic argument parser, that will make you smile
 local/python-docutils 1:0.21.2-1
     Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX
+local/python-dotenv 1.0.1-2
+    Get and set values in your .env file in local and production servers
+local/python-fastapi 0.111.1-1
+    FastAPI framework, high performance, easy to learn, fast to code, ready for production
 local/python-fastjsonschema 2.20.0-1
     Fast JSON schema validator for Python
 local/python-future 1.0.0-1
@@ -2124,6 +2102,10 @@ local/python-gobject 3.48.2-2
     Python bindings for GLib/GObject/GIO/GTK
 local/python-greenlet 3.0.3-2.1
     Lightweight in-process concurrent programming
+local/python-h11 0.14.0-3
+    A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+local/python-httptools 0.6.1-2.1
+    Fast HTTP parser
 local/python-idna 3.7-1
     Internationalized Domain Names in Applications (IDNA)
 local/python-inflect 7.3.1-1
@@ -2160,6 +2142,8 @@ local/python-pathvalidate 3.2.0-2
     Sanitize/validate strings in filenames/file-paths/etc
 local/python-pefile 2023.2.7-2
     Python PE parsing module
+local/python-pillow 10.4.0-1
+    Python Imaging Library (PIL) fork
 local/python-platformdirs 4.2.2-1
     A library to determine platform-specific system directories
 local/python-pluggy 1.5.0-1
@@ -2178,6 +2162,10 @@ local/python-pydantic 2.8.2-1
     Data parsing and validation using Python type hints
 local/python-pydantic-core 1:2.20.1-1.1
     Core validation logic for pydantic written in rust
+local/python-pydantic-extra-types 2.9.0-1
+    Extra pydantic types
+local/python-pydantic-settings 2.3.4-1
+    Settings management using pydantic
 local/python-pynvim 0.5.0-3
     Python client for Neovim
 local/python-pyqt5 5.15.11-1 (pyqt5)
@@ -2186,6 +2174,8 @@ local/python-pyqt5-sip 12.15.0-1.1
     The sip module support for PyQt5
 local/python-pytest 1:8.3.2-1
     Simple powerful testing with Python
+local/python-pytz 2024.1-2
+    Cross platform time zone library for Python
 local/python-requests 2.32.3-1
     Python HTTP for Humans
 local/python-ruamel-yaml 0.18.6-2
@@ -2200,6 +2190,10 @@ local/python-shtab 1.7.1-1
     Automagic shell tab completion for Python CLI applications
 local/python-six 1.16.0-9
     Python 2 and 3 compatibility utilities
+local/python-sniffio 1.3.1-3
+    Sniff out which async library your code is running under
+local/python-starlette 0.38.2-1
+    The little ASGI framework that shines
 local/python-steamgriddb 1.0.5-3
     Python API wrapper for SteamGridDB.com
 local/python-termcolor 2.4.0-2
@@ -2216,8 +2210,12 @@ local/python-typing_extensions 4.12.2-1
     Backported and Experimental Type Hints for Python 3.8+
 local/python-urllib3 1.26.19-1
     HTTP library with thread-safe connection pooling and file post support
+local/python-uvloop 0.19.0-5.1
+    Ultra fast asyncio event loop
 local/python-validate-pyproject 0.18-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
+local/python-websockets 12.0-2.1
+    Python implementation of the WebSocket Protocol (RFC 6455)
 local/python-yaml 6.0.1-4.1
     Python bindings for YAML, using fast libYAML library
 local/python-zstandard 0.22.0-2.1
@@ -2548,12 +2546,8 @@ local/sof-firmware 2024.06-1
     Sound Open Firmware
 local/solid 6.4.0-1.1 (kf6)
     Hardware integration and detection
-local/solid5 5.116.0-1.1 (kf5)
-    Hardware integration and detection
 local/sonnet 6.4.0-1.1 (kf6)
     Spelling framework for Qt
-local/sonnet5 5.116.0-1.1 (kf5)
-    Spelling framework for Qt5
 local/sord 0.16.16-1.1
     A lightweight C library for storing RDF data in memory
 local/sound-theme-freedesktop 0.8-6
@@ -2738,6 +2732,8 @@ local/util-linux 2.40.2-1.1
     Miscellaneous system utilities for Linux
 local/util-linux-libs 2.40.2-1.1
     util-linux runtime libraries
+local/uvicorn 0.30.3-1
+    The lightning-fast ASGI server
 local/v4l-utils 1.26.1-1.1
     Userspace tools and conversion library for Video 4 Linux
 local/vapoursynth R69-1.1
@@ -2960,7 +2956,7 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
-local/zed 0.145.1-1.1
+local/zed 0.146.3-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 local/zenity 4.0.2-1.1
     Display graphical dialog boxes from shell scripts
