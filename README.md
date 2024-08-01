@@ -10,14 +10,18 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Thu Aug  1 08:13:58 PM IST 2024
+## Changelog Thu Aug  1 11:52:22 PM IST 2024
 ```
- Configs/hyde/themes/Sweet-Dark/hypr.theme |  7 +++
- Configs/hypr/hyprland.conf                | 29 ++++---------
- Configs/hypr/themes/theme.conf            |  8 ++++
- README.md                                 | 10 +----
- current-packages-dump.txt                 | 34 +++++++--------
- packages-with-info.txt                    | 72 +++++++++++++++----------------
- 6 files changed, 74 insertions(+), 86 deletions(-)
+ Configs/cava/Wall-Dcol                             |  16 +--
+ Configs/cava/config                                |  16 +--
+ Configs/hyde/hyde.conf                             |   2 +-
+ Configs/hypr/autostart.conf                        |   2 +-
+ Configs/hypr/keybindings.conf                      |   1 +
+ Configs/xsettingsd/xsettingsd.conf                 |   6 +-
+ Local/share/dolphin/dolphinstaterc                 |  14 ++-
+ .../dolphin/view_properties/global/.directory      |   7 +-
+ Local/share/kxmlgui5/dolphin/dolphinui.rc          | 116 ++++++---------------
+ README.md                                          |  11 +-
+ 10 files changed, 70 insertions(+), 121 deletions(-)
 ```
  

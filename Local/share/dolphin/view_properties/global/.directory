@@ -1,4 +1,7 @@
 [Dolphin]
-SortHiddenLast=true
-Timestamp=2023,4,28,17,7,1.2349999999999999
+Timestamp=2024,7,29,18,38,52.681
 Version=4
+VisibleRoles=Icons_text,Icons_size,Icons_width,Icons_height,Icons_album
+
+[Settings]
+HiddenFilesShown=true
