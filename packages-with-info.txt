@@ -756,8 +756,6 @@ local/kde-cli-tools 6.1.3-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
 local/kdeclarative 6.4.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
-local/kdeconnect 24.05.2-2.1 (kde-applications kde-network)
-    Adds communication between KDE and your smartphone
 local/kdenlive 24.05.2-1.1 (kde-applications kde-multimedia)
     A non-linear video editor for Linux using the MLT video framework
 local/kdesu 6.4.0-1.1 (kf6)

@@ -377,7 +377,6 @@ kdbusaddons
 kdbusaddons5
 kde-cli-tools
 kdeclarative
-kdeconnect
 kdenlive
 kdesu
 kdnssd
