@@ -10,18 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Thu Aug  1 11:52:22 PM IST 2024
+## Changelog Fri Aug  2 01:44:02 PM IST 2024
 ```
- Configs/cava/Wall-Dcol                             |  16 +--
- Configs/cava/config                                |  16 +--
- Configs/hyde/hyde.conf                             |   2 +-
- Configs/hypr/autostart.conf                        |   2 +-
- Configs/hypr/keybindings.conf                      |   1 +
- Configs/xsettingsd/xsettingsd.conf                 |   6 +-
- Local/share/dolphin/dolphinstaterc                 |  14 ++-
- .../dolphin/view_properties/global/.directory      |   7 +-
- Local/share/kxmlgui5/dolphin/dolphinui.rc          | 116 ++++++---------------
- README.md                                          |  11 +-
- 10 files changed, 70 insertions(+), 121 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  2 +-
+ README.md                          | 15 +--------------
+ 2 files changed, 2 insertions(+), 15 deletions(-)
 ```
  
