@@ -24,6 +24,7 @@ amf-amdgpu-pro
 ananicy-cpp
 android-apktool-bin
 android-sdk-platform-tools
+android-studio
 android-tools
 android-udev
 aom
