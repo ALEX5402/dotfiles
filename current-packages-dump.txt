@@ -19,6 +19,7 @@ alsa-ucm-conf
 alsa-utils
 amd-ucode
 amdgpu-pro-oglp
+amdvlk
 amf-amdgpu-pro
 ananicy-cpp
 android-apktool-bin
@@ -1395,6 +1396,7 @@ vte3
 vulkan-amdgpu-pro
 vulkan-headers
 vulkan-icd-loader
+vulkan-radeon
 vulkan-tools
 vulkan-validation-layers
 wavpack
