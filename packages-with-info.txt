@@ -448,6 +448,8 @@ local/gcr 3.41.2-2.1
     A library for bits of crypto UI and parsing
 local/gcr-4 4.3.0-1.1
     A library for bits of crypto UI and parsing
+local/gd 2.3.3-8
+    Library for the dynamic creation of images by programmers
 local/gdbm 1.24-1.1
     GNU database library
 local/gdk-pixbuf2 2.42.12-1.1
@@ -458,6 +460,8 @@ local/geoclue 2.7.1-3.1
     Modular geoinformation service built on the D-Bus messaging system
 local/gettext 0.22.5-1.1
     GNU internationalization library
+local/ghostscript 10.03.1-1.1
+    An interpreter for the PostScript language
 local/giflib 5.2.2-1
     Library for reading and writing gif images
 local/gimp 2.10.38-1
@@ -516,6 +520,8 @@ local/graphicsmagick 1.3.43-1.1
     Image processing system
 local/graphite 1:1.3.14-4
     reimplementation of the SIL Graphite text processing engine
+local/graphviz 12.0.0-1
+    Graph visualization software
 local/grep 3.11-1.1
     A string search utility
 local/grim 1.4.1-2.1
@@ -588,6 +594,8 @@ local/gtksourceview4 4.8.4-1.1
     A text widget adding syntax highlighting and more to GNOME
 local/gtksourceview5 5.12.1-1.1
     A text widget adding syntax highlighting and more to GNOME
+local/gts 0.7.6.121130-2.1
+    Provides useful functions to deal with 3D surfaces meshed with interconnected triangles
 local/guile 3.0.10-1.1
     Portable, embeddable Scheme implementation written in C
 local/gupnp 1:1.6.6-1.1
@@ -648,12 +656,16 @@ local/hyprutils 0.2.0-1.1
     Hyprland utilities library used across the ecosystem
 local/i2c-tools 4.3-6.1
     Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
+local/iaito 5.9.2-1.1
+    Qt and C++ GUI for radare2 reverse engineering framework
 local/iana-etc 20240612-1
     /etc/protocols and /etc/services provided by IANA
 local/icoextract 0.1.5-1
     Icon extractor for Windows PE files (.exe/.dll) with optional thumbnailer functionality
 local/icu 75.1-1.1
     International Components for Unicode library
+local/ijs 0.35-6.1
+    a library which implements a protocol for transmission of raster page images
 local/imagemagick 7.1.1.36-1.1
     An image viewing/manipulation program
 local/imath 3.1.11-2.1
@@ -688,6 +700,8 @@ local/java-environment-common 3-5
     Common files for Java Development Kits
 local/java-runtime-common 3-5
     Common files for Java Runtime Environments
+local/jbig2dec 0.20-1.1
+    Decoder implementation of the JBIG2 image compression format
 local/jbigkit 2.1-8.1
     Data compression library/utilities for bi-level high-resolution images
 local/jdk17-openjdk 17.0.12.u7-2
@@ -1204,6 +1218,8 @@ local/libheif 1.18.1-1.1
     An HEIF and AVIF file format decoder and encoder
 local/libice 1.1.1-3.1
     X11 Inter-Client Exchange library
+local/libidn 1.42-1.1
+    Implementation of the Stringprep, Punycode and IDNA specifications
 local/libidn2 2.3.7-1.1
     Free software implementation of IDNA2008, Punycode and TR46
 local/libiec61883 1.2.0-8.1
@@ -1362,6 +1378,8 @@ local/libp11-kit 0.25.5-1.1
     Loads and enumerates PKCS#11 modules (library)
 local/libpagemaker 0.0.4-4.1
     a library that parses the file format of Aldus/Adobe PageMaker documents
+local/libpaper 2.2.5-1.1
+    Library for handling paper characteristics
 local/libpcap 1.10.4-1.1
     A system-independent interface for user-level packet capture
 local/libpciaccess 0.18.1-2.1
@@ -1786,6 +1804,8 @@ local/netavark 1.11.0-2.1
     Container network stack
 local/netctl 1.29-2
     Profile based systemd network management
+local/netpbm 10.86.42-1.1
+    A toolkit for manipulation of graphic images
 local/nettle 3.10-1.1
     A low-level cryptographic library
 local/network-manager-applet 1.36.0-1
@@ -2058,6 +2078,8 @@ local/purpose 6.4.0-1.1 (kf6)
     Framework for providing abstractions to get the developers purposes fulfilled
 local/pv 1.8.12-1.1
     A terminal-based tool for monitoring the progress of data through a pipeline
+local/pyside6 6.7.2-3
+    Enables the use of Qt6 APIs in Python applications
 local/python 3.12.4-2
     The Python programming language
 local/python-annotated-types 0.7.0-1
@@ -2450,6 +2472,8 @@ local/qt6-webengine 6.7.2-2.1 (qt6)
     Provides support for web applications using the Chromium browser project
 local/qt6ct 0.9-9.1
     Qt 6 Configuration Utility
+local/radare2 5.9.2-2.1
+    Open-source tools to disasm, debug, analyze and manipulate binary files
 local/raptor 2.0.16-5.1
     A C library that parses RDF/XML/N-Triples into RDF triples
 local/rasqal 1:0.9.33-7.1
@@ -2526,6 +2550,8 @@ local/shadow 4.16.0-1.1
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.4-1.1
     Freedesktop.org Shared MIME Info
+local/shiboken6 6.7.2-3
+    Generates bindings for C++ libraries using CPython source code
 local/signon-kwallet-extension 24.05.2-1.1 (kde-applications kde-network)
     KWallet integration for signon framework
 local/signon-plugin-oauth2 0.25-3

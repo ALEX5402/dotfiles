@@ -223,11 +223,13 @@ gcc
 gcc-libs
 gcr
 gcr-4
+gd
 gdbm
 gdk-pixbuf2
 gegl
 geoclue
 gettext
+ghostscript
 giflib
 gimp
 git
@@ -257,6 +259,7 @@ gradle
 graphene
 graphicsmagick
 graphite
+graphviz
 grep
 grim
 grimblast-git
@@ -293,6 +296,7 @@ gtkmm3
 gtksourceview3
 gtksourceview4
 gtksourceview5
+gts
 guile
 gupnp
 gupnp-igd
@@ -323,9 +327,11 @@ hyprlang
 hyprpicker
 hyprutils
 i2c-tools
+iaito
 iana-etc
 icoextract
 icu
+ijs
 imagemagick
 imath
 imlib2
@@ -343,6 +349,7 @@ jansson
 jasper
 java-environment-common
 java-runtime-common
+jbig2dec
 jbigkit
 jdk17-openjdk
 jdk21-openjdk
@@ -601,6 +608,7 @@ libguestfs
 libhandy
 libheif
 libice
+libidn
 libidn2
 libiec61883
 libimagequant
@@ -680,6 +688,7 @@ liborcus
 libosinfo
 libp11-kit
 libpagemaker
+libpaper
 libpcap
 libpciaccess
 libpgm
@@ -892,6 +901,7 @@ neon
 neovim
 netavark
 netctl
+netpbm
 nettle
 network-manager-applet
 networkmanager
@@ -1028,6 +1038,7 @@ psmisc
 pulseaudio-qt
 purpose
 pv
+pyside6
 python
 python-annotated-types
 python-anyio
@@ -1224,6 +1235,7 @@ qt6-wayland
 qt6-webchannel
 qt6-webengine
 qt6ct
+radare2
 raptor
 rasqal
 rav1e
@@ -1262,6 +1274,7 @@ sg3_utils
 shaderc
 shadow
 shared-mime-info
+shiboken6
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui

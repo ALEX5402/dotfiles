@@ -10,13 +10,13 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Fri Aug  2 09:06:11 PM IST 2024
+## Changelog Sat Aug  3 03:39:33 AM IST 2024
 ```
- Extra-files/mimeapps.list          |  4 +++-
- Local/share/dolphin/dolphinstaterc |  9 +++++---
- README.md                          | 44 +-------------------------------------
- current-packages-dump.txt          |  1 -
- packages-with-info.txt             |  2 --
- 5 files changed, 10 insertions(+), 50 deletions(-)
+ Configs/hyde/hyde.conf             |  2 +-
+ Local/share/dolphin/dolphinstaterc |  4 ++--
+ README.md                          | 10 +---------
+ current-packages-dump.txt          | 13 +++++++++++++
+ packages-with-info.txt             | 26 ++++++++++++++++++++++++++
+ 5 files changed, 43 insertions(+), 12 deletions(-)
 ```
  
