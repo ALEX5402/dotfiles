@@ -10,54 +10,14 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sat Aug  3 03:08:08 PM IST 2024
+## Changelog Sat Aug  3 08:57:49 PM IST 2024
 ```
- Configs/cava/Wall-Dcol                             |  16 +-
- Configs/cava/config                                |  16 +-
- Configs/dunst/dunstrc                              |  12 +-
- Configs/dunst/icons/hyprdots.svg                   |  12 +-
- Configs/dunst/icons/vol/muted-mic.svg              |   2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |   2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |   2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |   2 +-
- Configs/dunst/icons/vol/vol-0.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-10.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-100.svg                |  10 +-
- Configs/dunst/icons/vol/vol-15.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-20.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-25.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-30.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-35.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-40.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-45.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-5.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-50.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-55.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-60.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-65.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-70.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-75.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-80.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-85.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-90.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
- Configs/dunst/wallbash.conf                        |  12 +-
- Configs/gtk-2.0/gtkfilechooser.ini                 |   8 +-
- Configs/hyde/themes/Catppuccin Mocha/wall.set      |   2 +-
- Configs/hyde/themes/Sweet-Dark/wall.set            |   2 +-
- .../Sweet-Dark/wallpapers/gitl-inthe-forest.jpg    | Bin 3474347 -> 0 bytes
- .../hyde/themes/Sweet-Dark/wallpapers/harumi-3.jpg | Bin 3966729 -> 0 bytes
- .../hyde/themes/Sweet-Dark/wallpapers/jarumi-1.jpg | Bin 3321166 -> 0 bytes
- .../hyde/themes/Sweet-Dark/wallpapers/jarumi-2.jpg | Bin 3879672 -> 0 bytes
- .../themes/Sweet-Dark/wallpapers/wallpaer1.jpg     | Bin 2507063 -> 0 bytes
- Configs/hypr/themes/theme.conf                     |   9 +-
- Configs/spicetify/Themes/Sleek/color.ini           |  40 ++---
- Extra-files/dolphinrc                              |   3 +
- Local/share/dolphin/dolphinstaterc                 |   2 +-
- README.md                                          |  10 +-
- Theme-Confs/qt5ct/colors.conf                      |   6 +-
- Theme-Confs/qt6ct/colors.conf                      |   6 +-
- vencord-settings-backup.json                       | 166 +++++++++++++++++----
- 46 files changed, 317 insertions(+), 223 deletions(-)
+ ...int-wifu_upscayl_2x_realesrgan-x4plus-anime.png | Bin 11629545 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/whahah.png  | Bin 10950173 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/wifu-1.png  | Bin 9577130 -> 0 bytes
+ Local/share/dolphin/dolphinstaterc                 |  10 ++--
+ README.md                                          |  51 +--------------------
+ packages-with-info.txt                             |   2 +-
+ 6 files changed, 7 insertions(+), 56 deletions(-)
 ```
  

@@ -2828,7 +2828,7 @@ local/vulkan-validation-layers 1.3.275-1.1 (vulkan-devel)
     Vulkan Validation Layers
 local/wavpack 5.7.0-1.1
     Audio compression format with lossless, lossy and hybrid compression modes
-local/waybar 0.10.4-1.1
+local/waybar 0.10.4-2.1
     Highly customizable Wayland bar for Sway and Wlroots based compositors
 local/wayland 1.23.0-1.1
     A computer display server protocol
