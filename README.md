@@ -10,14 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sat Aug  3 08:57:49 PM IST 2024
+## Changelog Sun Aug  4 01:55:48 PM IST 2024
 ```
- ...int-wifu_upscayl_2x_realesrgan-x4plus-anime.png | Bin 11629545 -> 0 bytes
- .../themes/Catppuccin Mocha/wallpapers/whahah.png  | Bin 10950173 -> 0 bytes
- .../themes/Catppuccin Mocha/wallpapers/wifu-1.png  | Bin 9577130 -> 0 bytes
- Local/share/dolphin/dolphinstaterc                 |  10 ++--
- README.md                                          |  51 +--------------------
- packages-with-info.txt                             |   2 +-
- 6 files changed, 7 insertions(+), 56 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  2 +-
+ README.md                          | 11 +----------
+ 2 files changed, 2 insertions(+), 11 deletions(-)
 ```
  
