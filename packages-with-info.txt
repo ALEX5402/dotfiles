@@ -1,5 +1,5 @@
-local/64gram-desktop-bin 1:1.1.31-1
-    Unofficial desktop version of Telegram messaging app - binary version
+local/64gram-desktop 1:1.1.31-1
+    Unofficial desktop version of Telegram messaging app
 local/a52dec 0.8.0-2.1
     Library for decoding ATSC A/52 (AC-3) audio streams
 local/aalib 1.4rc5-18
@@ -38,12 +38,8 @@ local/alsa-utils 1.2.12-1.1
     Advanced Linux Sound Architecture - Utilities
 local/amd-ucode 20240703.e94a2a3b-1
     Microcode update image for AMD CPUs
-local/amdgpu-pro-oglp 24.10_1787253-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro OpenGL driver
 local/amdvlk 2024.Q2.3-1.1
     AMD's standalone Vulkan driver
-local/amf-amdgpu-pro 24.10_1787253-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro Advanced Multimedia Framework
 local/ananicy-cpp 1.1.1-1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
 local/android-apktool-bin 2.9.3-2
@@ -754,8 +750,6 @@ local/kconfigwidgets 6.4.0-1.1 (kf6)
     Widgets for KConfig
 local/kconfigwidgets5 5.116.0-1.1 (kf5)
     Widgets for KConfig
-local/kcontacts 1:6.4.0-1.1 (kf6)
-    Address book API for KDE
 local/kcoreaddons 6.4.0-1.1 (kf6)
     Addons to QtCore
 local/kcoreaddons5 5.116.0-1.1 (kf5)
@@ -808,8 +802,6 @@ local/kio-extras 24.05.2-1.1 (kde-applications kde-network)
     Additional components to increase the functionality of KIO
 local/kirigami 6.4.0-2.1 (kf6)
     A QtQuick based components set
-local/kirigami-addons 1.4.0-1.1
-    Add-ons for the Kirigami framework
 local/kitemmodels 6.4.0-1.1 (kf6)
     Models for Qt Model/View system
 local/kitemviews 6.4.0-1.1 (kf6)
@@ -838,8 +830,6 @@ local/kpackage 6.4.0-1.1 (kf6)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kparts 6.4.0-1.1 (kf6)
     Document centric plugin system
-local/kpeople 6.4.0-1.1 (kf6)
-    A library that provides access to all contacts and the people who hold them
 local/kpmcore 24.05.2-1.1
     Library for managing partitions
 local/kpty 6.4.0-1.1 (kf6)
@@ -850,10 +840,6 @@ local/kservice 6.4.0-1.1 (kf6)
     Advanced plugin and service introspection
 local/kservice5 5.116.0-1.1 (kf5)
     Advanced plugin and service introspection
-local/kstatusnotifieritem 6.4.0-1.1 (kf6)
-    Implementation of Status Notifier Items
-local/ksvg 6.4.0-1.1 (kf6)
-    Components for handling SVGs
 local/ktexteditor 6.4.0-1.1 (kf6)
     Advanced embeddable text editor
 local/ktextwidgets 6.4.0-1.1 (kf6)
@@ -896,8 +882,6 @@ local/lib32-alsa-lib 1.2.12-1
     An alternative implementation of Linux sound support (32 bit)
 local/lib32-alsa-plugins 1.2.12-1
     Additional ALSA plugins (32-bit)
-local/lib32-amdgpu-pro-oglp 24.10_1787253-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro OpenGL driver (32-bit)
 local/lib32-brotli 1.1.0-1
     Generic-purpose lossless compression algorithm (32-bit)
 local/lib32-bzip2 1.0.8-3
@@ -996,8 +980,6 @@ local/lib32-p11-kit 0.25.5-1
     Loads and enumerates PKCS#11 modules (32-bit library)
 local/lib32-sqlite 3.46.0-1
     A C library that implements an SQL database engine (32-bit)
-local/lib32-vulkan-amdgpu-pro 24.10_1787253-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro Vulkan driver (32-bit)
 local/lib32-vulkan-icd-loader 1.3.279-1
     Vulkan Installable Client Driver (ICD) Loader (32-bit)
 local/lib32-wayland 1.22.0-1
@@ -1130,6 +1112,8 @@ local/libdecor 0.2.2-1.1
     Client-side decorations library for Wayland clients
 local/libdeflate 1.20-2.1
     Heavily optimized library for DEFLATE/zlib/gzip compression and decompression
+local/libdispatch 5.10-1.1
+    Comprehensive support for concurrent code execution on multicore hardware
 local/libdisplay-info 0.2.0-1.1
     EDID and DisplayID library
 local/libdovi 3.3.0-2.1
@@ -1172,8 +1156,6 @@ local/libextest-git r31.af17090-3
     X11 XTEST reimplementation primarily for Steam Controller on Wayland
 local/libexttextcat 3.4.7-1.1
     N-Gram-Based Text Categorization library primarily intended for language guessing
-local/libfakekey 0.3-3.1
-    X virtual keyboard library.
 local/libfdk-aac 2.0.3-1.1
     Fraunhofer FDK AAC codec library
 local/libffi 3.4.6-1.1
@@ -1762,8 +1744,6 @@ local/mobile-broadband-provider-info 20240407-1
     APN configuration presets for mobile broadband connections
 local/modemmanager 1.22.0-1.1
     Mobile broadband modem management service
-local/modemmanager-qt 6.4.0-1.1 (kf6)
-    Qt wrapper for ModemManager DBus API
 local/mpdecimal 4.0.0-2.1
     Package for correctly-rounded arbitrary precision decimal floating point arithmetic
 local/mpfr 4.2.1-4.1
@@ -2072,8 +2052,6 @@ local/protobuf 27.2-1.1
     Protocol Buffers - Google's data interchange format
 local/psmisc 23.7-1.1
     Miscellaneous procfs tools
-local/pulseaudio-qt 1.5.0-1.1
-    Qt bindings for libpulse
 local/purpose 6.4.0-1.1 (kf6)
     Framework for providing abstractions to get the developers purposes fulfilled
 local/pv 1.8.12-1.1
@@ -2448,6 +2426,8 @@ local/qt6-base 6.7.2-1.1 (qt6)
     A cross-platform application and UI framework
 local/qt6-declarative 6.7.2-1.1 (qt6)
     Classes for QML and JavaScript languages
+local/qt6-imageformats 6.7.2-1.1 (qt6)
+    Plugins for additional image formats: TIFF, MNG, TGA, WBMP
 local/qt6-multimedia 6.7.2-1.1 (qt6)
     Classes for audio, video, radio and camera functionality
 local/qt6-multimedia-ffmpeg 6.7.2-1.1
@@ -2806,7 +2786,7 @@ local/vmaf 3.0.0-1.1
     Perceptual video quality assessment algorithm based on multi-method fusion
 local/volume_key 0.3.12-9.1
     A library for manipulating storage volume encryption keys and storing them separately from volumes to handle forgotten passphrases
-local/vortex-thermal 1:1.0.1-1 (vortex)
+local/vortex-thermal 1:1.0.2-1 (vortex)
     Vortex - Thermal
 local/vpnc 1:0.5.3.r539.r239-1.1
     VPN client for cisco3000 VPN Concentrators
@@ -2814,8 +2794,6 @@ local/vte-common 0.76.3-1.1
     Virtual Terminal Emulator widget (common files)
 local/vte3 0.76.3-1.1
     Virtual Terminal Emulator widget (GTK3)
-local/vulkan-amdgpu-pro 24.10_1787253-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro Vulkan driver
 local/vulkan-headers 1:1.3.285-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.285-1.1

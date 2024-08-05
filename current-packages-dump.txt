@@ -1,4 +1,4 @@
-64gram-desktop-bin
+64gram-desktop
 a52dec
 aalib
 aardvark-dns
@@ -18,9 +18,7 @@ alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
 amd-ucode
-amdgpu-pro-oglp
 amdvlk
-amf-amdgpu-pro
 ananicy-cpp
 android-apktool-bin
 android-sdk-platform-tools
@@ -376,7 +374,6 @@ kconfig
 kconfig5
 kconfigwidgets
 kconfigwidgets5
-kcontacts
 kcoreaddons
 kcoreaddons5
 kcrash
@@ -403,7 +400,6 @@ kio
 kio-admin
 kio-extras
 kirigami
-kirigami-addons
 kitemmodels
 kitemviews
 kitty
@@ -418,14 +414,11 @@ knotifyconfig
 konsole
 kpackage
 kparts
-kpeople
 kpmcore
 kpty
 krb5
 kservice
 kservice5
-kstatusnotifieritem
-ksvg
 ktexteditor
 ktextwidgets
 kuserfeedback
@@ -447,7 +440,6 @@ lensfun
 less
 lib32-alsa-lib
 lib32-alsa-plugins
-lib32-amdgpu-pro-oglp
 lib32-brotli
 lib32-bzip2
 lib32-curl
@@ -497,7 +489,6 @@ lib32-nss
 lib32-openssl
 lib32-p11-kit
 lib32-sqlite
-lib32-vulkan-amdgpu-pro
 lib32-vulkan-icd-loader
 lib32-wayland
 lib32-xz
@@ -564,6 +555,7 @@ libdca
 libde265
 libdecor
 libdeflate
+libdispatch
 libdisplay-info
 libdovi
 libdrm
@@ -585,7 +577,6 @@ libewf
 libexif
 libextest-git
 libexttextcat
-libfakekey
 libfdk-aac
 libffi
 libfilezilla
@@ -880,7 +871,6 @@ mlocate
 mlt
 mobile-broadband-provider-info
 modemmanager
-modemmanager-qt
 mpdecimal
 mpfr
 mpg123
@@ -1035,7 +1025,6 @@ procps-ng
 proot
 protobuf
 psmisc
-pulseaudio-qt
 purpose
 pv
 pyside6
@@ -1223,6 +1212,7 @@ qt5ct
 qt6-5compat
 qt6-base
 qt6-declarative
+qt6-imageformats
 qt6-multimedia
 qt6-multimedia-ffmpeg
 qt6-networkauth
@@ -1406,7 +1396,6 @@ vortex-thermal
 vpnc
 vte-common
 vte3
-vulkan-amdgpu-pro
 vulkan-headers
 vulkan-icd-loader
 vulkan-radeon

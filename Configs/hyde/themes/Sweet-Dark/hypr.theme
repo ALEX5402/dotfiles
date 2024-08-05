@@ -53,8 +53,8 @@ decoration {
     drop_shadow = false
 
     blur {
-        enabled = no
-        size = 2
+        enabled = true
+        size = 5
         noise = 0
         passes = 2
         new_optimizations = on
