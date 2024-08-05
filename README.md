@@ -10,14 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug  5 01:58:52 PM IST 2024
+## Changelog Mon Aug  5 02:09:41 PM IST 2024
 ```
- Configs/hyde/themes/Sweet-Dark/hypr.theme |  4 ++--
- Configs/hypr/themes/theme.conf            |  4 ++--
- Local/share/dolphin/dolphinstaterc        |  2 +-
- README.md                                 | 37 +------------------------------
- current-packages-dump.txt                 | 17 +++-----------
- packages-with-info.txt                    | 36 ++++++------------------------
- 6 files changed, 16 insertions(+), 84 deletions(-)
+ README.md | 11 +----------
+ 1 file changed, 1 insertion(+), 10 deletions(-)
 ```
  
