@@ -6,6 +6,7 @@ abseil-cpp
 accounts-qml-module
 accountsservice
 acl
+ada
 adobe-source-code-pro-fonts
 adwaita-cursors
 adwaita-icon-theme
@@ -906,7 +907,6 @@ nm-connection-editor
 node-gyp
 nodejs
 nodejs-nopt
-noisetorch
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -934,6 +934,7 @@ openconnect
 opencore-amr
 opencv
 openexr
+openh264
 openjpeg2
 openslide
 openssh
@@ -1328,6 +1329,7 @@ talloc
 tar
 tcl
 tdb
+telegram-desktop
 tevent
 texinfo
 thin-provisioning-tools
