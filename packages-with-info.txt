@@ -1,5 +1,5 @@
-local/64gram-desktop 1:1.1.31-1
-    Unofficial desktop version of Telegram messaging app
+local/64gram-desktop-bin 1:1.1.31-1
+    Unofficial desktop version of Telegram messaging app - binary version
 local/a52dec 0.8.0-2.1
     Library for decoding ATSC A/52 (AC-3) audio streams
 local/aalib 1.4rc5-18
@@ -210,6 +210,8 @@ local/cifs-utils 7.0-4.1
     CIFS filesystem user-space tools
 local/clang 18.1.8-2.1
     C language family frontend for LLVM
+local/clapper 0.6.1-2.1
+    Modern and user-friendly media player.
 local/cliphist 1:0.5.0-1.1
     wayland clipboard manager
 local/cloudflare-warp-bin 2024.4.133-2
@@ -1080,6 +1082,10 @@ local/libcdr 0.1.7-8.1
     CorelDraw file format importer library for LibreOffice
 local/libcgif 0.4.1-1.1
     A fast and lightweight GIF encoding library
+local/libclapper 0.6.1-2.1
+    Clapper playback library
+local/libclapper-gtk 0.6.1-2.1
+    Clapper GTK integration library
 local/libcloudproviders 0.3.6-1.1
     DBus API that allows cloud storage sync clients to expose their services
 local/libcmis 0.6.2-1.1
@@ -2830,8 +2836,8 @@ local/wildmidi 0.4.6-1.1
     Simple software MIDI player which has a core softsynth library
 local/wireplumber 0.5.5-1.1
     Session / policy manager implementation for PipeWire
-local/wl-clipboard 1:2.2.1-2.1
-    Command-line copy/paste utilities for Wayland
+local/wl-clipboard-rs 0.9.0-1
+    A safe Rust reimplementation of the Wayland command-line copy/paste utilities
 local/wlay-git r23.ed31606-1
     Graphical output management for Wayland
 local/wlogout 1.2.2-0

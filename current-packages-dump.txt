@@ -1,4 +1,4 @@
-64gram-desktop
+64gram-desktop-bin
 a52dec
 aalib
 aardvark-dns
@@ -104,6 +104,7 @@ check
 chromaprint
 cifs-utils
 clang
+clapper
 cliphist
 cloudflare-warp-bin
 clucene
@@ -539,6 +540,8 @@ libcdio
 libcdio-paranoia
 libcdr
 libcgif
+libclapper
+libclapper-gtk
 libcloudproviders
 libcmis
 libcolord
@@ -1414,7 +1417,7 @@ wget
 which
 wildmidi
 wireplumber
-wl-clipboard
+wl-clipboard-rs
 wlay-git
 wlogout
 wlr-randr
