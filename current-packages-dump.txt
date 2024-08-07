@@ -149,6 +149,7 @@ dosfstools
 double-conversion
 downgrade
 dracut
+droidcam
 dtc
 duf
 duktape
@@ -1402,6 +1403,7 @@ util-linux
 util-linux-libs
 uvicorn
 v4l-utils
+v4l2loopback-dc-dkms
 vapoursynth
 vde2
 vercel

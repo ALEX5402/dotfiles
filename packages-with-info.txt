@@ -300,6 +300,8 @@ local/downgrade 11.3.0-1
     Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 local/dracut 103-2
     An event driven initramfs infrastructure
+local/droidcam 1:2.1.3-2
+    A tool to turn your phone/tablet into a wireless/usb webcam
 local/dtc 1.7.0-5.1
     Device Tree Compiler
 local/duf 0.8.1-3.1
@@ -2806,6 +2808,8 @@ local/uvicorn 0.30.3-1
     The lightning-fast ASGI server
 local/v4l-utils 1.26.1-1.1
     Userspace tools and conversion library for Video 4 Linux
+local/v4l2loopback-dc-dkms 1:2.1.3-2
+    v4l2-loopback kernel module - DroidCam version
 local/vapoursynth R69-1.1
     A video processing framework with the future in mind
 local/vde2 2.3.3-5.1
