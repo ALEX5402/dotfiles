@@ -386,6 +386,8 @@ local/fd 10.1.0-1.1
     Simple, fast and user-friendly alternative to find
 local/ffmpeg 2:7.0.1-2.1
     Complete solution to record, convert and stream audio and video
+local/ffmpeg4.4 4.4.4-6.1
+    Complete solution to record, convert and stream audio and video
 local/ffmpegthumbnailer 2.2.2-6.1
     Lightweight video thumbnailer that can be used by file managers
 local/ffmpegthumbs 24.05.2-1.1 (kde-applications kde-multimedia)
@@ -1282,6 +1284,8 @@ local/libmbim 1.30.0-1
     MBIM modem protocol helper library
 local/libmd 1.1.0-2.1
     Message Digest functions from BSD systems
+local/libmfx 23.2.2-3
+    Intel Media SDK dispatcher library
 local/libmicrodns 0.2.0-2.1
     Minimal mDNS resolver library
 local/libmm-glib 1.22.0-1.1
@@ -2886,8 +2890,8 @@ local/wildmidi 0.4.6-1.1
     Simple software MIDI player which has a core softsynth library
 local/wireplumber 0.5.5-1.1
     Session / policy manager implementation for PipeWire
-local/wl-clipboard-rs 0.9.0-1
-    A safe Rust reimplementation of the Wayland command-line copy/paste utilities
+local/wl-clipboard 1:2.2.1-2.1
+    Command-line copy/paste utilities for Wayland
 local/wlay-git r23.ed31606-1
     Graphical output management for Wayland
 local/wlogout 1.2.2-0

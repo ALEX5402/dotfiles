@@ -192,6 +192,7 @@ fastfetch
 fcitx5
 fd
 ffmpeg
+ffmpeg4.4
 ffmpegthumbnailer
 ffmpegthumbs
 fftw
@@ -640,6 +641,7 @@ libmanette
 libmaxminddb
 libmbim
 libmd
+libmfx
 libmicrodns
 libmm-glib
 libmng
@@ -1442,7 +1444,7 @@ wget
 which
 wildmidi
 wireplumber
-wl-clipboard-rs
+wl-clipboard
 wlay-git
 wlogout
 wlr-randr
