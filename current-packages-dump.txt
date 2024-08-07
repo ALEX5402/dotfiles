@@ -149,7 +149,7 @@ dosfstools
 double-conversion
 downgrade
 dracut
-droidcam
+droidcam-obs-plugin-bin
 dtc
 duf
 duktape
@@ -1043,8 +1043,6 @@ python-autocommand
 python-boltons
 python-boto3
 python-botocore
-python-bottle
-python-build
 python-cairo
 python-capng
 python-certifi
@@ -1055,7 +1053,6 @@ python-colorama
 python-conda
 python-conda-package-handling
 python-conda-package-streaming
-python-coverage
 python-dateutil
 python-dbus
 python-defusedxml
@@ -1066,23 +1063,21 @@ python-docutils
 python-dotenv
 python-fastapi
 python-fastjsonschema
-python-flit-core
 python-future
 python-gobject
 python-greenlet
 python-h11
 python-httptools
 python-idna
-python-importlib-metadata
 python-inflect
 python-iniconfig
-python-installer
 python-jaraco.context
 python-jaraco.functools
 python-jaraco.text
 python-jmespath
 python-keyutils
 python-libmamba
+python-lxml
 python-mako
 python-manimpango
 python-markdown
@@ -1093,7 +1088,6 @@ python-ninja
 python-ordered-set
 python-orjson
 python-packaging
-python-path
 python-pathvalidate
 python-pefile
 python-pillow
@@ -1108,13 +1102,11 @@ python-pydantic
 python-pydantic-core
 python-pydantic-extra-types
 python-pydantic-settings
+python-pygments
 python-pynvim
-python-pyproject-hooks
 python-pyqt5
 python-pyqt5-sip
 python-pytest
-python-pytest-cov
-python-pytest-mock
 python-pytz
 python-requests
 python-ruamel-yaml
@@ -1123,7 +1115,6 @@ python-s3transfer
 python-scikit-build
 python-setproctitle
 python-setuptools
-python-setuptools-scm
 python-shtab
 python-six
 python-sniffio
@@ -1141,7 +1132,6 @@ python-validate-pyproject
 python-websockets
 python-wheel
 python-yaml
-python-zipp
 python-zstandard
 qca-qt5
 qca-qt6
@@ -1405,7 +1395,6 @@ util-linux
 util-linux-libs
 uvicorn
 v4l-utils
-v4l2loopback-dc-dkms
 vapoursynth
 vde2
 vercel
