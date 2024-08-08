@@ -494,5 +494,3 @@ export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
 
-
-

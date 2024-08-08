@@ -180,6 +180,7 @@ eos-hooks
 eos-rankmirrors
 eos-translations
 ethtool
+eww
 exfatprogs
 exiv2
 expac
@@ -1423,7 +1424,6 @@ vulkan-headers
 vulkan-icd-loader
 vulkan-radeon
 vulkan-tools
-vulkan-validation-layers
 wavpack
 waybar
 wayland
