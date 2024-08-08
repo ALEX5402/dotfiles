@@ -60,6 +60,8 @@ local/appimagelauncher 2.2.0-8
     Helper for running and integrating AppImages
 local/appstream 1.0.3-1.1
     Provides a standard for creating app stores across distributions
+local/aquamarine-git 0.1.0_r159.g4918e57-1
+    Aquamarine is a very light linux rendering backend library
 local/archlinux-java-run 10-1
     Java Application Launcher for Arch Linux
 local/archlinux-keyring 20240709-2
@@ -648,15 +650,15 @@ local/hyde-cli-git v0.5.2.r66.9756bf7-1
     CLI for Hyde, an Aesthetic, dynamic and minimal dots for hyprland
 local/hyphen 2.8.8-6.1
     library for high quality hyphenation and justification
-local/hyprcursor 0.1.9-1.1
+local/hyprcursor-git 0.1.9.r11.g912d5602-1
     The hyprland cursor format, library and utilities
-local/hyprland 0.41.2-3
-    a highly customizable dynamic tiling Wayland compositor
-local/hyprlang 0.5.2-1.1
-    implementation library for the hypr config language
+local/hyprland-git 0.42.0.r1.83a334f9-1
+    Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+local/hyprlang-git 0.5.2.r8.gadbefbf4-1
+    The official implementation library for the hypr config language
 local/hyprpicker 0.3.0-1
     A wlroots-compatible Wayland color picker that does not suck.
-local/hyprutils 0.2.0-1.1
+local/hyprutils-git 0.2.1.r0.g5dcbbc1e-1
     Hyprland utilities library used across the ecosystem
 local/i2c-tools 4.3-6.1
     Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
@@ -2066,6 +2068,8 @@ local/protobuf 27.2-1.1
     Protocol Buffers - Google's data interchange format
 local/psmisc 23.7-1.1
     Miscellaneous procfs tools
+local/pugixml 1.14-1.1
+    Light-weight, simple and fast XML parser for C++ with XPath support
 local/purpose 6.4.0-1.1 (kf6)
     Framework for providing abstractions to get the developers purposes fulfilled
 local/pv 1.8.12-1.1

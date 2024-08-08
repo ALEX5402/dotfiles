@@ -29,6 +29,7 @@ android-udev
 aom
 appimagelauncher
 appstream
+aquamarine-git
 archlinux-java-run
 archlinux-keyring
 argon2
@@ -323,11 +324,11 @@ hwinfo
 hwloc
 hyde-cli-git
 hyphen
-hyprcursor
-hyprland
-hyprlang
+hyprcursor-git
+hyprland-git
+hyprlang-git
 hyprpicker
-hyprutils
+hyprutils-git
 i2c-tools
 iaito
 iana-etc
@@ -1032,6 +1033,7 @@ procps-ng
 proot
 protobuf
 psmisc
+pugixml
 purpose
 pv
 pyside6
