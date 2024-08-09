@@ -237,6 +237,7 @@ ghostscript
 giflib
 gimp
 git
+github-cli
 github-desktop
 glances
 glfw

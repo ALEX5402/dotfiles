@@ -476,6 +476,8 @@ local/gimp 2.10.38-1
     GNU Image Manipulation Program
 local/git 2.46.0-1.1
     the fast distributed version control system
+local/github-cli 2.54.0-1.1
+    The GitHub CLI
 local/github-desktop 3.4.2-1
     GUI for managing Git and GitHub
 local/glances 4.1.2.1-1
