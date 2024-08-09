@@ -362,8 +362,6 @@ local/eos-translations 24.7-1
     EndeavourOS translation support
 local/ethtool 1:6.9-1.1
     Utility for controlling network drivers and hardware
-local/eww 0.6.0-1
-    Standalone widget system made in Rust
 local/exfatprogs 1.2.4-1.1
     exFAT filesystem userspace utilities for the Linux Kernel exfat driver
 local/exiv2 0.28.3-1.1

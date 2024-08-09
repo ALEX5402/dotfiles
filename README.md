@@ -10,12 +10,45 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Fri Aug  9 11:46:10 AM IST 2024
+## Changelog Fri Aug  9 08:32:35 PM IST 2024
 ```
- Local/share/dolphin/dolphinstaterc | 10 +++++-----
- README.md                          |  7 +------
- current-packages-dump.txt          |  1 +
- packages-with-info.txt             |  2 ++
- 4 files changed, 9 insertions(+), 11 deletions(-)
+ Configs/cava/Wall-Dcol                      | 16 ++++++------
+ Configs/cava/config                         | 16 ++++++------
+ Configs/dunst/dunstrc                       | 12 ++++-----
+ Configs/dunst/icons/hyprdots.svg            | 12 ++++-----
+ Configs/dunst/icons/vol/muted-mic.svg       |  2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg   |  2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg     |  2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg |  2 +-
+ Configs/dunst/icons/vol/vol-0.svg           | 10 ++++----
+ Configs/dunst/icons/vol/vol-10.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-100.svg         | 10 ++++----
+ Configs/dunst/icons/vol/vol-15.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-20.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-25.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-30.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-35.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-40.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-45.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-5.svg           | 10 ++++----
+ Configs/dunst/icons/vol/vol-50.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-55.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-60.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-65.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-70.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-75.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-80.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-85.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-90.svg          | 10 ++++----
+ Configs/dunst/icons/vol/vol-95.svg          | 10 ++++----
+ Configs/dunst/wallbash.conf                 | 12 ++++-----
+ Configs/hyde/themes/Sweet-Dark/wall.set     |  2 +-
+ Configs/spicetify/Themes/Sleek/color.ini    | 40 ++++++++++++++---------------
+ README.md                                   |  9 +------
+ Theme-Confs/qt5ct/colors.conf               |  6 ++---
+ Theme-Confs/qt6ct/colors.conf               |  6 ++---
+ current-packages-dump.txt                   |  1 -
+ packages-with-info.txt                      |  2 --
+ 37 files changed, 171 insertions(+), 181 deletions(-)
 ```
  

@@ -180,7 +180,6 @@ eos-hooks
 eos-rankmirrors
 eos-translations
 ethtool
-eww
 exfatprogs
 exiv2
 expac
