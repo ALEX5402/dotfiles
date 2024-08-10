@@ -1,5 +1,7 @@
 local/64gram-desktop-bin 1:1.1.31-1
     Unofficial desktop version of Telegram messaging app - binary version
+local/7-zip-full 24.07-1
+    File archiver with a high compression ratio (full package to replace p7zip)
 local/a52dec 0.8.0-2.1
     Library for decoding ATSC A/52 (AC-3) audio streams
 local/aalib 1.4rc5-18
@@ -98,6 +100,8 @@ local/b43-fwcutter 019-5.1
     firmware extractor for the b43 kernel module
 local/babl 0.1.108-1.1
     Dynamic, any to any, pixel format conversion library
+local/balena-etcher 2:1.19.22-1
+    Flash OS images to SD cards & USB drives, safely and easily
 local/baloo 6.4.0-1.1 (kf6)
     A framework for searching and managing metadata
 local/baloo-widgets 24.05.2-1.1
@@ -366,6 +370,8 @@ local/exfatprogs 1.2.4-1.1
     exFAT filesystem userspace utilities for the Linux Kernel exfat driver
 local/exiv2 0.28.3-1.1
     Exif, Iptc and XMP metadata manipulation library and tools
+local/exo 4.18.0-2.1 (xfce4)
+    Application library for the Xfce desktop environment
 local/expac 10-10.1
     alpm data (pacman database) extraction utility
 local/expat 2.6.2-1.1
@@ -610,6 +616,8 @@ local/gupnp 1:1.6.6-1.1
     GObject-based UPNP framework
 local/gupnp-igd 1.6.0-1.1
     A library to handle UPnP IGD port mapping
+local/gvfs 1.54.2-1 (gnome)
+    Virtual filesystem implementation for GIO
 local/gwenview 24.05.2-1.1 (kde-applications kde-graphics)
     A fast and easy to use image viewer
 local/gzip 1.13-4.1
@@ -890,6 +898,8 @@ local/lensfun 1:0.3.4-4.1
     Database of photographic lenses and a library that allows advanced access to the database
 local/less 1:661-1.1
     A terminal based program for viewing text files
+local/lib32-acl 2.3.2-1
+    Access control list libraries (32-bit)
 local/lib32-alsa-lib 1.2.12-1
     An alternative implementation of Linux sound support (32 bit)
 local/lib32-alsa-plugins 1.2.12-1
@@ -900,30 +910,46 @@ local/lib32-bzip2 1.0.8-3
     A high-quality data compression program (32-bit)
 local/lib32-curl 8.9.1-1
     command line tool and library for transferring data with URLs (32-bit)
+local/lib32-dbus 1.14.10-2
+    Freedesktop.org message bus system - 32-bit
 local/lib32-e2fsprogs 1.47.1-1
     Ext2/3/4 filesystem libraries (32-bit)
 local/lib32-expat 2.6.2-1
     An XML Parser library
+local/lib32-fontconfig 2:2.15.0-1
+    Library for configuring and customizing font access
+local/lib32-freetype2 2.13.2-1
+    Font rasterization library (32-bit)
 local/lib32-gcc-libs 14.2.1+r32+geccf707e5ce-2
     32-bit runtime libraries shipped by GCC
+local/lib32-gettext 0.22.5-1
+    GNU internationalization library (32-bit)
+local/lib32-glib2 2.80.4-1
+    Low level core library - 32-bit
 local/lib32-glibc 2.40+r16+gaa533d58ff-3
     GNU C Library (32-bit)
 local/lib32-gmp 6.3.0-1
     A free library for arbitrary precision arithmetic (32-bit)
 local/lib32-gnutls 3.8.6-1
     A library which provides a secure layer over a reliable transport layer (32-bit)
+local/lib32-harfbuzz 9.0.0-1
+    OpenType text shaping engine - 32-bit
 local/lib32-icu 75.1-1
     International Components for Unicode library (32 bit)
 local/lib32-keyutils 1.6.3-2
     Linux Key Management Utilities (32-bit)
 local/lib32-krb5 1.21.3-1
     The Kerberos network authentication system (32-bit)
+local/lib32-libcap 2.70-1
+    POSIX 1003.1e capabilities (32-bit)
 local/lib32-libdrm 2.4.122-1
     Userspace interface to kernel DRM services (32-bit)
 local/lib32-libelf 0.191-1
     Handle ELF object files and DWARF debugging information (libraries) (32-bit)
 local/lib32-libffi 3.4.6-1
     Portable foreign function interface library (32-bit)
+local/lib32-libgcrypt 1.11.0-1
+    General purpose cryptographic library based on the code from GnuPG (32-bit)
 local/lib32-libglvnd 1.7.0-1
     The GL Vendor-Neutral Dispatch library
 local/lib32-libgpg-error 1.50-1
@@ -936,16 +962,28 @@ local/lib32-libnghttp2 1.62.1-1
     Framing layer of HTTP/2 is implemented as a reusable C library (32-bit)
 local/lib32-libnghttp3 1.4.0-1
     HTTP/3 library written in C (32-bit)
+local/lib32-libnl 3.10.0-1
+    Library for applications dealing with netlink sockets (32 bit)
+local/lib32-libnsl 2.0.1-1
+    Public client interface library for NIS(YP)
+local/lib32-libpcap 1.10.4-1
+    A system-independent interface for user-level packet capture (32-bit)
 local/lib32-libpciaccess 0.18.1-1
     X11 PCI access library (32-bit
+local/lib32-libpng 1.6.43-1
+    A collection of routines used to create PNG format graphics files (32-bit)
 local/lib32-libpsl 0.21.5-1
     Public Suffix List library (32-bit)
 local/lib32-libssh2 1.11.0-1
     A library implementing the SSH2 protocol as defined by Internet Drafts (32-bit)
 local/lib32-libtasn1 4.19.0-2
     The ASN.1 library used in GNUTLS (32 bit)
+local/lib32-libtirpc 1.3.5-1
+    Transport Independent RPC library (SunRPC replacement)
 local/lib32-libunistring 1.2-1
     Library for manipulating Unicode strings and C strings (32-bit)
+local/lib32-libunwind 1.8.1-1
+    Determine and manipulate the call-chain of a program (32-bit)
 local/lib32-libx11 1.8.10-1
     X11 client-side library (32-bit)
 local/lib32-libxau 1.0.11-1
@@ -956,6 +994,8 @@ local/lib32-libxcrypt 4.4.36-2
     Modern library for one-way hashing of passwords (32-bit)
 local/lib32-libxcrypt-compat 4.4.36-2
     Modern library for one-way hashing of passwords - legacy API functions (32bit)
+local/lib32-libxcursor 1.2.2-1
+    X cursor management library (32-bit)
 local/lib32-libxdamage 1.1.6-1
     X11 damaged region extension library (32-bit)
 local/lib32-libxdmcp 1.1.5-1
@@ -964,8 +1004,16 @@ local/lib32-libxext 1.3.6-1
     X11 miscellaneous extensions library (32-bit)
 local/lib32-libxfixes 6.0.1-1
     X11 miscellaneous 'fixes' extension library (32-bit)
+local/lib32-libxi 1.8.1-1
+    X11 Input extension library (32-bit)
+local/lib32-libxkbcommon 1.7.0-2
+    Keymap handling library for toolkits and window systems (32-bit)
 local/lib32-libxml2 2.13.3-1
     XML C parser and toolkit (32-bit)
+local/lib32-libxrandr 1.5.4-1
+    X11 RandR extension library (32-bit)
+local/lib32-libxrender 0.9.11-1
+    X Rendering Extension client library (32-bit)
 local/lib32-libxshmfence 1.3.2-1
     a library that exposes a event API on top of Linux futexes (32-bit)
 local/lib32-libxss 1.2.4-1
@@ -990,8 +1038,16 @@ local/lib32-openssl 1:3.3.1-1
     The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
 local/lib32-p11-kit 0.25.5-1
     Loads and enumerates PKCS#11 modules (32-bit library)
+local/lib32-pam 1.6.1-1
+    Pluggable Authentication Modules
+local/lib32-pcre2 10.44-1
+    A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
 local/lib32-sqlite 3.46.0-1
     A C library that implements an SQL database engine (32-bit)
+local/lib32-systemd 256.4-1
+    system and service manager (32-bit)
+local/lib32-util-linux 2.40.2-1
+    Miscellaneous system utilities for Linux (32-bit)
 local/lib32-vulkan-icd-loader 1.3.279-1
     Vulkan Installable Client Driver (ICD) Loader (32-bit)
 local/lib32-wayland 1.23.0-1
@@ -1206,6 +1262,8 @@ local/libgpg-error 1.50-1.1
     Support library for libgcrypt
 local/libgsf 1.14.52-1
     Extensible I/O abstraction library for dealing with structured file formats
+local/libgtop 2.41.3-2.1
+    Library for collecting system monitoring data
 local/libgudev 238-1.1
     GObject bindings for libudev
 local/libguestfs 1.52.0-6
@@ -1250,6 +1308,8 @@ local/libjuice 1.5.1-1.1
     UDP Interactive Connectivity Establishment (ICE) library
 local/libjxl 0.10.3-1.1
     JPEG XL image format reference implementation
+local/libkcddb 24.05.2-1
+    KDE CDDB library
 local/libkdcraw 24.05.2-1
     A C++ interface used to decode RAW picture
 local/libkexiv2 24.05.2-1.1
@@ -1280,6 +1340,8 @@ local/libltc 1.3.2-2.1
     Linear/Logitudinal Time Code (LTC) Library
 local/libluv 1.48.0_2-1.1
     Bare libuv bindings for lua
+local/libmad 0.15.1b-10.1
+    A high-quality MPEG audio decoder
 local/libmanette 0.2.7-1.1
     Simple GObject game controller library
 local/libmaxminddb 1.10.0-1.1
@@ -1314,6 +1376,8 @@ local/libmspub 0.1.4-16.1
     Microsoft Publisher file format parser library (latest snapshot)
 local/libmtp 1.1.21-2.1
     Library implementation of the Media Transfer Protocol
+local/libmusicbrainz5 5.1.0-7.1
+    Library That Provides Access to the MusicBrainz Server
 local/libmwaw 0.3.22-3.1
     Import library for some old mac text documents.
 local/libmypaint 1.6.1-2.1
@@ -1592,6 +1656,10 @@ local/libxdp 1.4.2-1.1
     The libxdp package contains the libxdp library for managing XDP programs
 local/libxext 1.3.6-1.1
     X11 miscellaneous extensions library
+local/libxfce4ui 4.18.6-1.1
+    Widgets library for the Xfce desktop environment
+local/libxfce4util 4.18.2-1.1
+    Basic utility non-GUI functions for Xfce
 local/libxfixes 6.0.1-2.1
     X11 miscellaneous 'fixes' extension library
 local/libxfont2 2.0.7-1.1
@@ -1908,8 +1976,6 @@ local/osinfo-db 20240701-1
     Osinfo database of information about operating systems for virtualization provisioning tools
 local/p11-kit 0.25.5-1.1
     Loads and enumerates PKCS#11 modules
-local/p7zip 1:17.05-2.1
-    Command-line file archiver with high compression ratio
 local/pacman 6.1.0-7
     A library-based package manager with dependency support. CachyOS fork.
 local/pacman-contrib 1.10.6-1.1
@@ -2870,6 +2936,10 @@ local/which 2.21-6.1
     A utility to show the full path of commands
 local/wildmidi 0.4.6-1.1
     Simple software MIDI player which has a core softsynth library
+local/wine 9.14-1
+    A compatibility layer for running Windows programs
+local/winetricks 20240105-1
+    Script to install various redistributable runtime libraries in Wine.
 local/wireplumber 0.5.5-1.1
     Session / policy manager implementation for PipeWire
 local/wl-clipboard 1:2.2.1-2.1
@@ -2942,6 +3012,8 @@ local/xf86-video-amdgpu 23.0.0-2.1 (xorg-drivers)
     X.org amdgpu video driver
 local/xf86-video-ati 1:22.0.0-2.1 (xorg-drivers)
     X.org ati video driver
+local/xfconf 4.18.3-1.1 (xfce4)
+    D-Bus-based configuration storage system
 local/xfsprogs 6.9.0-1.1
     XFS filesystem utilities
 local/xkeyboard-config 2.42-1

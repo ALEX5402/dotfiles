@@ -3,6 +3,9 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
+[DetailsMode]
+IconSize=48
+
 [General]
 ShowSelectionToggle=false
 ShowStatusBar=false
@@ -10,6 +13,7 @@ Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324
 
 [IconsMode]
+IconSize=48
 MaximumTextLines=1
 PreviewSize=48
 
