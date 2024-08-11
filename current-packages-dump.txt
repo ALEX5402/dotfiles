@@ -653,7 +653,6 @@ libixion
 libjpeg-turbo
 libjuice
 libjxl
-libkcddb
 libkdcraw
 libkexiv2
 libkeybinder3
@@ -669,7 +668,6 @@ liblqr
 liblrdf
 libltc
 libluv
-libmad
 libmanette
 libmaxminddb
 libmbim
@@ -687,7 +685,6 @@ libmpeg2
 libmspack
 libmspub
 libmtp
-libmusicbrainz5
 libmwaw
 libmypaint
 libmysofa

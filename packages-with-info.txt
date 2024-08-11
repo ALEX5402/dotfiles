@@ -1308,8 +1308,6 @@ local/libjuice 1.5.1-1.1
     UDP Interactive Connectivity Establishment (ICE) library
 local/libjxl 0.10.3-1.1
     JPEG XL image format reference implementation
-local/libkcddb 24.05.2-1
-    KDE CDDB library
 local/libkdcraw 24.05.2-1
     A C++ interface used to decode RAW picture
 local/libkexiv2 24.05.2-1.1
@@ -1340,8 +1338,6 @@ local/libltc 1.3.2-2.1
     Linear/Logitudinal Time Code (LTC) Library
 local/libluv 1.48.0_2-1.1
     Bare libuv bindings for lua
-local/libmad 0.15.1b-10.1
-    A high-quality MPEG audio decoder
 local/libmanette 0.2.7-1.1
     Simple GObject game controller library
 local/libmaxminddb 1.10.0-1.1
@@ -1376,8 +1372,6 @@ local/libmspub 0.1.4-16.1
     Microsoft Publisher file format parser library (latest snapshot)
 local/libmtp 1.1.21-2.1
     Library implementation of the Media Transfer Protocol
-local/libmusicbrainz5 5.1.0-7.1
-    Library That Provides Access to the MusicBrainz Server
 local/libmwaw 0.3.22-3.1
     Import library for some old mac text documents.
 local/libmypaint 1.6.1-2.1
