@@ -3,6 +3,7 @@
 a52dec
 aalib
 aardvark-dns
+abaddon-git
 abseil-cpp
 accounts-qml-module
 accountsservice
@@ -49,7 +50,6 @@ avahi
 ayatana-ido
 b43-fwcutter
 babl
-balena-etcher
 baloo
 baloo-widgets
 base
@@ -256,6 +256,7 @@ gmp
 gnome-keyring
 gnupg
 gnutls
+go
 gobject-introspection
 gobject-introspection-runtime
 gperftools
@@ -1398,6 +1399,7 @@ tree-sitter-c
 tree-sitter-lua
 tree-sitter-markdown
 tree-sitter-query
+tree-sitter-vim
 tree-sitter-vimdoc
 tslib
 ttf-bitstream-vera
