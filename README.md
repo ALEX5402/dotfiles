@@ -10,45 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Aug 11 07:28:19 PM IST 2024
+## Changelog Mon Aug 12 07:00:11 AM IST 2024
 ```
- Configs/cava/Wall-Dcol                      |  16 ++---
- Configs/cava/config                         |  16 ++---
- Configs/dunst/dunstrc                       |  12 ++--
- Configs/dunst/icons/hyprdots.svg            |  12 ++--
- Configs/dunst/icons/vol/muted-mic.svg       |   2 +-
- Configs/dunst/icons/vol/muted-speaker.svg   |   2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg     |   2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg |   2 +-
- Configs/dunst/icons/vol/vol-0.svg           |  10 +--
- Configs/dunst/icons/vol/vol-10.svg          |  10 +--
- Configs/dunst/icons/vol/vol-100.svg         |  10 +--
- Configs/dunst/icons/vol/vol-15.svg          |  10 +--
- Configs/dunst/icons/vol/vol-20.svg          |  10 +--
- Configs/dunst/icons/vol/vol-25.svg          |  10 +--
- Configs/dunst/icons/vol/vol-30.svg          |  10 +--
- Configs/dunst/icons/vol/vol-35.svg          |  10 +--
- Configs/dunst/icons/vol/vol-40.svg          |  10 +--
- Configs/dunst/icons/vol/vol-45.svg          |  10 +--
- Configs/dunst/icons/vol/vol-5.svg           |  10 +--
- Configs/dunst/icons/vol/vol-50.svg          |  10 +--
- Configs/dunst/icons/vol/vol-55.svg          |  10 +--
- Configs/dunst/icons/vol/vol-60.svg          |  10 +--
- Configs/dunst/icons/vol/vol-65.svg          |  10 +--
- Configs/dunst/icons/vol/vol-70.svg          |  10 +--
- Configs/dunst/icons/vol/vol-75.svg          |  10 +--
- Configs/dunst/icons/vol/vol-80.svg          |  10 +--
- Configs/dunst/icons/vol/vol-85.svg          |  10 +--
- Configs/dunst/icons/vol/vol-90.svg          |  10 +--
- Configs/dunst/icons/vol/vol-95.svg          |  10 +--
- Configs/dunst/wallbash.conf                 |  12 ++--
- Configs/hyde/themes/Sweet-Dark/wall.set     |   2 +-
- Configs/spicetify/Themes/Sleek/color.ini    |  40 +++++------
- README.md                                   |  43 +----------
- Theme-Confs/qt5ct/colors.conf               |   6 +-
- Theme-Confs/qt6ct/colors.conf               |   6 +-
- current-packages-dump.txt                   |   4 +-
- packages-with-info.txt                      | 108 ++++++++++++++--------------
- 37 files changed, 230 insertions(+), 265 deletions(-)
+ Configs/gtk-3.0/settings.ini       |  2 +-
+ Configs/xsettingsd/xsettingsd.conf |  4 ++--
+ README.md                          | 42 +-------------------------------------
+ 3 files changed, 4 insertions(+), 44 deletions(-)
 ```
  
