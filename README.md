@@ -10,11 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug 12 07:00:11 AM IST 2024
+## Changelog Mon Aug 12 04:16:24 PM IST 2024
 ```
- Configs/gtk-3.0/settings.ini       |  2 +-
- Configs/xsettingsd/xsettingsd.conf |  4 ++--
- README.md                          | 42 +-------------------------------------
- 3 files changed, 4 insertions(+), 44 deletions(-)
+ Configs/gtk-3.0/settings.ini       | 2 +-
+ Configs/xsettingsd/xsettingsd.conf | 2 +-
+ Local/share/dolphin/dolphinstaterc | 2 +-
+ README.md                          | 8 +-------
+ 4 files changed, 4 insertions(+), 10 deletions(-)
 ```
  
