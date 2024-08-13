@@ -10,19 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug 12 09:49:02 PM IST 2024
+## Changelog Tue Aug 13 07:29:17 AM IST 2024
 ```
- Configs/Kvantum/wallbash/wallbash.kvconfig |  110 +-
- Configs/Kvantum/wallbash/wallbash.svg      | 9163 ++++++----------------------
- Configs/gtk-3.0/settings.ini               |    4 +-
- Configs/hyde/hyde.conf                     |    2 +-
- Configs/hypr/themes/colors.conf            |   14 +
- Configs/kitty/theme.conf                   |   89 +-
- Configs/rofi/theme.rasi                    |   14 +-
- Configs/waybar/theme.css                   |   17 +-
- Configs/xsettingsd/xsettingsd.conf         |    4 +-
- Local/share/dolphin/dolphinstaterc         |    2 +-
- README.md                                  |    9 +-
- 11 files changed, 2053 insertions(+), 7375 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  2 +-
+ README.md                          | 16 +---------------
+ current-packages-dump.txt          |  1 +
+ packages-with-info.txt             |  2 ++
+ 4 files changed, 5 insertions(+), 16 deletions(-)
 ```
  

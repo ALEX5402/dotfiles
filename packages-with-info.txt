@@ -2598,6 +2598,8 @@ local/rubberband 3.3.0-2.1
     Time-stretching and pitch-shifting audio library and utility
 local/runc 1.1.13-1.1
     CLI tool for managing OCI compliant containers
+local/rustdesk 1.2.7-2
+    Yet another remote desktop software, written in Rust. Works out of the box, no configuration required. Great alternative to TeamViewer and AnyDesk!
 local/rustup 1.27.1-1.1
     The Rust toolchain installer
 local/s-nail 14.9.24-2.1
