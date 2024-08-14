@@ -10,11 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 03:54:26 PM IST 2024
+## Changelog Wed Aug 14 05:28:41 PM IST 2024
 ```
- Extra-files/kdeglobals             | 3 +++
- Local/share/dolphin/dolphinstaterc | 8 ++++----
+ Local/share/dolphin/dolphinstaterc | 3 ++-
  README.md                          | 8 +-------
- 3 files changed, 8 insertions(+), 11 deletions(-)
+ 2 files changed, 3 insertions(+), 8 deletions(-)
 ```
  
