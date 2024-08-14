@@ -200,8 +200,8 @@ alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git package
 alias grep 'ugrep --color=auto'
 alias egrep 'ugrep -E --color=auto'
 alias fgrep 'ugrep -F --color=auto'
-#alias grub-update 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias grub-update 'sudo grub-mkconfig -o /etc/default/grub'
+alias grub-update 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
+#alias grub-update 'sudo grub-mkconfig -o /etc/default/grub'
 
 alias hw 'hwinfo --short'                          # Hardware Info
 alias ip 'ip -color'
