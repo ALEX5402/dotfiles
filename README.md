@@ -10,11 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 01:56:50 PM IST 2024
+## Changelog Wed Aug 14 03:54:26 PM IST 2024
 ```
- Configs/fish/config.fish           | 6 ++----
- Local/share/dolphin/dolphinstaterc | 1 -
- README.md                          | 7 +------
- 3 files changed, 3 insertions(+), 11 deletions(-)
+ Extra-files/kdeglobals             | 3 +++
+ Local/share/dolphin/dolphinstaterc | 8 ++++----
+ README.md                          | 8 +-------
+ 3 files changed, 8 insertions(+), 11 deletions(-)
 ```
  
