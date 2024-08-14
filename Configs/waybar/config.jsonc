@@ -189,7 +189,7 @@
 		"format": "{icon}",
 		"rotate": 0,
 		"icon-size": 18,
-		"icon-theme": "BeautyLine",
+		"icon-theme": "BeautySolar",
         "spacing": 0,
 		"tooltip-format": "{title}",
 		"on-click": "activate",

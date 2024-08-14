@@ -98,6 +98,8 @@ local/avahi 1:0.8+r194+g3f79789-2.1
     Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
 local/ayatana-ido 0.10.3-1.1
     Ayatana Indicator Display Objects
+local/ayugram-desktop 5.3.2-1
+    Desktop Telegram client with good customization and Ghost mode.
 local/b43-fwcutter 019-5.1
     firmware extractor for the b43 kernel module
 local/babl 0.1.108-1.1
@@ -514,8 +516,6 @@ local/gnupg 2.4.5-4.1
     Complete and free implementation of the OpenPGP standard
 local/gnutls 3.8.6-1.1
     A library which provides a secure layer over a reliable transport layer
-local/go 2:1.22.6-1.1
-    Core compiler tools for the Go programming language
 local/gobject-introspection 1.80.1-3.2
     Introspection system for GObject-based libraries
 local/gobject-introspection-runtime 1.80.1-3.2
@@ -1226,8 +1226,6 @@ local/libewf 20140608-7.1
     A library for support of the Expert Witness Compression Format (EWF)
 local/libexif 0.6.24-3.1
     Library to parse an EXIF file and read the data from those tags
-local/libextest-git r31.af17090-3
-    X11 XTEST reimplementation primarily for Steam Controller on Wayland
 local/libexttextcat 3.4.7-1.1
     N-Gram-Based Text Categorization library primarily intended for language guessing
 local/libfdk-aac 2.0.3-1.1
@@ -2768,8 +2766,6 @@ local/tcl 8.6.14-4.1
     Powerful, easy-to-learn dynamic programming language
 local/tdb 1.4.12-1.1
     Trivial Database similar to GDBM but allows simultaneous commits
-local/telegram-desktop 5.3.2-2.1
-    Official Telegram Desktop client
 local/tevent 1:0.16.1-3.1
     Event system based on the talloc memory management library
 local/texinfo 7.1-2.1

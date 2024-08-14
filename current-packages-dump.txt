@@ -48,6 +48,7 @@ autoconf
 automake
 avahi
 ayatana-ido
+ayugram-desktop
 b43-fwcutter
 babl
 baloo
@@ -256,7 +257,6 @@ gmp
 gnome-keyring
 gnupg
 gnutls
-go
 gobject-introspection
 gobject-introspection-runtime
 gperftools
@@ -612,7 +612,6 @@ libevdev
 libevent
 libewf
 libexif
-libextest-git
 libexttextcat
 libfdk-aac
 libffi
@@ -1383,7 +1382,6 @@ talloc
 tar
 tcl
 tdb
-telegram-desktop
 tevent
 texinfo
 thin-provisioning-tools
