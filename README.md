@@ -10,13 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 01:50:36 PM IST 2024
+## Changelog Wed Aug 14 01:52:42 PM IST 2024
 ```
- Configs/fish/config.fish           | 4 +++-
- Configs/hypr/autostart.conf        | 4 +---
- Local/share/bin/autostart.sh       | 2 +-
- Local/share/dolphin/dolphinstaterc | 2 +-
- README.md                          | 8 +-------
- 5 files changed, 7 insertions(+), 13 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  1 +
+ README.md                          | 10 +---------
+ 2 files changed, 2 insertions(+), 9 deletions(-)
 ```
  
