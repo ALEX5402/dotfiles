@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Directory containing the .desktop files
 AUTOSTART_DIR="$HOME/.config/autostart/"
