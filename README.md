@@ -4,20 +4,16 @@
 
   ![image](https://github.com/ALEX5402/dotfiles/assets/76860596/2fbe6020-4d76-4cf7-b052-58ff43cda405)
   ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
-  ![image](https://github.com/user-attachments/assets/58bdee5f-34e9-463c-a7cc-23fa15c43012)
-
 
 ## Install ( I use cachy os Repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 05:56:13 PM IST 2024
+## Changelog Wed Aug 14 10:00:27 PM IST 2024
 ```
- Local/share/dolphin/dolphinstaterc |  3 +--
- README.md                          |  7 +------
- current-packages-dump.txt          |  6 ------
- packages-with-info.txt             | 12 ------------
- 4 files changed, 2 insertions(+), 26 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  2 +-
+ README.md                          | 11 +----------
+ 2 files changed, 2 insertions(+), 11 deletions(-)
 ```
  
