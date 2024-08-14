@@ -10,10 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 05:28:41 PM IST 2024
+## Changelog Wed Aug 14 05:56:13 PM IST 2024
 ```
- Local/share/dolphin/dolphinstaterc | 3 ++-
- README.md                          | 8 +-------
- 2 files changed, 3 insertions(+), 8 deletions(-)
+ Local/share/dolphin/dolphinstaterc |  3 +--
+ README.md                          |  7 +------
+ current-packages-dump.txt          |  6 ------
+ packages-with-info.txt             | 12 ------------
+ 4 files changed, 2 insertions(+), 26 deletions(-)
 ```
  

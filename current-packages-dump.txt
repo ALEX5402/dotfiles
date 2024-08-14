@@ -47,7 +47,6 @@ augeas
 autoconf
 automake
 avahi
-ayatana-ido
 ayugram-desktop
 b43-fwcutter
 babl
@@ -545,8 +544,6 @@ libatomic_ops
 libavc1394
 libavif
 libavtp
-libayatana-appindicator
-libayatana-indicator
 libb2
 libblockdev
 libblockdev-crypto
@@ -580,7 +577,6 @@ libcmis
 libcolord
 libconfig
 libcups
-libcurl-gnutls
 libdaemon
 libdatachannel
 libdatrie
@@ -1347,8 +1343,6 @@ spice-gtk
 spice-protocol
 spicetify-cli
 spirv-tools
-spotify
-spotify-adblock-git
 spotube-bin
 sqlite
 squashfs-tools
