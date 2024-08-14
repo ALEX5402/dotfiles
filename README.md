@@ -10,10 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Wed Aug 14 11:20:44 PM IST 2024
+## Changelog Thu Aug 15 01:07:46 AM IST 2024
 ```
- Configs/fish/config.fish | 4 ++--
- README.md                | 7 +------
- 2 files changed, 3 insertions(+), 8 deletions(-)
+ Icon-Packs/beautyline.tar.gz | Bin 16122269 -> 0 bytes
+ README.md                    |   7 +------
+ packages-with-info.txt       |   2 +-
+ 3 files changed, 2 insertions(+), 7 deletions(-)
 ```
  

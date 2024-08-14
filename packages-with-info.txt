@@ -2688,7 +2688,7 @@ local/spicetify-cli 2.37.0-1
     Command-line tool to customize Spotify client
 local/spirv-tools 2024.2-1.1 (vulkan-devel)
     API and commands for processing SPIR-V modules
-local/spotube-bin 3.7.1-2
+local/spotube-bin 3.8.0-1
     Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!
 local/sqlite 3.46.0-2
     A C library that implements an SQL database engine
