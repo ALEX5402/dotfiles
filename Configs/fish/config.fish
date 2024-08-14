@@ -5,8 +5,6 @@ set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -x SHELL /usr/bin/fish
 
-## set my github token
-source ~/.config/fish/githubtoken.fish
 
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
@@ -129,8 +127,8 @@ function alexclone
         return 1
     end
 
-    set repo_url "https://alex5402:$gtoken@github.com/alex5402/$argv[1]"
-    git clone $repo_url
+    set repo_url "alex5402/$argv[1]"
+    gh repo clone $repo_url
 end
 
 #to play youtube with ytfzf
