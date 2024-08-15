@@ -10,11 +10,10 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Thu Aug 15 01:07:46 AM IST 2024
+## Changelog Thu Aug 15 07:46:04 AM IST 2024
 ```
- Icon-Packs/beautyline.tar.gz | Bin 16122269 -> 0 bytes
- README.md                    |   7 +------
- packages-with-info.txt       |   2 +-
- 3 files changed, 2 insertions(+), 7 deletions(-)
+ Local/share/dolphin/dolphinstaterc | 2 +-
+ README.md                          | 8 +-------
+ 2 files changed, 2 insertions(+), 8 deletions(-)
 ```
  
