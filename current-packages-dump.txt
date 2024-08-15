@@ -213,6 +213,7 @@ flex
 fluidsynth
 fmt
 fontconfig
+freedownloadmanager
 freeglut
 freetype2
 frei0r-plugins
@@ -253,6 +254,8 @@ glslang
 glu
 glusterfs
 gmp
+gnome-desktop
+gnome-desktop-common
 gnome-keyring
 gnupg
 gnutls
@@ -770,6 +773,8 @@ libtiff
 libtirpc
 libtommath
 libtool
+libtorrent
+libtorrent-rasterbar
 libtraceevent
 libtracefs
 libunibreak
@@ -1069,6 +1074,7 @@ python-annotated-types
 python-anyio
 python-asgiref
 python-autocommand
+python-beautifulsoup4
 python-boltons
 python-boto3
 python-botocore
@@ -1090,6 +1096,7 @@ python-distro
 python-docopt
 python-docutils
 python-dotenv
+python-evdev
 python-fastapi
 python-fastjsonschema
 python-future
@@ -1111,6 +1118,7 @@ python-mako
 python-manimpango
 python-markdown
 python-markupsafe
+python-moddb
 python-more-itertools
 python-msgpack
 python-ninja
@@ -1147,6 +1155,7 @@ python-setuptools
 python-shtab
 python-six
 python-sniffio
+python-soupsieve
 python-starlette
 python-steamgriddb
 python-termcolor
@@ -1162,6 +1171,7 @@ python-websockets
 python-wheel
 python-yaml
 python-zstandard
+qbittorrent
 qca-qt5
 qca-qt6
 qemu-audio-alsa
@@ -1343,7 +1353,6 @@ spice-gtk
 spice-protocol
 spicetify-cli
 spirv-tools
-spotube-bin
 sqlite
 squashfs-tools
 squashfuse
