@@ -3,6 +3,7 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-dracula
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Mocha'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+
 env = HYPRCURSOR_THEME,Bibata-Modern-Ice
 env = HYPRCURSOR_SIZE,24
 

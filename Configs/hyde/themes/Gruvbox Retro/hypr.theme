@@ -4,9 +4,9 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Gruvbox-Plus-Dark'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox-Retro'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
-exec = gsettings set org.gnome.desktop.interface cursor-size 24
-exec = hyprctl setcursor Bibata-Modern-Classic 24
+#exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
+#exec = gsettings set org.gnome.desktop.interface cursor-size 24
+#exec = hyprctl setcursor Bibata-Modern-Classic 24
 
 env = HYPRCURSOR_THEME,Bibata-Modern-Classic
 env = HYPRCURSOR_SIZE,24

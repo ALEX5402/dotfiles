@@ -3,6 +3,9 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-pink'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Rose-Pine'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+env = HYPRCURSOR_THEME,Bibata-Modern-Ice
+env = HYPRCURSOR_SIZE,24
+
 general {
     gaps_in = 3
     gaps_out = 4
