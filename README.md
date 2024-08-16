@@ -10,21 +10,13 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Fri Aug 16 03:02:28 PM IST 2024
+## Changelog Fri Aug 16 05:56:13 PM IST 2024
 ```
- Configs/hyde/themes/Catppuccin Mocha/hypr.theme   |   1 +
- Configs/hyde/themes/Gruvbox Retro/hypr.theme      |   6 +-
- "Configs/hyde/themes/Ros\303\251 Pine/hypr.theme" |   3 +
- Configs/hyde/themes/Sweet-Dark/hypr.theme         |   8 +-
- Configs/hyde/themes/Tokyo Night/hypr.theme        |   6 +-
- Configs/hypr/themes/theme.conf                    |   8 +-
- Configs/xsettingsd/xsettingsd.conf                |   2 +-
- Icon-Packs/Bibata-Modern-Classic.tar.gz           | Bin 4930182 -> 4929486 bytes
- Icon-Packs/default.tar.gz                         | Bin 276 -> 275 bytes
- Local/share/dolphin/dolphinstaterc                |  20 --
- README.md                                         |   7 +-
- current-packages-dump.txt                         |  69 +++-
- packages-with-info.txt                            | 394 ++++++++++++++--------
- 13 files changed, 349 insertions(+), 175 deletions(-)
+ Configs/hypr/autostart.conf                        |  2 +-
+ .../dolphin/view_properties/global/.directory      |  3 +-
+ README.md                                          | 18 +----
+ current-packages-dump.txt                          | 40 +----------
+ packages-with-info.txt                             | 80 ++--------------------
+ 5 files changed, 9 insertions(+), 134 deletions(-)
 ```
  

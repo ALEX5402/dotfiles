@@ -116,8 +116,6 @@ local/bash-completion 2.14.0-2
     Programmable completion for the bash shell
 local/bat 0.24.0-2.1
     Cat clone with syntax highlighting and git integration
-local/bc 1.07.1-5.1
-    An arbitrary precision calculator language
 local/beautyline 1:20240421-2
     Outlined icons designed to have unified look and comprehensive coverage with the Candy icon pack (best suited to use with Sweet theme)
 local/bind 9.20.0-1.1
@@ -200,8 +198,6 @@ local/cava 0.10.2-2.1
     Console-based Audio Visualizer for Alsa
 local/cblas 3.12.0-5.1
     C interface to BLAS
-local/ccache 4.10.2-1.1
-    Compiler cache that speeds up recompilation by caching previous compilations
 local/cdparanoia 10.2-9.1
     Compact Disc Digital Audio extraction tool
 local/cfitsio 1:4.4.1-1.1
@@ -224,8 +220,6 @@ local/clang 18.1.8-2.1
     C language family frontend for LLVM
 local/clapper 0.6.1-2.1
     Modern and user-friendly media player.
-local/cli11 2.4.1-1
-    Command line parser for C++11
 local/cliphist 1:0.5.0-1.1
     wayland clipboard manager
 local/cloudflare-warp-bin 2024.4.133-2
@@ -256,8 +250,6 @@ local/cryptsetup 2.7.4-1.1
     Userspace setup tool for transparent encryption of block devices using dm-crypt
 local/curl 8.9.1-2.1
     command line tool and library for transferring data with URLs
-local/cython 3.0.11-1.1
-    C-Extensions for Python
 local/dav1d 1.4.3-1.1
     AV1 cross-platform decoder focused on speed and correctness
 local/db5.3 5.3.28-5.1
@@ -306,8 +298,6 @@ local/docker 1:27.1.1-1.1
     Pack, ship and run any application as a lightweight container
 local/docker-compose 2.29.1-1.1
     Fast, isolated development environments using Docker
-local/doctest 2.4.9-2
-    The lightest feature rich C++ single header testing framework
 local/dolphin 24.05.2-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-4.1
@@ -366,18 +356,10 @@ local/endeavouros-keyring 20231222-1
     EndeavourOS keyring
 local/endeavouros-mirrorlist 24.7-1
     EndeavourOS mirrorlist
-local/endeavouros-theming 24.06.1.1-1
-    Default EndeavourOS background images and icons
-local/eos-bash-shared 24.16.21-1
-    Bash code shared by certain EndeavourOS apps.
 local/eos-dracut 1.4-1
     Dracut scripts and hooks for EndeavourOS
 local/eos-hooks 1.16-1
     EndeavourOS pacman hooks
-local/eos-rankmirrors 24.7-1
-    EndeavourOS mirror ranking tool
-local/eos-translations 24.7-1
-    EndeavourOS translation support
 local/ethtool 1:6.9-1.1
     Utility for controlling network drivers and hardware
 local/exfatprogs 1.2.5-1.1
@@ -386,8 +368,6 @@ local/exiv2 0.28.3-1.1
     Exif, Iptc and XMP metadata manipulation library and tools
 local/exo 4.18.0-2.1 (xfce4)
     Application library for the Xfce desktop environment
-local/expac 10-10.1
-    alpm data (pacman database) extraction utility
 local/expat 2.6.2-1.1
     An XML parser library
 local/eza 0.19.0-1.1
@@ -524,10 +504,6 @@ local/glusterfs 1:11.1-2.1
     a cluster file-system capable of scaling to several peta-bytes.
 local/gmp 6.3.0-2.1
     A free library for arbitrary precision arithmetic
-local/gnome-desktop 1:44.0-1.1
-    Library with common API for various GNOME modules (GTK3)
-local/gnome-desktop-common 1:44.0-1.1
-    Library with common API for various GNOME modules (common files)
 local/gnome-keyring 1:46.2-1.1 (gnome)
     Stores passwords and encryption keys
 local/gnupg 2.4.5-4.1
@@ -576,8 +552,6 @@ local/gsfonts 20200910-4
     (URW)++ base 35 font set
 local/gsm 1.0.22-2.1
     Shared libraries for GSM 06.10 lossy speech compression
-local/gspell 1.12.2-3.1
-    Spell-checking library for GTK applications
 local/gssdp 1.6.3-1.1
     GObject-based API for handling resource discovery and announcement over SSDP
 local/gssproxy 0.9.2-1.1
@@ -622,8 +596,6 @@ local/gtkmm-4.0 4.14.0-1
     C++ bindings for GTK 4
 local/gtkmm3 3.24.9-1.1
     C++ bindings for GTK+ 3
-local/gtksourceview3 1:3.24.11+r28+g73e57b57-2.1
-    Text widget with syntax highlighting for GNOME
 local/gtksourceview4 4.8.4-1.1
     A text widget adding syntax highlighting and more to GNOME
 local/gtksourceview5 5.12.1-1.1
@@ -660,8 +632,6 @@ local/hidapi 0.14.0-3.1
     Simple library for communicating with USB and Bluetooth HID devices
 local/highway 1.2.0-1.1
     A C++ library that provides portable SIMD/vector intrinsics
-local/hiredis 1.2.0-2
-    Minimalistic C client library for Redis
 local/hivex 1.3.23-8.1
     System for extracting the contents of Windows Registry.
 local/htop 3.3.0-3.1
@@ -684,10 +654,14 @@ local/hyphen 2.8.8-6.1
     library for high quality hyphenation and justification
 local/hyprcursor-git 0.1.9.r11.g912d5602-1
     The hyprland cursor format, library and utilities
+local/hypridle 0.1.2-1.1
+    hyprland’s idle daemon
 local/hyprland-git 0.42.0.r19.197f8807-1
     Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 local/hyprlang-git 0.5.2.r8.gadbefbf4-1
     The official implementation library for the hypr config language
+local/hyprlock 0.4.1-1.1
+    hyprland’s GPU-accelerated screen locking utility
 local/hyprpicker 0.3.0-1
     A wlroots-compatible Wayland color picker that does not suck.
 local/hyprutils-git 0.2.1.r0.g5dcbbc1e-1
@@ -1638,8 +1612,6 @@ local/libwnck3 43.0-3.1
     Library to manage X windows and workspaces (via pagers, tasklists, etc.)
 local/libwpd 0.10.3-5.1
     Library for importing WordPerfect (tm) documents
-local/libwpe 1.16.0-1.1
-    General-purpose library for WPE WebKit
 local/libwps 0.4.14-2.1
     a Microsoft Works file word processor format import filter library
 local/libx11 1.8.10-1.1
@@ -1908,8 +1880,6 @@ local/nilfs-utils 2.2.11-1.1
     A log-structured file system supporting continuous snapshotting (userspace utils)
 local/ninja 1.12.1-1
     Small build system with a focus on speed
-local/nlohmann-json 3.11.3-1
-    JSON for Modern C++
 local/nm-connection-editor 1.36.0-1
     NetworkManager GUI connection editor and widgets
 local/node-gyp 10.2.0-1
@@ -2160,8 +2130,6 @@ local/purpose 6.5.0-1.1 (kf6)
     Framework for providing abstractions to get the developers purposes fulfilled
 local/pv 1.8.12-1.1
     A terminal-based tool for monitoring the progress of data through a pipeline
-local/pybind11 2.13.4-1
-    A lightweight header-only library that exposes C++ types in Python and vice versa
 local/pyside6 6.7.2-3
     Enables the use of Qt6 APIs in Python applications
 local/python 3.12.5-2
@@ -2186,8 +2154,6 @@ local/python-boto3 1.34.131-1
     The AWS SDK for Python
 local/python-botocore 1.34.131-1
     A low-level interface to a growing number of Amazon Web Services
-local/python-bottle 0.12.25-5
-    A fast and simple micro-framework for small web-applications
 local/python-build 1.2.1-3
     A simple, correct Python build frontend
 local/python-cachecontrol 1:0.14.0-3
@@ -2218,8 +2184,6 @@ local/python-conda-package-handling 2.3.0-3
     Create and extract conda package of various formats
 local/python-conda-package-streaming 0.10.0-4
     An efficient library to read from new and old format .conda and .tar.bz2 conda packages
-local/python-coverage 7.6.1-1.1
-    A tool for measuring code coverage of Python programs
 local/python-crashtest 0.4.1-3
     supposedly makes exceptions handling and inspection easier
 local/python-cryptography 42.0.7-1
@@ -2234,8 +2198,6 @@ local/python-dirty-equals 0.7.1.post0-4
     Doing dirty (but extremely useful) things with equals
 local/python-distlib 0.3.8-2
     Low-level functions that relate to packaging and distribution of Python software
-local/python-distro 1.9.0-2
-    Linux OS platform information API
 local/python-docopt 0.6.2-13
     Pythonic argument parser, that will make you smile
 local/python-docutils 1:0.21.2-1
@@ -2244,18 +2206,12 @@ local/python-dotenv 1.0.1-2
     Get and set values in your .env file in local and production servers
 local/python-dulwich 0.22.1-1.1
     Pure-Python implementation of the Git file formats and protocols
-local/python-editables 0.5-3
-    Python library for creating editable wheels
-local/python-evdev 1.7.1-1.1
-    Python bindings for the Linux input subsystem
 local/python-fastapi 0.112.0-1
     FastAPI framework, high performance, easy to learn, fast to code, ready for production
 local/python-fastjsonschema 2.20.0-1
     Fast JSON schema validator for Python
 local/python-filelock 3.13.3-2
     A platform independent file lock
-local/python-flit-core 3.9.0-4 (python-build-backend)
-    A PEP 517 build backend for packages using Flit
 local/python-future 1.0.0-1
     Clean single-source support for Python 3 and 2
 local/python-gobject 3.48.2-2
@@ -2264,10 +2220,6 @@ local/python-greenlet 3.0.3-2.1
     Lightweight in-process concurrent programming
 local/python-h11 0.14.0-3
     A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-local/python-hatch-vcs 0.4.0-3
-    Hatch plugin for versioning with your preferred VCS
-local/python-hatchling 1.24.2-1 (python-build-backend)
-    Extensible, standards compliant build backend used by Hatch
 local/python-html5lib 1.1-14
     A Python HTML parser/tokenizer based on the WHATWG HTML5 spec
 local/python-httptools 0.6.1-2.1
@@ -2316,22 +2268,16 @@ local/python-markdown 3.6-3
     Python implementation of John Gruber's Markdown
 local/python-markupsafe 2.1.5-2.1
     Implements a XML/HTML/XHTML Markup safe string for Python
-local/python-moddb 0.11.0-1
-    A Python scraper to access ModDB mods, games and more as objects
 local/python-more-itertools 10.3.0-1
     More routines for operating on iterables, beyond itertools
 local/python-msgpack 1.0.5-2.1
     MessagePack serializer implementation for Python
-local/python-ninja 1.11.1.1-1
-    The infrastructure to build Ninja Python wheels
 local/python-ordered-set 4.1.0-5
     A MutableSet that remembers its order, so that every entry has an index
 local/python-orjson 3.10.7-1.1
     Fast, correct Python JSON library supporting dataclasses and datetimes
 local/python-packaging 24.1-1
     Core utilities for Python packages
-local/python-pathspec 0.12.1-2
-    Utility library for gitignore style pattern matching of file paths
 local/python-pathvalidate 3.2.0-2
     Sanitize/validate strings in filenames/file-paths/etc
 local/python-pefile 2023.2.7-2
@@ -2386,10 +2332,6 @@ local/python-pyqt5-sip 12.15.0-1.1
     The sip module support for PyQt5
 local/python-pytest 1:8.3.2-1
     Simple powerful testing with Python
-local/python-pytest-cov 5.0.0-1
-    py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing
-local/python-pytest-mock 3.14.0-1
-    Thin-wrapper around the mock package for easier use with py.test
 local/python-pytz 2024.1-2
     Cross platform time zone library for Python
 local/python-rapidfuzz 3.6.2-3.1
@@ -2408,16 +2350,12 @@ local/python-ruamel.yaml.clib 0.2.8-2.1
     C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 local/python-s3transfer 0.10.2-1
     Amazon S3 Transfer Manager for Python
-local/python-scikit-build 0.17.6-3
-    Improved build system generator for CPython C, C++, Cython and Fortran extensions
 local/python-secretstorage 3.3.3-5
     Securely store passwords and other private data using the SecretService DBus API
 local/python-setproctitle 1.3.3-2.1
     Allows a python process to change its process title
 local/python-setuptools 1:69.5.1-1 (python-build-backend)
     Easily download, build, install, upgrade, and uninstall Python packages
-local/python-setuptools-scm 8.1.0-1
-    Handles managing your python package versions in scm metadata
 local/python-shellingham 1.5.4-2
     Detect what shell the current Python executable is running in
 local/python-shtab 1.7.1-1
@@ -2458,8 +2396,6 @@ local/python-webencodings 0.5.1-11
     This is a Python implementation of the WHATWG Encoding standard.
 local/python-websockets 12.0-2.1
     Python implementation of the WebSocket Protocol (RFC 6455)
-local/python-wheel 0.44.0-1
-    A built-package format for Python
 local/python-yaml 6.0.2-1.1
     Python bindings for YAML, using fast libYAML library
 local/python-zstandard 0.22.0-2.1
@@ -2868,8 +2804,6 @@ local/svt-hevc 1.5.1-3.1
     Scalable Video Technology HEVC encoder
 local/swappy 1.5.1-2.1
     A Wayland native snapshot editing tool
-local/swaylock-effects-git r470.496059a-1
-    A fancier screen locker for Wayland.
 local/swww 0.9.5-2.1
     A Solution to your Wayland Wallpaper Woes
 local/syndication 6.5.0-1.1 (kf6)
@@ -2906,8 +2840,6 @@ local/thin-provisioning-tools 1.1.0-1.1
     Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 local/timg 1.6.0-1
     Terminal Image and Video Viewer
-local/tl-expected 1.1.0-2
-    C++11/14/17 std::expected with functional-style extensions
 local/tldr 3.3.0-1
     Command line client for tldr, a collection of simplified man pages.
 local/tmate 2.4.0-4.1
@@ -3086,8 +3018,6 @@ local/wolfssl 5.7.2-1.1
     Lightweight, portable, C-language-based SSL/TLS library
 local/wpa_supplicant 2:2.11-2.1
     A utility providing key negotiation for WPA wireless networks
-local/wpebackend-fdo 1.14.2-2.1
-    Freedesktop.org backend for WPE WebKit
 local/wxwidgets-common 3.2.5-1
     Common libraries and headers for wxwidgets
 local/wxwidgets-gtk3 3.2.5-1
@@ -3200,8 +3130,6 @@ local/xxhash 0.8.2-1
     Extremely fast non-cryptographic hash algorithm
 local/xz 5.6.2-2
     Library and command line tools for XZ and LZMA compressed files
-local/yad 14.1-1.1
-    A fork of zenity - display graphical dialogs from shell scripts or command line
 local/yajl 2.1.0-6.1
     Yet Another JSON Library
 local/yaml-cpp 0.8.0-2.1
