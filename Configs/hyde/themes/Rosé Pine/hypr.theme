@@ -6,6 +6,10 @@ exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 env = HYPRCURSOR_THEME,Bibata-Modern-Ice
 env = HYPRCURSOR_SIZE,24
 
+
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Ice'
+exec = gsettings set org.gnome.desktop.interface cursor-size 24
+
 general {
     gaps_in = 3
     gaps_out = 4

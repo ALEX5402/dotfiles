@@ -1,6 +1,7 @@
 [Dolphin]
 PreviewsShown=false
-Timestamp=2024,8,10,15,47,44.614
+SortRole=modificationtime
+Timestamp=2024,8,16,17,50,30.276
 Version=4
 VisibleRoles=Icons_text,Icons_size,Icons_width,Icons_height,Icons_album
 

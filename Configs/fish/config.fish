@@ -27,6 +27,10 @@ if test -f ~/.fish_profile
   source ~/.fish_profile
 end
 
+set -gx EDITOR (which nvim)
+set -gx VISUAL $EDITOR
+set -gx SUDO_EDITOR $EDITOR
+
 #for btop
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -179,6 +183,8 @@ alias remove 'paru -R'
 alias update 'sudo pacman -Syu'
 alias studio 'QT_QPA_PLATFORM=xcb android-studio'
 alias vim 'nvim'
+abbr vi nvim
+alias vimpager 'nvim - -c "lua require(\'util\').colorize()"'
 
 alias print-fingerprint-jar 'keytool -printcert -jarfile'
 alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
@@ -218,6 +224,7 @@ alias pull 'git pull'
 alias push 'git push'
 alias commit 'git commit'
 alias clone 'git clone'
+abbr se "sudo systemctl enable --now"
 
 
 # Get fastest mirrors

@@ -3,13 +3,12 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-purple'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Tokyo-Night'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-
-#exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
-#exec = gsettings set org.gnome.desktop.interface cursor-size 24
-#exec = hyprctl setcursor Bibata-Modern-Classic 24
-
 env = HYPRCURSOR_THEME,Bibata-Modern-Classic
 env = HYPRCURSOR_SIZE,24
+
+
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
+exec = gsettings set org.gnome.desktop.interface cursor-size 24
 
 general {
     gaps_in = 3
