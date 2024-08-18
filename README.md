@@ -10,10 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Aug 18 05:55:55 PM IST 2024
+## Changelog Sun Aug 18 05:56:15 PM IST 2024
 ```
- README.md                |   9 +--------
- sddm-themes/Candy.tar.gz | Bin 22562177 -> 22781164 bytes
- 2 files changed, 1 insertion(+), 8 deletions(-)
+ README.md | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
 ```
  
