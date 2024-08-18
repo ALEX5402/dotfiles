@@ -17,7 +17,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/weather","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/vpn","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -86,16 +86,6 @@
             "on-scroll-down": "shift_down"
         }
     },
-
-      "custom/weather": {
-          "tooltip": true,
-          "format": "{}",
-          "interval": 100,
-          "exec": "weather.sh",
-          "return-type": "json"
-        },
-
-
     "cpu": {
         "interval": 10,
         "format": "󰍛 {usage}%",
@@ -258,14 +248,16 @@
         "scroll-step": 5
     },
 
-    "custom/vpn": {
-        "format": "Homelab ",
-        "exec": "echo '{\"class\": \"connected\"}'",
-        "exec-if": "test -d /proc/sys/net/ipv4/conf/homelab",
+    "custom/updates": {
+        "exec": "systemupdate.sh",
         "return-type": "json",
-        "interval": 5
+        "format": "{}",
+        "rotate": 0,
+        "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
+        "interval": 86400, // once every day
+        "tooltip": true,
+        "signal": 20,
     },
-
     "custom/keybindhint": {
         "format": " ",
         "rotate": 0,
@@ -299,6 +291,17 @@
         "on-click": "swwwallpaper.sh -n",
         "on-click-right": "swwwallpaper.sh -p",
         "on-click-middle": "sleep 0.1 && swwwallselect.sh",
+        "interval" : 86400, // once every day
+        "tooltip": true
+    },
+
+    "custom/theme": {
+        "format": "{}",
+        "rotate": 0,
+        "exec": "echo ; echo 󰟡 switch theme",
+        "on-click": "themeswitch.sh -n",
+        "on-click-right": "themeswitch.sh -p",
+        "on-click-middle": "sleep 0.1 && themeselect.sh",
         "interval" : 86400, // once every day
         "tooltip": true
     },
