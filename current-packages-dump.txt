@@ -3,7 +3,6 @@
 a52dec
 aalib
 aardvark-dns
-abaddon-git
 abseil-cpp
 accounts-qml-module
 accountsservice

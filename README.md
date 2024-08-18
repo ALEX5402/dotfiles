@@ -10,11 +10,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Aug 18 03:22:49 PM IST 2024
+## Changelog Sun Aug 18 05:45:06 PM IST 2024
 ```
- README.md                         |  10 +---------
- extra-zip-files/Sddm_Candy.tar.gz | Bin 14599299 -> 0 bytes
- extra-zip-files/Sweet-Dark.tar.gz | Bin 1002233 -> 0 bytes
- 3 files changed, 1 insertion(+), 9 deletions(-)
+ Configs/hypr/keybindings.conf | 2 +-
+ README.md                     | 8 +-------
+ current-packages-dump.txt     | 1 -
+ packages-with-info.txt        | 2 --
+ 4 files changed, 2 insertions(+), 11 deletions(-)
 ```
  

@@ -8,8 +8,6 @@ local/aalib 1.4rc5-18
     ASCII art graphic library
 local/aardvark-dns 1.12.1-1.1
     Authoritative dns server for A/AAAA container records
-local/abaddon-git 0.2.1.r72.g68db143-1
-    An alternative Discord client made with C++/gtkmm
 local/abseil-cpp 20240722.0-1.1
     Collection of C++ library code designed to augment the C++ standard library
 local/accounts-qml-module 0.7-6.1
