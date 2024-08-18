@@ -10,9 +10,13 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Aug 18 01:19:17 PM IST 2024
+## Changelog Sun Aug 18 02:23:14 PM IST 2024
 ```
- README.md | 8 +-------
- 1 file changed, 1 insertion(+), 7 deletions(-)
+ Configs/hypr/keybindings.conf |   3 +-
+ Configs/waybar/config.ctl     |   4 +-
+ Configs/waybar/config.jsonc   | 164 ++++++++++++++++++++++++------------------
+ Configs/waybar/style.css      |  66 ++++++++---------
+ README.md                     |   6 +-
+ 5 files changed, 133 insertions(+), 110 deletions(-)
 ```
  
