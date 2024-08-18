@@ -10,13 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Sun Aug 18 02:23:14 PM IST 2024
+## Changelog Sun Aug 18 03:22:49 PM IST 2024
 ```
- Configs/hypr/keybindings.conf |   3 +-
- Configs/waybar/config.ctl     |   4 +-
- Configs/waybar/config.jsonc   | 164 ++++++++++++++++++++++++------------------
- Configs/waybar/style.css      |  66 ++++++++---------
- README.md                     |   6 +-
- 5 files changed, 133 insertions(+), 110 deletions(-)
+ README.md                         |  10 +---------
+ extra-zip-files/Sddm_Candy.tar.gz | Bin 14599299 -> 0 bytes
+ extra-zip-files/Sweet-Dark.tar.gz | Bin 1002233 -> 0 bytes
+ 3 files changed, 1 insertion(+), 9 deletions(-)
 ```
  
