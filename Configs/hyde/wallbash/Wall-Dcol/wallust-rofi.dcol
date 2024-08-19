@@ -1,12 +1,13 @@
+$HOME/.config/rofi/wallust/colors-rofi.rasi
 * {
 active-background: #101C2F;
 active-foreground: #D6CBD5;
 normal-background: #030508;
 normal-foreground: #D6CBD5;
-urgent-background: #FFCCFA;
+urgent-background: #<wallbash_4xa9>;
 urgent-foreground: #D6CBD5;
 
-alternate-active-background: #F0AAE8;
+alternate-active-background: #<wallbash_4xa8>;
 alternate-active-foreground: #D6CBD5;
 alternate-normal-background: #030508;
 alternate-normal-foreground: #D6CBD5;
@@ -17,7 +18,7 @@ selected-active-background: #101C2F;
 selected-active-foreground: #D6CBD5;
 selected-normal-background: #BCADBB;
 selected-normal-foreground: #D6CBD5;
-selected-urgent-background: #F0AAF0;
+selected-urgent-background: #<wallbash_1xa8>;
 selected-urgent-foreground: #D6CBD5;
 
 background-color: #030508;

@@ -139,6 +139,7 @@ device-mapper
 dhcpcd
 diffutils
 ding-libs
+discord-rpc-git
 distro-info
 distro-info-data
 dkms
@@ -255,6 +256,7 @@ gmp
 gnome-keyring
 gnupg
 gnutls
+go
 gobject-introspection
 gobject-introspection-runtime
 gperftools
@@ -914,6 +916,7 @@ mpdecimal
 mpfr
 mpg123
 mpv
+mpv-discordrpc
 mpv-mpris
 mpvqt
 msgpack-c
@@ -1163,6 +1166,7 @@ python-pydantic-extra-types
 python-pydantic-settings
 python-pygments
 python-pynvim
+python-pypresence
 python-pyproject-hooks
 python-pyqt5
 python-pyqt5-sip
