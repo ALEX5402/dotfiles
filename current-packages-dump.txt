@@ -1435,6 +1435,7 @@ tree-sitter-vimdoc
 tslib
 ttf-bitstream-vera
 ttf-dejavu
+ttf-fira-code
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-liberation

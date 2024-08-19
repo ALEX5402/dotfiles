@@ -2872,6 +2872,8 @@ local/ttf-bitstream-vera 1.10-16
     Bitstream Vera fonts.
 local/ttf-dejavu 2.37+18+g9b5d1b2f-7
     Font family based on the Bitstream Vera Fonts with a wider range of characters
+local/ttf-fira-code 6.2-2
+    Monospaced font with programming ligatures
 local/ttf-jetbrains-mono 2.304-2
     Typeface for developers, by JetBrains
 local/ttf-jetbrains-mono-nerd 3.2.1-2 (nerd-fonts)

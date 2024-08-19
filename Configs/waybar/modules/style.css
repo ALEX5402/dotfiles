@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: ${s_fontpx}px;
     min-height: 10px;
+    font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 @import "theme.css";
@@ -12,6 +13,11 @@
 window#waybar {
     background: @bar-bg;
 }
+
+#waybar.empty, #waybar.tiled, #waybar.floating {
+background-color: transparent;
+}
+
 
 tooltip {
     background: @main-bg;
