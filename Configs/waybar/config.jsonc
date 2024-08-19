@@ -8,6 +8,8 @@
     "mod": "dock",
     "height": 31,
     "exclusive": true,
+    "fixed-center": true,
+   // "ipc": true,
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
@@ -15,9 +17,9 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/weather","mpris","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/weather","mpris","custom/r_end","custom/l_end","custom/cava","clock","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","wlr/taskbar","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -138,15 +140,13 @@
         "interval": 1
     },
 
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "rotate": 0,
-        "format-icons": {
-            "activated": "󰥔",
-            "deactivated": ""
-        }
-    },
 
+   "custom/cava": {
+       "exec": "WaybarCava.sh",
+       "format": "{}",
+       "tooltip": true,
+       "tooltip-format": "{}"
+    },
     "clock": {
         "format": "{:%I:%M:%S %p 󰃭 %d·%m·%y}",
         "rotate": 0,
@@ -172,36 +172,49 @@
             "on-scroll-down": "shift_down"
         }
     },
-    "hyprland/workspaces": {
-        "disable-scroll": true,
-        "rotate": 0,
-        "all-outputs": true,
-        "active-only": false,
-        "on-click": "activate",
-        "disable-scroll": false,
-        "on-scroll-up": "hyprctl dispatch workspace -1",
-        "on-scroll-down": "hyprctl dispatch workspace +1",
-        "persistent-workspaces": {
-        }
-    },
 
-	"wlr/taskbar": {
-		"format": "{icon}",
-		"rotate": 0,
-		"icon-size": 18,
-		"icon-theme": "BeautySolar",
-        "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-		"ignore-list": [
-			"Alacritty"
-		],
-		"app_ids-mapping": {
-			"firefoxdeveloperedition": "firefox-developer-edition"
-		}
+ "hyprland/workspaces": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"persistent-workspaces": {
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
 	},
-
+	"format-icons": {
+		"active": "",
+		"default": "",
+	},
+},
+ "hyprland/workspaces#pacman": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"show-special": false,
+	"persistent-workspaces": {
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
+	},
+	"format": "{icon}",
+	"format-icons": {
+            "active": "<span font='12'>󰮯</span>",
+            "empty": "<span font='8'></span>",
+            "default": "󰊠",
+	},
+},
     "backlight": {
         "device": "intel_backlight",
         "rotate": 0,
@@ -289,6 +302,26 @@
         "rotate": 0,
         "on-click": "keybinds_hint.sh"
     },
+
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"rotate": 0,
+		"icon-size": 18,
+		"icon-theme": "BeautySolar",
+        "spacing": 0,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		"Alacritty",
+		"wofi",
+		"rofi",
+		"kitty"
+		],
+		"app_ids-mapping": {
+			"firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
 
     "tray": {
         "icon-size": 18,
