@@ -10,9 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug 19 11:55:29 AM IST 2024
+## Changelog Mon Aug 19 12:12:35 PM IST 2024
 ```
- README.md | 56 +-------------------------------------------------------
- 1 file changed, 1 insertion(+), 55 deletions(-)
+ README.md | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
 ```
  
