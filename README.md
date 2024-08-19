@@ -10,11 +10,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug 19 08:24:52 AM IST 2024
+## Changelog Mon Aug 19 08:26:46 AM IST 2024
 ```
- Configs/swappy/config               |  2 +-
- Local/share/bin/audiorelay-setup.sh |  6 ++---
- README.md                           | 52 +------------------------------------
- 3 files changed, 5 insertions(+), 55 deletions(-)
+ README.md | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
 ```
  
