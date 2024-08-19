@@ -10,11 +10,11 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Mon Aug 19 04:07:53 PM IST 2024
+## Changelog Mon Aug 19 05:17:52 PM IST 2024
 ```
- Configs/Kvantum/wallbash/wallbash.kvconfig  |   98 +--
- Configs/Kvantum/wallbash/wallbash.svg       | 1196 +++++++++++++--------------
- Configs/ags/user/style.css                  |    2 +-
+ Configs/Kvantum/wallbash/wallbash.kvconfig  |  110 +-
+ Configs/Kvantum/wallbash/wallbash.svg       | 9163 +++++++++++++++++++++------
+ Configs/ags/user/colors-ags.css             |    8 +-
  Configs/cava/Wall-Dcol                      |   16 +-
  Configs/cava/config                         |   16 +-
  Configs/dunst/dunstrc                       |   12 +-
@@ -47,23 +47,17 @@
  Configs/dunst/wallbash.conf                 |   12 +-
  Configs/hyde/hyde.conf                      |    2 +-
  Configs/hyde/themes/Sweet-Dark/wall.set     |    2 +-
- Configs/hypr/.hypridle.conf.kate-swp        |  Bin 110 -> 0 bytes
- Configs/hypr/hypridle.conf                  |   10 +-
- Configs/hypr/keybindings.conf               |    7 +-
- Configs/hypr/themes/colors.conf             |   10 +-
- Configs/hypr/themes/theme.conf              |    5 +-
- Configs/kitty/theme.conf                    |   48 +-
+ Configs/hypr/.keybindings.conf.kate-swp     |  Bin 110 -> 0 bytes
+ Configs/hypr/keybindings.conf               |    2 +-
+ Configs/hypr/themes/colors.conf             |   14 -
+ Configs/kitty/theme.conf                    |   89 +-
  Configs/qt5ct/colors.conf                   |    6 +-
  Configs/qt6ct/colors.conf                   |    6 +-
- Configs/rofi/theme.rasi                     |   12 +-
- Configs/rofi/wallust/colors-rofi.rasi       |    6 +-
+ Configs/rofi/theme.rasi                     |   14 +-
+ Configs/rofi/wallust/colors-rofi.rasi       |    7 +-
  Configs/spicetify/Themes/Sleek/color.ini    |   40 +-
- Configs/swappy/config                       |    2 +-
- Configs/waybar/theme.css                    |   14 +-
- Configs/waybar/wallust/colors-waybar.css    |   20 -
- README.md                                   |    6 +-
- current-packages-dump.txt                   |    4 +
- packages-with-info.txt                      |    8 +
- 52 files changed, 893 insertions(+), 897 deletions(-)
+ Configs/waybar/theme.css                    |   17 +-
+ README.md                                   |   57 +-
+ 46 files changed, 7541 insertions(+), 2282 deletions(-)
 ```
  
