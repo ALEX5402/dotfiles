@@ -46,6 +46,7 @@ augeas
 autoconf
 automake
 avahi
+aylurs-gtk-shell
 ayugram-desktop
 b43-fwcutter
 babl
@@ -238,6 +239,7 @@ gimp
 git
 github-cli
 github-desktop
+gjs
 glances
 glfw
 glib-networking
@@ -362,6 +364,7 @@ jemalloc
 jfsutils
 jq
 jre-openjdk
+js115
 json-c
 json-glib
 jsoncpp

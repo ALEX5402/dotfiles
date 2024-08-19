@@ -1,4 +1,4 @@
-# --------------------------------------------------- // System
+#a --------------------------------------------------- // System
 pipewire                                               # audio/video server
 pipewire-alsa                                          # pipewire alsa client
 pipewire-audio                                         # pipewire audio client
@@ -27,6 +27,7 @@ hyprland                                               # wlroots-based wayland c
 dunst                                                  # notification daemon
 rofi-lbonn-wayland-git                                 # application launcher
 waybar                                                 # system bar
+aylurs-gtk-shell                                       # ags bar for the global search
 swww                                                   # wallpaper
 hyprlock                                               # lock screen
 wlogout                                                # logout menu

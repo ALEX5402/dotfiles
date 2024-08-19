@@ -94,6 +94,8 @@ local/automake 1.17-1
     A GNU tool for automatically creating Makefiles
 local/avahi 1:0.8+r194+g3f79789-2.1
     Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
+local/aylurs-gtk-shell 1.8.2-3
+    Aylurs's Gtk Shell (AGS), An eww inspired gtk widget system.
 local/ayugram-desktop 5.3.2-1
     Desktop Telegram client with good customization and Ghost mode.
 local/b43-fwcutter 019-5.1
@@ -478,6 +480,8 @@ local/github-cli 2.54.0-1.1
     The GitHub CLI
 local/github-desktop 3.4.3-1
     GUI for managing Git and GitHub
+local/gjs 2:1.80.2-2.1
+    Javascript Bindings for GNOME
 local/glances 4.1.2.1-1
     CLI curses-based monitoring tool
 local/glfw 3.4-2.1
@@ -726,6 +730,8 @@ local/jq 1.7.1-2.1
     Command-line JSON processor
 local/jre-openjdk 22.0.2.u9-1
     OpenJDK Java 22 full runtime environment
+local/js115 115.13.0-1.1
+    JavaScript interpreter and libraries - Version 115
 local/json-c 0.17-2.1
     A JSON implementation in C
 local/json-glib 1.8.0-2.1
