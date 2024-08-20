@@ -17,14 +17,12 @@
 ## Install ( I use cachy os repo and chaotic-aur repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
-# Then simmply links the folders by filemager
+# Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 11:56:36 AM IST 2024
+## Changelog Tue Aug 20 12:02:58 PM IST 2024
 ```
- Configs/hypr/hyprlock.conf | 5 ++++-
- Configs/swappy/config      | 2 +-
- README.md                  | 8 ++------
- info.txt                   | 2 +-
- 4 files changed, 8 insertions(+), 9 deletions(-)
+ README.md | 11 ++---------
+ info.txt  |  2 +-
+ 2 files changed, 3 insertions(+), 10 deletions(-)
 ```
  

@@ -14,4 +14,4 @@
 ## Install ( I use cachy os repo and chaotic-aur repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
-# Then simmply links the folders by filemager
+# Then simply links the folders by filemager
