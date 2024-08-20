@@ -19,10 +19,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 12:02:58 PM IST 2024
+## Changelog Tue Aug 20 12:14:06 PM IST 2024
 ```
- README.md | 11 ++---------
- info.txt  |  2 +-
- 2 files changed, 3 insertions(+), 10 deletions(-)
+ Configs/hyde/themes/Sweet-Dark/hypr.theme |  2 +-
+ Configs/hypr/animations.conf              | 39 ++++++++++++++++++++-----------
+ Configs/hypr/themes/theme.conf            |  2 +-
+ README.md                                 |  7 +-----
+ 4 files changed, 29 insertions(+), 21 deletions(-)
 ```
  
