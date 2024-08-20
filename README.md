@@ -19,10 +19,56 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 12:40:01 PM IST 2024
+## Changelog Tue Aug 20 05:00:12 PM IST 2024
 ```
- README.md                |   7 +------
- sddm-themes/Candy.tar.gz | Bin 22781164 -> 22816863 bytes
- 2 files changed, 1 insertion(+), 6 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig       |   98 +-
+ Configs/Kvantum/wallbash/wallbash.svg            | 1196 +++++++++++-----------
+ Configs/ags/user/colors-ags.css                  |   38 +-
+ Configs/cava/Wall-Dcol                           |   16 +-
+ Configs/cava/config                              |   16 +-
+ Configs/dunst/dunstrc                            |   12 +-
+ Configs/dunst/icons/hyprdots.svg                 |   12 +-
+ Configs/dunst/icons/vol/muted-mic.svg            |    2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg        |    2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg          |    2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg      |    2 +-
+ Configs/dunst/icons/vol/vol-0.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-10.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-100.svg              |   10 +-
+ Configs/dunst/icons/vol/vol-15.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-20.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-25.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-30.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-35.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-40.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-45.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-5.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-50.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-55.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-60.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-65.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-70.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-75.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-80.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-85.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-90.svg               |   10 +-
+ Configs/dunst/icons/vol/vol-95.svg               |   10 +-
+ Configs/dunst/wallbash.conf                      |   12 +-
+ Configs/hyde/themes/Sweet-Dark/wall.set          |    2 +-
+ Configs/hypr/hyprland.conf                       |    2 +-
+ Configs/hypr/hyprlock.conf                       |    2 +-
+ Configs/hypr/lockscren-wallpaper/lock-screen.png |  Bin 18601471 -> 0 bytes
+ Configs/hypr/themes/colors.conf                  |   10 +-
+ Configs/kitty/theme.conf                         |   48 +-
+ Configs/qt5ct/colors.conf                        |    6 +-
+ Configs/qt6ct/colors.conf                        |    6 +-
+ Configs/rofi/theme.rasi                          |   12 +-
+ Configs/rofi/wallust/colors-rofi.rasi            |    6 +-
+ Configs/spicetify/Themes/Sleek/color.ini         |   40 +-
+ Configs/swappy/config                            |    2 +-
+ Configs/waybar/theme.css                         |   14 +-
+ Local/share/bin/RofiBeats.sh                     |   61 +-
+ README.md                                        |    7 +-
+ 48 files changed, 915 insertions(+), 921 deletions(-)
 ```
  

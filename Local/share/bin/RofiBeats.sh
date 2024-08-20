@@ -1,28 +1,31 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
-# For Rofi Beats to play online Music or Locally save media files
-
-# Directory local music folder
 mDIR="$HOME/Music/"
 
 # Directory for icons
-iDIR="$HOME/.config/swaync/icons"
+iDIR="$HOME/.config/dunst/icons"
 
-# Online Stations. Edit as required
+# Online Stations: Edit as required
 declare -A online_music=(
-  ["Lofi Girl Radio ☕️🎶"]="https://play.streamafrica.net/lofiradio"
-  ["FM - Easy Rock 96.3 📻🎶"]="https://radio-stations-philippines.com/easy-rock"
-  ["FM - WRock - CEBU 96.3 📻🎶"]="https://onlineradio.ph/126-96-3-wrock.html"
-  ["YT - Wish 107.5 YT Pinoy HipHop 🎻🎶"]="https://youtube.com/playlist?list=PLkrzfEDjeYJnmgMYwCKid4XIFqUKBVWEs&si=vahW_noh4UDJ5d37"
-  ["YT - Top Youtube Music 2023 ☕️🎶"]="https://youtube.com/playlist?list=PLDIoUOhQQPlXr63I_vwF9GD8sAKh77dWU&si=y7qNeEVFNgA-XxKy"
-  ["YT - Wish 107.5 YT Wishclusives ☕️🎶"]="https://youtube.com/playlist?list=PLkrzfEDjeYJn5B22H9HOWP3Kxxs-DkPSM&si=d_Ld2OKhGvpH48WO"
-  ["Chillhop Radio ☕️🎶"]="http://stream.zeno.fm/fyn8eh3h5f8uv"
-  ["FM - Fresh Philippines ☕️🎶"]="https://onlineradio.ph/553-fresh-fm.html"
-  ["YT - Relaxing Music ☕️🎶"]="https://youtube.com/playlist?list=PLMIbmfP_9vb8BCxRoraJpoo4q1yMFg4CE"
-  ["YT - Youtube Remix 📻🎶"]="https://youtube.com/playlist?list=PLeqTkIUlrZXlSNn3tcXAa-zbo95j0iN-0"
-  ["YT - Korean Drama OST 📻🎶"]="https://youtube.com/playlist?list=PLUge_o9AIFp4HuA-A3e3ZqENh63LuRRlQ"
-  ["YT - AfroBeatz 2024 🎧"]="https://www.youtube.com/watch?v=7uB-Eh9XVZQ"
+  ["YT - Mix Taimour Baig 🎻🎵"]="Mix Taimour Baig"
+  ["YT - Mix YSN Fab (hip hop) 🎤🎶"]="Mix YSN Fab"
+  ["YT - Mix Alan Walker 🎧🌌"]="Mix Alan Walker"
+  ["YT - Mix Boy with Uke 🎸🎵"]="Mix Boy with Uke"
+  ["YT - Mix Vocal Music 🎤🎵"]="Mix Vocal Music"
+  ["YT - Top YouTube Music 🎵🇮🇳"]="Top YouTube Music India"
+  ["YT - Wish 107.5 YT Wishclusives ☕️🎶"]=""
+  ["YT - Hip Hop 🔥🎧"]="Best HipHop Playlist"
+  ["YT - Hip Hop Omegle Bars 🎤🎶"]="Harry Mack Omegle Bars"
+  ["YT - Relaxing Music Lofi 🌙☕️"]="Lofi Girl Study Music"
+  ["YT - Mix NCS Playlist 🔊🎶"]="Mix NCS Playlist"
+  ["YT - YouTube Remix 🔀🎶"]="YouTube Remix"
+  ["YT - Korean Drama OST 🎬🎶"]="Korean Drama OST Music Playlist"
+  ["YT - AfroBeatz 2024 🌍🎧"]="AfroBeatz"
+  ["YT - JANI Kabhi Nahi Official Music 🎧🎵"]="Mix JANI Kabhi Nahi Official Music"
+  ["Linux Latest News 🐧📰"]="Linux news"
+  ["Latest Android Dev Videos 📱🎥"]="Android Developer videos"
 )
+
+
 
 # Populate local_music array with files from music directory and subdirectories
 populate_local_music() {
@@ -31,12 +34,12 @@ populate_local_music() {
   while IFS= read -r file; do
     local_music+=("$file")
     filenames+=("$(basename "$file")")
-  done < <(find "$mDIR" -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ogg" -o -iname "*.mp4" \))
+  done < <(find "$mDIR" -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ogg" -o -iname "*.mp4" -o -iname "*.mkv" \))
 }
 
 # Function for displaying notifications
 notification() {
-  notify-send -u normal -i "$iDIR/music.png" "Playing: $@"
+  notify-send -u normal -i "$iDIR/music.png" "Playing: $1"
 }
 
 # Main function for playing local music
@@ -53,12 +56,9 @@ play_local_music() {
   # Find the corresponding file path based on user's choice and set that to play the song then continue on the list
   for (( i=0; i<"${#filenames[@]}"; ++i )); do
     if [ "${filenames[$i]}" = "$choice" ]; then
-		
-	    notification "$choice"
-
+      notification "$choice"
       # Play the selected local music file using mpv
-      mpv --playlist-start="$i" --loop-playlist --vid=no  "${local_music[@]}"
-
+      mpv --playlist-start="$i" --loop-playlist --vid=no "${local_music[@]}"
       break
     fi
   done
@@ -67,7 +67,6 @@ play_local_music() {
 # Main function for shuffling local music
 shuffle_local_music() {
   notification "Shuffle local music"
-
   # Play music in $mDIR on shuffle
   mpv --shuffle --loop-playlist --vid=no "$mDIR"
 }
@@ -83,16 +82,16 @@ play_online_music() {
   link="${online_music[$choice]}"
 
   notification "$choice"
-  
-  # Play the selected online music using mpv
-  mpv --shuffle --vid=no "$link"
+
+  # Use ytfzf to play the selected online music
+  kitty ytfzf --type=playlist -s "$link"
 }
 
 # Check if an online music process is running and send a notification, otherwise run the main function
 pkill mpv && notify-send -u low -i "$iDIR/music.png" "Music stopped" || {
 
-# Prompt the user to choose between local and online music
-user_choice=$(printf "Play from Online Stations\nPlay from Music Folder\nShuffle Play from Music Folder" | rofi -dmenu -config ~/.config/rofi/config-rofi-Beats-menu.rasi -p "Select music source")
+  # Prompt the user to choose between local and online music
+  user_choice=$(printf "Play from Online Stations\nPlay from Music Folder\nShuffle Play from Music Folder" | rofi -dmenu -config ~/.config/rofi/config-rofi-Beats-menu.rasi -p "Select music source")
 
   case "$user_choice" in
     "Play from Music Folder")
