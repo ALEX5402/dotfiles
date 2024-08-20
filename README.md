@@ -14,15 +14,15 @@
 ![240820_10h11m32s_screenshot](https://github.com/user-attachments/assets/53774a21-02a5-489a-bbb1-25ba0bdc697d)
 ![240820_10h13m23s_screenshot](https://github.com/user-attachments/assets/d07fb201-ba3b-4d7b-90a1-6f9f122a3e63)
 
-## Install ( I use cachy os Repo BTW keep that in mind )
+## Install ( I use cachy os repo and chaotic-aur repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Aug 20 10:30:18 AM IST 2024
+## Changelog Tue Aug 20 10:33:02 AM IST 2024
 ```
- README.md | 26 ++++++++++++--------------
- info.txt  | 13 +++++++++++--
- 2 files changed, 23 insertions(+), 16 deletions(-)
+ README.md | 9 ++-------
+ info.txt  | 2 +-
+ 2 files changed, 3 insertions(+), 8 deletions(-)
 ```
  
