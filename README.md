@@ -19,9 +19,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 12:33:58 PM IST 2024
+## Changelog Tue Aug 20 12:38:01 PM IST 2024
 ```
- README.md | 8 +-------
- 1 file changed, 1 insertion(+), 7 deletions(-)
+ Configs/hypr/hyprlock.conf | 4 ++--
+ README.md                  | 6 +-----
+ 2 files changed, 3 insertions(+), 7 deletions(-)
 ```
  
