@@ -19,11 +19,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 12:30:56 PM IST 2024
+## Changelog Tue Aug 20 12:33:58 PM IST 2024
 ```
- Configs/hypr/hyprlock.conf | 4 ++--
- Configs/swappy/config      | 2 +-
- README.md                  | 6 +-----
- 3 files changed, 4 insertions(+), 8 deletions(-)
+ README.md | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
 ```
  
