@@ -2,24 +2,27 @@
   Don't Touch My dot files 🙂
  
 
-  ![image](https://github.com/ALEX5402/dotfiles/assets/76860596/2fbe6020-4d76-4cf7-b052-58ff43cda405)
-  ![demo](https://github.com/ALEX5402/dotfiles/assets/76860596/ff68bba7-e8da-49d3-a716-3ed3d73cfc25)
+## Screenshots
+![240820_10h15m28s_screenshot](https://github.com/user-attachments/assets/8aaad8cb-e78d-4759-a6ea-915c0e37c3b5)
+![240820_10h19m13s_screenshot](https://github.com/user-attachments/assets/506af15b-0816-46fd-96c3-b27454274f47)
+![240820_10h14m53s_screenshot](https://github.com/user-attachments/assets/a1a739b8-4838-4f06-98db-be918e2015af)
+![240820_10h14m00s_screenshot](https://github.com/user-attachments/assets/5f267d64-b9d6-4261-8ef8-edfbc5ba6ec4)
+![240820_10h13m02s_screenshot](https://github.com/user-attachments/assets/f5edfff4-af59-4760-b503-04198769a2ff)
+![240820_10h13m16s_screenshot](https://github.com/user-attachments/assets/15880e4d-aacd-4680-9334-ea787826ddd7)
+![240820_10h12m52s_screenshot](https://github.com/user-attachments/assets/21a78295-02d1-4c96-9a24-dcff256fe552)
+![240820_10h12m37s_screenshot](https://github.com/user-attachments/assets/b9224ad0-5739-4cf5-ba1d-aea36b0a3b6a)
+![240820_10h11m32s_screenshot](https://github.com/user-attachments/assets/53774a21-02a5-489a-bbb1-25ba0bdc697d)
+![240820_10h13m23s_screenshot](https://github.com/user-attachments/assets/d07fb201-ba3b-4d7b-90a1-6f9f122a3e63)
 
 ## Install ( I use cachy os Repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Aug 20 10:22:05 AM IST 2024
+## Changelog Tue Aug 20 10:30:18 AM IST 2024
 ```
- Configs/fastfetch/config.jsonc                     |  4 +-
- Configs/swappy/config                              |  2 +-
- Configs/waybar/config.jsonc                        |  1 -
- Configs/waybar/modules/header.jsonc                |  1 -
- .../dolphin/view_properties/global/.directory      |  4 +-
- Local/share/konsole/alex.profile                   | 10 ++-
- README.md                                          | 51 +------------
- packages-with-info.txt                             | 88 +++++++++++-----------
- 8 files changed, 61 insertions(+), 100 deletions(-)
+ README.md | 26 ++++++++++++--------------
+ info.txt  | 13 +++++++++++--
+ 2 files changed, 23 insertions(+), 16 deletions(-)
 ```
  
