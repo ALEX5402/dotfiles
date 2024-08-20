@@ -4,7 +4,7 @@
 
 ## Screenshots
 ![240820_10h15m28s_screenshot](https://github.com/user-attachments/assets/8aaad8cb-e78d-4759-a6ea-915c0e37c3b5)
-![240820_10h19m13s_screenshot](https://github.com/user-attachments/assets/506af15b-0816-46fd-96c3-b27454274f47)
+![240820_11h55m26s_screenshot](https://github.com/user-attachments/assets/ae43e6e7-add8-498c-b259-99ba6df4f33b)
 ![240820_10h14m53s_screenshot](https://github.com/user-attachments/assets/a1a739b8-4838-4f06-98db-be918e2015af)
 ![240820_10h14m00s_screenshot](https://github.com/user-attachments/assets/5f267d64-b9d6-4261-8ef8-edfbc5ba6ec4)
 ![240820_10h13m02s_screenshot](https://github.com/user-attachments/assets/f5edfff4-af59-4760-b503-04198769a2ff)
@@ -19,9 +19,12 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Aug 20 11:38:41 AM IST 2024
+## Changelog Tue Aug 20 11:56:36 AM IST 2024
 ```
- README.md | 13 +------------
- 1 file changed, 1 insertion(+), 12 deletions(-)
+ Configs/hypr/hyprlock.conf | 5 ++++-
+ Configs/swappy/config      | 2 +-
+ README.md                  | 8 ++------
+ info.txt                   | 2 +-
+ 4 files changed, 8 insertions(+), 9 deletions(-)
 ```
  
