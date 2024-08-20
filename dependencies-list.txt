@@ -71,12 +71,15 @@ code                                                   # ide text editor
 spotify #musicplayer
 spicetify-cli # spotify modifier
 
-# --------------------------------------------------- // Shell
+# --------------------------------------------------- // Shell  + extra
 eza                                                    # ls replacement
 fish                                                   # file lister for fish
 nushell                                                     # nu shell
 starship                                               # customizable shell prompt
 fastfetch                                              # system information fetch tool
+ytfzf-git                                              # to play songs 
+
+
 
 
 # --------------------------------------------------- // social

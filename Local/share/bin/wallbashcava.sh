@@ -18,5 +18,6 @@ if pkg_installed cava ; then
     fi
 
     pkill -USR2 cava
+    pkill -USR2 ags
 
 fi
