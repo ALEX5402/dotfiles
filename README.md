@@ -19,16 +19,9 @@
 
 # Then simmply links the folders by filemager
  
-## Changelog Tue Aug 20 11:32:29 AM IST 2024
+## Changelog Tue Aug 20 11:38:41 AM IST 2024
 ```
- Configs/hypr/hyprland.conf                         |   5 -
- Configs/hypr/hyprlock.conf                         |  46 +++-
- Configs/hypr/keybindings.conf                      | 190 ++++++--------
- Configs/hypr/windowrules.conf                      | 287 ++++++++++-----------
- .../dolphin/view_properties/global/.directory      |   4 +-
- README.md                                          |   7 +-
- current-packages-dump.txt                          |   1 +
- packages-with-info.txt                             |   2 -
- 8 files changed, 271 insertions(+), 271 deletions(-)
+ README.md | 13 +------------
+ 1 file changed, 1 insertion(+), 12 deletions(-)
 ```
  
