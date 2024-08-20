@@ -20,6 +20,8 @@ local/ada 2.9.0-2.1
     WHATWG-compliant and fast URL parser written in modern C++
 local/adobe-source-code-pro-fonts 2.042u+1.062i+1.026vf-2
     Monospaced font family for user interface and coding environments
+local/adobe-source-sans-fonts 3.052-2
+    Sans-serif font family for user interface environments
 local/adwaita-cursors 46.2-1
     GNOME standard cursors
 local/adwaita-icon-theme 46.2-1
@@ -1532,6 +1534,8 @@ local/libssh2 1.11.0-1.1
     A library implementing the SSH2 protocol as defined by Internet Drafts
 local/libstaroffice 0.0.7-3.1
     filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
+local/libstdc++5 3.3.6-9
+    GNU Standard C++ library version 3
 local/libstemmer 2.2.0-2.1
     Stemming library supporting several languages
 local/libsysprof-capture 46.0-4.1

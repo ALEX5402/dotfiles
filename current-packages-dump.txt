@@ -1,6 +1,7 @@
 64gram-desktop-bin
 7-zip-full
 accountsservice
+adobe-source-sans-fonts
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -142,6 +143,7 @@ libguestfs
 libnotify
 libopenraw
 libreoffice-fresh-sdk
+libstdc++5
 libva-mesa-driver
 libva-utils
 libvirt
