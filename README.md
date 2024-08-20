@@ -19,10 +19,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 12:38:01 PM IST 2024
+## Changelog Tue Aug 20 12:40:01 PM IST 2024
 ```
- Configs/hypr/hyprlock.conf | 4 ++--
- README.md                  | 6 +-----
- 2 files changed, 3 insertions(+), 7 deletions(-)
+ README.md                |   7 +------
+ sddm-themes/Candy.tar.gz | Bin 22781164 -> 22816863 bytes
+ 2 files changed, 1 insertion(+), 6 deletions(-)
 ```
  
