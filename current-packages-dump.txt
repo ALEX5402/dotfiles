@@ -93,6 +93,7 @@ github-cli
 github-desktop
 glances
 gnome-keyring
+go
 gradle
 grimblast-git
 grub

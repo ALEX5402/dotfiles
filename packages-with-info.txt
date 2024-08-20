@@ -468,8 +468,6 @@ local/gdk-pixbuf2 2.42.12-1.1
     An image loading library
 local/gegl 0.4.48-4.1
     Graph based image processing framework
-local/gendesk 1.0.10-1.1
-    Utility for generating desktop files by specifying a minimum of information
 local/geoclue 2.7.1-3.1
     Modular geoinformation service built on the D-Bus messaging system
 local/gettext 0.22.5-1.1
