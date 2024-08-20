@@ -7,7 +7,7 @@ current_wallpaper=$(readlink -f "${hydeThemeDir}/wall.set")
 wallpaper_output="$HOME/.cache/hyde/wall.set"
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
 echo "$current_wallpaper"
-[ -f "$wallpaper_output" ] && rm "$wallpaper_output"
+
 
 # swww transition config
 FPS=60
@@ -56,6 +56,7 @@ main() {
         if [[ "$choice" == "No Effects" ]]; then
             no_effects
         elif [[ "${effects[$choice]+exists}" ]]; then
+        [ -f "$wallpaper_output" ] && rm "$wallpaper_output"
             # Apply selected effect
             eval "${effects[$choice]}"
             # Wait for effects to be applied

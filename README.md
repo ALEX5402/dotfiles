@@ -19,11 +19,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Aug 20 06:01:05 PM IST 2024
+## Changelog Tue Aug 20 07:28:46 PM IST 2024
 ```
- Configs/swappy/config |  2 +-
- Configs/ytfzf/conf.sh | 43 +++++++++++++++++++++++++++++++++++++++++
- README.md             | 53 +--------------------------------------------------
- 3 files changed, 45 insertions(+), 53 deletions(-)
+ Configs/swappy/config               |  2 +-
+ Configs/waybar/config.ctl           |  8 ++++----
+ Configs/waybar/config.jsonc         | 11 ++---------
+ Local/share/bin/WallpaperEffects.sh |  3 ++-
+ README.md                           |  8 +-------
+ 5 files changed, 10 insertions(+), 22 deletions(-)
 ```
  
