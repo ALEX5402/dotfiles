@@ -222,6 +222,7 @@ fuse2
 fuse3
 fvs
 fzf
+gamescope
 gawk
 gc
 gcc
@@ -1065,6 +1066,7 @@ ppp
 procps-ng
 proot
 protobuf
+protontricks
 psmisc
 pugixml
 purpose
@@ -1200,6 +1202,7 @@ python-typing_extensions
 python-urllib3
 python-uvloop
 python-validate-pyproject
+python-vdf
 python-virtualenv
 python-webencodings
 python-websockets

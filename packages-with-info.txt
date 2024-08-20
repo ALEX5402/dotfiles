@@ -446,6 +446,8 @@ local/fvs 0.3.4-3
     File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
 local/fzf 0.54.3-1.1
     Command-line fuzzy finder
+local/gamescope 3.14.29-1.1
+    SteamOS session compositing window manager
 local/gawk 5.3.0-1.1
     GNU version of awk
 local/gc 8.2.6-1.1
@@ -2132,6 +2134,8 @@ local/proot 5.4.0-1
     chroot, mount --bind, and binfmt_misc without privilege/setup
 local/protobuf 27.3-1.1
     Protocol Buffers - Google's data interchange format
+local/protontricks 1.11.1-1
+    A simple wrapper that does winetricks things for Proton enabled games.
 local/psmisc 23.7-1.1
     Miscellaneous procfs tools
 local/pugixml 1.14-1.1
@@ -2402,6 +2406,8 @@ local/python-uvloop 0.19.0-5.1
     Ultra fast asyncio event loop
 local/python-validate-pyproject 0.18-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
+local/python-vdf 3.5-1
+    Library for working with Valve's VDF text format
 local/python-virtualenv 20.26.2-1
     Virtual Python Environment builder
 local/python-webencodings 0.5.1-11

@@ -1,10 +1,13 @@
+#!/usr/bin/env sh
 export scrDir="$(dirname "$(realpath "$0")")"
 source "${scrDir}/globalcontrol.sh"
 
 # Variables
 current_wallpaper=$(readlink -f "${hydeThemeDir}/wall.set")
-wallpaper_output="~/.cache/hyde/wall.set"
+wallpaper_output="$HOME/.cache/hyde/wall.set"
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
+echo "$current_wallpaper"
+[ -f "$wallpaper_output" ] && rm "$wallpaper_output"
 
 # swww transition config
 FPS=60
@@ -58,8 +61,7 @@ main() {
             # Wait for effects to be applied
             sleep 1
             # Execute swww command after image conversion
-#             swww img -o "$focused_monitor" "$wallpaper_output" $SWWW_PARAMS &
-            swwwallpaper.sh
+            swww img -o "$focused_monitor" "$wallpaper_output" $SWWW_PARAMS &
         else
             echo "Effect '$choice' not recognized."
         fi
