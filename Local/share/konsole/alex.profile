@@ -1,9 +1,14 @@
 [Appearance]
 AntiAliasFonts=true
+BorderWhenActive=false
 ColorScheme=Sweet-Ambar-Blue
-Font=JetBrainsMono Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=JetBrainsMono Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=22,25,37,0
 UseFontLineChararacters=false
+
+[Cursor Options]
+CursorShape=1
+UseCustomCursorColor=false
 
 [Encoding Options]
 DefaultEncoding=UTF-8
@@ -21,3 +26,6 @@ KeyBindings=default
 
 [Scrolling]
 HistoryMode=2
+
+[Terminal Features]
+BlinkingCursorEnabled=true
