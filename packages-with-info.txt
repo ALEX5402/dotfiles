@@ -3012,6 +3012,8 @@ local/webkit2gtk-4.1 2.44.3-3
     Web content engine for GTK
 local/webrtc-audio-processing-1 1.3-3.1
     AudioProcessing library based on Google's implementation of WebRTC
+local/wev 1.0.0-13.1
+    A tool for debugging wayland events on a Wayland window, analagous to the X11 tool xev
 local/wget 1.24.5-3.1
     Network utility to retrieve files from the Web
 local/which 2.21-6.1

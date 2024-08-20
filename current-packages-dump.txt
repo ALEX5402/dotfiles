@@ -299,6 +299,7 @@ visual-studio-code-bin
 vortex-thermal
 vulkan-radeon
 waybar
+wev
 wget
 which
 wine
