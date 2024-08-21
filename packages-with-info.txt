@@ -84,8 +84,6 @@ local/attica 6.5.0-1.1 (kf6)
     Qt library that implements the Open Collaboration Services API
 local/attr 2.5.2-1.1
     Extended attribute support library for ACL support
-local/audiorelay 0.27.5-5
-    Stream your PC audio to your phone
 local/audit 4.0.2-1.1
     Userspace components of the audit framework
 local/augeas 1.14.1-2.1
@@ -248,6 +246,8 @@ local/cppdap 1.58.0-2.1
     C++ library for the Debug Adapter Protocol
 local/cpupower 6.10-3 (linux-tools)
     Linux kernel tool to examine and tune power saving related features of your processor
+local/cross 0.2.5-2.1
+    'Zero setup' cross compilation and 'cross testing' of Rust crates
 local/cryptsetup 2.7.4-1.1
     Userspace setup tool for transparent encryption of block devices using dm-crypt
 local/curl 8.9.1-2.1

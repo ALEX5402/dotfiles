@@ -22,11 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Aug 21 10:33:53 AM IST 2024
+## Changelog Wed Aug 21 03:20:51 PM IST 2024
 ```
- Configs/hypr/hyprland.conf         |  2 +-
- Configs/hypr/plugins/hyprexpo.conf |  4 ++--
- README.md                          | 10 +---------
- 3 files changed, 4 insertions(+), 12 deletions(-)
+ Configs/pulse/cookie                | Bin 256 -> 0 bytes
+ Configs/pulse/default.pa            |   9 ---------
+ Extra-files/dolphinrc               |   3 ---
+ Local/share/bin/audiorelay-setup.sh |  20 --------------------
+ README.md                           |   8 +-------
+ current-packages-dump.txt           |   2 +-
+ packages-with-info.txt              |   4 ++--
+ 7 files changed, 4 insertions(+), 42 deletions(-)
 ```
  

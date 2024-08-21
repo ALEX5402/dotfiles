@@ -13,7 +13,6 @@ android-tools
 appimagelauncher
 ark
 aspell
-audiorelay
 aylurs-gtk-shell
 ayugram-desktop
 b43-fwcutter
@@ -45,6 +44,7 @@ cliphist
 cloudflare-warp-bin
 cmake
 cpupower
+cross
 cryptsetup
 ddcutil
 device-mapper
