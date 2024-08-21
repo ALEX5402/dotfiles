@@ -13,6 +13,7 @@ android-tools
 appimagelauncher
 ark
 aspell
+audiorelay
 aylurs-gtk-shell
 ayugram-desktop
 b43-fwcutter

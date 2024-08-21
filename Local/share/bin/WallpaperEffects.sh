@@ -38,6 +38,7 @@ declare -A effects=(
 # Function to apply no effects
 no_effects() {
     swww img -o "$focused_monitor" "$current_wallpaper" $SWWW_PARAMS
+#     $scrPath/swwwallbash2 "$wallpaper_output"
 }
 
 # Function to run rofi menu
@@ -63,6 +64,8 @@ main() {
             sleep 1
             # Execute swww command after image conversion
             swww img -o "$focused_monitor" "$wallpaper_output" $SWWW_PARAMS &
+#              $scrPath/swwwallbash2 "$wallpaper_output"
+#              echo "$wallpaper_output"
         else
             echo "Effect '$choice' not recognized."
         fi

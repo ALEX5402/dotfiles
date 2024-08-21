@@ -84,6 +84,8 @@ local/attica 6.5.0-1.1 (kf6)
     Qt library that implements the Open Collaboration Services API
 local/attr 2.5.2-1.1
     Extended attribute support library for ACL support
+local/audiorelay 0.27.5-5
+    Stream your PC audio to your phone
 local/audit 4.0.2-1.1
     Userspace components of the audit framework
 local/augeas 1.14.1-2.1
