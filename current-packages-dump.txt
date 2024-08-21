@@ -116,6 +116,7 @@ hypridle
 hyprland-git
 hyprlock
 hyprpicker
+hyprwayland-scanner
 iaito
 inetutils
 inxi
@@ -174,7 +175,6 @@ meson
 mlocate
 modemmanager
 mpv
-mpv-discordrpc
 mpv-mpris
 mtools
 nano
