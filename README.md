@@ -22,12 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Aug 22 09:17:39 AM IST 2024
+## Changelog Thu Aug 22 11:05:52 AM IST 2024
 ```
- Configs/hyde/hyde.conf        |  2 +-
- Configs/hypr/windowrules.conf |  1 +
- Configs/swappy/config         |  2 +-
- README.md                     | 48 +------------------------------------------
- 4 files changed, 4 insertions(+), 49 deletions(-)
+ Configs/hyde/hyde.conf | 2 +-
+ README.md              | 9 +--------
+ 2 files changed, 2 insertions(+), 9 deletions(-)
 ```
  
