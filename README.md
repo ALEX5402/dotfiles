@@ -22,10 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Aug 22 11:05:52 AM IST 2024
+## Changelog Thu Aug 22 01:10:23 PM IST 2024
 ```
- Configs/hyde/hyde.conf | 2 +-
- README.md              | 9 +--------
- 2 files changed, 2 insertions(+), 9 deletions(-)
+ Configs/hypr/hypridle.conf | 14 +++++++-------
+ README.md                  |  7 +------
+ packages-with-info.txt     |  2 --
+ 3 files changed, 8 insertions(+), 15 deletions(-)
 ```
  

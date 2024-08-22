@@ -1804,8 +1804,6 @@ local/man-pages 6.9.1-1
     Linux man pages
 local/mbedtls 3.6.0-1
     An open source, portable, easy to use, readable and flexible TLS library
-local/mbedtls2 2.28.8-3.1
-    An open source, portable, easy to use, readable and flexible TLS library
 local/md4c 0.5.2-1.1
     C Markdown parser
 local/mdadm 4.3-2
