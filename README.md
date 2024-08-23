@@ -22,11 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Aug 23 12:38:12 PM IST 2024
+## Changelog Fri Aug 23 01:15:05 PM IST 2024
 ```
- Configs/wlogout/layout_1 |  4 ++--
- Configs/wlogout/layout_2 |  2 +-
- README.md                | 49 +-----------------------------------------------
- 3 files changed, 4 insertions(+), 51 deletions(-)
+ README.md                 | 8 +-------
+ current-packages-dump.txt | 1 +
+ packages-with-info.txt    | 4 ++++
+ 3 files changed, 6 insertions(+), 7 deletions(-)
 ```
  
