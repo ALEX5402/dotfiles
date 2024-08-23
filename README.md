@@ -22,11 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Aug 23 01:15:05 PM IST 2024
+## Changelog Fri Aug 23 02:18:16 PM IST 2024
 ```
- README.md                 | 8 +-------
- current-packages-dump.txt | 1 +
- packages-with-info.txt    | 4 ++++
- 3 files changed, 6 insertions(+), 7 deletions(-)
+ Configs/hypr/keybindings.conf | 2 +-
+ README.md                     | 8 +-------
+ dependencies-list.txt         | 1 +
+ 3 files changed, 3 insertions(+), 8 deletions(-)
 ```
  

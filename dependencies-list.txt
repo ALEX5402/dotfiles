@@ -62,6 +62,7 @@ qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
 firefox                                                # browser
+zen-browser-bin
 emote
 kitty                                                  # terminal
 dolphin                                                # kde file manager
