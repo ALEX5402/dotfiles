@@ -20,7 +20,6 @@ declare -A online_music=(
   ["YT - YouTube Remix 🔀🎶"]="YouTube Remix"
   ["YT - Korean Drama OST 🎬🎶"]="Korean Drama OST Music Playlist"
   ["YT - AfroBeatz 2024 🌍🎧"]="AfroBeatz"
-  ["YT - JANI Kabhi Nahi Official Music 🎧🎵"]="Mix JANI Kabhi Nahi Official Music"
   ["Linux Latest News 🐧📰"]="Linux news"
   ["Latest Android Dev Videos 📱🎥"]="Android Developer videos"
 )

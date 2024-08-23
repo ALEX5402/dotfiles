@@ -22,7 +22,7 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Aug 23 08:00:00 AM IST 2024
+## Changelog Fri Aug 23 11:56:39 AM IST 2024
 ```
  Configs/Kvantum/wallbash/wallbash.kvconfig  |   98 +--
  Configs/Kvantum/wallbash/wallbash.svg       | 1196 +++++++++++++--------------
@@ -57,7 +57,6 @@
  Configs/dunst/icons/vol/vol-90.svg          |   10 +-
  Configs/dunst/icons/vol/vol-95.svg          |   10 +-
  Configs/dunst/wallbash.conf                 |   12 +-
- Configs/fish/fish_variables                 |    2 +
  Configs/hyde/themes/Sweet-Dark/wall.set     |    2 +-
  Configs/hypr/themes/colors.conf             |   10 +-
  Configs/kitty/theme.conf                    |   48 +-
@@ -66,9 +65,9 @@
  Configs/rofi/theme.rasi                     |   12 +-
  Configs/rofi/wallust/colors-rofi.rasi       |    6 +-
  Configs/spicetify/Themes/Sleek/color.ini    |   40 +-
- Configs/swappy/config                       |    2 +-
  Configs/waybar/theme.css                    |   14 +-
+ Local/share/bin/RofiBeats.sh                |    1 -
  README.md                                   |   50 +-
- 45 files changed, 885 insertions(+), 931 deletions(-)
+ 44 files changed, 882 insertions(+), 931 deletions(-)
 ```
  
