@@ -3176,7 +3176,7 @@ local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
 local/zed 0.149.3-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-local/zen-browser-bin 1.0.0.a.27-1
+local/zen-browser-bin 1.0.0.a.28-1
     Standalone web browser - Static binaries from upstream
 local/zenity 4.0.2-1.1
     Display graphical dialog boxes from shell scripts

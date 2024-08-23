@@ -22,11 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Aug 23 02:18:16 PM IST 2024
+## Changelog Fri Aug 23 06:50:11 PM IST 2024
 ```
- Configs/hypr/keybindings.conf | 2 +-
+ Configs/hypr/windowrules.conf | 6 ++++++
  README.md                     | 8 +-------
- dependencies-list.txt         | 1 +
- 3 files changed, 3 insertions(+), 8 deletions(-)
+ packages-with-info.txt        | 2 +-
+ 3 files changed, 8 insertions(+), 8 deletions(-)
 ```
  
