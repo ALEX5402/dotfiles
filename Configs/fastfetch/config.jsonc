@@ -73,7 +73,7 @@
       
         {
             "type": "gpu",
-           "format": "NVIDIA GeForce RTX 4060 Max-Q / Mobile", // i wish i have this gpu 🥹🥹
+           "format": "NVIDIA GeForce RTX 4060 Max-Q", // i wish i have this gpu 🥹🥹
            // "format": "{2}", // enable this like this is real gpu info
             "key": "   GPU Driver",
             "keyColor": "magenta"

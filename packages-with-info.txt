@@ -64,7 +64,7 @@ local/appimagelauncher 2.2.0-8
     Helper for running and integrating AppImages
 local/appstream 1.0.3-1.1
     Provides a standard for creating app stores across distributions
-local/aquamarine-git 0.3.3.r4.gb02d4f4-1
+local/aquamarine-git 0.3.3.r10.g31e692b-1
     a very light linux rendering backend library
 local/archlinux-java-run 10-1
     Java Application Launcher for Arch Linux
@@ -84,7 +84,7 @@ local/attica 6.5.0-1.1 (kf6)
     Qt library that implements the Open Collaboration Services API
 local/attr 2.5.2-1.1
     Extended attribute support library for ACL support
-local/audiorelay 0.27.5-5
+local/audiorelay 0.27.5-5.1
     Stream your PC audio to your phone
 local/audit 4.0.2-1.1
     Userspace components of the audit framework
@@ -120,7 +120,7 @@ local/bat 0.24.0-2.1
     Cat clone with syntax highlighting and git integration
 local/beautyline 1:20240421-2
     Outlined icons designed to have unified look and comprehensive coverage with the Candy icon pack (best suited to use with Sweet theme)
-local/bind 9.20.0-1.1
+local/bind 9.20.1-1.1
     A complete, highly portable implementation of the DNS protocol
 local/binutils 2.43+r4+g7999dae6961-2
     A set of programs to assemble and manipulate binary and object files
@@ -142,7 +142,7 @@ local/bottles 2:51.13-1
     Easily manage wine and proton prefix
 local/box2d 2.4.2-1
     2D rigid body simulation library for games
-local/brave-bin 1:1.68.141-1
+local/brave-bin 1:1.69.153-1
     Web browser that blocks ads and trackers by default (binary release)
 local/breeze-icons 6.5.0-1.1 (kf6)
     Breeze icon theme
@@ -236,7 +236,7 @@ local/conmon 1:2.1.12-1.1
     OCI container runtime monitor
 local/containerd 1.7.20-1.1
     An open and reliable container runtime
-local/containers-common 1:0.60.1-1
+local/containers-common 1:0.60.2-1
     Configuration files and manpages for containers
 local/convertlit 1.8-12
     An extractor/converter for .LIT eBooks
@@ -280,7 +280,7 @@ local/desktop-file-utils 0.27-1.1
     Command line utilities for working with desktop entries
 local/device-mapper 2.03.25-2.1
     Device mapper userspace library and tools
-local/dhcpcd 10.0.8-1.1
+local/dhcpcd 10.0.10-1.1
     DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client
 local/diffutils 3.10-1.1
     Utility programs used for creating patch files
@@ -344,11 +344,13 @@ local/efitools 1.9.2-5.1
     Tools for manipulating UEFI secure boot platforms
 local/efivar 39-1.1
     Tools and libraries to work with EFI variables
-local/electron 1:31-1
+local/electron 1:32-1
     Meta package providing the latest available stable Electron build
 local/electron30 30.4.0-1.1
     Build cross platform desktop apps with web technologies
 local/electron31 31.4.0-1
+    Build cross platform desktop apps with web technologies
+local/electron32 32.0.1-1
     Build cross platform desktop apps with web technologies
 local/elfutils 0.191-4.1
     Handle ELF object files and DWARF debugging information (utilities)
@@ -410,7 +412,7 @@ local/filezilla 3.67.1-1.1
     Fast and reliable FTP, FTPS and SFTP client
 local/findutils 4.10.0-1.1
     GNU utilities to locate files
-local/firefox 129.0.1-2.1
+local/firefox 129.0.2-1.1
     Fast, Private & Safe Web Browser
 local/firewalld 2.2.1-1
     Firewall daemon with D-Bus interface
@@ -568,27 +570,27 @@ local/gssdp 1.6.3-1.1
     GObject-based API for handling resource discovery and announcement over SSDP
 local/gssproxy 0.9.2-1.1
     GSSAPI Proxy
-local/gst-libav 1.24.6-1
+local/gst-libav 1.24.7-1
     Multimedia graph framework - libav plugin
 local/gst-plugin-pipewire 1:1.2.2-2.1
     Multimedia graph framework - pipewire plugin
-local/gst-plugin-va 1.24.6-1
+local/gst-plugin-va 1.24.7-1
     Multimedia graph framework - va plugin
-local/gst-plugins-bad 1.24.6-1
+local/gst-plugins-bad 1.24.7-1
     Multimedia graph framework - bad plugins
-local/gst-plugins-bad-libs 1.24.6-1
+local/gst-plugins-bad-libs 1.24.7-1
     Multimedia graph framework - bad
-local/gst-plugins-base 1.24.6-1
+local/gst-plugins-base 1.24.7-1
     Multimedia graph framework - base plugins
-local/gst-plugins-base-libs 1.24.6-1
+local/gst-plugins-base-libs 1.24.7-1
     Multimedia graph framework - base
-local/gst-plugins-good 1.24.6-1
+local/gst-plugins-good 1.24.7-1
     Multimedia graph framework - good plugins
-local/gst-plugins-ugly 1.24.6-1
+local/gst-plugins-ugly 1.24.7-1
     Multimedia graph framework - ugly plugins
-local/gstreamer 1.24.6-1
+local/gstreamer 1.24.7-1
     Multimedia graph framework - core
-local/gstreamer-vaapi 1.24.6-1
+local/gstreamer-vaapi 1.24.7-1
     Multimedia graph framework - vaapi plugin
 local/gtest 1.15.2-1.1
     Google Test - C++ testing utility
@@ -668,7 +670,7 @@ local/hyprcursor-git 0.1.9.r11.g912d5602-1
     The hyprland cursor format, library and utilities
 local/hypridle 0.1.2-1.1
     hyprland’s idle daemon
-local/hyprland-git 0.42.0.r46.c86db7bb-1
+local/hyprland-git 0.42.0.r60.df4f2224-1
     Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 local/hyprlang-git 0.5.2.r9.g16e5c946-1
     The official implementation library for the hypr config language
@@ -840,11 +842,11 @@ local/kitemmodels 6.5.0-1.1 (kf6)
     Models for Qt Model/View system
 local/kitemviews 6.5.0-1.1 (kf6)
     Widget addons for Qt Model/View
-local/kitty 0.35.2-1.1
+local/kitty 0.36.0-1.1
     A modern, hackable, featureful, OpenGL-based terminal emulator
-local/kitty-shell-integration 0.35.2-1.1
+local/kitty-shell-integration 0.36.0-1.1
     Shell integration scripts for kitty, an OpenGL-based terminal emulator
-local/kitty-terminfo 0.35.2-1.1
+local/kitty-terminfo 0.36.0-1.1
     Terminfo for kitty, an OpenGL-based terminal emulator
 local/kjobwidgets 6.5.0-1.1 (kf6)
     Widgets for tracking KJob instances
@@ -1482,9 +1484,9 @@ local/libraw 0.21.2-1.1
     A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others)
 local/libraw1394 2.1.2-4.1
     Provides an API to the Linux IEEE1394 (FireWire) driver
-local/libreoffice-fresh 24.2.5-2.1
+local/libreoffice-fresh 24.8.0-1.1
     LibreOffice branch which contains new features and program enhancements
-local/libreoffice-fresh-sdk 24.2.5-2.1
+local/libreoffice-fresh-sdk 24.8.0-1.1
     Software Development Kit for LibreOffice Fresh
 local/librest 0.9.1-2.1
     Library for accessing RESTful web services
@@ -1576,7 +1578,7 @@ local/libunwind 1.8.1-3.1
     Determine and manipulate the call-chain of a program
 local/liburcu 0.14.0-2.1
     LGPLv2.1 userspace RCU (read-copy-update) library
-local/liburing 2.6-2.1
+local/liburing 2.7-1.1
     Linux-native io_uring I/O access library
 local/libusb 1.0.27-1.1
     Library that provides generic access to USB devices
@@ -1728,9 +1730,9 @@ local/linux 6.10.6.arch1-1
     The Linux kernel and modules
 local/linux-api-headers 6.10-2
     Kernel headers sanitized for use in userspace
-local/linux-cachyos 6.10.6-2
+local/linux-cachyos 6.10.6-3
     The Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel and modules
-local/linux-cachyos-headers 6.10.6-2
+local/linux-cachyos-headers 6.10.6-3
     Headers and scripts for building modules for the Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel
 local/linux-firmware 20240809.59460076-1
     Firmware files for Linux
@@ -1900,7 +1902,7 @@ local/nm-connection-editor 1.36.0-1
     NetworkManager GUI connection editor and widgets
 local/node-gyp 10.2.0-1
     Node.js native addon build tool
-local/nodejs 22.6.0-1.1
+local/nodejs 22.7.0-1.1
     Evented I/O for V8 javascript
 local/nodejs-nopt 7.2.0-2
     Node/npm Option Parsing library
@@ -1928,7 +1930,7 @@ local/ntp 4.2.8.p18-1
     Network Time Protocol reference implementation
 local/numactl 2.0.18-1
     Simple NUMA policy support
-local/nushell 0.96.1-1
+local/nushell 0.97.1-1
     A new type of shell
 local/nwg-look 0.2.7-1.1
     GTK3 settings editor adapted to work on wlroots-based compositors
@@ -2010,7 +2012,7 @@ local/partitionmanager 24.05.2-1.1 (kde-applications kde-system)
     A KDE utility that allows you to manage disks, partitions, and file systems
 local/paru 2.0.3-2
     Feature packed AUR helper
-local/passt 2024_08_14.61c0b0d-1.1
+local/passt 2024_08_21.1d6142f-1.1
     Plug A Simple Socket Transport
 local/patch 2.7.6-10.1
     A utility to apply patch files to original sources
@@ -2106,7 +2108,7 @@ local/plasma-activities 6.1.4-1.1 (plasma)
     Core components for KDE Activities
 local/playerctl 2.4.1-4.1
     mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
-local/podman 5.2.1-1.1
+local/podman 5.2.2-1.1
     Tool and library for running OCI-based containers in pods
 local/polkit 125-1.1
     Application development toolkit for controlling system-wide privileges
@@ -2136,7 +2138,7 @@ local/procps-ng 4.0.4-3.1
     Utilities for monitoring your system and its processes
 local/proot 5.4.0-1
     chroot, mount --bind, and binfmt_misc without privilege/setup
-local/protobuf 27.3-1.1
+local/protobuf 27.3-2.1
     Protocol Buffers - Google's data interchange format
 local/protontricks 1.11.1-1
     A simple wrapper that does winetricks things for Proton enabled games.
@@ -2582,7 +2584,7 @@ local/qemu-user 9.0.2-1
     QEMU user mode emulation
 local/qemu-vhost-user-gpu 9.0.2-1
     QEMU vhost-user-gpu display device
-local/qpwgraph 0.7.5-1.1 (pro-audio)
+local/qpwgraph 0.7.7-1.1 (pro-audio)
     PipeWire Graph Qt GUI Interface
 local/qqc2-desktop-style 6.5.0-1.1 (kf6)
     A style for Qt Quick Controls 2 to make it follow your desktop theme
@@ -2692,7 +2694,7 @@ local/rubberband 3.3.0-2.1
     Time-stretching and pitch-shifting audio library and utility
 local/runc 1.1.13-1.1
     CLI tool for managing OCI compliant containers
-local/rustdesk 1.2.7-2
+local/rustdesk 1.3.0-1
     Yet another remote desktop software, written in Rust. Works out of the box, no configuration required. Great alternative to TeamViewer and AnyDesk!
 local/rustup 1.27.1-1.1
     The Rust toolchain installer
@@ -2702,7 +2704,7 @@ local/sbc 2.0-2.1
     Bluetooth Subband Codec (SBC) library
 local/scrcpy 2.6.1-1.1
     Display and control your Android device
-local/scx-scheds 1.0.2-1
+local/scx-scheds 1.0.3-1
     sched_ext schedulers and tools
 local/sd 1.0.0-1.1
     Intuitive find & replace
@@ -2748,7 +2750,7 @@ local/sklauncher-bin 3.2.10-1
     Secure and modern Minecraft Launcher
 local/slang 2.3.3-3.1
     S-Lang is a powerful interpreted language
-local/sleuthkit 4.12.1-2.1
+local/sleuthkit 4.12.1-3.1
     File system and media management forensic analysis tools
 local/slurp 1.5.0-1.1
     Select a region in a Wayland compositor
@@ -2808,7 +2810,7 @@ local/starship 1.20.1-1.1
     The cross-shell prompt for astronauts
 local/startup-notification 0.12-8.1
     Libary to monitor and display application startup
-local/steam 1.0.0.79-7
+local/steam 1.0.0.81-3
     Valve's digital software delivery system
 local/stoken 0.92-4.1
     RSA SecurID-compatible software token for Linux/UNIX systems
@@ -2964,9 +2966,9 @@ local/vi 1:070224-6.1
     The original ex/vi text editor
 local/vid.stab 1.1.1-2.1
     Video stabilization library
-local/vim 9.1.0672-1.1
+local/vim 9.1.0689-1.1
     Vi Improved, a highly configurable, improved version of the vi text editor
-local/vim-runtime 9.1.0672-1.1
+local/vim-runtime 9.1.0689-1.1
     Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
 local/virglrenderer 1.0.1-2.1
     A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering
@@ -3076,7 +3078,7 @@ local/xclip 0.13-5.1
     Command line interface to the X11 clipboard
 local/xcur2png 0.7.1-8.1
     Convert X cursors to PNG images
-local/xdg-dbus-proxy 0.1.5-2.1
+local/xdg-dbus-proxy 0.1.6-1.1
     Filtering proxy for D-Bus connections
 local/xdg-desktop-portal 1.18.4-1.1
     Desktop integration portals for sandboxed apps
@@ -3174,7 +3176,7 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
-local/zed 0.149.3-1.1
+local/zed 0.149.5-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 local/zen-browser-bin 1.0.0.a.28-1
     Standalone web browser - Static binaries from upstream
