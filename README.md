@@ -22,13 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 11:33:32 PM IST 2024
+## Changelog Mon Aug 26 12:53:45 AM IST 2024
 ```
- Configs/fastfetch/config.jsonc |  2 +-
- Configs/swappy/config          |  2 +-
- README.md                      |  9 +--------
- current-packages-dump.txt      |  1 +
- packages-with-info.txt         | 10 ++++++++++
- 5 files changed, 14 insertions(+), 10 deletions(-)
+ Configs/swappy/config     |  2 +-
+ README.md                 | 10 +----
+ current-packages-dump.txt |  2 +-
+ packages-with-info.txt    | 96 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 4 files changed, 97 insertions(+), 13 deletions(-)
 ```
  
