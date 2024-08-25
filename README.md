@@ -22,9 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 06:14:30 PM IST 2024
+## Changelog Sun Aug 25 06:23:06 PM IST 2024
 ```
- README.md | 6 +-----
- 1 file changed, 1 insertion(+), 5 deletions(-)
+ Extra-files/kwriterc      |   8 ++-
+ README.md                 |   6 +--
+ current-packages-dump.txt |  66 +++++++++++++++++++++++
+ packages-with-info.txt    | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 208 insertions(+), 6 deletions(-)
 ```
  

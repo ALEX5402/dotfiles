@@ -1910,6 +1910,30 @@ local/orc 0.4.39-1.1
     Optimized Inner Loop Runtime Compiler
 local/os-prober 1.81-2.1
     Utility to detect other OSes on a set of drives
+local/otf-aurulent-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Aurulent Sans Mono from nerd fonts library
+local/otf-codenewroman-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Code New Roman from nerd fonts library
+local/otf-comicshanns-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Comic Sans (Comic Shanns) from nerd fonts library
+local/otf-commit-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Commit Mono from nerd fonts library
+local/otf-droid-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Droid Sans Mono from nerd fonts library
+local/otf-firamono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Fira (Fura) Mono from nerd fonts library
+local/otf-geist-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Geist Mono from nerd fonts library
+local/otf-hasklig-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Hasklig (Hasklug) from nerd fonts library
+local/otf-hermit-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Hermit from nerd fonts library
+local/otf-monaspace-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Monaspace (Monaspice) from nerd fonts library
+local/otf-opendyslexic-nerd 3.2.1-2 (nerd-fonts)
+    Patched font OpenDyslexic from nerd fonts library
+local/otf-overpass-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Overpass from nerd fonts library
 local/p11-kit 0.25.5-1.1
     Loads and enumerates PKCS#11 modules
 local/pacman 6.1.0-7
@@ -2636,22 +2660,132 @@ local/tree-sitter-vimdoc 3.0.0-1.1 (tree-sitter-grammars)
     Vim help file grammar for tree-sitter
 local/tslib 1.23-1.1
     Touchscreen Access Library
+local/ttf-0xproto-nerd 3.2.1-2 (nerd-fonts)
+    Patched font 0xProto from nerd fonts library
+local/ttf-3270-nerd 3.2.1-2 (nerd-fonts)
+    Patched font IBM 3270 from nerd fonts library
+local/ttf-agave-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Agave from nerd fonts library
+local/ttf-anonymouspro-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Anonymous Pro (Anonymice) from nerd fonts library
+local/ttf-arimo-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Arimo from nerd fonts library
+local/ttf-bigblueterminal-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Big Blue Terminal from nerd fonts library
 local/ttf-bitstream-vera 1.10-16
     Bitstream Vera fonts.
+local/ttf-bitstream-vera-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Bitstream Vera Mono from nerd fonts library
+local/ttf-cascadia-code-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Cascadia Code (Caskaydia) from nerd fonts library
+local/ttf-cascadia-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Cascadia Mono (Caskaydia) from nerd fonts library
+local/ttf-cousine-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Cousine from nerd fonts library
+local/ttf-d2coding-nerd 3.2.1-2 (nerd-fonts)
+    Patched font D2Coding from nerd fonts library
+local/ttf-daddytime-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Daddy Time Mono from nerd fonts library
 local/ttf-dejavu 2.37+18+g9b5d1b2f-7
     Font family based on the Bitstream Vera Fonts with a wider range of characters
+local/ttf-dejavu-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Dejavu Sans Mono from nerd fonts library
+local/ttf-envycoder-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Envy Code R from nerd fonts library
+local/ttf-fantasque-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Fantasque Sans Mono from nerd fonts library
 local/ttf-fira-code 6.2-2
     Monospaced font with programming ligatures
+local/ttf-firacode-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Fira (Fura) Code from nerd fonts library
+local/ttf-go-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Go Mono from nerd fonts library
+local/ttf-gohu-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Gohufont from nerd fonts library
+local/ttf-hack-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Hack from nerd fonts library
+local/ttf-heavydata-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Heavy Data from nerd fonts library
+local/ttf-iawriter-nerd 3.2.1-2 (nerd-fonts)
+    Patched font iA Writer (iM Writing) from nerd fonts library
+local/ttf-ibmplex-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font IBM Plex Mono (Blex) from nerd fonts library
+local/ttf-inconsolata-go-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Inconsolata Go from nerd fonts library
+local/ttf-inconsolata-lgc-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Inconsolata LGC from nerd fonts library
+local/ttf-inconsolata-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Inconsolata from nerd fonts library
+local/ttf-intone-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Intone (Intel One) from nerd fonts library
+local/ttf-iosevka-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Iosevka from nerd fonts library
+local/ttf-iosevkaterm-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Iosevka Term from nerd fonts library
+local/ttf-iosevkatermslab-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Iosevka Term Slab from nerd fonts library
 local/ttf-jetbrains-mono 2.304-2
     Typeface for developers, by JetBrains
 local/ttf-jetbrains-mono-nerd 3.2.1-2 (nerd-fonts)
     Patched font JetBrains Mono from nerd fonts library
+local/ttf-lekton-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Lekton from nerd fonts library
 local/ttf-liberation 2.1.5-2
     Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
+local/ttf-liberation-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Liberation Mono from nerd fonts library
+local/ttf-lilex-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Lilex from nerd fonts library
+local/ttf-martian-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Martian Mono from nerd fonts library
+local/ttf-meslo-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Meslo LG from nerd fonts library
+local/ttf-monofur-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Monofur from nerd fonts library
+local/ttf-monoid-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Monoid from nerd fonts library
+local/ttf-mononoki-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Mononoki from nerd fonts library
+local/ttf-mplus-nerd 3.2.1-2 (nerd-fonts)
+    Patched font MPlus from nerd fonts library
+local/ttf-nerd-fonts-symbols 3.2.1-1 (nerd-fonts)
+    High number of extra glyphs from popular 'iconic fonts'
+local/ttf-nerd-fonts-symbols-common 3.2.1-1
+    High number of extra glyphs from popular 'iconic fonts' (common files)
+local/ttf-nerd-fonts-symbols-mono 3.2.1-1 (nerd-fonts)
+    High number of extra glyphs from popular 'iconic fonts' (monospace)
+local/ttf-noto-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Noto from nerd fonts library
 local/ttf-opensans 1.101-3
     Sans-serif typeface commissioned by Google
+local/ttf-profont-nerd 3.2.1-2 (nerd-fonts)
+    Patched font ProFont from nerd fonts library
+local/ttf-proggyclean-nerd 3.2.1-2 (nerd-fonts)
+    Patched font ProggyClean from nerd fonts library
+local/ttf-recursive-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Recursive Mono (Rec Mono) from nerd fonts library
 local/ttf-roboto 2.138-5
     Google's signature family of fonts
+local/ttf-roboto-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Roboto Mono from nerd fonts library
+local/ttf-sharetech-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Share Tech Mono (Shure Tech Mono) from nerd fonts library
+local/ttf-sourcecodepro-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Source Code Pro from nerd fonts library
+local/ttf-space-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Space Mono from nerd fonts library
+local/ttf-terminus-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Terminus (Terminess) from nerd fonts library
+local/ttf-tinos-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Tinos from nerd fonts library
+local/ttf-ubuntu-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Ubuntu Mono from nerd fonts library
+local/ttf-ubuntu-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Ubuntu from nerd fonts library
+local/ttf-victor-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Victor Mono from nerd fonts library
+local/ttf-zed-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Zed Mono from nerd fonts library
 local/turbo-base64 2023.08-2
     Fastest Base64 SIMD Encoding library
 local/tzdata 2024a-2.1
