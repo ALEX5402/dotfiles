@@ -1,4 +1,4 @@
-$HOME/.config/ags/user/colors-waybar.css
+$HOME/.config/ags/user/colors-ags.css
 @define-color foreground #EAF2FA;
 @define-color background rgba(5,5,7,0.25);
 @define-color cursor #EAF2FA;

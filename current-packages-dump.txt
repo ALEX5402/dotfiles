@@ -153,6 +153,7 @@ logrotate
 lsb-release
 lsd
 lua-language-server
+lua-luv
 man-db
 man-pages
 meld

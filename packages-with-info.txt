@@ -1710,6 +1710,8 @@ local/lua 5.4.7-1.1
     Powerful lightweight programming language designed for extending applications
 local/lua-language-server 3.10.5-1.1
     Lua Language Server coded by Lua
+local/lua-luv 1.48.0_2-1.1
+    Bare libuv bindings for lua - Lua module
 local/lua51-lpeg 1.1.0-2
     Pattern-matching library for Lua 5.1
 local/luajit 2.1.1723675123-1.1

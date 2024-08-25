@@ -12,14 +12,24 @@ useSshConfig=true
 username=root
 
 [SSH Config][api2]
-hostname=serverhost
+hostname=191.101.80.155
 identifier=api2
 importedFromSshConfig=true
 port=22
 profileName=Built-in
-sshkey=~/.ssh/hostinger
+sshkey=~/.ssh/hostinger1
 useSshConfig=true
 username=root
+
+[SSH Config][gitgay]
+hostname=git.gay
+identifier=gitgay
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/gitgay
+useSshConfig=true
+username=git
 
 [SSH Config][github]
 hostname=github.com
@@ -40,3 +50,23 @@ profileName=
 sshkey=~/.ssh/gitlab
 useSshConfig=true
 username=git
+
+[SSH Config][segfault]
+hostname=adm.segfault.net
+identifier=segfault
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/adm-segfault
+useSshConfig=true
+username=root
+
+[SSH Config][vps-telegrambot]
+hostname=82.112.230.52
+identifier=vps-telegrambot
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/telegrambot-vps
+useSshConfig=true
+username=root
