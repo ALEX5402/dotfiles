@@ -148,6 +148,7 @@ linux-xanmod-edge-x64v3
 linux-xanmod-edge-x64v3-headers
 linux-zen
 linux-zen-headers
+liquidctl
 logrotate
 lsb-release
 lsd

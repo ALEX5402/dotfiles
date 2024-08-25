@@ -1680,6 +1680,8 @@ local/linux-zen 6.10.6.zen1-1
     The Linux ZEN kernel and modules
 local/linux-zen-headers 6.10.6.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
+local/liquidctl 1.13.0-2
+    Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 local/lld 18.1.8-1.1
     Linker from the LLVM project
 local/llvm 18.1.8-5
@@ -2148,6 +2150,8 @@ local/python-click 8.1.7-3
     Simple wrapper around optparse for powerful command line utilities
 local/python-colorama 0.4.6-3
     Python API for cross-platform colored terminal text.
+local/python-colorlog 6.8.2-2
+    A colored formatter for the python logging module
 local/python-conda 24.7.1-4
     OS-agnostic, system-level binary package manager and ecosystem https://conda.io
 local/python-conda-package-handling 2.3.0-3
@@ -2156,6 +2160,8 @@ local/python-conda-package-streaming 0.10.0-4
     An efficient library to read from new and old format .conda and .tar.bz2 conda packages
 local/python-crashtest 0.4.1-3
     supposedly makes exceptions handling and inspection easier
+local/python-crcmod 1.7-7.1
+    Module for generating objects that compute the Cyclic Redundancy Check (CRC)
 local/python-cryptography 42.0.7-1
     A package designed to expose cryptographic recipes and primitives to Python developers
 local/python-dateutil 2.9.0-5
@@ -2180,6 +2186,8 @@ local/python-gobject 3.48.2-2
     Python bindings for GLib/GObject/GIO/GTK
 local/python-greenlet 3.0.3-2.1
     Lightweight in-process concurrent programming
+local/python-hidapi 0.14.0-3.1
+    A Cython interface to the hidapi from signal11/hidapi
 local/python-html5lib 1.1-14
     A Python HTML parser/tokenizer based on the WHATWG HTML5 spec
 local/python-idna 3.7-1
@@ -2282,6 +2290,8 @@ local/python-pyqt5-sip 12.15.0-1.1
     The sip module support for PyQt5
 local/python-pytest 1:8.3.2-1
     Simple powerful testing with Python
+local/python-pyusb 1.2.1-5
+    USB access on Python
 local/python-pyxdg 0.28-3
     Python library to access freedesktop.org standards
 local/python-rapidfuzz 3.6.2-3.1

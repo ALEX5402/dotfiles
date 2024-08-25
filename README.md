@@ -22,12 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 11:01:19 PM IST 2024
+## Changelog Sun Aug 25 11:33:32 PM IST 2024
 ```
- Configs/swappy/config                                  | 2 +-
- README.md                                              | 8 +-------
- System Level Configuration/IT8686E-Drivers/README.md   | 4 ----
- System Level Configuration/Repository-setups/README.md | 3 ---
- 4 files changed, 2 insertions(+), 15 deletions(-)
+ Configs/fastfetch/config.jsonc |  2 +-
+ Configs/swappy/config          |  2 +-
+ README.md                      |  9 +--------
+ current-packages-dump.txt      |  1 +
+ packages-with-info.txt         | 10 ++++++++++
+ 5 files changed, 14 insertions(+), 10 deletions(-)
 ```
  
