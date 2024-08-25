@@ -606,8 +606,6 @@ local/harfbuzz 9.0.0-1
     OpenType text shaping engine
 local/harfbuzz-icu 9.0.0-1
     OpenType text shaping engine - ICU integration
-local/haruna 1.1.2-2.1
-    Video player built with Qt/QML on top of libmpv
 local/haveged 1.9.18-2.1
     Entropy harvesting daemon using CPU timings
 local/hdparm 9.65-2.1

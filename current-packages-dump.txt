@@ -95,7 +95,6 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
 gwenview
-haruna
 haveged
 hdparm
 heroic-games-launcher
