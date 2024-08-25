@@ -22,9 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 06:24:18 PM IST 2024
+## Changelog Sun Aug 25 06:43:06 PM IST 2024
 ```
- README.md | 9 +--------
- 1 file changed, 1 insertion(+), 8 deletions(-)
+ Configs/hypr/hyprland.conf         | 2 +-
+ Configs/hypr/plugins/hyprexpo.conf | 1 +
+ README.md                          | 6 +-----
+ current-packages-dump.txt          | 1 +
+ packages-with-info.txt             | 4 ++--
+ 5 files changed, 6 insertions(+), 8 deletions(-)
 ```
  

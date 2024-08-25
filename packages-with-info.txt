@@ -46,6 +46,8 @@ local/amd-ucode 20240809.59460076-1
     Microcode update image for AMD CPUs
 local/amdvlk 2024.Q3.1-1.1
     AMD's standalone Vulkan driver
+local/ananicy-cpp 1.1.1-1
+    Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
 local/android-apktool-bin 2.9.3-2
     A tool for reverse engineering Android .apk files
 local/android-studio 2024.1.1.13-1
@@ -1778,8 +1780,6 @@ local/mpv 1:0.38.0-6.1
     a free, open source, and cross-platform media player
 local/mpv-mpris 1.1-2.1
     MPRIS plugin for mpv
-local/mpvqt 1.0.1-1.1
-    A libmpv wrapper for QtQuick2 and QML
 local/msgpack-c 5.0.0-2.1
     An efficient object serialization library
 local/mtdev 1.1.7-1.1

@@ -7,6 +7,7 @@ alsa-plugins
 alsa-utils
 amd-ucode
 amdvlk
+ananicy-cpp
 android-apktool-bin
 android-studio
 android-tools
