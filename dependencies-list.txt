@@ -68,8 +68,13 @@ dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 vim                                                    # terminal text editor
 code                                                   # ide text editor
-spotify #musicplayer
+zed
+youtube-music-bin #musicplayer
+youtube-dl-git                                         # ytdl                                            # ytfzf
+fzf
 spicetify-cli # spotify modifier
+neovim
+kwrite
 
 # --------------------------------------------------- // Shell  + extra
 eza                                                    # ls replacement
@@ -77,11 +82,12 @@ fish                                                   # file lister for fish
 nushell                                                     # nu shell
 starship                                               # customizable shell prompt
 fastfetch                                              # system information fetch tool
-ytfzf-git                                              # to play songs 
-
+ytfzf-git                                              # to play songs
+ttf-jetbrains-mono                                     # font
+nerd-fonts                                             # all nerd fonts
 
 
 
 # --------------------------------------------------- // social
 vesktop                                                # best discord clint for wayland
-64gram-desktop-bin                                        # best telegram clint for wayland
+ayugram-desktop                                        # best telegram clint for wayland

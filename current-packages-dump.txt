@@ -1,4 +1,3 @@
-64gram-desktop-bin
 7-zip-full
 accountsservice
 adobe-source-sans-fonts
@@ -211,11 +210,9 @@ pipewire-pulse
 pkgfile
 podman
 polkit-gnome
-polkit-kde-agent
 power-profiles-daemon
 powerpill
 proot
-protontricks
 pv
 python-conda
 python-pyamdgpuinfo
@@ -328,7 +325,6 @@ vesktop
 vi
 vim
 vortex-thermal
-vulkan-intel
 vulkan-radeon
 waybar
 wev

@@ -22,57 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 09:12:18 PM IST 2024
+## Changelog Sun Aug 25 10:42:56 PM IST 2024
 ```
- Configs/ags/user/colors-ags.css                    | 38 ++++++++++----------
- Configs/ags/user/colors-waybar.css                 | 20 -----------
- Configs/cava/Wall-Dcol                             | 16 ++++-----
- Configs/cava/config                                | 16 ++++-----
- Configs/dunst/dunstrc                              | 12 +++----
- Configs/dunst/icons/hyprdots.svg                   | 12 +++----
- Configs/dunst/icons/vol/muted-mic.svg              |  2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |  2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |  2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |  2 +-
- Configs/dunst/icons/vol/vol-0.svg                  | 10 +++---
- Configs/dunst/icons/vol/vol-10.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-100.svg                | 10 +++---
- Configs/dunst/icons/vol/vol-15.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-20.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-25.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-30.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-35.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-40.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-45.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-5.svg                  | 10 +++---
- Configs/dunst/icons/vol/vol-50.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-55.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-60.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-65.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-70.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-75.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-80.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-85.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-90.svg                 | 10 +++---
- Configs/dunst/icons/vol/vol-95.svg                 | 10 +++---
- Configs/dunst/wallbash.conf                        | 12 +++----
- .../hyde/themes/Catppuccin Mocha/ags-colours.theme |  2 +-
- .../hyde/themes/Gruvbox Retro/ags-colours.theme    |  2 +-
- .../themes/Ros\303\251 Pine/ags-colours.theme"     |  2 +-
- Configs/hyde/themes/Sweet-Dark/ags-colours.theme   |  2 +-
- Configs/hyde/themes/Sweet-Dark/wall.set            |  2 +-
- Configs/hyde/themes/Tokyo Night/ags-colours.theme  |  2 +-
- Configs/qt5ct/colors.conf                          |  6 ++--
- Configs/qt6ct/colors.conf                          |  6 ++--
- Configs/spicetify/Themes/Sleek/color.ini           | 40 +++++++++++-----------
- Configs/swappy/config                              |  2 +-
- Extra-files/QtProject.conf                         |  4 +--
- Extra-files/konsolerc                              |  3 ++
- Extra-files/konsolesshconfig                       | 34 ++++++++++++++++--
- Extra-files/partitionmanagerrc                     |  3 ++
- README.md                                          |  8 +----
- current-packages-dump.txt                          |  1 +
- packages-with-info.txt                             |  2 ++
- 49 files changed, 239 insertions(+), 226 deletions(-)
+ Configs/waybar/config.jsonc       |  2 +-
+ Configs/waybar/modules/wbar.jsonc |  2 +-
+ Extra-files/katerc                | 25 +++++++++++++++++-
+ README.md                         | 54 +--------------------------------------
+ current-packages-dump.txt         |  4 ---
+ dependencies-list.txt             | 14 +++++++---
+ packages-with-info.txt            |  8 ------
+ 7 files changed, 37 insertions(+), 72 deletions(-)
 ```
  

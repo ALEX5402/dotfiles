@@ -1,5 +1,3 @@
-local/64gram-desktop-bin 1:1.1.34-1
-    Unofficial desktop version of Telegram messaging app - binary version
 local/7-zip-full 24.08-1
     File archiver with a high compression ratio (full package to replace p7zip)
 local/a52dec 0.8.0-2.1
@@ -2072,8 +2070,6 @@ local/polkit 125-1.1
     Application development toolkit for controlling system-wide privileges
 local/polkit-gnome 0.105-11.1
     Legacy polkit authentication agent for GNOME
-local/polkit-kde-agent 6.1.4-1.1 (plasma)
-    Daemon providing a polkit authentication UI for KDE
 local/polkit-qt6 0.200.0-1
     A library that allows developers to access PolicyKit API with a nice Qt-style API
 local/poppler 24.08.0-1
@@ -2100,8 +2096,6 @@ local/proot 5.4.0-1
     chroot, mount --bind, and binfmt_misc without privilege/setup
 local/protobuf 27.3-2.1
     Protocol Buffers - Google's data interchange format
-local/protontricks 1.11.1-1
-    A simple wrapper that does winetricks things for Proton enabled games.
 local/psmisc 23.7-1.1
     Miscellaneous procfs tools
 local/pugixml 1.14-1.1
@@ -2858,8 +2852,6 @@ local/vulkan-headers 1:1.3.285-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.285-1.1
     Vulkan Installable Client Driver (ICD) Loader
-local/vulkan-intel 1:24.2.0-3
-    Open-source Vulkan driver for Intel GPUs
 local/vulkan-radeon 1:24.2.0-3
     Open-source Vulkan driver for AMD GPUs
 local/vulkan-tools 1.3.269-1.1 (vulkan-devel)
