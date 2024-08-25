@@ -22,13 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 06:43:06 PM IST 2024
+## Changelog Sun Aug 25 07:39:07 PM IST 2024
 ```
- Configs/hypr/hyprland.conf         | 2 +-
- Configs/hypr/plugins/hyprexpo.conf | 1 +
- README.md                          | 6 +-----
- current-packages-dump.txt          | 1 +
- packages-with-info.txt             | 4 ++--
- 5 files changed, 6 insertions(+), 8 deletions(-)
+ Configs/swappy/config      |  2 +-
+ Extra-files/QtProject.conf |  6 +++---
+ README.md                  | 10 +---------
+ current-packages-dump.txt  |  1 -
+ packages-with-info.txt     |  2 --
+ 5 files changed, 5 insertions(+), 16 deletions(-)
 ```
  

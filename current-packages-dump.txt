@@ -239,7 +239,6 @@ s-nail
 scrcpy
 sddm
 sg3_utils
-sklauncher-bin
 slurp
 smartmontools
 sof-firmware
