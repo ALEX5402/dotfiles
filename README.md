@@ -22,15 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 02:54:19 AM IST 2024
+## Changelog Mon Aug 26 02:55:53 AM IST 2024
 ```
- Configs/hypr/hypridle.conf     | 12 ++++++------
- Configs/swappy/config          |  2 +-
- Extra-files/QtProject.conf     |  8 ++++----
- Extra-files/partitionmanagerrc | 10 ++++++++--
- README.md                      |  7 +------
- current-packages-dump.txt      |  3 ---
- packages-with-info.txt         |  8 ++------
- 7 files changed, 22 insertions(+), 28 deletions(-)
+ README.md | 12 +-----------
+ 1 file changed, 1 insertion(+), 11 deletions(-)
 ```
  
