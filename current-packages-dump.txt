@@ -31,7 +31,6 @@ brave-bin
 bridge-utils
 brightnessctl
 btop
-btrfs-progs
 cachyos-kernel-manager
 cachyos-keyring
 cachyos-mirrorlist
@@ -129,7 +128,6 @@ kvantum-qt5
 less
 libdvdcss
 libgsf
-libguestfs
 libopenraw
 libpulse
 libreoffice-fresh-sdk
@@ -233,7 +231,6 @@ qt6ct
 rebuild-detector
 reflector
 rofi-lbonn-wayland-git
-rustdesk
 s-nail
 scrcpy
 sddm
