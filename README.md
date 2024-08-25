@@ -22,13 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 03:51:12 PM IST 2024
+## Changelog Sun Aug 25 04:40:06 PM IST 2024
 ```
- Extra-files/arkrc                               |  3 +
- Extra-files/dolphinrc                           |  1 +
- Local/share/bin/get_current_keyboard_layout.cpp |  0
- Local/share/kxmlgui5/dolphin/dolphinui.rc       | 80 +++++++++++++++++++++----
- README.md                                       | 57 +-----------------
- 5 files changed, 74 insertions(+), 67 deletions(-)
+ Configs/ags/user/colors-ags.css | 38 ++++++++++++------------
+ Configs/cava/config             | 16 +++++-----
+ Configs/fastfetch/config.jsonc  |  2 +-
+ Configs/swappy/config           |  2 +-
+ README.md                       | 10 +------
+ current-packages-dump.txt       |  1 -
+ packages-with-info.txt          | 66 +++++------------------------------------
+ 7 files changed, 38 insertions(+), 97 deletions(-)
 ```
  

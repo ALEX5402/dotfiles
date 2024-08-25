@@ -72,7 +72,6 @@ fd
 ffmpegthumbnailer
 ffmpegthumbs
 filezilla
-firefox
 firewalld
 fish
 fisher
