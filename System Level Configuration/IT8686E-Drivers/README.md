@@ -207,7 +207,3 @@ This will automatically handle the downloading, compiling, and installation of t
 By following this guide, you should have successfully installed and configured the IT8686E sensor driver on your system. If you encounter any issues or have questions, please refer to the documentation in the repository or seek assistance from the community.
 
 For more information, visit the [IT87 GitHub repository](https://github.com/frankcrawford/it87).
-
-```
-
-Feel free to modify any sections or add additional information as needed!

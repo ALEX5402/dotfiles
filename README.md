@@ -22,11 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 10:51:34 PM IST 2024
+## Changelog Sun Aug 25 11:01:19 PM IST 2024
 ```
- README.md                                          |   6 +-
- .../IT8686E-Drivers/IT8686E.md                     | 213 ---------------------
- System Level Configuration/Zram Tweeks/THERMALS.md |  27 ---
- 3 files changed, 1 insertion(+), 245 deletions(-)
+ Configs/swappy/config                                  | 2 +-
+ README.md                                              | 8 +-------
+ System Level Configuration/IT8686E-Drivers/README.md   | 4 ----
+ System Level Configuration/Repository-setups/README.md | 3 ---
+ 4 files changed, 2 insertions(+), 15 deletions(-)
 ```
  

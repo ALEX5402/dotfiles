@@ -93,6 +93,3 @@ For more information on adding the CachyOS repository, visit: [CachyOS Wiki](htt
 
 For more information on Chaotic-AUR, visit: [Chaotic-AUR Documentation](https://aur.chaotic.cx/docs)
 
-```
-
-Feel free to modify any sections or add additional information as needed!
