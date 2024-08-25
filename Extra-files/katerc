@@ -10,7 +10,7 @@ Show Url Nav Bar=true
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
-Color Theme=Breeze Light
+Color Theme=Breeze Dark
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -22,6 +22,9 @@ Search History=arg
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true
+
+[UiSettings]
+ColorScheme=KvAdaptaDark
 
 [filetree]
 editShade=183,220,246
