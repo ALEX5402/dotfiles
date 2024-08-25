@@ -22,9 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 12:59:44 AM IST 2024
+## Changelog Mon Aug 26 01:07:30 AM IST 2024
 ```
- README.md | 7 +------
- 1 file changed, 1 insertion(+), 6 deletions(-)
+ README.md                                             | 6 +-----
+ System Level Configuration/Fan-control/etc/fancontrol | 6 +++---
+ 2 files changed, 4 insertions(+), 8 deletions(-)
 ```
  
