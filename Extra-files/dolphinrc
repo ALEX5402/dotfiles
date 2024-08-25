@@ -43,4 +43,5 @@ IconSize=-1
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,ffmpegthumbs
 
 [Toolbar mainToolBar]
+IconSize=16
 ToolButtonStyle=IconOnly
