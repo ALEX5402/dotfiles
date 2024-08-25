@@ -1,5 +1,9 @@
 # Fan Configuration README
 
+```
+sudo pwmconfig
+```
+
 ## System Information
 
 - **Temperature Sensors:**
