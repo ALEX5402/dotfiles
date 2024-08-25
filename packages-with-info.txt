@@ -2848,6 +2848,8 @@ local/vmaf 3.0.0-1.1
     Perceptual video quality assessment algorithm based on multi-method fusion
 local/volume_key 0.3.12-9.1
     A library for manipulating storage volume encryption keys and storing them separately from volumes to handle forgotten passphrases
+local/vortex-thermal 1:2.0-1 (vortex)
+    Vortex - Thermal
 local/vpnc 1:0.5.3.r539.r239-1.1
     VPN client for cisco3000 VPN Concentrators
 local/vulkan-headers 1:1.3.285-1 (vulkan-devel)

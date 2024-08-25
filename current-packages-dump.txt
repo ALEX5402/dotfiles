@@ -326,6 +326,7 @@ vercel
 vesktop
 vi
 vim
+vortex-thermal
 vulkan-intel
 vulkan-radeon
 waybar
