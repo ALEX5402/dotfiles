@@ -22,15 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Aug 25 10:42:56 PM IST 2024
+## Changelog Sun Aug 25 10:50:47 PM IST 2024
 ```
- Configs/waybar/config.jsonc       |  2 +-
- Configs/waybar/modules/wbar.jsonc |  2 +-
- Extra-files/katerc                | 25 +++++++++++++++++-
- README.md                         | 54 +--------------------------------------
- current-packages-dump.txt         |  4 ---
- dependencies-list.txt             | 14 +++++++---
- packages-with-info.txt            |  8 ------
- 7 files changed, 37 insertions(+), 72 deletions(-)
+ README.md | 12 +-----------
+ 1 file changed, 1 insertion(+), 11 deletions(-)
 ```
  
