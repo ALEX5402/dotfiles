@@ -22,10 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 10:52:23 AM IST 2024
+## Changelog Mon Aug 26 11:55:53 AM IST 2024
 ```
- Extra-files/partitionmanagerrc | 2 +-
- README.md                      | 6 +-----
- 2 files changed, 2 insertions(+), 6 deletions(-)
+ Extra-files/katerc | 2 +-
+ README.md          | 7 +------
+ 2 files changed, 2 insertions(+), 7 deletions(-)
 ```
  
