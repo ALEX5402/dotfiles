@@ -191,6 +191,18 @@ alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/me
 alias waystart 'waydroid show-full-ui'
 alias fish 'source ~/.config/fish/config.fish'
 
+# git stuff
+
+alias pull 'git pull'
+alias push 'git push'
+alias commit 'git commit'
+alias clone 'git clone'
+alias git-global-branch 'git --config --global init.defaultBranch'
+alias git-push-behave 'git config --global push.default'
+alias git-setefitor 'git config --global core.editor'
+alias git-colour 'git config --global color.ui'
+alias gadd 'git add'
+
 alias warpc 'warp-cli connect'
 alias flex 'fastfetch'
 alias warpd 'warp-cli disconnect'
@@ -220,18 +232,7 @@ alias vdir 'vdir --color=auto'
 alias wget 'wget -c '
 alias staccer 'QT_QPA_PLATFORM=xcb stacer'
 alias remove-force 'sudo pacman -Rnsdd'
-alias pull 'git pull'
-alias push 'git push'
-alias commit 'git commit'
-alias clone 'git clone'
-alias git-global-branch 'git --config --global init.defaultBranch'
-alias git-push-behave 'git config --global push.default'
-alias git-setefitor 'git config --global core.editor'
-alias git-colour 'git config --global color.ui'
-
 abbr se "sudo systemctl enable --now"
-
-
 # Get fastest mirrors
 alias mirror-update 'sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
 alias mirror-age 'sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist'

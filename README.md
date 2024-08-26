@@ -22,12 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 01:03:57 PM IST 2024
+## Changelog Mon Aug 26 01:07:17 PM IST 2024
 ```
- Configs/fish/config.fish   |  5 +++++
- Configs/hypr/hypridle.conf | 14 +++++++-------
- Extra-files/QtProject.conf |  4 ++--
- README.md                  |  7 +------
- 4 files changed, 15 insertions(+), 15 deletions(-)
+ Configs/fish/config.fish | 23 ++++++++++++-----------
+ Extra-files/kwriterc     |  2 +-
+ README.md                |  9 +--------
+ 3 files changed, 14 insertions(+), 20 deletions(-)
 ```
  
