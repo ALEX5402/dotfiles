@@ -22,10 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 11:55:53 AM IST 2024
+## Changelog Mon Aug 26 01:03:57 PM IST 2024
 ```
- Extra-files/katerc | 2 +-
- README.md          | 7 +------
- 2 files changed, 2 insertions(+), 7 deletions(-)
+ Configs/fish/config.fish   |  5 +++++
+ Configs/hypr/hypridle.conf | 14 +++++++-------
+ Extra-files/QtProject.conf |  4 ++--
+ README.md                  |  7 +------
+ 4 files changed, 15 insertions(+), 15 deletions(-)
 ```
  
