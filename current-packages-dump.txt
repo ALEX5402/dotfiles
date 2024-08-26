@@ -152,6 +152,8 @@ lsb-release
 lsd
 lua-language-server
 lua-luv
+lua51
+luarocks
 man-db
 man-pages
 meld

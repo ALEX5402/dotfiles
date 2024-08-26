@@ -1758,10 +1758,14 @@ local/lua-language-server 3.10.5-1.1
     Lua Language Server coded by Lua
 local/lua-luv 1.48.0_2-1.1
     Bare libuv bindings for lua - Lua module
+local/lua51 5.1.5-12.1
+    Powerful lightweight programming language designed for extending applications
 local/lua51-lpeg 1.1.0-2
     Pattern-matching library for Lua 5.1
 local/luajit 2.1.1723675123-1.1
     Just-in-time compiler and drop-in replacement for Lua 5.1
+local/luarocks 3.11.1-1
+    Deployment and management system for Lua modules
 local/lv2 1.18.10-1
     Plugin standard for audio systems
 local/lvm2 2.03.25-2.1
