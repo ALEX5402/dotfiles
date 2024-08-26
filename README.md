@@ -22,12 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Aug 26 02:42:52 PM IST 2024
+## Changelog Mon Aug 26 03:00:18 PM IST 2024
 ```
- Configs/fish/config.fish   | 1 -
- Configs/swappy/config      | 2 +-
- Extra-files/QtProject.conf | 2 +-
- README.md                  | 8 +-------
- 4 files changed, 3 insertions(+), 10 deletions(-)
+ Configs/swappy/config | 2 +-
+ README.md             | 9 +--------
+ 2 files changed, 2 insertions(+), 9 deletions(-)
 ```
  
