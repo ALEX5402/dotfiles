@@ -2,6 +2,9 @@
 
 This README provides instructions for setting up ZRAM and applying performance tweaks using the Vortex thermal package. This setup aims to enhance system performance and responsiveness, especially on systems with limited RAM.
 
+## i Don't use suspend mode and hybernation
+- ```sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target```
+
 ## Overview
 
 ZRAM is a Linux kernel module that creates a compressed block device in RAM, allowing for efficient memory usage. By using ZRAM, you can improve system performance by reducing the need for swap space on disk, which is slower than RAM.
