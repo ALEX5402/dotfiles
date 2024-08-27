@@ -242,7 +242,6 @@ smartmontools
 sof-firmware
 speedtest-rs-bin
 spicetify-cli
-spotify
 stacer-bin
 starship
 steam

@@ -2238,6 +2238,8 @@ local/python-lark-parser 1.1.9-3
     A modern parsing library
 local/python-libmamba 1.5.8-3
     The fast cross-platform package manager
+local/python-libtmux 0.37.0-2
+    Python api for tmux
 local/python-lockfile 0.12.2-13
     Platform-independent file locking module
 local/python-mako 1.3.5-1
@@ -2586,8 +2588,6 @@ local/spicetify-cli 2.37.2-1
     Command-line tool to customize Spotify client
 local/spirv-tools 2024.2-1.1 (vulkan-devel)
     API and commands for processing SPIR-V modules
-local/spotify 1:1.2.42.290-1
-    A proprietary music streaming service
 local/sqlite 3.46.1-2
     A C library that implements an SQL database engine
 local/squashfs-tools 4.6.1-2.1

@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BorderWhenActive=false
 ColorScheme=Sweet-Ambar-Blue
-Font=JetBrainsMono Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=22,25,37,0
 UseFontLineChararacters=false
 
