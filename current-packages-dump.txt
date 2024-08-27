@@ -122,6 +122,7 @@ kdenlive
 kio-admin
 kitty
 konsole
+kotlin
 kservice5
 kvantum
 kvantum-qt5

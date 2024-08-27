@@ -22,8 +22,8 @@ previewsShown=false
 showHovered=false
 
 [KFileDialog Settings]
-Places Icons Auto-resize=true
-Places Icons Static Size=22
+Places Icons Auto-resize=false
+Places Icons Static Size=16
 
 [KPropertiesDialog]
 2560x1080 screen: Window-Maximized=true
@@ -37,7 +37,7 @@ IconSize=16
 ToolButtonStyle=IconOnly
 
 [PlacesPanel]
-IconSize=-1
+IconSize=16
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,ffmpegthumbs

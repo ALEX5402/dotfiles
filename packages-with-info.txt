@@ -688,6 +688,8 @@ local/jbig2dec 0.20-1.1
     Decoder implementation of the JBIG2 image compression format
 local/jbigkit 2.1-8.1
     Data compression library/utilities for bi-level high-resolution images
+local/jdk11-openjdk 11.0.24.u8-1
+    OpenJDK Java 11 development kit
 local/jdk17-openjdk 17.0.12.u7-2
     OpenJDK Java 17 development kit
 local/jdk21-openjdk 21.0.4.u7-2
@@ -842,6 +844,8 @@ local/knotifyconfig 6.5.0-1.1 (kf6)
     Configuration system for KNotify
 local/konsole 24.05.2-1.1 (kde-applications kde-utilities)
     KDE terminal emulator
+local/kotlin 2.0.20-1
+    Statically typed programming language that can interoperate with Java
 local/kpackage 6.5.0-1.1 (kf6)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kpackage5 5.116.0-1.1 (kf5)
