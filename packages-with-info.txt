@@ -96,8 +96,6 @@ local/automake 1.17-1
     A GNU tool for automatically creating Makefiles
 local/avahi 1:0.8+r194+g3f79789-2.1
     Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
-local/ayatana-ido 0.10.4-1.1
-    Ayatana Indicator Display Objects
 local/aylurs-gtk-shell 1.8.2-3
     Aylurs's Gtk Shell (AGS), An eww inspired gtk widget system.
 local/ayugram-desktop 5.4.1-1
@@ -1090,10 +1088,6 @@ local/libavif 1.1.1-1.1
     Library for encoding and decoding .avif files
 local/libavtp 0.2.0-3.1
     Open source implementation of Audio Video Transport Protocol
-local/libayatana-appindicator 0.5.93-1.1
-    Ayatana Application Indicators shared library
-local/libayatana-indicator 0.9.4-1.1
-    Ayatana Indicators shared library
 local/libb2 0.98.1-3.1
     C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
 local/libblockdev 3.1.1-2.1
@@ -1148,8 +1142,6 @@ local/libcolord 1.4.7-2
     System daemon for managing color devices (client library)
 local/libcups 2:2.4.10-1.1
     OpenPrinting CUPS - client libraries and headers
-local/libcurl-gnutls 8.9.1-2.1
-    command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
 local/libdaemon 0.14-6.1
     Lightweight C library that eases the writing of UNIX daemons
 local/libdatachannel 0.21.2-1.1
@@ -2102,6 +2094,10 @@ local/portaudio 1:19.7.0-3.1
     A free, cross-platform, open source, audio I/O library.
 local/power-profiles-daemon 0.21-3
     Makes power profiles handling available over D-Bus
+local/powerline 2.8.3-4.1
+    Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+local/powerline-common 2.8.3-4.1
+    common files for python-powerline
 local/powerpill 2021.11-15
     Pacman wrapper for faster downloads.
 local/ppp 2.5.0-3.1
@@ -2242,8 +2238,6 @@ local/python-lark-parser 1.1.9-3
     A modern parsing library
 local/python-libmamba 1.5.8-3
     The fast cross-platform package manager
-local/python-libtmux 0.37.0-2
-    Python api for tmux
 local/python-lockfile 0.12.2-13
     Platform-independent file locking module
 local/python-mako 1.3.5-1
@@ -2284,6 +2278,8 @@ local/python-poetry-core 1.9.0-5 (python-build-backend)
     Poetry PEP 517 Build Backend & Core Utilities
 local/python-poetry-plugin-export 1.8.0-1
     Poetry plugin to export the dependencies to various formats
+local/python-powerline 2.8.3-4.1
+    python library for powerline
 local/python-psutil 6.0.0-1
     A cross-platform process and system utilities module for Python
 local/python-ptyprocess 0.7.0-6

@@ -213,6 +213,7 @@ pkgfile
 podman
 polkit-gnome
 power-profiles-daemon
+powerline
 powerpill
 proot
 pv
