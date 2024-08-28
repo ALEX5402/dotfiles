@@ -6,7 +6,7 @@
     "layer": "top",
     "position": "top",
     "mod": "dock",
-    "height": 31,
+    "height": 30,
     "exclusive": true,
     "fixed-center": true,
     "passthrough": false,
@@ -16,7 +16,7 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/weather","custom/cava","mpris","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/weather","mpris","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
 	"modules-right": ["custom/padd","","custom/l_end","backlight","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/l_end","hyprland/window","custom/r_end","custom/l_end","network","bluetooth","tray","battery","custom/r_end","custom/padd"],
 
@@ -82,13 +82,6 @@
         },
 
 
-
-   "custom/cava": {
-       "exec": "WaybarCava.sh",
-       "format": "{}",
-       "tooltip": true,
-       "tooltip-format": "{}"
-    },
     "mpris": {
         "format": "{player_icon} {dynamic}",
         "rotate": 0,
