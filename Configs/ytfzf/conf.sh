@@ -10,6 +10,7 @@
 
 # video_pref="bestvideo[height<=?1080]+bestaudio/best"
 video_pref="medium[height<=?144]+bestaudio/mediam"
+ytdl_pref="$video_pref+$audio_pref/best/$video_pref/$audio_pref"
 show_thumbnails=1
 # skip_thumb_download=1
 async_thumbnails=1

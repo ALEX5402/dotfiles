@@ -105,6 +105,7 @@ hyde-cli-git
 hypridle
 hyprland
 hyprlock
+hyprpicker-git
 iaito
 imagemagick
 inetutils
