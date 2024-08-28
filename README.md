@@ -22,11 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Aug 28 11:56:37 AM IST 2024
+## Changelog Wed Aug 28 12:01:56 PM IST 2024
 ```
- Configs/waybar/config.ctl   |  4 +--
- Configs/waybar/config.jsonc | 11 ++------
- README.md                   | 61 +--------------------------------------------
- 3 files changed, 5 insertions(+), 71 deletions(-)
+ README.md | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
 ```
  
