@@ -75,6 +75,7 @@ filezilla
 firewalld
 fish
 fisher
+fontforge
 freedownloadmanager
 fsarchiver
 fzf

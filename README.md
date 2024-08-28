@@ -22,9 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Aug 28 12:01:56 PM IST 2024
+## Changelog Wed Aug 28 06:42:25 PM IST 2024
 ```
- README.md | 8 +-------
- 1 file changed, 1 insertion(+), 7 deletions(-)
+ Configs/pipewire/pipewire-pulse.conf.d/audiorelay.conf |  2 +-
+ Configs/swappy/config                                  |  2 +-
+ Extra-files/QtProject.conf                             |  4 ++--
+ Extra-files/katerc                                     |  2 +-
+ README.md                                              |  6 +-----
+ current-packages-dump.txt                              |  1 +
+ packages-with-info.txt                                 | 12 ++++++++++--
+ 7 files changed, 17 insertions(+), 12 deletions(-)
 ```
  
