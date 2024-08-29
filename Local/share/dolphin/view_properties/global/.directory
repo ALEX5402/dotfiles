@@ -1,6 +1,8 @@
 [Dolphin]
 PreviewsShown=false
-Timestamp=2024,8,20,10,34,42.049
+SortHiddenLast=true
+SortRole=artist
+Timestamp=2024,8,28,21,25,42.795
 Version=4
 VisibleRoles=Icons_text,Icons_size,Icons_width,Icons_height,Icons_album
 

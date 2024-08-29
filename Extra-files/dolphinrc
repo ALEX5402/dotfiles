@@ -3,6 +3,9 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
+[CompactMode]
+IconSize=48
+
 [DetailsMode]
 IconSize=48
 
@@ -16,10 +19,6 @@ ViewPropsTimestamp=2023,4,26,16,58,48.324
 IconSize=48
 MaximumTextLines=1
 PreviewSize=48
-
-[InformationPanel]
-previewsShown=false
-showHovered=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false

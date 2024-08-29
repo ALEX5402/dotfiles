@@ -1760,6 +1760,8 @@ local/md4c 0.5.2-1.1
     C Markdown parser
 local/mdadm 4.3-2
     A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+local/media-downloader 4.8.0-1
+    A Qt/C++ front end to yt-dlp, youtube-dl, gallery-dl, lux, you-get, svtplay-dl, aria2c, wget and safari books.
 local/media-player-info 26-1
     Data files describing media player capabilities, mostly of mass-storage devices
 local/meld 3.22.2-3
@@ -2000,6 +2002,8 @@ local/pcre2 10.44-1.1
     A library that implements Perl 5-style regular expressions. 2nd version
 local/pcsclite 2.3.0-1.1
     PC/SC Architecture smartcard middleware library
+local/peaclock 0.4.3-1
+    A colourful binary clock for the terminal
 local/perl 5.38.2-2.1
     A highly capable, feature-rich programming language
 local/perl-clone 0.46-3.1
@@ -3052,6 +3056,8 @@ local/youtube-dl-git 2021.12.17.r367.gc5098961b-1
     A small command-line program to download videos from YouTube.com and a few more sites (git version)
 local/youtube-music-bin 3.5.1-1
     YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
+local/yt-dlp 2024.08.06-1
+    A youtube-dl fork with additional features and fixes
 local/ytfzf-git r2073.71b9a6d-1
     A posix script to find and watch youtube videos from the terminal. (Without API)
 local/yyjson 0.10.0-1.1

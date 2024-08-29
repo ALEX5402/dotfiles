@@ -159,6 +159,7 @@ lua51
 luarocks
 man-db
 man-pages
+media-downloader
 meld
 mesa-utils
 meson
@@ -207,6 +208,7 @@ partitionmanager
 paru
 paru-debug
 pavucontrol
+peaclock
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -356,6 +358,7 @@ xsel
 yay
 youtube-dl-git
 youtube-music-bin
+yt-dlp
 ytfzf-git
 zed
 zen-browser-bin

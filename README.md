@@ -22,15 +22,17 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Aug 28 06:42:25 PM IST 2024
+## Changelog Thu Aug 29 10:11:38 AM IST 2024
 ```
- Configs/pipewire/pipewire-pulse.conf.d/audiorelay.conf |  2 +-
- Configs/swappy/config                                  |  2 +-
- Extra-files/QtProject.conf                             |  4 ++--
- Extra-files/katerc                                     |  2 +-
- README.md                                              |  6 +-----
- current-packages-dump.txt                              |  1 +
- packages-with-info.txt                                 | 12 ++++++++++--
- 7 files changed, 17 insertions(+), 12 deletions(-)
+ Configs/hypr/keybindings.conf                         |  2 +-
+ Configs/swappy/config                                 |  2 +-
+ Extra-files/QtProject.conf                            |  4 ++--
+ Extra-files/baloofileinformationrc                    |  3 +++
+ Extra-files/dolphinrc                                 |  7 +++----
+ Local/share/dolphin/view_properties/global/.directory |  4 +++-
+ README.md                                             | 12 +-----------
+ current-packages-dump.txt                             |  3 +++
+ packages-with-info.txt                                |  6 ++++++
+ 9 files changed, 23 insertions(+), 20 deletions(-)
 ```
  
