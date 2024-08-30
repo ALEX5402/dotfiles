@@ -22,11 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Aug 30 03:13:39 PM IST 2024
+## Changelog Fri Aug 30 03:57:36 PM IST 2024
 ```
- Configs/swappy/config      |  2 +-
- Extra-files/QtProject.conf |  4 ++--
- README.md                  | 11 +----------
- 3 files changed, 4 insertions(+), 13 deletions(-)
+ README.md | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
 ```
  
