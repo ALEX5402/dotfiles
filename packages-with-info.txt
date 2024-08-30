@@ -74,7 +74,7 @@ local/aria2 1.37.0-1.1
     Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
 local/aribb24 1.0.3-4.1
     Library for ARIB STD-B24, decoding JIS 8 bit characters and parsing MPEG-TS stream
-local/ark 24.05.2-2.1 (kde-applications kde-utilities)
+local/ark 24.08.0-1.1 (kde-applications kde-utilities)
     Archiving Tool
 local/aspell 0.60.8.1-2.1
     A spell checker designed to eventually replace Ispell
@@ -106,7 +106,7 @@ local/babl 0.1.108-1.1
     Dynamic, any to any, pixel format conversion library
 local/baloo 6.5.0-1.1 (kf6)
     A framework for searching and managing metadata
-local/baloo-widgets 24.05.2-1.1
+local/baloo-widgets 24.08.0-1.1
     Widgets for Baloo
 local/base 3-2
     Minimal package set to define a basic Arch Linux installation
@@ -348,7 +348,7 @@ local/exiv2 0.28.3-1.1
     Exif, Iptc and XMP metadata manipulation library and tools
 local/expat 2.6.2-1.1
     An XML parser library
-local/eza 0.19.0-1.1
+local/eza 0.19.1-1.1
     A modern replacement for ls (community fork of exa)
 local/f2fs-tools 1.16.0-3.1
     Tools for Flash-Friendly File System (F2FS)
@@ -586,7 +586,7 @@ local/gupnp 1:1.6.6-1.1
     GObject-based UPNP framework
 local/gupnp-igd 1.6.0-1.1
     A library to handle UPnP IGD port mapping
-local/gwenview 24.05.2-1.1 (kde-applications kde-graphics)
+local/gwenview 24.08.0-1.1 (kde-applications kde-graphics)
     A fast and easy to use image viewer
 local/gzip 1.13-4.1
     GNU compression utility
@@ -846,10 +846,12 @@ local/knotifications5 5.116.0-1.1 (kf5)
     Abstraction for system notifications
 local/knotifyconfig 6.5.0-1.1 (kf6)
     Configuration system for KNotify
-local/konsole 24.05.2-1.1 (kde-applications kde-utilities)
+local/konsole 24.08.0-1.1 (kde-applications kde-utilities)
     KDE terminal emulator
 local/kotlin 2.0.20-1
     Statically typed programming language that can interoperate with Java
+local/kotlin-language-server-git r1541.8c40b4fb-1
+    Smart code completion, diagnostics and more for Kotlin using the Language Server Protocol
 local/kpackage 6.5.0-1.1 (kf6)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kpackage5 5.116.0-1.1 (kf5)
@@ -2142,6 +2144,8 @@ local/python-anyio 4.4.0-1
     High level compatibility layer for multiple asynchronous event loop implementations
 local/python-archspec 0.2.4-1
     A library for detecting, labeling, and reasoning about microarchitectures
+local/python-argcomplete 3.4.0-1
+    Easy, extensible command line tab completion of arguments for your Python script
 local/python-asgiref 3.7.2-2
     Reference ASGI adapters and channel layers
 local/python-attrs 23.2.0-3
@@ -2400,8 +2404,6 @@ local/python3-xcgf 2021-15
     Xyne's common generic functions, for internal use.
 local/python3-xcpf 2021.12-14
     Xyne's common Pacman functions, for internal use.
-local/qbittorrent 4.6.6-1.1
-    An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 local/qca-qt5 2.3.9-2
     Qt Cryptographic Architecture
 local/qca-qt6 2.3.9-2
@@ -2532,6 +2534,8 @@ local/sdbus-cpp 1.5.0-3.1
     a high-level C++ D-Bus library designed to provide expressive, easy-to-use API
 local/sddm 0.21.0-4.1
     QML based X11 and Wayland display manager
+local/sdkmanager 0.6.8-1
+    a drop-in replacement for sdkmanager from the Android SDK written in Python
 local/sdl2 2.30.6-1.1
     A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 2)
 local/seatd 0.8.0-2.1
@@ -2864,8 +2868,6 @@ local/vercel 34.3.1-1
     The command line interface for Vercel
 local/verdict 1.4.2-1.1
     Compute quality functions of 2 and 3-dimensional regions
-local/vesktop 1.5.3-1
-    Vesktop gives you the performance of web Discord and the comfort of Discord Desktop
 local/vi 1:070224-6.1
     The original ex/vi text editor
 local/vid.stab 1.1.1-2.1
@@ -2890,7 +2892,7 @@ local/vulkan-headers 1:1.3.285-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.285-1.1
     Vulkan Installable Client Driver (ICD) Loader
-local/vulkan-radeon 1:24.2.0-3
+local/vulkan-radeon 1:24.2.1-2
     Open-source Vulkan driver for AMD GPUs
 local/vulkan-tools 1.3.269-1.1 (vulkan-devel)
     Vulkan Utilities and Tools
@@ -3064,9 +3066,9 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
-local/zed 0.149.5-1.1
+local/zed 0.149.6-2.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-local/zen-browser-bin 1.0.0.a.28-1
+local/zen-browser-bin 1.0.0.a.32-1
     Standalone web browser - Static binaries from upstream
 local/zenity 4.0.2-1.1
     Display graphical dialog boxes from shell scripts

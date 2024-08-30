@@ -125,6 +125,7 @@ kio-admin
 kitty
 konsole
 kotlin
+kotlin-language-server-git
 kservice5
 kvantum
 kvantum-qt5
@@ -227,7 +228,6 @@ python-pyclip
 python-pynvim
 python-pypresence
 python-pyqt5
-qbittorrent
 qpwgraph
 qt5-graphicaleffects
 qt5-imageformats
@@ -242,6 +242,7 @@ rofi-lbonn-wayland-git
 s-nail
 scrcpy
 sddm
+sdkmanager
 sg3_utils
 slurp
 smartmontools
@@ -326,7 +327,6 @@ unrar
 upscayl-bin
 usb_modeswitch
 vercel
-vesktop
 vi
 vim
 vortex-thermal

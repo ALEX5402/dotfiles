@@ -22,17 +22,14 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Aug 29 10:11:38 AM IST 2024
+## Changelog Fri Aug 30 12:41:04 PM IST 2024
 ```
- Configs/hypr/keybindings.conf                         |  2 +-
- Configs/swappy/config                                 |  2 +-
- Extra-files/QtProject.conf                            |  4 ++--
- Extra-files/baloofileinformationrc                    |  3 +++
- Extra-files/dolphinrc                                 |  7 +++----
- Local/share/dolphin/view_properties/global/.directory |  4 +++-
- README.md                                             | 12 +-----------
- current-packages-dump.txt                             |  3 +++
- packages-with-info.txt                                |  6 ++++++
- 9 files changed, 23 insertions(+), 20 deletions(-)
+ Configs/swappy/config      |   2 +-
+ Extra-files/QtProject.conf |   4 +-
+ Extra-files/katerc         | 100 ++++++++++++++++++++++++++++++++++++++++++++-
+ README.md                  |  14 +------
+ current-packages-dump.txt  |   4 +-
+ packages-with-info.txt     |  26 ++++++------
+ 6 files changed, 119 insertions(+), 31 deletions(-)
 ```
  
