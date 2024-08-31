@@ -139,7 +139,7 @@ viewShade=211,190,222
 AllowedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/lua-language-server
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=
+BlockedServerCommandLines=/usr/bin/kotlin-language-server
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true
