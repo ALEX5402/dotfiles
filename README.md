@@ -22,11 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sat Aug 31 08:44:45 PM IST 2024
+## Changelog Sun Sep  1 12:38:09 PM IST 2024
 ```
  Configs/swappy/config | 2 +-
- Extra-files/katerc    | 2 +-
- README.md             | 6 +-----
- 3 files changed, 3 insertions(+), 7 deletions(-)
+ README.md             | 8 +-------
+ 2 files changed, 2 insertions(+), 8 deletions(-)
 ```
  
