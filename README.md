@@ -22,12 +22,20 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Sep  1 06:53:34 PM IST 2024
+## Changelog Sun Sep  1 11:09:25 PM IST 2024
 ```
- Configs/hyde/hyde.conf     | 2 +-
- Configs/swappy/config      | 2 +-
- Extra-files/QtProject.conf | 2 +-
- README.md                  | 7 +------
- 4 files changed, 4 insertions(+), 9 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig |  110 +-
+ Configs/Kvantum/wallbash/wallbash.svg      | 9163 ++++++++++++++++++++++------
+ Configs/hyde/hyde.conf                     |    2 +-
+ Configs/hyde/themes/Sweet-Dark/kitty.theme |    2 +-
+ Configs/hypr/themes/colors.conf            |   14 -
+ Configs/kitty/theme.conf                   |   89 +-
+ Configs/rofi/theme.rasi                    |   14 +-
+ Configs/rofi/wallust/colors-rofi.rasi      |    7 +-
+ Configs/swappy/config                      |    2 +-
+ Configs/waybar/theme.css                   |   17 +-
+ Extra-files/QtProject.conf                 |    4 +-
+ README.md                                  |    9 +-
+ 12 files changed, 7370 insertions(+), 2063 deletions(-)
 ```
  

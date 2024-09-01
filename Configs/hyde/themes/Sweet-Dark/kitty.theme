@@ -2,7 +2,7 @@ $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 # Created by https://github.com/decaycs
 
 # Special
-background #0d0f18
+background #0D0F18
 foreground #a5b6cf
 
 # Black
