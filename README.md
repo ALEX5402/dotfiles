@@ -22,11 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Sep  2 05:19:46 PM IST 2024
+## Changelog Tue Sep  3 01:59:16 PM IST 2024
 ```
- Configs/swappy/config          |  2 +-
- Extra-files/partitionmanagerrc |  4 ++++
- README.md                      | 17 +----------------
- 3 files changed, 6 insertions(+), 17 deletions(-)
+ Configs/btop/btop.conf | 12 ++++++------
+ Extra-files/katerc     |  2 +-
+ README.md              |  8 +-------
+ 3 files changed, 8 insertions(+), 14 deletions(-)
 ```
  
