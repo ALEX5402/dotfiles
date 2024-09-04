@@ -22,10 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep  4 11:02:29 AM IST 2024
+## Changelog Wed Sep  4 07:36:23 PM IST 2024
 ```
- README.md              | 10 +---------
- packages-with-info.txt |  4 ++--
- 2 files changed, 3 insertions(+), 11 deletions(-)
+ Configs/hypr/hyprland.conf | 3 +--
+ Configs/swappy/config      | 2 +-
+ README.md                  | 7 +------
+ current-packages-dump.txt  | 1 +
+ packages-with-info.txt     | 4 +++-
+ 5 files changed, 7 insertions(+), 10 deletions(-)
 ```
  

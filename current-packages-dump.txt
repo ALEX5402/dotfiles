@@ -37,6 +37,7 @@ cachyos-mirrorlist
 cachyos-v3-mirrorlist
 cachyos-v4-mirrorlist
 cava
+ccls
 chaotic-keyring
 chaotic-mirrorlist
 cliphist

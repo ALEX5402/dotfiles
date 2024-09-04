@@ -192,6 +192,8 @@ local/cava 0.10.2-2
     Console-based Audio Visualizer for Alsa
 local/cblas 3.12.0-5.1
     C interface to BLAS
+local/ccls 0.20240202-1.1
+    C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting
 local/cdparanoia 10.2-9.1
     Compact Disc Digital Audio extraction tool
 local/cfitsio 1:4.4.1-1.1
@@ -218,7 +220,7 @@ local/cloudflare-warp-bin 2024.4.133-2
     Cloudflare Warp Client
 local/clucene 2.3.3.4-15.1
     C++ port of the high-performance text search engine Lucene
-local/cmake 3.30.2-1.1
+local/cmake 3.30.3-1.1
     A cross-platform open-source make system
 local/code 1.92.1-1.1
     The Open Source build of Visual Studio Code (vscode) editor
