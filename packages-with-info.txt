@@ -60,7 +60,7 @@ local/appimagelauncher 2.2.0-8
     Helper for running and integrating AppImages
 local/appstream 1.0.3-1.1
     Provides a standard for creating app stores across distributions
-local/aquamarine 0.3.3-1.1
+local/aquamarine 0.4.0-1.1
     a very light linux rendering backend library
 local/archlinux-java-run 10-1
     Java Application Launcher for Arch Linux
@@ -622,7 +622,7 @@ local/hyprcursor 0.1.9-1.1
     The hyprland cursor format, library and utilities
 local/hypridle 0.1.2-1.1
     hyprland’s idle daemon
-local/hyprland 0.42.0-1
+local/hyprland 0.42.0-2
     a highly customizable dynamic tiling Wayland compositor
 local/hyprlang 0.5.2-1.1
     implementation library for the hypr config language
