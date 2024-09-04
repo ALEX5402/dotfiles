@@ -39,7 +39,6 @@ cachyos-v4-mirrorlist
 cava
 chaotic-keyring
 chaotic-mirrorlist
-clapper
 cliphist
 cloudflare-warp-bin
 cmake

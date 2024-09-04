@@ -22,11 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep  3 01:59:16 PM IST 2024
+## Changelog Wed Sep  4 10:59:17 AM IST 2024
 ```
- Configs/btop/btop.conf | 12 ++++++------
- Extra-files/katerc     |  2 +-
- README.md              |  8 +-------
- 3 files changed, 8 insertions(+), 14 deletions(-)
+ Configs/swappy/config      |  2 +-
+ Extra-files/QtProject.conf |  4 ++--
+ README.md                  |  8 +-------
+ current-packages-dump.txt  |  1 -
+ packages-with-info.txt     | 12 ------------
+ 5 files changed, 4 insertions(+), 23 deletions(-)
 ```
  
