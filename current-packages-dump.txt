@@ -55,6 +55,7 @@ dolphin
 dosfstools
 downgrade
 dracut
+droidcam-obs-plugin
 duf
 dunst
 edex-ui-bin

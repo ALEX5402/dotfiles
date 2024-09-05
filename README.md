@@ -22,33 +22,50 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Sep  5 12:19:59 PM IST 2024
+## Changelog Fri Sep  6 02:08:34 AM IST 2024
 ```
- .../chrome/js/index-dir/the-real-index             | Bin 144 -> 192 bytes
- .../__default__profile__/extensions.builtin.cache  |   2 +-
- Configs/Code - OSS/DawnGraphiteCache/data_1        | Bin 270336 -> 270336 bytes
- Configs/Code - OSS/DawnGraphiteCache/index         | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/DawnWebGPUCache/data_1          | Bin 270336 -> 270336 bytes
- Configs/Code - OSS/DawnWebGPUCache/index           | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/GPUCache/data_0                 | Bin 45056 -> 45056 bytes
- Configs/Code - OSS/GPUCache/data_1                 | Bin 270336 -> 270336 bytes
- Configs/Code - OSS/GPUCache/data_2                 | Bin 1056768 -> 1056768 bytes
- Configs/Code - OSS/GPUCache/data_3                 | Bin 4202496 -> 4202496 bytes
- Configs/Code - OSS/GPUCache/index                  | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/Local Storage/leveldb/LOG       |   5 ++-
- Configs/Code - OSS/Session Storage/000003.log      | Bin 61 -> 80 bytes
- Configs/Code - OSS/Session Storage/LOG             |   5 ++-
- Configs/Code - OSS/Trust Tokens                    | Bin 36864 -> 36864 bytes
- Configs/Code - OSS/User/globalStorage/state.vscdb  | Bin 135168 -> 143360 bytes
- .../User/globalStorage/state.vscdb.backup          | Bin 135168 -> 143360 bytes
- Configs/Code - OSS/User/globalStorage/storage.json |  50 +++++++++++++++++----
- Configs/Code - OSS/User/settings.json              |   3 +-
- .../workspaceStorage/1724599073719/state.vscdb     | Bin 24576 -> 0 bytes
- .../1724599073719/state.vscdb.backup               | Bin 24576 -> 0 bytes
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   4 +-
- Extra-files/katerc                                 |   4 +-
- README.md                                          |  10 +----
- 25 files changed, 57 insertions(+), 28 deletions(-)
+ Configs/cava/Wall-Dcol                            | 16 ++++-----
+ Configs/cava/config                               | 16 ++++-----
+ Configs/dunst/dunstrc                             | 12 +++----
+ Configs/dunst/icons/hyprdots.svg                  | 12 +++----
+ Configs/dunst/icons/vol/muted-mic.svg             |  2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg         |  2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg           |  2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg       |  2 +-
+ Configs/dunst/icons/vol/vol-0.svg                 | 10 +++---
+ Configs/dunst/icons/vol/vol-10.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-100.svg               | 10 +++---
+ Configs/dunst/icons/vol/vol-15.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-20.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-25.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-30.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-35.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-40.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-45.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-5.svg                 | 10 +++---
+ Configs/dunst/icons/vol/vol-50.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-55.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-60.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-65.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-70.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-75.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-80.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-85.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-90.svg                | 10 +++---
+ Configs/dunst/icons/vol/vol-95.svg                | 10 +++---
+ Configs/dunst/wallbash.conf                       | 12 +++----
+ Configs/hyde/themes/Sweet-Dark/wall.set           |  2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json     |  2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak |  2 +-
+ Configs/obs-studio/global.ini                     | 10 ++++--
+ Configs/qt5ct/colors.conf                         |  6 ++--
+ Configs/qt6ct/colors.conf                         |  6 ++--
+ Configs/spicetify/Themes/Sleek/color.ini          | 40 +++++++++++------------
+ Configs/swappy/config                             |  2 +-
+ Extra-files/QtProject.conf                        |  2 +-
+ README.md                                         | 30 +----------------
+ current-packages-dump.txt                         |  1 +
+ packages-with-info.txt                            |  2 ++
+ 42 files changed, 185 insertions(+), 206 deletions(-)
 ```
  

@@ -302,6 +302,8 @@ local/downgrade 11.3.0-1
     Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 local/dracut 103-2
     An event driven initramfs infrastructure
+local/droidcam-obs-plugin 2.3.3-1
+    plugin for droidcam obs
 local/duf 0.8.1-3.1
     Disk Usage/Free Utility
 local/duktape 2.7.0-7.1
