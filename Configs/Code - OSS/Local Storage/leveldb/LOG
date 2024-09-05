@@ -1,2 +1,3 @@
-2024/08/25-20:47:53.129 11add Creating DB /home/alex/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2024/08/25-20:47:53.141 11add Reusing MANIFEST /home/alex/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/09/04-22:49:51.777 3cb35 Reusing MANIFEST /home/alex/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/09/04-22:49:51.780 3cb35 Recovering log #3
+2024/09/04-22:49:51.780 3cb35 Reusing old log /home/alex/.config/Code - OSS/Local Storage/leveldb/000003.log 

@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1724599073719": "__default__profile__"
+            "1725470392471": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -15,19 +15,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1724599073719"
+                "backupFolder": "1725470392471"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/alex/.config/Code - OSS/Backups/1724599073719",
+            "backupPath": "/home/alex/.config/Code - OSS/Backups/1725470392471",
             "uiState": {
                 "mode": 0,
-                "x": 448,
-                "y": 156,
-                "width": 1024,
-                "height": 768
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1050
             }
         },
         "openedWindows": []
@@ -87,6 +87,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Current-Projects/Sniff/settings.gradle.kts",
+                                        "path": "/home/alex/Current-Projects/Sniff/settings.gradle.kts",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Current-Projects/Sniff/settings.gradle.kts"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Current-Projects/Sniff/build.gradle.kts",
+                                        "path": "/home/alex/Current-Projects/Sniff/build.gradle.kts",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Current-Projects/Sniff/build.gradle.kts"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Current-Projects/Sniff/gradle/libs.versions.toml",
+                                        "path": "/home/alex/Current-Projects/Sniff/gradle/libs.versions.toml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Current-Projects/Sniff/gradle/libs.versions.toml"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -802,8 +835,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",

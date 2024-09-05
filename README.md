@@ -22,13 +22,33 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep  4 07:36:23 PM IST 2024
+## Changelog Thu Sep  5 12:19:59 PM IST 2024
 ```
- Configs/hypr/hyprland.conf | 3 +--
- Configs/swappy/config      | 2 +-
- README.md                  | 7 +------
- current-packages-dump.txt  | 1 +
- packages-with-info.txt     | 4 +++-
- 5 files changed, 7 insertions(+), 10 deletions(-)
+ .../chrome/js/index-dir/the-real-index             | Bin 144 -> 192 bytes
+ .../__default__profile__/extensions.builtin.cache  |   2 +-
+ Configs/Code - OSS/DawnGraphiteCache/data_1        | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnGraphiteCache/index         | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/DawnWebGPUCache/data_1          | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnWebGPUCache/index           | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/GPUCache/data_0                 | Bin 45056 -> 45056 bytes
+ Configs/Code - OSS/GPUCache/data_1                 | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/GPUCache/data_2                 | Bin 1056768 -> 1056768 bytes
+ Configs/Code - OSS/GPUCache/data_3                 | Bin 4202496 -> 4202496 bytes
+ Configs/Code - OSS/GPUCache/index                  | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/Local Storage/leveldb/LOG       |   5 ++-
+ Configs/Code - OSS/Session Storage/000003.log      | Bin 61 -> 80 bytes
+ Configs/Code - OSS/Session Storage/LOG             |   5 ++-
+ Configs/Code - OSS/Trust Tokens                    | Bin 36864 -> 36864 bytes
+ Configs/Code - OSS/User/globalStorage/state.vscdb  | Bin 135168 -> 143360 bytes
+ .../User/globalStorage/state.vscdb.backup          | Bin 135168 -> 143360 bytes
+ Configs/Code - OSS/User/globalStorage/storage.json |  50 +++++++++++++++++----
+ Configs/Code - OSS/User/settings.json              |   3 +-
+ .../workspaceStorage/1724599073719/state.vscdb     | Bin 24576 -> 0 bytes
+ .../1724599073719/state.vscdb.backup               | Bin 24576 -> 0 bytes
+ Configs/swappy/config                              |   2 +-
+ Extra-files/QtProject.conf                         |   4 +-
+ Extra-files/katerc                                 |   4 +-
+ README.md                                          |  10 +----
+ 25 files changed, 57 insertions(+), 28 deletions(-)
 ```
  
