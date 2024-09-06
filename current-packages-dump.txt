@@ -123,6 +123,7 @@ kate
 kde-cli-tools
 kde-gtk-config
 kdenlive
+kdevelop
 kio-admin
 kitty
 konsole

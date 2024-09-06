@@ -22,13 +22,14 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Sep  6 11:13:18 PM IST 2024
+## Changelog Sat Sep  7 01:18:26 AM IST 2024
 ```
- Configs/fish/config.fish  |  2 +-
+ Configs/qt6ct/qt6ct.conf  |  2 +-
  Configs/swappy/config     |  2 +-
- README.md                 | 12 +-----------
+ Extra-files/katerc        |  2 +-
+ README.md                 | 10 +---------
  current-packages-dump.txt |  1 +
- packages-with-info.txt    |  6 ++++++
- 5 files changed, 10 insertions(+), 13 deletions(-)
+ packages-with-info.txt    | 22 +++++++++++++++++-----
+ 6 files changed, 22 insertions(+), 17 deletions(-)
 ```
  

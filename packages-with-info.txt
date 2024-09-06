@@ -296,7 +296,7 @@ local/docker 1:27.2.0-1.1
     Pack, ship and run any application as a lightweight container
 local/docker-compose 2.29.2-1.1
     Fast, isolated development environments using Docker
-local/dolphin 24.08.0-1 (kde-applications kde-system)
+local/dolphin 24.08.0-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-5.1
     DOS filesystem utilities
@@ -330,7 +330,7 @@ local/efivar 39-1.1
     Tools and libraries to work with EFI variables
 local/electron 1:32-1
     Meta package providing the latest available stable Electron build
-local/electron30 30.4.0-1.1
+local/electron30 30.5.0-1.1
     Build cross platform desktop apps with web technologies
 local/electron32 32.0.2-1
     Build cross platform desktop apps with web technologies
@@ -782,6 +782,8 @@ local/kdenlive 24.08.0-1.1 (kde-applications kde-multimedia)
     A non-linear video editor for Linux using the MLT video framework
 local/kdesu 6.5.0-1.1 (kf6)
     Integration with su for elevated privileges
+local/kdevelop 24.08.0-2.1 (kde-applications kdevelop)
+    C++ IDE using KDE technologies
 local/kdnssd 6.5.0-1.1 (kf6)
     Abstraction to system DNSSD features
 local/kdsoap-qt6 2.2.0-1
@@ -866,6 +868,8 @@ local/kpmcore 24.08.0-2.1
     Library for managing partitions
 local/kpty 6.5.0-1.1 (kf6)
     Pty abstraction
+local/kquickcharts 6.5.0-1.1 (kf6)
+    A QtQuick plugin providing high-performance charts
 local/krb5 1.21.3-1.1
     The Kerberos network authentication system
 local/kservice 6.5.0-1.1 (kf6)
@@ -874,6 +878,8 @@ local/kservice5 5.116.0-1.1 (kf5)
     Advanced plugin and service introspection
 local/ktexteditor 6.5.0-1.1 (kf6)
     Advanced embeddable text editor
+local/ktexttemplate 6.5.0-1.1 (kf6)
+    Library to allow application developers to separate the structure of documents from the data they contain
 local/ktextwidgets 6.5.0-1.1 (kf6)
     Advanced text editing widgets
 local/ktextwidgets5 5.116.0-1.1 (kf5)
@@ -1044,7 +1050,7 @@ local/lib32-nspr 4.35-3
     Netscape Portable Runtime (32-bit)
 local/lib32-nss 3.104-1
     Network Security Services (32-bit)
-local/lib32-openssl 1:3.3.1-1
+local/lib32-openssl 1:3.3.2-1
     The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
 local/lib32-p11-kit 0.25.5-1
     Loads and enumerates PKCS#11 modules (32-bit library)
@@ -1294,8 +1300,12 @@ local/libkexiv2 24.08.0-1.1
     A library to manipulate pictures metadata
 local/libkeybinder3 0.3.2-5.1
     A library for registering global keyboard shortcuts
+local/libkomparediff2 24.08.0-1.1
+    Library to compare files and strings
 local/libksba 1.6.7-1.1
     Library for working with X.509 certificates, CMS data and related objects
+local/libksysguard 6.1.4-1 (plasma)
+    Library to retrieve information on the current status of computer hardware
 local/liblangtag 0.6.7-1.1
     interface library to access/deal with tags for identifying languages
 local/liblc3 1.1.1-1.1
@@ -2380,7 +2390,7 @@ local/python-trove-classifiers 2024.7.2-1
     Canonical source for classifiers on PyPI (pypi.org)
 local/python-typing_extensions 4.12.2-1
     Backported and Experimental Type Hints for Python 3.8+
-local/python-urllib3 1.26.19-1
+local/python-urllib3 1.26.20-1
     HTTP library with thread-safe connection pooling and file post support
 local/python-uvloop 0.19.0-5.1
     Ultra fast asyncio event loop
@@ -2524,7 +2534,7 @@ local/sbc 2.0-2.1
     Bluetooth Subband Codec (SBC) library
 local/scrcpy 2.6.1-1.1
     Display and control your Android device
-local/scx-scheds 1.0.3-3
+local/scx-scheds 1.0.4-1
     sched_ext schedulers and tools
 local/sd 1.0.0-1.1
     Intuitive find & replace
@@ -2666,6 +2676,8 @@ local/texinfo 7.1-2.1
     GNU documentation system for on-line information and printed output
 local/thin-provisioning-tools 1.1.0-1.1
     Suite of tools for manipulating the metadata of the dm-thin device-mapper target
+local/threadweaver 6.5.0-1.1 (kf6)
+    High-level multithreading framework
 local/timg 1.6.0-2
     Terminal Image and Video Viewer
 local/tldr 3.3.0-1
