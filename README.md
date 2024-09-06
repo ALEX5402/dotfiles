@@ -22,18 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Sep  6 04:12:49 PM IST 2024
+## Changelog Fri Sep  6 09:20:20 PM IST 2024
 ```
- Configs/ags/user/colors-ags.css           | 38 +++++++--------
- Configs/qt5ct/qt5ct.conf                  |  2 +-
- Configs/qt6ct/qt6ct.conf                  |  2 +-
- Configs/swappy/config                     |  2 +-
- Configs/xsettingsd/xsettingsd.conf        |  2 +-
- Extra-files/arkrc                         |  3 ++
- Local/share/kxmlgui5/dolphin/dolphinui.rc | 79 +++++--------------------------
- README.md                                 |  8 +---
- current-packages-dump.txt                 |  1 -
- packages-with-info.txt                    | 14 +++---
- 10 files changed, 45 insertions(+), 106 deletions(-)
+ Configs/qt6ct/qt6ct.conf           |  2 +-
+ Configs/swappy/config              |  2 +-
+ Configs/xsettingsd/xsettingsd.conf |  2 +-
+ Extra-files/arkrc                  |  2 +-
+ README.md                          | 15 +--------------
+ current-packages-dump.txt          |  1 +
+ packages-with-info.txt             |  8 +++++++-
+ 7 files changed, 13 insertions(+), 19 deletions(-)
 ```
  

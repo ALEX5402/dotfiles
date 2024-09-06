@@ -120,6 +120,7 @@ jfsutils
 jre-openjdk
 kate
 kde-cli-tools
+kde-gtk-config
 kdenlive
 kio-admin
 kitty

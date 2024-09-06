@@ -3,7 +3,7 @@ LockSidebar=true
 ShowSidebar=true
 
 [KTextEditor::Search]
-Search History=Size,featureList
+Search History=Changes,isLibSetup,IsConnected,InitServer,Size,featureList
 
 [MainWindow]
 StatusBar=Disabled

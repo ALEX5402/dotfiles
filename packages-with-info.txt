@@ -294,7 +294,7 @@ local/docker 1:27.2.0-1.1
     Pack, ship and run any application as a lightweight container
 local/docker-compose 2.29.2-1.1
     Fast, isolated development environments using Docker
-local/dolphin 24.08.0-1.1 (kde-applications kde-system)
+local/dolphin 24.08.0-1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-5.1
     DOS filesystem utilities
@@ -766,10 +766,14 @@ local/kdbusaddons5 5.116.0-1.1 (kf5)
     Addons to QtDBus
 local/kde-cli-tools 6.1.4-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
+local/kde-gtk-config 6.1.4-1.1 (plasma)
+    Syncs KDE settings to GTK applications
 local/kdeclarative 6.5.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
 local/kdeclarative5 5.116.0-1.1 (kf5)
     Provides integration of QML and KDE Frameworks
+local/kdecoration 6.1.4-1.1 (plasma)
+    Plugin based library to create window decorations
 local/kded5 5.116.0-1.1 (kf5)
     Extensible deamon for providing system level services
 local/kdenlive 24.08.0-1.1 (kde-applications kde-multimedia)
@@ -3030,6 +3034,8 @@ local/xproperty 0.11.0-1
     xproperty is a C++ library providing traitlets-style properties.
 local/xsel 1.2.1-2.1
     Command-line program for getting and setting the contents of the X selection
+local/xsettingsd 1.0.2-2.1
+    Provides settings to X11 applications via the XSETTINGS specification
 local/xtl 0.7.7-1
     The x template library
 local/xvidcore 1.3.7-3.1
