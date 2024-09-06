@@ -103,7 +103,6 @@ heroic-games-launcher
 htop
 hwdetect
 hwinfo
-hyde-cli-git
 hypridle
 hyprland
 hyprlock
