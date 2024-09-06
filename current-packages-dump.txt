@@ -8,6 +8,7 @@ amd-ucode
 amdvlk
 ananicy-cpp
 android-apktool-bin
+android-ndk-26
 android-studio
 android-tools
 appimagelauncher
