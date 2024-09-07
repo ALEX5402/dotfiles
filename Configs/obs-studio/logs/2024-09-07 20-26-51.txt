@@ -1,0 +1,403 @@
+20:26:51.948: Platform: Wayland
+20:26:51.948: CPU Name: AMD Ryzen 5 5500GT with Radeon Graphics
+20:26:51.948: CPU Speed: 3467.446MHz
+20:26:51.949: Physical Cores: 6, Logical Cores: 12
+20:26:51.949: Physical Memory: 13843MB Total, 3194MB Free
+20:26:51.949: Kernel Version: Linux 6.10.8-2-cachyos
+20:26:51.949: Distribution: "Arch Linux" Unknown
+20:26:51.949: Desktop Environment: Hyprland (Hyprland)
+20:26:51.949: Session Type: wayland
+20:26:51.950: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+20:26:51.950: Portable mode: false
+20:26:52.010: OBS 30.2.1-1.1 (linux)
+20:26:52.010: ---------------------------------
+20:26:52.010: ---------------------------------
+20:26:52.010: audio settings reset:
+20:26:52.010: 	samples per sec: 48000
+20:26:52.010: 	speakers:        2
+20:26:52.010: 	max buffering:   960 milliseconds
+20:26:52.010: 	buffering type:  dynamically increasing
+20:26:52.014: ---------------------------------
+20:26:52.014: Initializing OpenGL...
+20:26:52.014: Using EGL/Wayland
+20:26:52.042: Initialized EGL 1.5
+20:26:52.053: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.57, 6.10.8-2-cachyos)
+20:26:52.053: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.2-arch1.2, shading language 4.60
+20:26:52.075: ---------------------------------
+20:26:52.075: video settings reset:
+20:26:52.075: 	base resolution:   1920x1080
+20:26:52.075: 	output resolution: 1920x1080
+20:26:52.075: 	downscale filter:  Bicubic
+20:26:52.075: 	fps:               60/1
+20:26:52.075: 	format:            NV12
+20:26:52.075: 	YUV mode:          Rec. 709/Partial
+20:26:52.076: NV12 texture support enabled
+20:26:52.076: P010 texture support not available
+20:26:52.079: Audio monitoring device:
+20:26:52.079: 	name: Default
+20:26:52.079: 	id: default
+20:26:52.079: ---------------------------------
+20:26:52.087: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:26:52.094: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:26:52.101: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:26:52.101: Failed to initialize module 'decklink.so'
+20:26:52.239: [pipewire] Available capture sources:
+20:26:52.239: [pipewire]     - Monitor source
+20:26:52.239: [pipewire]     - Window source
+20:26:52.328: VAAPI: API version 1.22
+20:26:52.329: FFmpeg VAAPI H264 encoding supported
+20:26:52.335: FFmpeg VAAPI AV1 encoding not supported
+20:26:52.341: FFmpeg VAAPI HEVC encoding supported
+20:26:52.427: [obs-vaapi] version: 0.4.1, gst-runtime: 1.24.7
+20:26:52.435: [obs-vaapi] found vah265enc
+20:26:52.436: [obs-vaapi] found vah264enc
+20:26:52.436: [obs-vaapi] found vaapih264enc
+20:26:52.436: [obs-vaapi] found vaapih265enc
+20:26:52.506: ---------------------------------
+20:26:52.506:   Loaded Modules:
+20:26:52.506:     text-freetype2.so
+20:26:52.506:     rtmp-services.so
+20:26:52.506:     obs-x264.so
+20:26:52.506:     obs-webrtc.so
+20:26:52.506:     obs-vst.so
+20:26:52.506:     obs-vaapi.so
+20:26:52.506:     obs-transitions.so
+20:26:52.506:     obs-qsv11.so
+20:26:52.506:     obs-outputs.so
+20:26:52.506:     obs-libfdk.so
+20:26:52.506:     obs-filters.so
+20:26:52.506:     obs-ffmpeg.so
+20:26:52.506:     linux-v4l2.so
+20:26:52.506:     linux-pulseaudio.so
+20:26:52.506:     linux-pipewire.so
+20:26:52.506:     linux-jack.so
+20:26:52.506:     linux-capture.so
+20:26:52.506:     linux-alsa.so
+20:26:52.506:     image-source.so
+20:26:52.506:     frontend-tools.so
+20:26:52.506:     droidcam-obs.so
+20:26:52.506:     decklink-output-ui.so
+20:26:52.506:     decklink-captions.so
+20:26:52.506: ---------------------------------
+20:26:52.506: ---------------------------------
+20:26:52.506: Available Encoders:
+20:26:52.506:   Video Encoders:
+20:26:52.506: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:26:52.506: 	- ffmpeg_aom_av1 (AOM AV1)
+20:26:52.506: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+20:26:52.506: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+20:26:52.511: 	- obs-va-vah265enc (VAAPI H.265 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+20:26:52.516: 	- obs-va-vah264enc (VAAPI H.264 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+20:26:52.516: 	- obs-vaapi-vaapih264enc (VAAPI H.264  (Legacy))
+20:26:52.516: 	- obs-vaapi-vaapih265enc (VAAPI H.265  (Legacy))
+20:26:52.516: 	- obs_x264 (x264)
+20:26:52.516:   Audio Encoders:
+20:26:52.516: 	- ffmpeg_aac (FFmpeg AAC)
+20:26:52.516: 	- ffmpeg_opus (FFmpeg Opus)
+20:26:52.516: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:26:52.516: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:26:52.516: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:26:52.516: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:26:52.516: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:26:52.516: 	- libfdk_aac (libfdk AAC)
+20:26:52.516: ==== Startup complete ===============================================
+20:26:52.545: All scene data cleared
+20:26:52.545: ------------------------------------------------
+20:26:52.549: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+20:26:52.549: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:26:52.549: pulse-input: Started recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor' (default)
+20:26:52.549: [Loaded global audio device]: 'Desktop Audio'
+20:26:52.549: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+20:26:52.549: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+20:26:52.549: pulse-input: Started recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.mono-fallback' (default)
+20:26:52.549: [Loaded global audio device]: 'Mic/Aux'
+20:26:52.549: [DroidCamOBS] Source: "DroidCam OBS" - 233
+20:26:52.549: [DroidCamOBS] checking adb
+20:26:52.580: [DroidCamOBS] activated=1, deactivateWNS=0, is_showing=0, enable_audio=0
+20:26:52.580: [DroidCamOBS] video_format=avc video_resolution=1920x1080
+20:26:52.580: [DroidCamOBS] device_info.id=dev_id_wifi device_info.ip=192.168.1.4 device_info.port=4747 device_info.type=1
+20:26:52.580: [DroidCamOBS] video_thread start
+20:26:52.580: [DroidCamOBS] audio_thread start
+20:26:52.580: [DroidCamOBS] video_decode_thread start
+20:26:52.580: PipeWire initialized
+20:26:52.581: Switched to scene 'Scene'
+20:26:52.582: ------------------------------------------------
+20:26:52.582: Loaded scenes:
+20:26:52.582: - scene 'Scene':
+20:26:52.582:     - source: 'DroidCam OBS' (droidcam_obs)
+20:26:52.582:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+20:26:52.582: ------------------------------------------------
+20:26:52.616: [pipewire] Screencast session created
+20:26:52.624: [DroidCamOBS] send(/video) failed
+20:26:53.120: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+20:26:53.120: 
+20:26:53.708: [pipewire] Asking for monitor and window
+20:26:53.710: [pipewire] source selected, setting up screencast
+20:26:53.714: [pipewire] Server version: 1.2.3
+20:26:53.714: [pipewire] Library version: 1.2.3
+20:26:53.714: [pipewire] Header version: 1.2.1
+20:26:53.714: [pipewire] Created stream 0x5625f0476800
+20:26:53.714: [pipewire] Stream 0x5625f0476800 state: "connecting" (error: none)
+20:26:53.714: [pipewire] Playing stream 0x5625f0476800
+20:26:53.715: [pipewire] Stream 0x5625f0476800 state: "paused" (error: none)
+20:26:53.729: [pipewire] Negotiated format:
+20:26:53.729: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.729: [pipewire]     Modifier: 0x0
+20:26:53.729: [pipewire]     Size: 1920x1080
+20:26:53.729: [pipewire]     Framerate: 0/1
+20:26:53.729: [pipewire] Negotiated format:
+20:26:53.729: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.730: [pipewire]     Modifier: 0x20000044051ba01
+20:26:53.730: [pipewire]     Size: 1920x1080
+20:26:53.730: [pipewire]     Framerate: 0/1
+20:26:53.730: [pipewire] Stream 0x5625f0476800 state: "streaming" (error: none)
+20:26:53.734: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+20:26:53.734: [pipewire] Renegotiating stream
+20:26:53.734: [pipewire] Negotiated format:
+20:26:53.734: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.734: [pipewire]     Modifier: 0x20000044051ba01
+20:26:53.734: [pipewire]     Size: 1920x1080
+20:26:53.734: [pipewire]     Framerate: 0/1
+20:26:53.734: [pipewire] Negotiated format:
+20:26:53.734: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.734: [pipewire]     Modifier: 0x20000044051b901
+20:26:53.734: [pipewire]     Size: 1920x1080
+20:26:53.734: [pipewire]     Framerate: 0/1
+20:26:53.742: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+20:26:53.742: [pipewire] Renegotiating stream
+20:26:53.742: [pipewire] Stream 0x5625f0476800 state: "paused" (error: none)
+20:26:53.743: [pipewire] Negotiated format:
+20:26:53.743: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.743: [pipewire]     Modifier: 0x20000044051b901
+20:26:53.743: [pipewire]     Size: 1920x1080
+20:26:53.743: [pipewire]     Framerate: 0/1
+20:26:53.743: [pipewire] Negotiated format:
+20:26:53.743: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.743: [pipewire]     Modifier: 0x200000440517901
+20:26:53.743: [pipewire]     Size: 1920x1080
+20:26:53.743: [pipewire]     Framerate: 0/1
+20:26:53.744: [pipewire] Stream 0x5625f0476800 state: "streaming" (error: none)
+20:26:53.750: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+20:26:53.751: [pipewire] Renegotiating stream
+20:26:53.751: [pipewire] Negotiated format:
+20:26:53.751: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.751: [pipewire]     Modifier: 0x200000440517901
+20:26:53.751: [pipewire]     Size: 1920x1080
+20:26:53.751: [pipewire]     Framerate: 0/1
+20:26:53.751: [pipewire] Negotiated format:
+20:26:53.751: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:26:53.751: [pipewire]     Modifier: 0x200000000401a01
+20:26:53.751: [pipewire]     Size: 1920x1080
+20:26:53.751: [pipewire]     Framerate: 0/1
+20:26:54.801: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+20:26:54.801: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+20:26:54.802: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+20:26:54.902:   OpenType support missing for "Open Sans", script 11
+20:26:54.918:   OpenType support missing for "Open Sans", script 12
+20:26:54.933:   OpenType support missing for "Open Sans", script 16
+20:26:54.950:   OpenType support missing for "Open Sans", script 20
+20:26:58.752: [DroidCamOBS] send(/video) failed
+20:27:00.853: [DroidCamOBS] send(/video) failed
+20:27:02.981: [DroidCamOBS] send(/video) failed
+20:27:05.459: [DroidCamOBS] send(/video) failed
+20:27:08.223: [DroidCamOBS] send(/video) failed
+20:27:11.562: [DroidCamOBS] send(/video) failed
+20:27:13.752: [DroidCamOBS] send(/video) failed
+20:27:15.821: [DroidCamOBS] send(/video) failed
+20:27:18.360: [DroidCamOBS] send(/video) failed
+20:27:22.426: Settings changed (outputs)
+20:27:22.426: ------------------------------------------------
+20:27:28.498: [DroidCamOBS] send(/video) failed
+20:27:32.182: [DroidCamOBS] send(/video) failed
+20:27:34.434: [DroidCamOBS] send(/video) failed
+20:27:36.476: [DroidCamOBS] send(/video) failed
+20:27:38.635: [DroidCamOBS] send(/video) failed
+20:27:41.403: [DroidCamOBS] send(/video) failed
+20:27:44.164: [DroidCamOBS] send(/video) failed
+20:27:46.404: [DroidCamOBS] send(/video) failed
+20:27:48.446: [DroidCamOBS] send(/video) failed
+20:27:50.615: [DroidCamOBS] send(/video) failed
+20:27:53.381: [DroidCamOBS] send(/video) failed
+20:27:56.013: [DroidCamOBS] send(/video) failed
+20:27:58.217: [DroidCamOBS] send(/video) failed
+20:28:00.754: [DroidCamOBS] send(/video) failed
+20:28:03.151: [DroidCamOBS] send(/video) failed
+20:28:05.361: [DroidCamOBS] send(/video) failed
+20:28:07.947: [DroidCamOBS] send(/video) failed
+20:28:09.990: [DroidCamOBS] send(/video) failed
+20:28:12.735: [DroidCamOBS] send(/video) failed
+20:28:14.864: [DroidCamOBS] send(/video) failed
+20:28:17.345: [DroidCamOBS] send(/video) failed
+20:28:19.584: [DroidCamOBS] send(/video) failed
+20:28:21.626: [DroidCamOBS] send(/video) failed
+20:28:23.793: [DroidCamOBS] send(/video) failed
+20:28:25.920: [DroidCamOBS] send(/video) failed
+20:28:28.402: [DroidCamOBS] send(/video) failed
+20:28:31.538: [DroidCamOBS] send(/video) failed
+20:28:34.600: [DroidCamOBS] send(/video) failed
+20:28:36.642: [DroidCamOBS] send(/video) failed
+20:28:38.685: [DroidCamOBS] send(/video) failed
+20:28:41.041: [DroidCamOBS] send(/video) failed
+20:28:54.007: Last log entry repeated for 3 more lines
+20:28:54.007: [obs-vaapi] qos: 0
+20:28:54.007: [obs-vaapi] min-force-key-unit-interval: 0
+20:28:54.007: [obs-vaapi] key-int-max: 0
+20:28:54.007: [obs-vaapi] b-frames: 0
+20:28:54.007: [obs-vaapi] i-frames: 0
+20:28:54.007: [obs-vaapi] ref-frames: 3
+20:28:54.007: [obs-vaapi] b-pyramid: 0
+20:28:54.007: [obs-vaapi] num-slices: 1
+20:28:54.007: [obs-vaapi] min-qp: 1
+20:28:54.007: [obs-vaapi] max-qp: 51
+20:28:54.007: [obs-vaapi] qpi: 26
+20:28:54.007: [obs-vaapi] qpp: 26
+20:28:54.007: [obs-vaapi] qpb: 26
+20:28:54.007: [obs-vaapi] dct8x8: 1
+20:28:54.007: [obs-vaapi] cabac: 1
+20:28:54.007: [obs-vaapi] trellis: 0
+20:28:54.007: [obs-vaapi] mbbrc: disabled
+20:28:54.007: [obs-vaapi] bitrate: 0
+20:28:54.007: [obs-vaapi] target-percentage: 66
+20:28:54.007: [obs-vaapi] target-usage: 4
+20:28:54.007: [obs-vaapi] cpb-size: 0
+20:28:54.007: [obs-vaapi] aud: 0
+20:28:54.007: [obs-vaapi] cc-insert: 1
+20:28:54.007: [obs-vaapi] rate-control: cbr
+20:28:54.007: [obs-vaapi] codec: obs-va-vah264enc, 1920x1080@60/1, format: 2 
+20:28:54.013: libfdk_aac encoder created
+20:28:54.013: libfdk_aac bitrate: 160, channels: 2
+20:28:54.021: ==== Recording Start ===============================================
+20:28:54.021: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/alex/OBS/2024-09-07 20-28-53.mkv'...
+20:28:54.207: [DroidCamOBS] send(/video) failed
+20:28:56.974: [DroidCamOBS] send(/video) failed
+20:28:59.016: [DroidCamOBS] send(/video) failed
+20:29:01.583: [DroidCamOBS] send(/video) failed
+20:29:04.344: [DroidCamOBS] send(/video) failed
+20:29:06.632: [DroidCamOBS] send(/video) failed
+20:29:09.735: [DroidCamOBS] send(/video) failed
+20:29:12.643: [DroidCamOBS] send(/video) failed
+20:29:14.769: [DroidCamOBS] send(/video) failed
+20:29:17.099: [DroidCamOBS] send(/video) failed
+20:29:20.696: [DroidCamOBS] send(/video) failed
+20:29:22.777: [DroidCamOBS] send(/video) failed
+20:29:25.542: [DroidCamOBS] send(/video) failed
+20:29:27.887: [DroidCamOBS] send(/video) failed
+20:29:30.152: [DroidCamOBS] send(/video) failed
+20:29:32.406: [DroidCamOBS] send(/video) failed
+20:29:34.758: [DroidCamOBS] send(/video) failed
+20:29:37.522: [DroidCamOBS] send(/video) failed
+20:29:39.597: [DroidCamOBS] send(/video) failed
+20:29:46.745: [DroidCamOBS] send(/video) failed
+20:29:49.503: [DroidCamOBS] send(/video) failed
+20:29:52.717: [DroidCamOBS] send(/video) failed
+20:29:55.956: [DroidCamOBS] send(/video) failed
+20:29:59.103: [DroidCamOBS] send(/video) failed
+20:30:01.485: [DroidCamOBS] send(/video) failed
+20:30:03.731: [DroidCamOBS] send(/video) failed
+20:30:06.095: [DroidCamOBS] send(/video) failed
+20:30:08.860: [DroidCamOBS] send(/video) failed
+20:30:15.311: [DroidCamOBS] send(/video) failed
+20:30:18.074: [DroidCamOBS] send(/video) failed
+20:30:20.367: [DroidCamOBS] send(/video) failed
+20:31:40.356: Last log entry repeated for 28 more lines
+20:31:40.356: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/alex/OBS/2024-09-07 20-28-53.mkv' stopped
+20:31:40.356: Output 'adv_file_output': stopping
+20:31:40.356: Output 'adv_file_output': Total frames output: 9973
+20:31:40.356: Output 'adv_file_output': Total drawn frames: 9980
+20:31:40.357: ==== Recording Stop ================================================
+20:31:40.368: libfdk_aac encoder destroyed
+20:31:41.940: [DroidCamOBS] send(/video) failed
+20:31:42.417: ==== Shutting down ==================================================
+20:31:42.420: pulse-input: Stopped recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor'
+20:31:42.420: pulse-input: Got 11593 packets with 13911600 frames
+20:31:42.420: pulse-input: Stopped recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.mono-fallback'
+20:31:42.420: pulse-input: Got 11592 packets with 13910400 frames
+20:31:42.421: [DroidCamOBS] destroy: "DroidCam OBS"
+20:31:42.421: [DroidCamOBS] stopping
+20:31:42.424: [DroidCamOBS] video_decode_thread end
+20:31:42.435: [DroidCamOBS] audio_thread end
+20:31:43.980: [DroidCamOBS] video_thread end
+20:31:43.980: [DroidCamOBS] cleanup
+20:31:43.981: [pipewire] Stream 0x5625f0476800 state: "paused" (error: none)
+20:31:43.981: [pipewire] Stream 0x5625f0476800 state: "unconnected" (error: none)
+20:31:44.000: All scene data cleared
+20:31:44.000: ------------------------------------------------
+20:31:44.048: [Scripting] Total detached callbacks: 0
+20:31:44.048: Freeing OBS context data
+20:31:44.066: == Profiler Results =============================
+20:31:44.066: run_program_init: 706.513 ms
+20:31:44.066:  ┣OBSApp::AppInit: 11.317 ms
+20:31:44.066:  ┃ ┗OBSApp::InitLocale: 0.646 ms
+20:31:44.066:  ┗OBSApp::OBSInit: 660.706 ms
+20:31:44.066:    ┣obs_startup: 1.668 ms
+20:31:44.066:    ┗OBSBasic::OBSInit: 599.09 ms
+20:31:44.066:      ┣OBSBasic::InitBasicConfig: 0.075 ms
+20:31:44.066:      ┣OBSBasic::ResetAudio: 0.222 ms
+20:31:44.066:      ┣OBSBasic::ResetVideo: 68.994 ms
+20:31:44.066:      ┃ ┗obs_init_graphics: 64.295 ms
+20:31:44.066:      ┃   ┗shader compilation: 21.496 ms
+20:31:44.066:      ┣OBSBasic::InitOBSCallbacks: 0.011 ms
+20:31:44.066:      ┣OBSBasic::InitHotkeys: 0.058 ms
+20:31:44.066:      ┣obs_load_all_modules2: 426.456 ms
+20:31:44.067:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+20:31:44.067:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+20:31:44.067:      ┃ ┣obs_init_module(decklink.so): 0.09 ms
+20:31:44.067:      ┃ ┣obs_init_module(droidcam-obs.so): 0.016 ms
+20:31:44.067:      ┃ ┣obs_init_module(frontend-tools.so): 59.287 ms
+20:31:44.067:      ┃ ┣obs_init_module(image-source.so): 0.008 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-pipewire.so): 10.251 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.008 ms
+20:31:44.067:      ┃ ┣obs_init_module(linux-v4l2.so): 3.87 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-ffmpeg.so): 25.624 ms
+20:31:44.067:      ┃ ┃ ┗nvenc_check: 0.886 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-filters.so): 0.021 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-qsv11.so): 15.283 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-vaapi.so): 8.355 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-webrtc.so): 0.009 ms
+20:31:44.067:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+20:31:44.067:      ┃ ┣obs_init_module(rtmp-services.so): 0.688 ms
+20:31:44.067:      ┃ ┗obs_init_module(text-freetype2.so): 0.012 ms
+20:31:44.067:      ┣OBSBasic::InitService: 0.652 ms
+20:31:44.067:      ┣OBSBasic::ResetOutputs: 0.166 ms
+20:31:44.067:      ┣OBSBasic::CreateHotkeys: 0.021 ms
+20:31:44.067:      ┣OBSBasic::InitPrimitives: 0.056 ms
+20:31:44.067:      ┗OBSBasic::Load: 66.388 ms
+20:31:44.067: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.012 ms, 99th percentile=0.001 ms, 100% below 25 ms
+20:31:44.067: audio_thread(Audio): min=0.006 ms, median=0.249 ms, max=4.862 ms, 99th percentile=0.673 ms
+20:31:44.067:  ┗receive_audio: min=0.002 ms, median=0.23 ms, max=4.797 ms, 99th percentile=0.387 ms, 0.569654 calls per parent call
+20:31:44.067:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.019 ms, 99th percentile=0.002 ms
+20:31:44.067:    ┗do_encode: min=0.083 ms, median=0.228 ms, max=4.794 ms, 99th percentile=0.384 ms
+20:31:44.067:      ┣encode(Track1): min=0.079 ms, median=0.221 ms, max=0.506 ms, 99th percentile=0.335 ms
+20:31:44.067:      ┗send_packet: min=0.001 ms, median=0.003 ms, max=4.526 ms, 99th percentile=0.085 ms
+20:31:44.067: obs_graphics_thread(16.6667 ms): min=0.063 ms, median=0.606 ms, max=18.278 ms, 99th percentile=1.362 ms, 99.9943% below 16.667 ms
+20:31:44.067:  ┣tick_sources: min=0 ms, median=0.004 ms, max=18.007 ms, 99th percentile=0.016 ms
+20:31:44.067:  ┣output_frame: min=0.046 ms, median=0.457 ms, max=4.244 ms, 99th percentile=1.12 ms
+20:31:44.067:  ┃ ┣gs_context(video->graphics): min=0.046 ms, median=0.162 ms, max=4.24 ms, 99th percentile=0.344 ms
+20:31:44.067:  ┃ ┃ ┣render_video: min=0.006 ms, median=0.067 ms, max=0.716 ms, 99th percentile=0.178 ms
+20:31:44.067:  ┃ ┃ ┃ ┣render_main_texture: min=0.005 ms, median=0.035 ms, max=0.278 ms, 99th percentile=0.116 ms
+20:31:44.067:  ┃ ┃ ┃ ┣render_convert_texture: min=0.016 ms, median=0.025 ms, max=0.375 ms, 99th percentile=0.06 ms, 0.569732 calls per parent call
+20:31:44.067:  ┃ ┃ ┃ ┗stage_output_texture: min=0.007 ms, median=0.011 ms, max=0.227 ms, 99th percentile=0.028 ms, 0.569732 calls per parent call
+20:31:44.067:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.066 ms, max=2.065 ms, 99th percentile=0.124 ms
+20:31:44.067:  ┃ ┃ ┗download_frame: min=0 ms, median=0.03 ms, max=0.175 ms, 99th percentile=0.066 ms, 0.569732 calls per parent call
+20:31:44.067:  ┃ ┗output_video_data: min=0.212 ms, median=0.39 ms, max=3.456 ms, 99th percentile=0.91 ms, 0.569675 calls per parent call
+20:31:44.067:  ┗render_displays: min=0.001 ms, median=0.129 ms, max=9.897 ms, 99th percentile=0.311 ms
+20:31:44.067: OBSBasicSettings::LoadThemeList: 0.022 ms
+20:31:44.067: OBSBasic::ResetOutputs: 0.435 ms
+20:31:44.067: video_thread(video): min=0.213 ms, median=0.422 ms, max=16.403 ms, 99th percentile=6.037 ms
+20:31:44.067:  ┗receive_video: min=0.213 ms, median=0.421 ms, max=16.4 ms, 99th percentile=6.035 ms
+20:31:44.067:    ┗do_encode: min=0.212 ms, median=0.42 ms, max=16.396 ms, 99th percentile=6.034 ms
+20:31:44.067:      ┣encode(advanced_video_recording): min=0.188 ms, median=0.377 ms, max=16.378 ms, 99th percentile=5.989 ms
+20:31:44.067:      ┗send_packet: min=0.002 ms, median=0.032 ms, max=4.874 ms, 99th percentile=0.23 ms
+20:31:44.067: =================================================
+20:31:44.067: == Profiler Time Between Calls ==================
+20:31:44.067: obs_hotkey_thread(25 ms): min=25.01 ms, median=25.06 ms, max=28.585 ms, 99.9743% within ±2% of 25 ms (0% lower, 0.0257422% higher)
+20:31:44.067: obs_graphics_thread(16.6667 ms): min=13.109 ms, median=16.667 ms, max=20.236 ms, 99.9144% within ±2% of 16.667 ms (0.0456725% lower, 0.0399635% higher)
+20:31:44.067: =================================================
+20:31:44.079: Number of memory leaks: 0

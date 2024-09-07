@@ -108,7 +108,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=discord,common,shuf,nerd-fonts,kde,quit,arg
+Search History=jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
 
 [Konsole]
 AutoSyncronizeMode=0

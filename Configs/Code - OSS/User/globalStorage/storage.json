@@ -3,7 +3,8 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1725470392471": "__default__profile__"
+            "1725470392471": "__default__profile__",
+            "1725710576580": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -15,19 +16,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1725470392471"
+                "backupFolder": "1725710576580"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/alex/.config/Code - OSS/Backups/1725470392471",
+            "backupPath": "/home/alex/.config/Code - OSS/Backups/1725710576580",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
                 "width": 960,
-                "height": 1050
+                "height": 525
             }
         },
         "openedWindows": []
@@ -87,6 +88,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Current-Projects/Telegram/Socket/Clint/.kdev4/Clint.kdev4",
+                                        "path": "/home/alex/Current-Projects/Telegram/Socket/Clint/.kdev4/Clint.kdev4",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Current-Projects/Telegram/Socket/Clint/.kdev4/Clint.kdev4"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -835,7 +847,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
