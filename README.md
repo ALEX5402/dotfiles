@@ -22,14 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sat Sep  7 05:26:46 PM IST 2024
+## Changelog Sat Sep  7 05:31:20 PM IST 2024
 ```
- Configs/swappy/config      |  2 +-
- Extra-files/QtProject.conf |  6 +++---
- Local/bin/cvim.template    |  7 -------
- README.md                  |  8 +-------
- current-packages-dump.txt  |  4 ++++
- packages-with-info.txt     | 14 ++++++++++++++
- 6 files changed, 23 insertions(+), 18 deletions(-)
+ README.md | 11 +----------
+ 1 file changed, 1 insertion(+), 10 deletions(-)
 ```
  
