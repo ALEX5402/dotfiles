@@ -218,6 +218,8 @@ local/cifs-utils 7.0-5.1
     CIFS filesystem user-space tools
 local/clang 18.1.8-4
     C language family frontend for LLVM
+local/clazy 1.12-2.1
+    Qt oriented code checker based on clang framework
 local/cliphist 1:0.5.0-1.1
     wayland clipboard manager
 local/cloudflare-warp-bin 2024.6.497-1
@@ -242,6 +244,8 @@ local/coreutils 9.5-2
     The basic file, shell and text manipulation utilities of the GNU operating system
 local/cpio 2.15-2.1
     A tool to copy files into or out of a cpio or tar archive
+local/cppcheck 2.14.2-1.1
+    A tool for static C/C++ code analysis
 local/cppdap 1.58.0-2.1
     C++ library for the Debug Adapter Protocol
 local/cpupower 6.10-4 (linux-tools)
@@ -270,6 +274,8 @@ local/ddcutil 2.1.4-2
     Query and change Linux monitor settings using DDC/CI and USB.
 local/debugedit 5.0-6
     Tool to mangle source locations in .debug files
+local/deepin-qt-dbus-factory 6.0.0-10.1
+    A repository stores auto-generated Qt5 dbus code (libdframeworkdbus)
 local/default-cursors 2-2
     Default cursor set
 local/desktop-file-utils 0.27-1.1
@@ -2330,6 +2336,8 @@ local/python-pydantic-extra-types 2.9.0-1
     Extra pydantic types
 local/python-pydantic-settings 2.4.0-1
     Settings management using pydantic
+local/python-pygments 2.18.0-1
+    Python syntax highlighter
 local/python-pynvim 0.5.0-3
     Python client for Neovim
 local/python-pypresence 4.3.0-2.1
@@ -2444,6 +2452,8 @@ local/qt5-speech 5.15.15+kde+r1-1.1 (qt5)
     Qt module to make text to speech and speech recognition easy
 local/qt5-svg 5.15.15+kde+r5-1.1 (qt5)
     Classes for displaying the contents of SVG files
+local/qt5-tools 5.15.15+kde+r3-1.1 (qt5)
+    A cross-platform application and UI framework (Development Tools, QtHelp)
 local/qt5-translations 5.15.15-1 (qt5)
     A cross-platform application and UI framework (Translations)
 local/qt5-wayland 5.15.15+kde+r59-1.1 (qt5)
@@ -2474,6 +2484,8 @@ local/qt6-speech 6.7.2-1.1 (qt6)
     Qt Speech support
 local/qt6-svg 6.7.2-1.1 (qt6)
     Classes for displaying the contents of SVG files
+local/qt6-tools 6.7.2-2.1 (qt6)
+    A cross-platform application and UI framework (Development Tools, QtHelp)
 local/qt6-translations 6.7.2-1 (qt6)
     A cross-platform application and UI framework (Translations)
 local/qt6-wayland 6.7.2-4.1 (qt6)
@@ -2682,6 +2694,8 @@ local/threadweaver 6.5.0-1.1 (kf6)
     High-level multithreading framework
 local/timg 1.6.0-2
     Terminal Image and Video Viewer
+local/tinyxml2 10.0.0-1.1
+    Simple XML parser made for easy integration
 local/tldr 3.3.0-1
     Command line client for tldr, a collection of simplified man pages.
 local/tmate 2.4.0-4.1

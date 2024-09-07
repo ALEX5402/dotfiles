@@ -41,12 +41,15 @@ cava
 ccls
 chaotic-keyring
 chaotic-mirrorlist
+clazy
 cliphist
 cloudflare-warp-bin
 cmake
 code
+cppcheck
 cpupower
 ddcutil
+deepin-qt-dbus-factory
 distrobox
 dmidecode
 dmraid
@@ -237,6 +240,7 @@ qt5-graphicaleffects
 qt5-imageformats
 qt5-quickcontrols
 qt5-quickcontrols2
+qt5-tools
 qt5-wayland
 qt5ct
 qt6ct
