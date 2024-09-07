@@ -47,6 +47,7 @@ cmake
 code
 cpupower
 ddcutil
+distrobox
 dmidecode
 dmraid
 dnsmasq

@@ -282,6 +282,8 @@ local/diffutils 3.10-1.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
+local/distrobox 1.7.2.1-1
+    Use any linux distribution inside your terminal.
 local/dkms 3.0.13-3
     Dynamic Kernel Modules System
 local/dmidecode 3.6-1.1
