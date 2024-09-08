@@ -22,79 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Sep  8 02:36:09 AM IST 2024
+## Changelog Sun Sep  8 01:17:04 PM IST 2024
 ```
- .../chrome/js/index-dir/the-real-index             |  Bin 192 -> 192 bytes
- Configs/Code - OSS/DawnGraphiteCache/index         |  Bin 262512 -> 262512 bytes
- Configs/Code - OSS/DawnWebGPUCache/index           |  Bin 262512 -> 262512 bytes
- Configs/Code - OSS/GPUCache/data_0                 |  Bin 45056 -> 45056 bytes
- Configs/Code - OSS/GPUCache/data_1                 |  Bin 270336 -> 270336 bytes
- Configs/Code - OSS/GPUCache/data_2                 |  Bin 1056768 -> 1056768 bytes
- Configs/Code - OSS/GPUCache/index                  |  Bin 262512 -> 262512 bytes
- Configs/Code - OSS/Local Storage/leveldb/LOG       |    6 +-
- Configs/Code - OSS/Local Storage/leveldb/LOG.old   |    5 +-
- Configs/Code - OSS/Session Storage/000003.log      |  Bin 80 -> 99 bytes
- Configs/Code - OSS/Session Storage/LOG             |    6 +-
- Configs/Code - OSS/Session Storage/LOG.old         |    5 +-
- Configs/Code - OSS/User/globalStorage/state.vscdb  |  Bin 143360 -> 143360 bytes
- .../User/globalStorage/state.vscdb.backup          |  Bin 143360 -> 143360 bytes
- Configs/Code - OSS/User/globalStorage/storage.json |   23 +-
- Configs/Kvantum/wallbash/wallbash.kvconfig         |  106 +-
- Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++----------------
- Configs/ags/user/colors-ags.css                    |   38 +-
- Configs/cava/Wall-Dcol                             |   16 +-
- Configs/cava/config                                |   16 +-
- Configs/dunst/dunstrc                              |   12 +-
- Configs/dunst/icons/hyprdots.svg                   |   12 +-
- Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
- Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
- Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-100.svg                |   10 +-
- Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
- Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
- Configs/dunst/wallbash.conf                        |   12 +-
- Configs/gtk-3.0/settings.ini                       |    4 +-
- Configs/hyde/hyde.conf                             |    2 +-
- Configs/hypr/themes/theme.conf                     |   23 +-
- Configs/kitty/theme.conf                           |   57 +-
- .../obs-studio/basic/profiles/Untitled/basic.ini   |   16 +-
- Configs/obs-studio/basic/scenes/Untitled.json      |    2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |    2 +-
- Configs/obs-studio/global.ini                      |    4 +-
- Configs/qt5ct/colors.conf                          |    6 +-
- Configs/qt5ct/qt5ct.conf                           |    2 +-
- Configs/qt6ct/colors.conf                          |    6 +-
- Configs/qt6ct/qt6ct.conf                           |    2 +-
- Configs/rofi/theme.rasi                            |   12 +-
- Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
- Configs/swappy/config                              |    2 +-
- Configs/waybar/config.ctl                          |    4 +-
- Configs/waybar/config.jsonc                        |   11 +-
- Configs/waybar/theme.css                           |   12 +-
- Extra-files/QtProject.conf                         |    2 +-
- Extra-files/katerc                                 |    2 +-
- Extra-files/kwriterc                               |    2 +-
- Local/bin/compile-json.sh                          |  139 +-
- README.md                                          |    6 +-
- 71 files changed, 2359 insertions(+), 7637 deletions(-)
+ README.md | 76 +--------------------------------------------------------------
+ 1 file changed, 1 insertion(+), 75 deletions(-)
 ```
  
