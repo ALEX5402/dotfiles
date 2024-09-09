@@ -22,16 +22,20 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Sep  9 01:01:14 PM IST 2024
+## Changelog Mon Sep  9 07:48:30 PM IST 2024
 ```
- Configs/qt6ct/qt6ct.conf   |   6 +-
- Configs/swappy/config      |   2 +-
- Extra-files/QtProject.conf |   4 +-
- Extra-files/arkrc          |   2 +-
- Extra-files/katerc         |   2 +-
- README.md                  |   6 +-
- current-packages-dump.txt  |   1 +
- packages-with-info.txt     | 140 ++++++++++++++++++++++++++-------------------
- 8 files changed, 92 insertions(+), 71 deletions(-)
+ Configs/obs-studio/basic/scenes/Untitled.json      |  2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |  2 +-
+ Configs/obs-studio/global.ini                      |  4 ++--
+ .../plugin_config/rtmp-services/package.json       |  2 +-
+ .../plugin_config/rtmp-services/services.json      |  2 +-
+ Configs/swappy/config                              |  2 +-
+ Configs/waybar/config.ctl                          |  4 ++--
+ Configs/waybar/config.jsonc                        | 11 ++-------
+ Extra-files/QtProject.conf                         |  2 +-
+ Extra-files/katerc                                 |  2 +-
+ README.md                                          | 13 +----------
+ packages-with-info.txt                             | 26 ----------------------
+ 12 files changed, 14 insertions(+), 58 deletions(-)
 ```
  
