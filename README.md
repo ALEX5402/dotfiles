@@ -22,9 +22,16 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Sep  8 01:17:04 PM IST 2024
+## Changelog Mon Sep  9 01:01:14 PM IST 2024
 ```
- README.md | 76 +--------------------------------------------------------------
- 1 file changed, 1 insertion(+), 75 deletions(-)
+ Configs/qt6ct/qt6ct.conf   |   6 +-
+ Configs/swappy/config      |   2 +-
+ Extra-files/QtProject.conf |   4 +-
+ Extra-files/arkrc          |   2 +-
+ Extra-files/katerc         |   2 +-
+ README.md                  |   6 +-
+ current-packages-dump.txt  |   1 +
+ packages-with-info.txt     | 140 ++++++++++++++++++++++++++-------------------
+ 8 files changed, 92 insertions(+), 71 deletions(-)
 ```
  

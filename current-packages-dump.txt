@@ -335,6 +335,7 @@ unrar
 upscayl-bin
 usb_modeswitch
 vercel
+vesktop-bin
 vi
 vim
 vortex-thermal
