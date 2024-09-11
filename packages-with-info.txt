@@ -120,6 +120,8 @@ local/bash-completion 2.14.0-2
     Programmable completion for the bash shell
 local/bat 0.24.0-2.1
     Cat clone with syntax highlighting and git integration
+local/bcg729 1.1.1-2.1
+    Encoder and decoder of the ITU G.729 Annex A/B speech codec
 local/beautyline 1:20240421-2
     Outlined icons designed to have unified look and comprehensive coverage with the Candy icon pack (best suited to use with Sweet theme)
 local/bind 9.20.1-1.1
@@ -1750,6 +1752,8 @@ local/lua51 5.1.5-12.1
     Powerful lightweight programming language designed for extending applications
 local/lua51-lpeg 1.1.0-2
     Pattern-matching library for Lua 5.1
+local/lua52 5.2.4-7.1
+    Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.1723675123-1.1
     Just-in-time compiler and drop-in replacement for Lua 5.1
 local/luarocks 3.11.1-1
@@ -2948,6 +2952,10 @@ local/wireless_tools 30.pre9-4.1
     Tools allowing to manipulate the Wireless Extensions
 local/wireplumber 0.5.6-1.1
     Session / policy manager implementation for PipeWire
+local/wireshark-cli 4.4.0-1
+    Network traffic and protocol analyzer/sniffer - CLI tools and data files
+local/wireshark-qt 4.4.0-1
+    Network traffic and protocol analyzer/sniffer - Qt GUI
 local/wl-clipboard 1:2.2.1-2.1
     Command-line copy/paste utilities for Wayland
 local/wlay-git r23.ed31606-1

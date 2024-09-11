@@ -22,12 +22,14 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep 11 07:33:51 PM IST 2024
+## Changelog Thu Sep 12 12:47:26 AM IST 2024
 ```
- Configs/obs-studio/global.ini                   |   4 +-
- Configs/obs-studio/logs/2024-09-02 18-02-40.txt | 417 ------------------------
- Configs/swappy/config                           |   2 +-
- README.md                                       |  11 +-
- 4 files changed, 4 insertions(+), 430 deletions(-)
+ Configs/obs-studio/logs/2024-09-05 17-31-58.txt    | 263 ---------------------
+ .../profiler_data/2024-09-02 18-02-40.csv.gz       | Bin 33450 -> 0 bytes
+ Configs/swappy/config                              |   2 +-
+ README.md                                          |   9 +-
+ current-packages-dump.txt                          |   1 +
+ packages-with-info.txt                             |   8 +
+ 6 files changed, 11 insertions(+), 272 deletions(-)
 ```
  

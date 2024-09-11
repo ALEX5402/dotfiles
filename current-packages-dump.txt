@@ -345,6 +345,7 @@ wev
 wget
 wireless_tools
 wireplumber
+wireshark-qt
 wlay-git
 wlogout
 wlr-randr
