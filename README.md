@@ -22,14 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep 11 01:02:39 PM IST 2024
+## Changelog Wed Sep 11 07:33:51 PM IST 2024
 ```
- Configs/obs-studio/basic/scenes/Untitled.json.bak | 2 +-
- Configs/obs-studio/global.ini                     | 4 ++--
- Configs/swappy/config                             | 2 +-
- Extra-files/arkrc                                 | 2 +-
- Extra-files/kwriterc                              | 2 +-
- README.md                                         | 8 +-------
- 6 files changed, 7 insertions(+), 13 deletions(-)
+ Configs/obs-studio/global.ini                   |   4 +-
+ Configs/obs-studio/logs/2024-09-02 18-02-40.txt | 417 ------------------------
+ Configs/swappy/config                           |   2 +-
+ README.md                                       |  11 +-
+ 4 files changed, 4 insertions(+), 430 deletions(-)
 ```
  
