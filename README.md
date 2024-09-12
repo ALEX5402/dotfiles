@@ -22,10 +22,35 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Sep 12 12:22:43 PM IST 2024
+## Changelog Thu Sep 12 09:37:25 PM IST 2024
 ```
- Configs/swappy/config | 2 +-
- README.md             | 6 +-----
- 2 files changed, 2 insertions(+), 6 deletions(-)
+ .../Cache/Cache_Data/index-dir/the-real-index      | Bin 96 -> 288 bytes
+ .../__default__profile__/extensions.builtin.cache  |   2 +-
+ .../__default__profile__/extensions.user.cache     |   2 +-
+ Configs/Code - OSS/DawnGraphiteCache/data_1        | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnGraphiteCache/index         | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/DawnWebGPUCache/data_1          | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnWebGPUCache/index           | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/GPUCache/data_0                 | Bin 45056 -> 45056 bytes
+ Configs/Code - OSS/GPUCache/data_1                 | Bin 270336 -> 532480 bytes
+ Configs/Code - OSS/GPUCache/data_2                 | Bin 1056768 -> 1056768 bytes
+ Configs/Code - OSS/GPUCache/data_3                 | Bin 4202496 -> 4202496 bytes
+ Configs/Code - OSS/GPUCache/index                  | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/Local Storage/leveldb/LOG       |   3 -
+ Configs/Code - OSS/Local Storage/leveldb/LOG.old   |   6 +-
+ Configs/Code - OSS/Network Persistent State        |   2 +-
+ Configs/Code - OSS/Session Storage/000003.log      | Bin 99 -> 175 bytes
+ Configs/Code - OSS/Session Storage/LOG             |   6 +-
+ Configs/Code - OSS/Session Storage/LOG.old         |   6 +-
+ Configs/Code - OSS/User/globalStorage/state.vscdb  | Bin 143360 -> 147456 bytes
+ .../User/globalStorage/state.vscdb.backup          | Bin 143360 -> 147456 bytes
+ Configs/Code - OSS/User/globalStorage/storage.json |  86 +++++----------------
+ .../workspaceStorage/1725470392471/state.vscdb     | Bin 24576 -> 0 bytes
+ .../1725470392471/state.vscdb.backup               | Bin 24576 -> 0 bytes
+ .../workspaceStorage/1725710576580/state.vscdb     | Bin 24576 -> 0 bytes
+ .../1725710576580/state.vscdb.backup               | Bin 24576 -> 0 bytes
+ Configs/swappy/config                              |   2 +-
+ README.md                                          |   7 +-
+ 27 files changed, 32 insertions(+), 90 deletions(-)
 ```
  
