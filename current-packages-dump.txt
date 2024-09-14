@@ -175,6 +175,7 @@ mlocate
 modemmanager
 mpv
 mpv-mpris
+musl
 nano
 nano-syntax-highlighting
 neovim
