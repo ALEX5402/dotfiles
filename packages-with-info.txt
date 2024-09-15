@@ -2442,7 +2442,7 @@ local/python-pygments 2.18.0-1
     Python syntax highlighter
 local/python-pynvim 0.5.0-3
     Python client for Neovim
-local/python-pypresence 4.3.0-2.1
+local/python-pypresence 4.3.0-3
     Discord RPC and Rich Presence wrapper library
 local/python-pyproject-hooks 1.1.0-1
     A low-level library for calling build-backends in pyproject.toml-based project

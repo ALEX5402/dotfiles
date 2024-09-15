@@ -5,7 +5,7 @@ $HOME/.config/ags/user/colors-ags.css
 
 @define-color color0 #050507;
 @define-color color1 #99FFDD;
-@define-color color2 #88F4A4;
+@define-color color2 #202031;
 @define-color color3 #6A5C56;
 @define-color color4 #5D6879;
 @define-color color5 #586D87;
