@@ -22,9 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Sep 15 12:20:54 AM IST 2024
+## Changelog Sun Sep 15 05:03:20 PM IST 2024
 ```
- README.md | 15 +--------------
- 1 file changed, 1 insertion(+), 14 deletions(-)
+ Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
+ Configs/obs-studio/global.ini                      |   4 +-
+ Configs/obs-studio/logs/2024-09-07 20-26-51.txt    | 403 ---------------------
+ .../profiler_data/2024-09-07 20-23-42.csv.gz       | Bin 27043 -> 0 bytes
+ Configs/swappy/config                              |   2 +-
+ README.md                                          |   6 +-
+ 7 files changed, 6 insertions(+), 413 deletions(-)
 ```
  
