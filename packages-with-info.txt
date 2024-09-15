@@ -218,6 +218,8 @@ local/check 0.15.2-2
     A unit testing framework for C
 local/chromaprint 1.5.1-8.1
     Library for extracting fingerprints from any audio source
+local/chrpath 0.17-1.1
+    Change or delete the rpath or runpath in ELF files
 local/chwd 1.8.8-2 (cachyos)
     CachyOS Hardware Detection Tool
 local/cifs-utils 7.0-5.1
@@ -2242,7 +2244,7 @@ local/procps-ng 4.0.4-3.1
     Utilities for monitoring your system and its processes
 local/proot 5.4.0-1
     chroot, mount --bind, and binfmt_misc without privilege/setup
-local/protobuf 28.1-1.1
+local/protobuf 28.1-1
     Protocol Buffers - Google's data interchange format
 local/psmisc 23.7-1.1
     Miscellaneous procfs tools
