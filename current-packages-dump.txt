@@ -171,7 +171,6 @@ media-downloader
 meld
 mesa-utils
 meson
-mlocate
 modemmanager
 mpv
 mpv-mpris
@@ -223,6 +222,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
+plocate
 podman
 polkit-gnome
 power-profiles-daemon
@@ -236,6 +236,7 @@ python-pyclip
 python-pynvim
 python-pypresence
 python-pyqt5
+qemu-full
 qpwgraph
 qt5-graphicaleffects
 qt5-imageformats
@@ -339,6 +340,8 @@ vercel
 vesktop-bin
 vi
 vim
+virt-bootstrap-git
+virt-manager
 vortex-thermal
 vulkan-radeon
 waybar

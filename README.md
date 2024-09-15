@@ -22,15 +22,63 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Sep 15 05:03:20 PM IST 2024
+## Changelog Mon Sep 16 01:32:19 AM IST 2024
 ```
- Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-07 20-26-51.txt    | 403 ---------------------
- .../profiler_data/2024-09-07 20-23-42.csv.gz       | Bin 27043 -> 0 bytes
- Configs/swappy/config                              |   2 +-
- README.md                                          |   6 +-
- 7 files changed, 6 insertions(+), 413 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig         |  106 +-
+ Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++++++++++++++----
+ Configs/ags/user/colors-ags.css                    |   38 +-
+ Configs/cava/Wall-Dcol                             |   16 +-
+ Configs/cava/config                                |   16 +-
+ Configs/dunst/dunstrc                              |   12 +-
+ Configs/dunst/icons/hyprdots.svg                   |   12 +-
+ Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
+ Configs/dunst/wallbash.conf                        |   12 +-
+ Configs/gtk-3.0/settings.ini                       |    4 +-
+ Configs/hyde/hyde.conf                             |    2 +-
+ Configs/hyde/themes/Catppuccin Mocha/wall.set      |    2 +-
+ Configs/hyde/themes/Sweet-Dark/wall.set            |    2 +-
+ Configs/hypr/themes/theme.conf                     |   23 +-
+ Configs/kitty/theme.conf                           |   57 +-
+ Configs/qt5ct/colors.conf                          |    6 +-
+ Configs/qt5ct/qt5ct.conf                           |    2 +-
+ Configs/qt6ct/colors.conf                          |    6 +-
+ Configs/qt6ct/qt6ct.conf                           |    2 +-
+ Configs/rofi/theme.rasi                            |   12 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
+ Configs/swappy/config                              |    2 +-
+ Configs/waybar/config.ctl                          |    4 +-
+ Configs/waybar/config.jsonc                        |  179 +-
+ Configs/waybar/style.css                           |   66 +-
+ Configs/waybar/theme.css                           |   12 +-
+ Extra-files/QtProject.conf                         |    4 +-
+ README.md                                          |   12 +-
+ .../Fan-control/etc/fancontrol                     |    6 +-
+ current-packages-dump.txt                          |    5 +-
+ packages-with-info.txt                             |  622 +-
+ 55 files changed, 8138 insertions(+), 2525 deletions(-)
 ```
  
