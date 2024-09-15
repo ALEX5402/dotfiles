@@ -22,21 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Sep 16 02:47:27 AM IST 2024
+## Changelog Mon Sep 16 02:48:14 AM IST 2024
 ```
- Configs/bat/config                                 |   2 +-
- Configs/fish/config.fish                           |   2 +-
- Configs/fish/functions/_fzf_preview_file.fish      |  16 +-
- Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-09 15-22-19.txt    | 418 ---------------------
- .../profiler_data/2024-09-07 20-26-51.csv.gz       | Bin 58421 -> 0 bytes
- Configs/swappy/config                              |   2 +-
- Extra-files/katerc                                 |   2 +-
- Extra-files/kwriterc                               |   2 +-
- README.md                                          |  60 +--
- packages-with-info.txt                             |   4 +-
- 13 files changed, 21 insertions(+), 495 deletions(-)
+ README.md | 18 +-----------------
+ 1 file changed, 1 insertion(+), 17 deletions(-)
 ```
  
