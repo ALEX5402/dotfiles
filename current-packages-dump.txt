@@ -229,6 +229,7 @@ power-profiles-daemon
 powerline
 powerpill
 proot
+proxychains-ng
 pv
 python-conda
 python-pyamdgpuinfo
@@ -336,6 +337,7 @@ ugrep
 unrar
 upscayl-bin
 usb_modeswitch
+v4l2loopback-dkms
 vercel
 vesktop-bin
 vi
