@@ -22,54 +22,12 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep 17 03:37:57 AM IST 2024
+## Changelog Tue Sep 17 04:01:08 PM IST 2024
 ```
- Configs/Kvantum/wallbash/wallbash.kvconfig    |  110 +--
- Configs/Kvantum/wallbash/wallbash.svg         | 1196 ++++++++++++-------------
- Configs/ags/user/colors-ags.css               |   38 +-
- Configs/cava/Wall-Dcol                        |   16 +-
- Configs/cava/config                           |   16 +-
- Configs/dunst/dunstrc                         |   12 +-
- Configs/dunst/icons/hyprdots.svg              |   12 +-
- Configs/dunst/icons/vol/muted-mic.svg         |    2 +-
- Configs/dunst/icons/vol/muted-speaker.svg     |    2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg       |    2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg   |    2 +-
- Configs/dunst/icons/vol/vol-0.svg             |   10 +-
- Configs/dunst/icons/vol/vol-10.svg            |   10 +-
- Configs/dunst/icons/vol/vol-100.svg           |   10 +-
- Configs/dunst/icons/vol/vol-15.svg            |   10 +-
- Configs/dunst/icons/vol/vol-20.svg            |   10 +-
- Configs/dunst/icons/vol/vol-25.svg            |   10 +-
- Configs/dunst/icons/vol/vol-30.svg            |   10 +-
- Configs/dunst/icons/vol/vol-35.svg            |   10 +-
- Configs/dunst/icons/vol/vol-40.svg            |   10 +-
- Configs/dunst/icons/vol/vol-45.svg            |   10 +-
- Configs/dunst/icons/vol/vol-5.svg             |   10 +-
- Configs/dunst/icons/vol/vol-50.svg            |   10 +-
- Configs/dunst/icons/vol/vol-55.svg            |   10 +-
- Configs/dunst/icons/vol/vol-60.svg            |   10 +-
- Configs/dunst/icons/vol/vol-65.svg            |   10 +-
- Configs/dunst/icons/vol/vol-70.svg            |   10 +-
- Configs/dunst/icons/vol/vol-75.svg            |   10 +-
- Configs/dunst/icons/vol/vol-80.svg            |   10 +-
- Configs/dunst/icons/vol/vol-85.svg            |   10 +-
- Configs/dunst/icons/vol/vol-90.svg            |   10 +-
- Configs/dunst/icons/vol/vol-95.svg            |   10 +-
- Configs/dunst/wallbash.conf                   |   12 +-
- Configs/hyde/hyde.conf                        |    2 +-
- Configs/hyde/themes/Catppuccin Mocha/wall.set |    2 +-
- Configs/hypr/themes/colors.conf               |   14 +
- Configs/kitty/theme.conf                      |  142 +--
- Configs/qt5ct/colors.conf                     |    6 +-
- Configs/qt6ct/colors.conf                     |    6 +-
- Configs/rofi/theme.rasi                       |   14 +-
- Configs/rofi/wallust/colors-rofi.rasi         |   13 +-
- Configs/spicetify/Themes/Sleek/color.ini      |   40 +-
- Configs/swappy/config                         |    2 +-
- Configs/waybar/theme.css                      |   17 +-
- Extra-files/QtProject.conf                    |    4 +-
- README.md                                     |   64 +-
- 46 files changed, 924 insertions(+), 1032 deletions(-)
+ Extra-files/kwriterc      |  4 ++--
+ README.md                 | 51 +----------------------------------------------
+ current-packages-dump.txt |  1 +
+ packages-with-info.txt    | 10 ++++++++++
+ 4 files changed, 14 insertions(+), 52 deletions(-)
 ```
  
