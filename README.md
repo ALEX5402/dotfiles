@@ -22,12 +22,10 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep 17 04:01:08 PM IST 2024
+## Changelog Tue Sep 17 08:18:59 PM IST 2024
 ```
- Extra-files/kwriterc      |  4 ++--
- README.md                 | 51 +----------------------------------------------
- current-packages-dump.txt |  1 +
- packages-with-info.txt    | 10 ++++++++++
- 4 files changed, 14 insertions(+), 52 deletions(-)
+ Configs/swappy/config | 2 +-
+ README.md             | 9 +--------
+ 2 files changed, 2 insertions(+), 9 deletions(-)
 ```
  
