@@ -3,7 +3,6 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1726136448682": "__default__profile__",
             "1726136482772": "__default__profile__"
         }
     },
@@ -16,9 +15,6 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1726136448682"
-            },
-            {
                 "backupFolder": "1726136482772"
             }
         ]
@@ -28,10 +24,10 @@
             "backupPath": "/home/alex/.config/Code - OSS/Backups/1726136482772",
             "uiState": {
                 "mode": 0,
-                "x": 448,
-                "y": 156,
-                "width": 1024,
-                "height": 768
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -86,8 +82,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -184,11 +179,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -281,11 +278,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -330,11 +329,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1709,7 +1710,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 409,
+            "sideBarWidth": 334,
             "statusBarHeight": 0,
             "windowBorder": false
         }

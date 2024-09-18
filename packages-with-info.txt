@@ -238,8 +238,6 @@ local/clucene 2.3.3.4-15.1
     C++ port of the high-performance text search engine Lucene
 local/cmake 3.30.3-2.1
     A cross-platform open-source make system
-local/code 1.93.1-1.1
-    The Open Source build of Visual Studio Code (vscode) editor
 local/compiler-rt 18.1.8-1.1
     Compiler runtime libraries for clang
 local/conmon 1:2.1.12-1.1
@@ -3244,6 +3242,8 @@ local/virt-manager 4.1.0-3
     Desktop user interface for managing virtual machines
 local/virtiofsd 1.11.1-1.1
     Vhost-user virtio-fs device backend written in Rust
+local/visual-studio-code-bin 1.93.1-1
+    Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 local/vkbasalt-cli 3.1.1-3
     Command-line utility for vkBasalt
 local/vlc 3.0.21-4.1

@@ -22,16 +22,43 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep 18 08:35:09 PM IST 2024
+## Changelog Thu Sep 19 03:44:03 AM IST 2024
 ```
- Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-13 21-36-46.txt    | 318 ---------------------
- .../profiler_data/2024-09-13 02-23-05.csv.gz       | Bin 4857 -> 0 bytes
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   4 +-
- README.md                                          |  16 +-
- 8 files changed, 8 insertions(+), 340 deletions(-)
+ .../Cache/Cache_Data/index-dir/the-real-index      | Bin 288 -> 624 bytes
+ .../__default__profile__/extensions.builtin.cache  |   2 +-
+ .../__default__profile__/extensions.user.cache     |   2 +-
+ Configs/Code - OSS/DawnGraphiteCache/data_1        | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnGraphiteCache/index         | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/DawnWebGPUCache/data_1          | Bin 270336 -> 270336 bytes
+ Configs/Code - OSS/DawnWebGPUCache/index           | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/GPUCache/data_0                 | Bin 45056 -> 45056 bytes
+ Configs/Code - OSS/GPUCache/data_1                 | Bin 532480 -> 532480 bytes
+ Configs/Code - OSS/GPUCache/data_2                 | Bin 1056768 -> 1056768 bytes
+ Configs/Code - OSS/GPUCache/data_3                 | Bin 4202496 -> 4202496 bytes
+ Configs/Code - OSS/GPUCache/index                  | Bin 262512 -> 262512 bytes
+ Configs/Code - OSS/Local Storage/leveldb/LOG       |   3 ++
+ Configs/Code - OSS/Local Storage/leveldb/LOG.old   |   3 --
+ Configs/Code - OSS/Session Storage/000003.log      | Bin 175 -> 194 bytes
+ Configs/Code - OSS/Session Storage/LOG             |   6 ++--
+ Configs/Code - OSS/Session Storage/LOG.old         |   6 ++--
+ Configs/Code - OSS/TransportSecurity               |   2 +-
+ Configs/Code - OSS/User/globalStorage/state.vscdb  | Bin 147456 -> 147456 bytes
+ .../User/globalStorage/state.vscdb.backup          | Bin 147456 -> 147456 bytes
+ Configs/Code - OSS/User/globalStorage/storage.json |  35 +++++++++++----------
+ .../workspaceStorage/1726136448682/state.vscdb     | Bin 24576 -> 0 bytes
+ .../1726136448682/state.vscdb.backup               | Bin 24576 -> 0 bytes
+ .../workspaceStorage/1726136482772/state.vscdb     | Bin 24576 -> 28672 bytes
+ .../1726136482772/state.vscdb.backup               | Bin 24576 -> 28672 bytes
+ Configs/Code/User/settings.json                    |   4 +--
+ Configs/fish/config.fish                           |   2 +-
+ Configs/gtk-3.0/settings.ini                       |   2 +-
+ Configs/xsettingsd/xsettingsd.conf                 |   6 ++--
+ Extra-files/QtProject.conf                         |   4 +--
+ Extra-files/arkrc                                  |   2 +-
+ Extra-files/konsolesshconfig                       |  10 ++++++
+ README.md                                          |  13 +-------
+ current-packages-dump.txt                          |   2 +-
+ packages-with-info.txt                             |   4 +--
+ 35 files changed, 54 insertions(+), 54 deletions(-)
 ```
  

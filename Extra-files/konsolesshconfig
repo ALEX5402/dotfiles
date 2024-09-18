@@ -51,6 +51,16 @@ sshkey=~/.ssh/gitlab
 useSshConfig=true
 username=git
 
+[SSH Config][oracle]
+hostname=140.238.241.42
+identifier=oracle
+importedFromSshConfig=true
+port=22
+profileName=alex
+sshkey=~/.ssh/oracle
+useSshConfig=true
+username=ubuntu
+
 [SSH Config][segfault]
 hostname=adm.segfault.net
 identifier=segfault

@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
     "window.menuBarVisibility": "toggle",
     "editor.fontSize": 12,
     "editor.scrollbar.vertical": "hidden",
@@ -14,5 +13,6 @@
     "terminal.external.linuxExec": "kitty",
     "terminal.explorerKind": "both",
     "terminal.sourceControlRepositoriesKind": "both",
-    "telemetry.telemetryLevel": "off"
+    "telemetry.telemetryLevel": "off",
+    "editor.mouseWheelZoom": true
 }

@@ -3,7 +3,7 @@ LockSidebar=true
 ShowSidebar=true
 
 [KTextEditor::Search]
-Search History=Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
+Search History=payloads,Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
 
 [MainWindow]
 StatusBar=Disabled

@@ -45,7 +45,6 @@ clazy
 cliphist
 cloudflare-warp-bin
 cmake
-code
 cppcheck
 cpupower
 ddcutil
@@ -344,6 +343,7 @@ vi
 vim
 virt-bootstrap-git
 virt-manager
+visual-studio-code-bin
 vortex-thermal
 vulkan-radeon
 waybar

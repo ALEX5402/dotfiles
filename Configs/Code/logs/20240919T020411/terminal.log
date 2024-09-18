@@ -1,0 +1,12 @@
+2024-09-19 02:04:15.503 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 75.00ms
+ptyhostservice<->ptyhost: 1.76ms []
+2024-09-19 02:04:15.504 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 74.80ms
+ptyhostservice<->ptyhost: 1.63ms []
+2024-09-19 02:04:15.504 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 74.70ms
+ptyhostservice<->ptyhost: 1.67ms []
+2024-09-19 02:04:15.504 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 74.60ms
+ptyhostservice<->ptyhost: 1.62ms []
