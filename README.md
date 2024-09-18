@@ -22,43 +22,35 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Sep 19 03:44:03 AM IST 2024
+## Changelog Thu Sep 19 04:12:48 AM IST 2024
 ```
- .../Cache/Cache_Data/index-dir/the-real-index      | Bin 288 -> 624 bytes
- .../__default__profile__/extensions.builtin.cache  |   2 +-
- .../__default__profile__/extensions.user.cache     |   2 +-
- Configs/Code - OSS/DawnGraphiteCache/data_1        | Bin 270336 -> 270336 bytes
- Configs/Code - OSS/DawnGraphiteCache/index         | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/DawnWebGPUCache/data_1          | Bin 270336 -> 270336 bytes
- Configs/Code - OSS/DawnWebGPUCache/index           | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/GPUCache/data_0                 | Bin 45056 -> 45056 bytes
- Configs/Code - OSS/GPUCache/data_1                 | Bin 532480 -> 532480 bytes
- Configs/Code - OSS/GPUCache/data_2                 | Bin 1056768 -> 1056768 bytes
- Configs/Code - OSS/GPUCache/data_3                 | Bin 4202496 -> 4202496 bytes
- Configs/Code - OSS/GPUCache/index                  | Bin 262512 -> 262512 bytes
- Configs/Code - OSS/Local Storage/leveldb/LOG       |   3 ++
- Configs/Code - OSS/Local Storage/leveldb/LOG.old   |   3 --
- Configs/Code - OSS/Session Storage/000003.log      | Bin 175 -> 194 bytes
- Configs/Code - OSS/Session Storage/LOG             |   6 ++--
- Configs/Code - OSS/Session Storage/LOG.old         |   6 ++--
- Configs/Code - OSS/TransportSecurity               |   2 +-
- Configs/Code - OSS/User/globalStorage/state.vscdb  | Bin 147456 -> 147456 bytes
- .../User/globalStorage/state.vscdb.backup          | Bin 147456 -> 147456 bytes
- Configs/Code - OSS/User/globalStorage/storage.json |  35 +++++++++++----------
- .../workspaceStorage/1726136448682/state.vscdb     | Bin 24576 -> 0 bytes
- .../1726136448682/state.vscdb.backup               | Bin 24576 -> 0 bytes
- .../workspaceStorage/1726136482772/state.vscdb     | Bin 24576 -> 28672 bytes
- .../1726136482772/state.vscdb.backup               | Bin 24576 -> 28672 bytes
- Configs/Code/User/settings.json                    |   4 +--
- Configs/fish/config.fish                           |   2 +-
- Configs/gtk-3.0/settings.ini                       |   2 +-
- Configs/xsettingsd/xsettingsd.conf                 |   6 ++--
- Extra-files/QtProject.conf                         |   4 +--
- Extra-files/arkrc                                  |   2 +-
- Extra-files/konsolesshconfig                       |  10 ++++++
- README.md                                          |  13 +-------
- current-packages-dump.txt                          |   2 +-
- packages-with-info.txt                             |   4 +--
- 35 files changed, 54 insertions(+), 54 deletions(-)
+ Configs/Code/Cache/Cache_Data/fa3e0c221e8d37c6_0   | Bin 5217 -> 5217 bytes
+ .../Code/Cache/Cache_Data/index-dir/the-real-index | Bin 408 -> 408 bytes
+ .../chrome/js/index-dir/the-real-index             | Bin 288 -> 288 bytes
+ Configs/Code/DawnGraphiteCache/data_1              | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnGraphiteCache/index               | Bin 262512 -> 262512 bytes
+ Configs/Code/DawnWebGPUCache/data_1                | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnWebGPUCache/index                 | Bin 262512 -> 262512 bytes
+ Configs/Code/GPUCache/data_0                       | Bin 45056 -> 45056 bytes
+ Configs/Code/GPUCache/data_1                       | Bin 532480 -> 532480 bytes
+ Configs/Code/GPUCache/data_2                       | Bin 1056768 -> 1056768 bytes
+ Configs/Code/GPUCache/data_3                       | Bin 4202496 -> 4202496 bytes
+ Configs/Code/GPUCache/index                        | Bin 262512 -> 262512 bytes
+ Configs/Code/Local Storage/leveldb/LOG             |   6 ++--
+ Configs/Code/Local Storage/leveldb/LOG.old         |   6 ++--
+ Configs/Code/Network Persistent State              |   2 +-
+ Configs/Code/Service Worker/Database/LOG           |   6 ++--
+ Configs/Code/Service Worker/Database/LOG.old       |   6 ++--
+ Configs/Code/Session Storage/000003.log            | Bin 99 -> 137 bytes
+ Configs/Code/Session Storage/LOG                   |   6 ++--
+ Configs/Code/Session Storage/LOG.old               |   6 ++--
+ Configs/Code/TransportSecurity                     |   2 +-
+ Configs/Code/User/globalStorage/state.vscdb        | Bin 155648 -> 155648 bytes
+ Configs/Code/User/globalStorage/state.vscdb.backup | Bin 155648 -> 155648 bytes
+ Configs/Code/User/globalStorage/storage.json       |  10 +++---
+ .../8b39dfa96cf2de6e3d71cb7f18284049/state.vscdb   | Bin 61440 -> 61440 bytes
+ .../state.vscdb.backup                             | Bin 61440 -> 61440 bytes
+ README.md                                          |  40 +--------------------
+ 27 files changed, 26 insertions(+), 64 deletions(-)
 ```
  
