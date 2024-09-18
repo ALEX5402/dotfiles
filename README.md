@@ -22,19 +22,19 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Sep 18 08:31:42 AM IST 2024
+## Changelog Wed Sep 18 11:44:00 AM IST 2024
 ```
- Configs/fish/config.fish                           |   5 +
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-13 02-23-05.txt    | 269 ---------------------
- .../profiler_data/2024-09-11 23-27-58.csv.gz       | Bin 4191 -> 0 bytes
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   4 +-
- Extra-files/katerc                                 |   1 +
- Extra-files/kwriterc                               |   1 +
- README.md                                          |   7 +-
- packages-with-info.txt                             | 152 ++++++------
- 11 files changed, 90 insertions(+), 357 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig |  110 +--
+ Configs/Kvantum/wallbash/wallbash.svg      | 1196 ++++++++++++++--------------
+ Configs/hyde/hyde.conf                     |    2 +-
+ Configs/hypr/themes/colors.conf            |   14 -
+ Configs/kitty/theme.conf                   |  142 +++-
+ Configs/rofi/theme.rasi                    |   14 +-
+ Configs/rofi/wallust/colors-rofi.rasi      |   13 +-
+ Configs/swappy/config                      |    2 +-
+ Configs/waybar/theme.css                   |   17 +-
+ Extra-files/QtProject.conf                 |    4 +-
+ README.md                                  |   16 +-
+ 11 files changed, 781 insertions(+), 749 deletions(-)
 ```
  
