@@ -22,10 +22,19 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep 17 08:18:59 PM IST 2024
+## Changelog Wed Sep 18 08:31:42 AM IST 2024
 ```
- Configs/swappy/config | 2 +-
- README.md             | 9 +--------
- 2 files changed, 2 insertions(+), 9 deletions(-)
+ Configs/fish/config.fish                           |   5 +
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
+ Configs/obs-studio/global.ini                      |   4 +-
+ Configs/obs-studio/logs/2024-09-13 02-23-05.txt    | 269 ---------------------
+ .../profiler_data/2024-09-11 23-27-58.csv.gz       | Bin 4191 -> 0 bytes
+ Configs/swappy/config                              |   2 +-
+ Extra-files/QtProject.conf                         |   4 +-
+ Extra-files/katerc                                 |   1 +
+ Extra-files/kwriterc                               |   1 +
+ README.md                                          |   7 +-
+ packages-with-info.txt                             | 152 ++++++------
+ 11 files changed, 90 insertions(+), 357 deletions(-)
 ```
  
