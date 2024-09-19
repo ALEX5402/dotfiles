@@ -257,6 +257,7 @@ sg3_utils
 slurp
 smartmontools
 sof-firmware
+speech-dispatcher
 speedtest-rs-bin
 spicetify-cli
 stacer-bin
