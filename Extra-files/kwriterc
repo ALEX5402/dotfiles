@@ -20,7 +20,7 @@ Word Wrap Marker=false
 
 [KTextEditor::Search]
 Replace History=,'$current_wallpaper'
-Search History=\s    ,$current_wallpaper,icat,CURLOPT_HTTPHEADER,:q,main.cpp,git,not_found
+Search History=send_delayed_message,user_id,24.249.199.12,     ,$current_wallpaper,icat,CURLOPT_HTTPHEADER,:q,main.cpp,git,not_found
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true

@@ -22,7 +22,7 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Sep 19 06:05:08 PM IST 2024
+## Changelog Fri Sep 20 12:37:36 AM IST 2024
 ```
  Configs/Code/Cache/Cache_Data/15651df7a7ad0fa5_0   | Bin 8833 -> 8833 bytes
  Configs/Code/Cache/Cache_Data/a97c96d98c7c4739_0   | Bin 49567 -> 49567 bytes
@@ -33,26 +33,51 @@
  Configs/Code/DawnGraphiteCache/index               | Bin 262512 -> 262512 bytes
  Configs/Code/DawnWebGPUCache/data_1                | Bin 270336 -> 270336 bytes
  Configs/Code/DawnWebGPUCache/index                 | Bin 262512 -> 262512 bytes
- Configs/Code/GPUCache/data_0                       | Bin 45056 -> 45056 bytes
  Configs/Code/GPUCache/data_1                       | Bin 532480 -> 532480 bytes
- Configs/Code/GPUCache/data_2                       | Bin 1056768 -> 1056768 bytes
  Configs/Code/GPUCache/index                        | Bin 262512 -> 262512 bytes
- Configs/Code/Local Storage/leveldb/LOG             |   6 +--
- Configs/Code/Local Storage/leveldb/LOG.old         |   6 +--
+ Configs/Code/Local Storage/leveldb/LOG             |   6 +-
+ Configs/Code/Local Storage/leveldb/LOG.old         |   6 +-
  Configs/Code/Network Persistent State              |   2 +-
- Configs/Code/Service Worker/Database/LOG           |   6 +--
- Configs/Code/Service Worker/Database/LOG.old       |   6 +--
- Configs/Code/Session Storage/000003.log            | Bin 137 -> 194 bytes
- Configs/Code/Session Storage/LOG                   |   6 +--
- Configs/Code/Session Storage/LOG.old               |   6 +--
+ Configs/Code/Service Worker/Database/LOG           |   6 +-
+ Configs/Code/Service Worker/Database/LOG.old       |   6 +-
+ Configs/Code/Session Storage/000003.log            | Bin 194 -> 270 bytes
+ Configs/Code/Session Storage/LOG                   |   6 +-
+ Configs/Code/Session Storage/LOG.old               |   6 +-
  Configs/Code/TransportSecurity                     |   2 +-
  Configs/Code/User/globalStorage/state.vscdb        | Bin 155648 -> 155648 bytes
  Configs/Code/User/globalStorage/state.vscdb.backup | Bin 155648 -> 155648 bytes
- Configs/Code/User/globalStorage/storage.json       |  53 +++++++++++++--------
- .../8b39dfa96cf2de6e3d71cb7f18284049/state.vscdb   | Bin 61440 -> 61440 bytes
- .../state.vscdb.backup                             | Bin 61440 -> 61440 bytes
+ Configs/Code/User/globalStorage/storage.json       | 214 ++-------------
+ .../workspaceStorage/1726721149367/state.vscdb     | Bin 20480 -> 0 bytes
+ .../1726721149367/state.vscdb.backup               | Bin 20480 -> 0 bytes
+ .../d556a3edecd8c602e9fbad2fef91d801/state.vscdb   | Bin 40960 -> 45056 bytes
+ .../state.vscdb.backup                             | Bin 40960 -> 45056 bytes
+ Configs/Code/logs/20240918T233418/editSessions.log |   3 -
+ Configs/Code/logs/20240918T233418/main.log         |  12 -
+ Configs/Code/logs/20240918T233418/network.log      |   0
+ .../logs/20240918T233418/remoteTunnelService.log   |   1 -
+ .../Code/logs/20240918T233418/sharedprocess.log    |  39 ---
+ Configs/Code/logs/20240918T233418/telemetry.log    |   2 -
+ Configs/Code/logs/20240918T233418/terminal.log     |  27 --
+ Configs/Code/logs/20240918T233418/userDataSync.log |   2 -
+ .../window1/exthost/extensionTelemetry.log         |  10 -
+ .../20240918T233418/window1/exthost/exthost.log    | 110 --------
+ .../1-Remote - SSH.log                             |   6 -
+ .../1-Remote - SSH.log                             | 301 ---------------------
+ .../1-Remote - SSH.log                             |  47 ----
+ .../window1/exthost/vscode.git/Git.log             |   5 -
+ .../GitHub Authentication.log                      |   7 -
+ .../window1/exthost/vscode.github/GitHub.log       |   1 -
+ .../JSON Language Server.log                       |   0
+ .../Code/logs/20240918T233418/window1/network.log  |   0
+ .../20240918T233418/window1/notebook.rendering.log |   0
+ .../window1/output_20240918T233419/tasks.log       |   0
+ .../window1/output_20240918T233504/tasks.log       |   0
+ .../window1/output_20240918T233545/tasks.log       |   0
+ .../Code/logs/20240918T233418/window1/renderer.log |  34 ---
+ .../Code/logs/20240918T233418/window1/views.log    |  47 ----
  Configs/swappy/config                              |   2 +-
- README.md                                          |  13 +----
- 29 files changed, 54 insertions(+), 54 deletions(-)
+ Extra-files/kwriterc                               |   2 +-
+ README.md                                          |  34 +--
+ 54 files changed, 51 insertions(+), 895 deletions(-)
 ```
  
