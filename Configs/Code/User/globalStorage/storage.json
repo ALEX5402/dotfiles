@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "vscode-remote://ssh-remote%2Boracle/home/ubuntu/managerbot": "__default__profile__"
+            "vscode-remote://ssh-remote%2Boracle/home/ubuntu/managerbot": "__default__profile__",
+            "vscode-remote://ssh-remote%2Bnewvps/root/bot": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,23 +15,27 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "vscode-remote://ssh-remote%2Boracle/home/ubuntu/managerbot",
-                "remoteAuthority": "ssh-remote+oracle"
+                "folderUri": "vscode-remote://ssh-remote%2Bnewvps/root/bot",
+                "remoteAuthority": "ssh-remote+newvps"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1726721149367"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "vscode-remote://ssh-remote%2Boracle/home/ubuntu/managerbot",
-            "backupPath": "/home/alex/.config/Code/Backups/b679552538aa7238116291652ed6ecfe",
-            "remoteAuthority": "ssh-remote+oracle",
+            "folder": "vscode-remote://ssh-remote%2Bnewvps/root/bot",
+            "backupPath": "/home/alex/.config/Code/Backups/9638916d34756e718efaef7ddb7e0d69",
+            "remoteAuthority": "ssh-remote+newvps",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 0,
-                "width": 960,
-                "height": 526
+                "x": 448,
+                "y": 156,
+                "width": 1024,
+                "height": 768
             }
         },
         "openedWindows": []
@@ -89,6 +94,19 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://ssh-remote%2Bnewvps/root/bot",
+                                        "path": "/root/bot",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+newvps"
+                                    },
+                                    "remoteAuthority": "ssh-remote+newvps",
+                                    "enabled": true,
+                                    "label": "~/bot [SSH: newvps]"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -159,13 +177,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -471,7 +482,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -1115,8 +1127,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"

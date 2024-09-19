@@ -22,16 +22,37 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Sep 19 08:28:44 AM IST 2024
+## Changelog Thu Sep 19 06:05:08 PM IST 2024
 ```
- Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-14 19-55-24.txt    | 474 ---------------------
- .../profiler_data/2024-09-13 21-36-46.csv.gz       | Bin 40621 -> 0 bytes
- README.md                                          |  32 +-
- current-packages-dump.txt                          |   1 +
- packages-with-info.txt                             |   6 +
- 8 files changed, 12 insertions(+), 509 deletions(-)
+ Configs/Code/Cache/Cache_Data/15651df7a7ad0fa5_0   | Bin 8833 -> 8833 bytes
+ Configs/Code/Cache/Cache_Data/a97c96d98c7c4739_0   | Bin 49567 -> 49567 bytes
+ Configs/Code/Cache/Cache_Data/fa3e0c221e8d37c6_0   | Bin 5217 -> 5217 bytes
+ .../Code/Cache/Cache_Data/index-dir/the-real-index | Bin 408 -> 408 bytes
+ .../chrome/js/index-dir/the-real-index             | Bin 288 -> 288 bytes
+ Configs/Code/DawnGraphiteCache/data_1              | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnGraphiteCache/index               | Bin 262512 -> 262512 bytes
+ Configs/Code/DawnWebGPUCache/data_1                | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnWebGPUCache/index                 | Bin 262512 -> 262512 bytes
+ Configs/Code/GPUCache/data_0                       | Bin 45056 -> 45056 bytes
+ Configs/Code/GPUCache/data_1                       | Bin 532480 -> 532480 bytes
+ Configs/Code/GPUCache/data_2                       | Bin 1056768 -> 1056768 bytes
+ Configs/Code/GPUCache/index                        | Bin 262512 -> 262512 bytes
+ Configs/Code/Local Storage/leveldb/LOG             |   6 +--
+ Configs/Code/Local Storage/leveldb/LOG.old         |   6 +--
+ Configs/Code/Network Persistent State              |   2 +-
+ Configs/Code/Service Worker/Database/LOG           |   6 +--
+ Configs/Code/Service Worker/Database/LOG.old       |   6 +--
+ Configs/Code/Session Storage/000003.log            | Bin 137 -> 194 bytes
+ Configs/Code/Session Storage/LOG                   |   6 +--
+ Configs/Code/Session Storage/LOG.old               |   6 +--
+ Configs/Code/TransportSecurity                     |   2 +-
+ Configs/Code/User/globalStorage/state.vscdb        | Bin 155648 -> 155648 bytes
+ Configs/Code/User/globalStorage/state.vscdb.backup | Bin 155648 -> 155648 bytes
+ Configs/Code/User/globalStorage/storage.json       |  53 +++++++++++++--------
+ .../8b39dfa96cf2de6e3d71cb7f18284049/state.vscdb   | Bin 61440 -> 61440 bytes
+ .../state.vscdb.backup                             | Bin 61440 -> 61440 bytes
+ Configs/swappy/config                              |   2 +-
+ README.md                                          |  13 +----
+ 29 files changed, 54 insertions(+), 54 deletions(-)
 ```
  
