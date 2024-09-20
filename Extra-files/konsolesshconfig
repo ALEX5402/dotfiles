@@ -51,6 +51,16 @@ sshkey=~/.ssh/gitlab
 useSshConfig=true
 username=git
 
+[SSH Config][newvps]
+hostname=109.199.121.208
+identifier=newvps
+importedFromSshConfig=true
+port=22
+profileName=alex
+sshkey=~/.ssh/newvps
+useSshConfig=true
+username=root
+
 [SSH Config][oracle]
 hostname=140.238.241.42
 identifier=oracle
