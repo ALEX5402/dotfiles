@@ -22,11 +22,13 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sat Sep 21 09:41:36 PM IST 2024
+## Changelog Sun Sep 22 03:31:11 AM IST 2024
 ```
- Configs/swappy/config  | 2 +-
- README.md              | 7 +------
- packages-with-info.txt | 6 ++++++
- 3 files changed, 8 insertions(+), 7 deletions(-)
+ Configs/fish/config.fish  |  2 +-
+ Configs/swappy/config     |  2 +-
+ README.md                 |  8 +-------
+ current-packages-dump.txt |  1 +
+ packages-with-info.txt    | 12 ++++++++++++
+ 5 files changed, 16 insertions(+), 9 deletions(-)
 ```
  

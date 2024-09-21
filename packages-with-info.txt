@@ -1886,6 +1886,8 @@ local/lxqt-menu-data 2.0.0-1
     LXQt menu files
 local/lz4 1:1.10.0-3
     Extremely fast compression algorithm
+local/lzip 1.24.1-1.1
+    A lossless file compressor based on the LZMA algorithm
 local/lzo 2.10-5.1
     Portable lossless data compression library
 local/lzop 1.04-4.1
@@ -2394,6 +2396,8 @@ local/python-idna 3.8-1
     Internationalized Domain Names in Applications (IDNA)
 local/python-iniconfig 2.0.0-5
     brain-dead simple config-ini parsing
+local/python-inquirerpy 0.3.4-6.1
+    Python port of Inquirer.js (A collection of common interactive command-line user interfaces)
 local/python-installer 0.7.0-8
     Low-level library for installing a Python package from a wheel distribution
 local/python-jaraco.classes 3.4.0-1
@@ -2448,6 +2452,8 @@ local/python-pefile 2023.2.7-2
     Python PE parsing module
 local/python-pexpect 4.9.0-2
     For controlling and automating applications
+local/python-pfzy 0.3.4-3.1
+    Python port of the fzy fuzzy string matching algorithm
 local/python-pillow 10.4.0-1
     Python Imaging Library (PIL) fork
 local/python-pkginfo 1.10.0-1
@@ -2462,6 +2468,8 @@ local/python-poetry-core 1.9.0-5 (python-build-backend)
     Poetry PEP 517 Build Backend & Core Utilities
 local/python-poetry-plugin-export 1.8.0-1
     Poetry plugin to export the dependencies to various formats
+local/python-prompt_toolkit 3.0.47-1
+    Library for building powerful interactive command lines in Python
 local/python-psutil 6.0.0-1
     A cross-platform process and system utilities module for Python
 local/python-ptyprocess 0.7.0-6
@@ -2556,6 +2564,8 @@ local/python-validate-pyproject 0.19-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
 local/python-virtualenv 20.26.2-1
     Virtual Python Environment builder
+local/python-wcwidth 0.2.13-2
+    Python library that measures the width of unicode strings rendered to a terminal
 local/python-webencodings 0.5.1-11
     This is a Python implementation of the WHATWG Encoding standard.
 local/python-websockets 12.0-2.1
@@ -3286,6 +3296,8 @@ local/waybar 0.11.0-3.1
     Highly customizable Wayland bar for Sway and Wlroots based compositors
 local/waydroid 1.4.3-1
     A container-based approach to boot a full Android system on a regular Linux system
+local/waydroid-script-git r177.1a2d3ad-1
+    Python Script to add OpenGapps, Magisk, libhoudini translation library and libndk translation library to waydroid
 local/wayland 1.23.1-1.1
     A computer display server protocol
 local/wayland-protocols 1.37-1

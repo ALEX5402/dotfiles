@@ -349,6 +349,7 @@ vortex-thermal
 vulkan-radeon
 waybar
 waydroid
+waydroid-script-git
 wev
 wget
 wireless_tools

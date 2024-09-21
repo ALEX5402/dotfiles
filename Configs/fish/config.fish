@@ -189,7 +189,7 @@ alias vimpager 'nvim - -c "lua require(\'util\').colorize()"'
 
 ## distrobox containers 
 
-alias arch-linux1 'distrobox enter arch'
+alias arch-linux1 'distrobox enter arch2'
 
 alias print-fingerprint-jar 'keytool -printcert -jarfile'
 alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
