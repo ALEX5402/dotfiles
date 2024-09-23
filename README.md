@@ -22,7 +22,7 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep 24 03:43:40 AM IST 2024
+## Changelog Tue Sep 24 04:18:15 AM IST 2024
 ```
  Configs/cava/Wall-Dcol                        | 16 +++++------
  Configs/cava/config                           | 16 +++++------
@@ -55,10 +55,11 @@
  Configs/dunst/icons/vol/vol-95.svg            | 10 +++----
  Configs/dunst/wallbash.conf                   | 12 ++++----
  Configs/hyde/themes/Catppuccin Mocha/wall.set |  2 +-
+ Configs/hypr/hyprland.conf                    |  4 ++-
  Configs/qt5ct/colors.conf                     |  6 ++--
  Configs/qt6ct/colors.conf                     |  6 ++--
  Configs/spicetify/Themes/Sleek/color.ini      | 40 +++++++++++++--------------
- README.md                                     |  8 +-----
- 35 files changed, 171 insertions(+), 177 deletions(-)
+ README.md                                     | 40 +--------------------------
+ 36 files changed, 174 insertions(+), 210 deletions(-)
 ```
  
