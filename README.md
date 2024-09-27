@@ -22,44 +22,69 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Sep 24 04:18:15 AM IST 2024
+## Changelog Fri Sep 27 07:23:38 AM IST 2024
 ```
- Configs/cava/Wall-Dcol                        | 16 +++++------
- Configs/cava/config                           | 16 +++++------
- Configs/dunst/dunstrc                         | 12 ++++----
- Configs/dunst/icons/hyprdots.svg              | 12 ++++----
- Configs/dunst/icons/vol/muted-mic.svg         |  2 +-
- Configs/dunst/icons/vol/muted-speaker.svg     |  2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg       |  2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg   |  2 +-
- Configs/dunst/icons/vol/vol-0.svg             | 10 +++----
- Configs/dunst/icons/vol/vol-10.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-100.svg           | 10 +++----
- Configs/dunst/icons/vol/vol-15.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-20.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-25.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-30.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-35.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-40.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-45.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-5.svg             | 10 +++----
- Configs/dunst/icons/vol/vol-50.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-55.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-60.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-65.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-70.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-75.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-80.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-85.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-90.svg            | 10 +++----
- Configs/dunst/icons/vol/vol-95.svg            | 10 +++----
- Configs/dunst/wallbash.conf                   | 12 ++++----
- Configs/hyde/themes/Catppuccin Mocha/wall.set |  2 +-
- Configs/hypr/hyprland.conf                    |  4 ++-
- Configs/qt5ct/colors.conf                     |  6 ++--
- Configs/qt6ct/colors.conf                     |  6 ++--
- Configs/spicetify/Themes/Sleek/color.ini      | 40 +++++++++++++--------------
- README.md                                     | 40 +--------------------------
- 36 files changed, 174 insertions(+), 210 deletions(-)
+ Configs/cava/Wall-Dcol                             |  16 +-
+ Configs/cava/config                                |  16 +-
+ Configs/dunst/dunstrc                              |  12 +-
+ Configs/dunst/icons/hyprdots.svg                   |  12 +-
+ Configs/dunst/icons/vol/muted-mic.svg              |   2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |   2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |   2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |   2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |  10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |  10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |  10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
+ Configs/dunst/wallbash.conf                        |  12 +-
+ Configs/hyde/themes/Catppuccin Mocha/wall.set      |   2 +-
+ .../obs-studio/basic/profiles/Untitled/basic.ini   |   1 +
+ .../basic/profiles/Untitled/streamEncoder.json     |   2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
+ Configs/obs-studio/global.ini                      |   7 +-
+ Configs/obs-studio/logs/2024-09-16 18-39-10.txt    | 405 ------------------
+ Configs/obs-studio/logs/2024-09-16 18-44-28.txt    | 268 ------------
+ Configs/obs-studio/logs/2024-09-16 18-44-37.txt    | 268 ------------
+ Configs/obs-studio/logs/2024-09-16 18-45-24.txt    | 467 ---------------------
+ Configs/obs-studio/logs/2024-09-16 19-21-04.txt    | 268 ------------
+ Configs/obs-studio/logs/2024-09-17 20-43-39.txt    | 405 ------------------
+ Configs/obs-studio/logs/2024-09-18 11-59-41.txt    | 317 --------------
+ Configs/obs-studio/logs/2024-09-19 05-08-38.txt    | 319 --------------
+ Configs/obs-studio/logs/2024-09-20 03-02-52.txt    | 268 ------------
+ Configs/obs-studio/logs/2024-09-22 11-14-13.txt    | 268 ------------
+ .../profiler_data/2024-09-16 01-50-27.csv.gz       | Bin 7427 -> 0 bytes
+ .../profiler_data/2024-09-16 18-39-10.csv.gz       | Bin 39396 -> 0 bytes
+ .../profiler_data/2024-09-16 18-44-28.csv.gz       | Bin 6188 -> 0 bytes
+ .../profiler_data/2024-09-16 18-44-37.csv.gz       | Bin 6105 -> 0 bytes
+ .../profiler_data/2024-09-16 18-45-24.csv.gz       | Bin 49213 -> 0 bytes
+ Configs/qt5ct/colors.conf                          |   6 +-
+ Configs/qt6ct/colors.conf                          |   6 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |  40 +-
+ Configs/swappy/config                              |   2 +-
+ Extra-files/QtProject.conf                         |   4 +-
+ Extra-files/arkrc                                  |   2 +-
+ .../dolphin/view_properties/global/.directory      |   4 +-
+ README.md                                          |  41 +-
+ current-packages-dump.txt                          |   1 +
+ packages-with-info.txt                             |   2 +
+ 61 files changed, 189 insertions(+), 3474 deletions(-)
 ```
  

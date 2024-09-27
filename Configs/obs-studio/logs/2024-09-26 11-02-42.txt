@@ -1,0 +1,315 @@
+11:02:42.454: Platform: Wayland
+11:02:42.454: CPU Name: AMD Ryzen 5 5500GT with Radeon Graphics
+11:02:42.454: CPU Speed: 3516.556MHz
+11:02:42.455: Physical Cores: 6, Logical Cores: 12
+11:02:42.455: Physical Memory: 15357MB Total, 1197MB Free
+11:02:42.455: Kernel Version: Linux 6.11.0-x64v3-xanmod1-1-edge-x64v3
+11:02:42.455: Distribution: "Arch Linux" Unknown
+11:02:42.455: Desktop Environment: Hyprland (Hyprland)
+11:02:42.455: Session Type: wayland
+11:02:42.456: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+11:02:42.456: Portable mode: false
+11:02:42.510: OBS 30.2.1-1.1 (linux)
+11:02:42.510: ---------------------------------
+11:02:42.510: ---------------------------------
+11:02:42.510: audio settings reset:
+11:02:42.510: 	samples per sec: 48000
+11:02:42.510: 	speakers:        2
+11:02:42.510: 	max buffering:   960 milliseconds
+11:02:42.510: 	buffering type:  dynamically increasing
+11:02:42.514: ---------------------------------
+11:02:42.514: Initializing OpenGL...
+11:02:42.514: Using EGL/Wayland
+11:02:42.540: Initialized EGL 1.5
+11:02:42.551: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.58, 6.11.0-x64v3-xanmod1-1-edge-x64v3)
+11:02:42.551: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-arch1.2, shading language 4.60
+11:02:42.572: ---------------------------------
+11:02:42.572: video settings reset:
+11:02:42.572: 	base resolution:   1920x1080
+11:02:42.572: 	output resolution: 1920x1080
+11:02:42.572: 	downscale filter:  Bicubic
+11:02:42.572: 	fps:               60/1
+11:02:42.572: 	format:            NV12
+11:02:42.572: 	YUV mode:          Rec. 709/Partial
+11:02:42.573: NV12 texture support enabled
+11:02:42.573: P010 texture support not available
+11:02:42.575: Audio monitoring device:
+11:02:42.575: 	name: Default
+11:02:42.575: 	id: default
+11:02:42.575: ---------------------------------
+11:02:42.583: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:02:42.590: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:02:42.596: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:02:42.596: Failed to initialize module 'decklink.so'
+11:02:42.728: [pipewire] Available capture sources:
+11:02:42.728: [pipewire]     - Monitor source
+11:02:42.728: [pipewire]     - Window source
+11:02:42.809: VAAPI: API version 1.22
+11:02:42.810: FFmpeg VAAPI H264 encoding supported
+11:02:42.814: FFmpeg VAAPI AV1 encoding not supported
+11:02:42.819: FFmpeg VAAPI HEVC encoding supported
+11:02:42.889: [obs-vaapi] version: 0.4.2, gst-runtime: 1.24.8
+11:02:42.898: [obs-vaapi] found vah265enc
+11:02:42.898: [obs-vaapi] found vah264enc
+11:02:42.898: [obs-vaapi] found vaapih264enc
+11:02:42.898: [obs-vaapi] found vaapih265enc
+11:02:42.952: ---------------------------------
+11:02:42.952:   Loaded Modules:
+11:02:42.952:     text-freetype2.so
+11:02:42.952:     rtmp-services.so
+11:02:42.952:     obs-x264.so
+11:02:42.952:     obs-webrtc.so
+11:02:42.952:     obs-vst.so
+11:02:42.952:     obs-vaapi.so
+11:02:42.952:     obs-transitions.so
+11:02:42.952:     obs-qsv11.so
+11:02:42.952:     obs-outputs.so
+11:02:42.952:     obs-libfdk.so
+11:02:42.952:     obs-filters.so
+11:02:42.952:     obs-ffmpeg.so
+11:02:42.952:     linux-v4l2.so
+11:02:42.952:     linux-pulseaudio.so
+11:02:42.952:     linux-pipewire.so
+11:02:42.952:     linux-jack.so
+11:02:42.952:     linux-capture.so
+11:02:42.952:     linux-alsa.so
+11:02:42.952:     image-source.so
+11:02:42.952:     frontend-tools.so
+11:02:42.952:     droidcam-obs.so
+11:02:42.952:     decklink-output-ui.so
+11:02:42.952:     decklink-captions.so
+11:02:42.952: ---------------------------------
+11:02:42.952: ---------------------------------
+11:02:42.952: Available Encoders:
+11:02:42.952:   Video Encoders:
+11:02:42.952: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:02:42.952: 	- ffmpeg_aom_av1 (AOM AV1)
+11:02:42.952: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+11:02:42.952: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+11:02:42.957: 	- obs-va-vah265enc (VAAPI H.265 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+11:02:42.962: 	- obs-va-vah264enc (VAAPI H.264 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+11:02:42.962: 	- obs-vaapi-vaapih264enc (VAAPI H.264  (Legacy))
+11:02:42.962: 	- obs-vaapi-vaapih265enc (VAAPI H.265  (Legacy))
+11:02:42.962: 	- obs_x264 (x264)
+11:02:42.962:   Audio Encoders:
+11:02:42.962: 	- ffmpeg_aac (FFmpeg AAC)
+11:02:42.962: 	- ffmpeg_opus (FFmpeg Opus)
+11:02:42.962: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:02:42.962: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:02:42.962: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:02:42.962: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:02:42.962: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:02:42.962: 	- libfdk_aac (libfdk AAC)
+11:02:42.962: ==== Startup complete ===============================================
+11:02:43.024: All scene data cleared
+11:02:43.024: ------------------------------------------------
+11:02:43.027: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+11:02:43.028: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+11:02:43.028: pulse-input: Started recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor' (default)
+11:02:43.028: [Loaded global audio device]: 'Desktop Audio'
+11:02:43.028: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+11:02:43.028: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+11:02:43.028: pulse-input: Started recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.mono-fallback' (default)
+11:02:43.028: [Loaded global audio device]: 'Mic/Aux'
+11:02:43.028: [DroidCamOBS] Source: "DroidCam OBS" - 233
+11:02:43.028: [DroidCamOBS] checking adb
+11:02:43.055: [DroidCamOBS] activated=1, deactivateWNS=0, is_showing=0, enable_audio=0
+11:02:43.055: [DroidCamOBS] video_format=avc video_resolution=1920x1080
+11:02:43.055: [DroidCamOBS] device_info.id=dev_id_wifi device_info.ip=192.168.1.3 device_info.port=4747 device_info.type=1
+11:02:43.055: [DroidCamOBS] video_decode_thread start
+11:02:43.056: [DroidCamOBS] video_thread start
+11:02:43.056: [DroidCamOBS] audio_thread start
+11:02:43.056: Switched to scene 'Scene'
+11:02:43.057: ------------------------------------------------
+11:02:43.057: Loaded scenes:
+11:02:43.057: - scene 'Scene':
+11:02:43.057:     - source: 'DroidCam OBS' (droidcam_obs)
+11:02:43.057: ------------------------------------------------
+11:02:43.577: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:02:43.577: 
+11:02:47.118: User Removed source 'DroidCam OBS' (droidcam_obs) from scene 'Scene'
+11:02:47.118: [DroidCamOBS] destroy: "DroidCam OBS"
+11:02:47.118: [DroidCamOBS] stopping
+11:02:47.120: [DroidCamOBS] video_decode_thread end
+11:02:47.141: [DroidCamOBS] audio_thread end
+11:02:47.142: [DroidCamOBS] video_thread end
+11:02:47.142: [DroidCamOBS] cleanup
+11:02:51.118: PipeWire initialized
+11:02:51.159: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+11:02:51.193: [pipewire] Screencast session created
+11:02:54.997: [pipewire] Asking for monitor and window
+11:02:55.053: [pipewire] source selected, setting up screencast
+11:02:55.057: [pipewire] Server version: 1.2.4
+11:02:55.057: [pipewire] Library version: 1.2.4
+11:02:55.057: [pipewire] Header version: 1.2.1
+11:02:55.057: [pipewire] Created stream 0x5d9495ec6760
+11:02:55.057: [pipewire] Stream 0x5d9495ec6760 state: "connecting" (error: none)
+11:02:55.058: [pipewire] Playing stream 0x5d9495ec6760
+11:02:55.058: [pipewire] Stream 0x5d9495ec6760 state: "paused" (error: none)
+11:02:55.072: [pipewire] Negotiated format:
+11:02:55.072: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.072: [pipewire]     Modifier: 0x0
+11:02:55.072: [pipewire]     Size: 1920x1080
+11:02:55.072: [pipewire]     Framerate: 0/1
+11:02:55.097: [pipewire] Negotiated format:
+11:02:55.097: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.097: [pipewire]     Modifier: 0x20000044051ba01
+11:02:55.097: [pipewire]     Size: 1920x1080
+11:02:55.097: [pipewire]     Framerate: 0/1
+11:02:55.098: [pipewire] Stream 0x5d9495ec6760 state: "streaming" (error: none)
+11:02:55.101: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:02:55.101: [pipewire] Renegotiating stream
+11:02:55.102: [pipewire] Negotiated format:
+11:02:55.102: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.102: [pipewire]     Modifier: 0x20000044051ba01
+11:02:55.102: [pipewire]     Size: 1920x1080
+11:02:55.102: [pipewire]     Framerate: 0/1
+11:02:55.102: [pipewire] Negotiated format:
+11:02:55.102: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.102: [pipewire]     Modifier: 0x20000044051b901
+11:02:55.102: [pipewire]     Size: 1920x1080
+11:02:55.102: [pipewire]     Framerate: 0/1
+11:02:55.110: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:02:55.110: [pipewire] Renegotiating stream
+11:02:55.110: [pipewire] Stream 0x5d9495ec6760 state: "paused" (error: none)
+11:02:55.110: [pipewire] Negotiated format:
+11:02:55.110: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.110: [pipewire]     Modifier: 0x20000044051b901
+11:02:55.110: [pipewire]     Size: 1920x1080
+11:02:55.110: [pipewire]     Framerate: 0/1
+11:02:55.110: [pipewire] Negotiated format:
+11:02:55.110: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.110: [pipewire]     Modifier: 0x200000440517901
+11:02:55.110: [pipewire]     Size: 1920x1080
+11:02:55.110: [pipewire]     Framerate: 0/1
+11:02:55.111: [pipewire] Stream 0x5d9495ec6760 state: "streaming" (error: none)
+11:02:55.120: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:02:55.120: [pipewire] Renegotiating stream
+11:02:55.120: [pipewire] Negotiated format:
+11:02:55.120: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.120: [pipewire]     Modifier: 0x200000440517901
+11:02:55.120: [pipewire]     Size: 1920x1080
+11:02:55.120: [pipewire]     Framerate: 0/1
+11:02:55.121: [pipewire] Negotiated format:
+11:02:55.121: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:02:55.121: [pipewire]     Modifier: 0x200000000401a01
+11:02:55.121: [pipewire]     Size: 1920x1080
+11:02:55.121: [pipewire]     Framerate: 0/1
+11:02:59.269: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:02:59.270: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:02:59.270: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:02:59.368:   OpenType support missing for "Open Sans", script 11
+11:02:59.383:   OpenType support missing for "Open Sans", script 12
+11:02:59.397:   OpenType support missing for "Open Sans", script 16
+11:02:59.413:   OpenType support missing for "Open Sans", script 20
+11:03:32.637: Settings changed (stream 1, outputs)
+11:03:32.637: ------------------------------------------------
+11:03:37.061: [obs-vaapi] device: 
+11:03:37.061: [obs-vaapi] qos: 0
+11:03:37.061: [obs-vaapi] min-force-key-unit-interval: 0
+11:03:37.061: [obs-vaapi] bitrate: 0
+11:03:37.061: [obs-vaapi] target-percentage: 70
+11:03:37.061: [obs-vaapi] keyframe-period: 30
+11:03:37.061: [obs-vaapi] quality-level: 4
+11:03:37.061: [obs-vaapi] default-roi-delta-qp: -10
+11:03:37.061: [obs-vaapi] trellis: 0
+11:03:37.061: [obs-vaapi] rate-control: cqp
+11:03:37.061: [obs-vaapi] tune: none
+11:03:37.061: [obs-vaapi] max-bframes: 0
+11:03:37.061: [obs-vaapi] init-qp: 26
+11:03:37.061: [obs-vaapi] min-qp: 1
+11:03:37.061: [obs-vaapi] num-slices: 1
+11:03:37.061: [obs-vaapi] cabac: 0
+11:03:37.061: [obs-vaapi] dct8x8: 0
+11:03:37.061: [obs-vaapi] cpb-length: 1500
+11:03:37.061: [obs-vaapi] num-views: 1
+11:03:37.061: [obs-vaapi] view-ids: <  >
+11:03:37.061: [obs-vaapi] aud: 0
+11:03:37.061: [obs-vaapi] compliance-mode: strict
+11:03:37.061: [obs-vaapi] refs: 1
+11:03:37.061: [obs-vaapi] mbbrc: auto
+11:03:37.061: [obs-vaapi] qp-ip: 0
+11:03:37.061: [obs-vaapi] qp-ib: 0
+11:03:37.061: [obs-vaapi] temporal-levels: 1
+11:03:37.061: [obs-vaapi] prediction-type: default
+11:03:37.061: [obs-vaapi] max-qp: 51
+11:03:37.061: [obs-vaapi] quality-factor: 26
+11:03:37.061: [obs-vaapi] codec: obs-vaapi-vaapih264enc, 1920x1080@60/1, format: NV12 
+11:03:37.072: libfdk_aac encoder created
+11:03:37.072: libfdk_aac bitrate: 160, channels: 2
+11:03:37.072: [rtmp stream: 'adv_stream'] Dynamic bitrate disabled. The encoder does not support on-the-fly bitrate reconfiguration.
+11:03:37.072: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://dc5-1.rtmp.t.me/s/...
+11:03:38.973: [rtmp stream: 'adv_stream'] Connection to rtmps://dc5-1.rtmp.t.me/s/ (91.108.17.3) successful
+11:03:38.977: ==== Streaming Start ===============================================
+11:05:26.347: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:05:26.347: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:05:26.348: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:06:04.032: Settings changed (outputs)
+11:06:04.032: ------------------------------------------------
+11:06:18.020: [rtmp stream: 'adv_stream'] User stopped the stream
+11:06:18.021: Output 'adv_stream': stopping
+11:06:18.021: Output 'adv_stream': Total frames output: 9538
+11:06:18.021: Output 'adv_stream': Total drawn frames: 9657
+11:06:18.021: ==== Streaming Stop ================================================
+11:06:18.053: libfdk_aac encoder destroyed
+11:06:18.821: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:06:18.821: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:06:18.822: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:08:00.848: Settings changed (outputs)
+11:08:00.848: ------------------------------------------------
+11:08:02.269: [obs-vaapi] device: pci-0000:08:00.0-render
+11:08:02.269: [obs-vaapi] qos: 0
+11:08:02.269: [obs-vaapi] min-force-key-unit-interval: 0
+11:08:02.269: [obs-vaapi] bitrate: 0
+11:08:02.269: [obs-vaapi] target-percentage: 70
+11:08:02.269: [obs-vaapi] keyframe-period: 30
+11:08:02.269: [obs-vaapi] quality-level: 4
+11:08:02.269: [obs-vaapi] default-roi-delta-qp: -10
+11:08:02.269: [obs-vaapi] trellis: 0
+11:08:02.269: [obs-vaapi] rate-control: qvbr
+11:08:02.269: [obs-vaapi] tune: none
+11:08:02.269: [obs-vaapi] max-bframes: 0
+11:08:02.269: [obs-vaapi] init-qp: 26
+11:08:02.269: [obs-vaapi] min-qp: 1
+11:08:02.269: [obs-vaapi] num-slices: 1
+11:08:02.269: [obs-vaapi] cabac: 0
+11:08:02.269: [obs-vaapi] dct8x8: 0
+11:08:02.269: [obs-vaapi] cpb-length: 1500
+11:08:02.269: [obs-vaapi] num-views: 1
+11:08:02.269: [obs-vaapi] view-ids: <  >
+11:08:02.269: [obs-vaapi] aud: 0
+11:08:02.269: [obs-vaapi] compliance-mode: strict
+11:08:02.269: [obs-vaapi] refs: 1
+11:08:02.269: [obs-vaapi] mbbrc: auto
+11:08:02.269: [obs-vaapi] qp-ip: 0
+11:08:02.269: [obs-vaapi] qp-ib: 0
+11:08:02.269: [obs-vaapi] temporal-levels: 1
+11:08:02.269: [obs-vaapi] prediction-type: default
+11:08:02.269: [obs-vaapi] max-qp: 51
+11:08:02.269: [obs-vaapi] quality-factor: 26
+11:08:02.269: [obs-vaapi] codec: obs-vaapi-vaapih264enc, 1920x1080@60/1, format: NV12 
+11:08:02.275: libfdk_aac encoder created
+11:08:02.275: libfdk_aac bitrate: 160, channels: 2
+11:08:02.275: [rtmp stream: 'adv_stream'] Dynamic bitrate disabled. The encoder does not support on-the-fly bitrate reconfiguration.
+11:08:02.275: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://dc5-1.rtmp.t.me/s/...
+11:08:02.947: [rtmp stream: 'adv_stream'] Connection to rtmps://dc5-1.rtmp.t.me/s/ (91.108.17.3) successful
+11:08:02.949: ==== Streaming Start ===============================================
+11:08:02.978: [obs-vaapi] Internal data stream error.
+11:08:50.507: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:08:50.507: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:08:50.508: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:09:11.165: Settings changed (outputs)
+11:09:11.165: ------------------------------------------------
+11:09:15.823: ==== Shutting down ==================================================
+11:09:15.826: pulse-input: Stopped recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor'
+11:09:15.826: pulse-input: Got 15709 packets with 18850800 frames
+11:09:15.826: pulse-input: Stopped recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.mono-fallback'
+11:09:15.826: pulse-input: Got 15709 packets with 18850800 frames
+11:09:15.826: [pipewire] Stream 0x5d9495ec6760 state: "paused" (error: none)
+11:09:15.827: [pipewire] Stream 0x5d9495ec6760 state: "unconnected" (error: none)
+11:09:15.858: All scene data cleared
+11:09:15.858: ------------------------------------------------
+11:09:15.859: [rtmp stream: 'adv_stream'] User stopped the stream
+11:09:15.860: Output 'adv_stream': stopping
+11:09:15.860: Output 'adv_stream': Total frames output: 0
+11:09:15.860: Output 'adv_stream': Total drawn frames: 4416

@@ -338,6 +338,7 @@ unrar
 upscayl-bin
 usb_modeswitch
 v4l2loopback-dkms
+ventoy-bin
 vercel
 vesktop-bin
 vi

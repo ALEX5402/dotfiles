@@ -1,0 +1,252 @@
+11:38:34.606: ================================
+11:38:34.606: Warning: OBS is already running!
+11:38:34.606: ================================
+11:38:34.606: User is now running multiple instances of OBS!
+11:38:34.606: Platform: Wayland
+11:38:34.606: CPU Name: AMD Ryzen 5 5500GT with Radeon Graphics
+11:38:34.606: CPU Speed: 3534.385MHz
+11:38:34.606: Physical Cores: 6, Logical Cores: 12
+11:38:34.606: Physical Memory: 15357MB Total, 3208MB Free
+11:38:34.606: Kernel Version: Linux 6.11.0-x64v3-xanmod1-1-edge-x64v3
+11:38:34.606: Distribution: "Arch Linux" Unknown
+11:38:34.606: Desktop Environment: Hyprland (Hyprland)
+11:38:34.606: Session Type: wayland
+11:38:34.607: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+11:38:34.608: Portable mode: false
+11:38:34.627: OBS 30.2.1-1.1 (linux)
+11:38:34.627: ---------------------------------
+11:38:34.627: ---------------------------------
+11:38:34.627: audio settings reset:
+11:38:34.627: 	samples per sec: 48000
+11:38:34.627: 	speakers:        2
+11:38:34.627: 	max buffering:   960 milliseconds
+11:38:34.627: 	buffering type:  dynamically increasing
+11:38:34.631: ---------------------------------
+11:38:34.631: Initializing OpenGL...
+11:38:34.631: Using EGL/Wayland
+11:38:34.663: Initialized EGL 1.5
+11:38:34.674: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.58, 6.11.0-x64v3-xanmod1-1-edge-x64v3)
+11:38:34.674: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-arch1.2, shading language 4.60
+11:38:34.698: ---------------------------------
+11:38:34.698: video settings reset:
+11:38:34.698: 	base resolution:   1920x1080
+11:38:34.698: 	output resolution: 1920x1080
+11:38:34.698: 	downscale filter:  Bicubic
+11:38:34.698: 	fps:               60/1
+11:38:34.698: 	format:            NV12
+11:38:34.698: 	YUV mode:          Rec. 709/Partial
+11:38:34.698: NV12 texture support enabled
+11:38:34.698: P010 texture support not available
+11:38:34.702: Audio monitoring device:
+11:38:34.702: 	name: Default
+11:38:34.702: 	id: default
+11:38:34.702: ---------------------------------
+11:38:34.711: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:38:34.720: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:38:34.728: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:38:34.728: Failed to initialize module 'decklink.so'
+11:38:34.888: [pipewire] Available capture sources:
+11:38:34.888: [pipewire]     - Monitor source
+11:38:34.888: [pipewire]     - Window source
+11:38:34.984: VAAPI: API version 1.22
+11:38:34.985: FFmpeg VAAPI H264 encoding supported
+11:38:34.990: FFmpeg VAAPI AV1 encoding not supported
+11:38:34.995: FFmpeg VAAPI HEVC encoding supported
+11:38:35.084: [obs-vaapi] version: 0.4.2, gst-runtime: 1.24.8
+11:38:35.093: [obs-vaapi] found vah265enc
+11:38:35.093: [obs-vaapi] found vah264enc
+11:38:35.093: [obs-vaapi] found vaapih264enc
+11:38:35.093: [obs-vaapi] found vaapih265enc
+11:38:35.161: ---------------------------------
+11:38:35.161:   Loaded Modules:
+11:38:35.161:     text-freetype2.so
+11:38:35.161:     rtmp-services.so
+11:38:35.161:     obs-x264.so
+11:38:35.161:     obs-webrtc.so
+11:38:35.161:     obs-vst.so
+11:38:35.161:     obs-vaapi.so
+11:38:35.161:     obs-transitions.so
+11:38:35.161:     obs-qsv11.so
+11:38:35.161:     obs-outputs.so
+11:38:35.161:     obs-libfdk.so
+11:38:35.161:     obs-filters.so
+11:38:35.161:     obs-ffmpeg.so
+11:38:35.161:     linux-v4l2.so
+11:38:35.161:     linux-pulseaudio.so
+11:38:35.161:     linux-pipewire.so
+11:38:35.161:     linux-jack.so
+11:38:35.161:     linux-capture.so
+11:38:35.161:     linux-alsa.so
+11:38:35.161:     image-source.so
+11:38:35.161:     frontend-tools.so
+11:38:35.161:     droidcam-obs.so
+11:38:35.161:     decklink-output-ui.so
+11:38:35.161:     decklink-captions.so
+11:38:35.161: ---------------------------------
+11:38:35.161: ---------------------------------
+11:38:35.161: Available Encoders:
+11:38:35.161:   Video Encoders:
+11:38:35.161: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:38:35.161: 	- ffmpeg_aom_av1 (AOM AV1)
+11:38:35.161: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+11:38:35.161: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+11:38:35.168: 	- obs-va-vah265enc (VAAPI H.265 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+11:38:35.173: 	- obs-va-vah264enc (VAAPI H.264 on Cezanne [Radeon Vega Series / Radeon Vega Mobile Series])
+11:38:35.173: 	- obs-vaapi-vaapih264enc (VAAPI H.264  (Legacy))
+11:38:35.173: 	- obs-vaapi-vaapih265enc (VAAPI H.265  (Legacy))
+11:38:35.173: 	- obs_x264 (x264)
+11:38:35.173:   Audio Encoders:
+11:38:35.173: 	- ffmpeg_aac (FFmpeg AAC)
+11:38:35.173: 	- ffmpeg_opus (FFmpeg Opus)
+11:38:35.173: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:38:35.173: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:38:35.173: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:38:35.173: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:38:35.173: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:38:35.173: 	- libfdk_aac (libfdk AAC)
+11:38:35.173: ==== Startup complete ===============================================
+11:38:35.226: All scene data cleared
+11:38:35.226: ------------------------------------------------
+11:38:35.230: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+11:38:35.231: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+11:38:35.231: pulse-input: Started recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor' (default)
+11:38:35.231: [Loaded global audio device]: 'Desktop Audio'
+11:38:35.231: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+11:38:35.231: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+11:38:35.231: pulse-input: Started recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.mono-fallback' (default)
+11:38:35.231: [Loaded global audio device]: 'Mic/Aux'
+11:38:35.232: PipeWire initialized
+11:38:35.233: Switched to scene 'Scene'
+11:38:35.233: ------------------------------------------------
+11:38:35.233: Loaded scenes:
+11:38:35.233: - scene 'Scene':
+11:38:35.233:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+11:38:35.233: ------------------------------------------------
+11:38:35.267: [pipewire] Screencast session created
+11:38:35.322: [pipewire] Asking for monitor and window
+11:38:35.336: [pipewire] source selected, setting up screencast
+11:38:35.341: [pipewire] Server version: 1.2.4
+11:38:35.341: [pipewire] Library version: 1.2.4
+11:38:35.341: [pipewire] Header version: 1.2.1
+11:38:35.341: [pipewire] Created stream 0x5c549acd80e0
+11:38:35.341: [pipewire] Stream 0x5c549acd80e0 state: "connecting" (error: none)
+11:38:35.341: [pipewire] Playing stream 0x5c549acd80e0
+11:38:35.342: [pipewire] Stream 0x5c549acd80e0 state: "paused" (error: none)
+11:38:35.364: [pipewire] Negotiated format:
+11:38:35.364: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.364: [pipewire]     Modifier: 0x0
+11:38:35.364: [pipewire]     Size: 1920x1080
+11:38:35.364: [pipewire]     Framerate: 0/1
+11:38:35.365: [pipewire] Negotiated format:
+11:38:35.365: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.365: [pipewire]     Modifier: 0x20000044051ba01
+11:38:35.365: [pipewire]     Size: 1920x1080
+11:38:35.365: [pipewire]     Framerate: 0/1
+11:38:35.366: [pipewire] Stream 0x5c549acd80e0 state: "streaming" (error: none)
+11:38:35.372: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:38:35.372: [pipewire] Renegotiating stream
+11:38:35.372: [pipewire] Negotiated format:
+11:38:35.372: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.372: [pipewire]     Modifier: 0x20000044051ba01
+11:38:35.372: [pipewire]     Size: 1920x1080
+11:38:35.372: [pipewire]     Framerate: 0/1
+11:38:35.373: [pipewire] Negotiated format:
+11:38:35.373: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.373: [pipewire]     Modifier: 0x20000044051b901
+11:38:35.373: [pipewire]     Size: 1920x1080
+11:38:35.373: [pipewire]     Framerate: 0/1
+11:38:35.380: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:38:35.380: [pipewire] Renegotiating stream
+11:38:35.381: [pipewire] Stream 0x5c549acd80e0 state: "paused" (error: none)
+11:38:35.381: [pipewire] Negotiated format:
+11:38:35.381: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.381: [pipewire]     Modifier: 0x20000044051b901
+11:38:35.381: [pipewire]     Size: 1920x1080
+11:38:35.381: [pipewire]     Framerate: 0/1
+11:38:35.381: [pipewire] Negotiated format:
+11:38:35.381: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.381: [pipewire]     Modifier: 0x200000440517901
+11:38:35.381: [pipewire]     Size: 1920x1080
+11:38:35.381: [pipewire]     Framerate: 0/1
+11:38:35.382: [pipewire] Stream 0x5c549acd80e0 state: "streaming" (error: none)
+11:38:35.389: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:38:35.389: [pipewire] Renegotiating stream
+11:38:35.389: [pipewire] Negotiated format:
+11:38:35.389: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.389: [pipewire]     Modifier: 0x200000440517901
+11:38:35.389: [pipewire]     Size: 1920x1080
+11:38:35.389: [pipewire]     Framerate: 0/1
+11:38:35.389: [pipewire] Negotiated format:
+11:38:35.389: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:38:35.389: [pipewire]     Modifier: 0x200000000401a01
+11:38:35.389: [pipewire]     Size: 1920x1080
+11:38:35.389: [pipewire]     Framerate: 0/1
+11:38:35.779: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:38:35.779: 
+11:38:36.775: [obs-vaapi] device: pci-0000:08:00.0-render
+11:38:36.775: [obs-vaapi] qos: 0
+11:38:36.775: [obs-vaapi] min-force-key-unit-interval: 0
+11:38:36.775: [obs-vaapi] bitrate: 0
+11:38:36.775: [obs-vaapi] target-percentage: 70
+11:38:36.775: [obs-vaapi] keyframe-period: 30
+11:38:36.775: [obs-vaapi] quality-level: 4
+11:38:36.775: [obs-vaapi] default-roi-delta-qp: -10
+11:38:36.775: [obs-vaapi] trellis: 0
+11:38:36.775: [obs-vaapi] rate-control: qvbr
+11:38:36.775: [obs-vaapi] tune: high-compression
+11:38:36.775: [obs-vaapi] max-bframes: 0
+11:38:36.775: [obs-vaapi] init-qp: 26
+11:38:36.775: [obs-vaapi] min-qp: 1
+11:38:36.775: [obs-vaapi] num-slices: 1
+11:38:36.775: [obs-vaapi] cabac: 0
+11:38:36.775: [obs-vaapi] dct8x8: 0
+11:38:36.775: [obs-vaapi] cpb-length: 1500
+11:38:36.775: [obs-vaapi] num-views: 1
+11:38:36.775: [obs-vaapi] view-ids: <  >
+11:38:36.775: [obs-vaapi] aud: 0
+11:38:36.775: [obs-vaapi] compliance-mode: strict
+11:38:36.775: [obs-vaapi] refs: 1
+11:38:36.775: [obs-vaapi] mbbrc: auto
+11:38:36.775: [obs-vaapi] qp-ip: 0
+11:38:36.775: [obs-vaapi] qp-ib: 0
+11:38:36.775: [obs-vaapi] temporal-levels: 1
+11:38:36.775: [obs-vaapi] prediction-type: default
+11:38:36.775: [obs-vaapi] max-qp: 51
+11:38:36.775: [obs-vaapi] quality-factor: 26
+11:38:36.775: [obs-vaapi] codec: obs-vaapi-vaapih264enc, 1920x1080@60/1, format: NV12 
+11:38:36.781: libfdk_aac encoder created
+11:38:36.781: libfdk_aac bitrate: 160, channels: 2
+11:38:36.781: [rtmp stream: 'adv_stream'] Dynamic bitrate disabled. The encoder does not support on-the-fly bitrate reconfiguration.
+11:38:36.781: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://dc5-1.rtmp.t.me/s/...
+11:38:37.426: [rtmp stream: 'adv_stream'] Connection to rtmps://dc5-1.rtmp.t.me/s/ (91.108.17.3) successful
+11:38:37.428: ==== Streaming Start ===============================================
+11:38:37.460: [obs-vaapi] Internal data stream error.
+11:38:44.928: Switched to Preview/Program mode
+11:38:44.928: ------------------------------------------------
+11:38:45.688: Switched to scene 'Scene'
+11:38:45.689: Switched to regular Preview mode
+11:38:45.689: ------------------------------------------------
+11:38:46.174: Switched to Preview/Program mode
+11:38:46.174: ------------------------------------------------
+11:38:46.560: Switched to scene 'Scene'
+11:38:46.560: Switched to regular Preview mode
+11:38:46.560: ------------------------------------------------
+11:38:46.819: Switched to Preview/Program mode
+11:38:46.819: ------------------------------------------------
+11:38:47.900: Switched to scene 'Scene'
+11:38:47.901: Switched to regular Preview mode
+11:38:47.901: ------------------------------------------------
+11:38:48.951: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:38:48.952: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:38:48.952: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+11:38:49.050:   OpenType support missing for "Open Sans", script 11
+11:38:49.067:   OpenType support missing for "Open Sans", script 12
+11:38:49.083:   OpenType support missing for "Open Sans", script 16
+11:38:49.100:   OpenType support missing for "Open Sans", script 20
+11:39:35.984: Settings changed (outputs)
+11:39:35.984: ------------------------------------------------
+11:39:39.633: [rtmp stream: 'adv_stream'] User stopped the stream
+11:39:39.633: Output 'adv_stream': stopping
+11:39:39.633: Output 'adv_stream': Total frames output: 0
+11:39:39.633: Output 'adv_stream': Total drawn frames: 3771
+11:39:39.634: ==== Streaming Stop ================================================

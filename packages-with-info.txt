@@ -3240,6 +3240,8 @@ local/vapoursynth R69-1.1
     A video processing framework with the future in mind
 local/vde2 2.3.3-5.1
     Virtual Distributed Ethernet for emulators like qemu
+local/ventoy-bin 1.0.99-1
+    A new bootable USB solution
 local/vercel 34.3.1-1
     The command line interface for Vercel
 local/verdict 1.4.2-1.1
