@@ -262,7 +262,6 @@ speedtest-rs-bin
 spicetify-cli
 stacer-bin
 starship
-steam
 swappy
 swww
 timg
