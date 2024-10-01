@@ -22,7 +22,7 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Sep 30 03:24:50 PM IST 2024
+## Changelog Tue Oct  1 11:14:49 PM IST 2024
 ```
  Configs/cava/Wall-Dcol                             |  16 +-
  Configs/cava/config                                |  16 +-
@@ -55,28 +55,27 @@
  Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
  Configs/dunst/wallbash.conf                        |  12 +-
  Configs/hyde/themes/Catppuccin Mocha/wall.set      |   2 +-
+ .../basic/profiles/Untitled/streamEncoder.json     |   2 +-
+ .../basic/profiles/Untitled/streamEncoder.json.bak |   2 +-
  Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
  Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-26 11-00-34.txt    | 209 --------------
- Configs/obs-studio/logs/2024-09-26 11-02-42.txt    | 315 ---------------------
- Configs/obs-studio/logs/2024-09-26 11-09-28.txt    | 228 ---------------
- .../plugin_config/rtmp-services/package.json       |   2 +-
- .../plugin_config/rtmp-services/services.json      |   2 +-
- .../profiler_data/2024-09-16 19-21-04.csv.gz       | Bin 3734 -> 0 bytes
- .../profiler_data/2024-09-17 20-43-39.csv.gz       | Bin 28183 -> 0 bytes
- Configs/obs-studio/safe_mode                       |   0
+ Configs/obs-studio/global.ini                      |   2 +-
+ Configs/obs-studio/logs/2024-09-26 11-10-52.txt    | 245 --------------
+ Configs/obs-studio/logs/2024-09-26 11-10-55.txt    | 244 --------------
+ Configs/obs-studio/logs/2024-09-26 11-13-43.txt    | 374 ---------------------
+ Configs/obs-studio/logs/2024-09-26 11-34-19.txt    | 244 --------------
+ .../profiler_data/2024-09-18 11-59-41.csv.gz       | Bin 33993 -> 0 bytes
+ .../profiler_data/2024-09-19 05-08-38.csv.gz       | Bin 28888 -> 0 bytes
  Configs/qt5ct/colors.conf                          |   6 +-
  Configs/qt6ct/colors.conf                          |   6 +-
  Configs/spicetify/Themes/Sleek/color.ini           |  40 +--
  Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   6 +-
- Extra-files/arkrc                                  |   2 +-
- Extra-files/kwriterc                               |   4 +-
+ Extra-files/QtProject.conf                         |   4 +-
+ Extra-files/kwriterc                               |   2 +-
  .../dolphin/view_properties/global/.directory      |   3 +-
- README.md                                          |  66 +----
- current-packages-dump.txt                          |   1 -
- packages-with-info.txt                             | 176 ++++--------
- 53 files changed, 243 insertions(+), 1121 deletions(-)
+ README.md                                          |  58 +---
+ current-packages-dump.txt                          |   2 +
+ packages-with-info.txt                             | 182 +++++-----
+ 52 files changed, 287 insertions(+), 1423 deletions(-)
 ```
  

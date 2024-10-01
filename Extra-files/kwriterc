@@ -20,7 +20,7 @@ Word Wrap Marker=false
 
 [KTextEditor::Search]
 Replace History=PUBGM,,'$current_wallpaper'
-Search History=xdl,BGMI,expiryTime,send_delayed_message,user_id,24.249.199.12,     ,$current_wallpaper,icat,CURLOPT_HTTPHEADER,:q,main.cpp,git,not_found
+Search History=KittyMemory,xdl,BGMI,expiryTime,send_delayed_message,user_id,24.249.199.12,     ,$current_wallpaper,icat,CURLOPT_HTTPHEADER,:q,main.cpp,git,not_found
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true

@@ -85,6 +85,7 @@ freedownloadmanager
 fsarchiver
 fzf
 gamescope
+ghidra
 gimp
 git
 github-cli
@@ -262,6 +263,7 @@ speedtest-rs-bin
 spicetify-cli
 stacer-bin
 starship
+steam
 swappy
 swww
 timg
