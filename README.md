@@ -22,60 +22,17 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Oct  1 11:14:49 PM IST 2024
+## Changelog Wed Oct  2 03:44:08 PM IST 2024
 ```
- Configs/cava/Wall-Dcol                             |  16 +-
- Configs/cava/config                                |  16 +-
- Configs/dunst/dunstrc                              |  12 +-
- Configs/dunst/icons/hyprdots.svg                   |  12 +-
- Configs/dunst/icons/vol/muted-mic.svg              |   2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |   2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |   2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |   2 +-
- Configs/dunst/icons/vol/vol-0.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-10.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-100.svg                |  10 +-
- Configs/dunst/icons/vol/vol-15.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-20.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-25.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-30.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-35.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-40.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-45.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-5.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-50.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-55.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-60.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-65.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-70.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-75.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-80.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-85.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-90.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
- Configs/dunst/wallbash.conf                        |  12 +-
- Configs/hyde/themes/Catppuccin Mocha/wall.set      |   2 +-
- .../basic/profiles/Untitled/streamEncoder.json     |   2 +-
- .../basic/profiles/Untitled/streamEncoder.json.bak |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
- Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
- Configs/obs-studio/global.ini                      |   2 +-
- Configs/obs-studio/logs/2024-09-26 11-10-52.txt    | 245 --------------
- Configs/obs-studio/logs/2024-09-26 11-10-55.txt    | 244 --------------
- Configs/obs-studio/logs/2024-09-26 11-13-43.txt    | 374 ---------------------
- Configs/obs-studio/logs/2024-09-26 11-34-19.txt    | 244 --------------
- .../profiler_data/2024-09-18 11-59-41.csv.gz       | Bin 33993 -> 0 bytes
- .../profiler_data/2024-09-19 05-08-38.csv.gz       | Bin 28888 -> 0 bytes
- Configs/qt5ct/colors.conf                          |   6 +-
- Configs/qt6ct/colors.conf                          |   6 +-
- Configs/spicetify/Themes/Sleek/color.ini           |  40 +--
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   4 +-
- Extra-files/kwriterc                               |   2 +-
- .../dolphin/view_properties/global/.directory      |   3 +-
- README.md                                          |  58 +---
- current-packages-dump.txt                          |   2 +
- packages-with-info.txt                             | 182 +++++-----
- 52 files changed, 287 insertions(+), 1423 deletions(-)
+ Configs/hyde/themes/Catppuccin Mocha/hypr.theme    |  3 +-
+ "Configs/hyde/themes/Ros\303\251 Pine/hypr.theme"  |  6 +++
+ Configs/hyde/themes/Sweet-Dark/hypr.theme          |  4 +-
+ Configs/hypr/keybindings.conf                      |  2 +-
+ Configs/hypr/themes/theme.conf                     |  3 +-
+ Configs/swappy/config                              |  2 +-
+ Extra-files/arkrc                                  |  4 +-
+ .../dolphin/view_properties/global/.directory      |  3 +-
+ README.md                                          | 57 +---------------------
+ 9 files changed, 17 insertions(+), 67 deletions(-)
 ```
  
