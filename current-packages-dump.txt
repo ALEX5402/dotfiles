@@ -126,6 +126,7 @@ jre-openjdk
 kate
 kde-cli-tools
 kde-gtk-config
+kdeconnect
 kdenlive
 kdevelop
 kio-admin
@@ -263,7 +264,6 @@ speedtest-rs-bin
 spicetify-cli
 stacer-bin
 starship
-steam
 swappy
 swww
 timg

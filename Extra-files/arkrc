@@ -3,12 +3,12 @@ LockSidebar=true
 ShowSidebar=true
 
 [KTextEditor::Search]
-Search History=Switch,loadCFGLive,IsHideEsp,attachMetaBase,ParticleView,channel,targetLibName,payloads,Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
+Search History=SwapBuffers,_ANativeWindow_getWidth,orig_ANativeWindow_getWidth,provider,lseek,Switch,loadCFGLive,IsHideEsp,attachMetaBase,ParticleView,channel,targetLibName,payloads,Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
 
 [MainWindow]
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-splitterSizes=1123,146
+splitterSizes=1516,105
 
 [Viewer]
 StatusBar=Disabled
