@@ -22,15 +22,22 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Oct  9 12:23:27 AM IST 2024
+## Changelog Wed Oct  9 01:04:16 AM IST 2024
 ```
- Configs/hypr/hypridle.conf    |  14 ++---
- Configs/hypr/windowrules.conf |   1 +
- Extra-files/arkrc             |   3 +
- Extra-files/katerc            |   2 +-
- README.md                     |   8 +--
- current-packages-dump.txt     |   2 +
- packages-with-info.txt        | 132 ++----------------------------------------
- 7 files changed, 19 insertions(+), 143 deletions(-)
+ Configs/fastfetch/config.jsonc                     |  12 +-
+ .../hyde/themes/Sweet-Dark/wallpapers/anime1.jpg   | Bin 6659754 -> 0 bytes
+ Configs/hypr/hyprlock.conf.old                     |  61 ------
+ Configs/hypr/keybindings.conf                      |   2 +-
+ Configs/hypr/keybindings.conf.old                  | 206 ------------------
+ Configs/hypr/windowrules.conf.old                  | 233 ---------------------
+ .../pipewire/pipewire-pulse.conf.d/audiorelay.conf |   2 +-
+ Configs/swappy/config                              |   2 +-
+ Extra-files/QtProject.conf                         |   6 +-
+ Extra-files/dolphinrc                              |   1 +
+ Extra-files/katerc                                 |   2 +-
+ Extra-files/kdeglobals                             | 214 -------------------
+ Extra-files/partitionmanagerrc                     |   3 +
+ README.md                                          |  12 +-
+ 14 files changed, 18 insertions(+), 738 deletions(-)
 ```
  

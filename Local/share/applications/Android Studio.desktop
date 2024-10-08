@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=Android Studio
+Comment=Android Studio
+Exec=env QT_QPA_PLATFORM=xcb /home/alex/Studio/android-studio/bin/studio %u
+GenericName[en_US]=Android Studio
+GenericName=Android Studio
+Icon=/home/alex/Studio/android-studio/bin/studio.png
+MimeType=
+Name[en_US]=Android Studio
+Name=Android Studio
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

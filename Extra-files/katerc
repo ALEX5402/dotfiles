@@ -109,7 +109,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=emote,studio,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
+Search History=Speaker,Speakers,emote,studio,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
 
 [Konsole]
 AutoSyncronizeMode=0

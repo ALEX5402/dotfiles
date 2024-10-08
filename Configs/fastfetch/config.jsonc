@@ -9,7 +9,7 @@
     "modules": [
         {
             "type": "custom",
-            "format": "\u001b[36m    ░A░L░E░X░"
+            "format": "\u001b[36m  󰱫  ░A░L░E░X░"
         },
         {
             "type": "custom",
@@ -27,12 +27,12 @@
         },
         {
             "type": "packages",
-            "key": "   Packages",
+            "key": "   Packages",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "   Display",
+            "key": "  󰨇 Display",
             "keyColor": "green"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "type": "wm",
-            "key": "   WM",
+            "key": "   WM",
             "keyColor": "yellow"
         },
         {
@@ -80,12 +80,12 @@
         },
         {
             "type": "memory",
-            "key": "  ﬙ Memory",
+            "key": "   Memory",
             "keyColor": "magenta"
         },
           {
             "type": "swap",
-            "key": "  ﬙ Swap",
+            "key": "  󰾷 Swap",
             "keyColor": "magenta"
         },
 
