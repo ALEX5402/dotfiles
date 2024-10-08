@@ -1,9 +1,0 @@
-[Dolphin]
-GroupedSorting=true
-SortFoldersFirst=false
-SortOrder=1
-SortRole=modificationtime
-Timestamp=2024,6,19,11,45,23.749
-Version=4
-ViewMode=1
-VisibleRoles=Details_text,Details_path,Details_modificationtime,CustomizedDetails

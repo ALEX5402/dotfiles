@@ -221,7 +221,7 @@
         "rotate": 0,
         "separate-outputs": true,
         "rewrite": {
-            "alex@SoulHunter:(.*)": "$1 ",
+            "alex@Android:(.*)": "$1 ",
             "(.*) — Mozilla Firefox": "$1 󰈹",
             "(.*)Mozilla Firefox": "Firefox 󰈹",
             "(.*) - Visual Studio Code": "$1 󰨞",
@@ -295,7 +295,7 @@
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "rotate": 0,
-        "format-source": "",
+        "format-source": "",
         "format-source-muted": "",
         "on-click": "pavucontrol -t 4",
         "on-click-middle": "volumecontrol.sh -i m",
@@ -342,7 +342,7 @@
     },
 
     "custom/wallchange": {
-        "format": "{}",
+        "format": "{}",
         "rotate": 0,
         "exec": "echo ; echo 󰆊 switch wallpaper",
         "on-click": "swwwallpaper.sh -n",

@@ -85,9 +85,3 @@ fastfetch                                              # system information fetc
 ytfzf-git                                              # to play songs
 ttf-jetbrains-mono                                     # font
 nerd-fonts                                             # all nerd fonts
-
-
-
-# --------------------------------------------------- // social
-vesktop                                                # best discord clint for wayland
-ayugram-desktop                                        # best telegram clint for wayland
