@@ -22,11 +22,15 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Oct  8 11:17:54 PM IST 2024
+## Changelog Wed Oct  9 12:23:27 AM IST 2024
 ```
- README.md                 |   6 +-
- current-packages-dump.txt |  74 ++++++----
- packages-with-info.txt    | 336 ++++++++++++----------------------------------
- 3 files changed, 133 insertions(+), 283 deletions(-)
+ Configs/hypr/hypridle.conf    |  14 ++---
+ Configs/hypr/windowrules.conf |   1 +
+ Extra-files/arkrc             |   3 +
+ Extra-files/katerc            |   2 +-
+ README.md                     |   8 +--
+ current-packages-dump.txt     |   2 +
+ packages-with-info.txt        | 132 ++----------------------------------------
+ 7 files changed, 19 insertions(+), 143 deletions(-)
 ```
  

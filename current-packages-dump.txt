@@ -358,6 +358,7 @@ vesktop-bin
 vi
 virt-manager
 visual-studio-code-bin
+vortex-thermal
 vulkan-radeon
 waybar
 waydroid
@@ -387,6 +388,7 @@ xfsprogs
 xl2tpd
 xorg-server
 xorg-xdpyinfo
+xorg-xhost
 xorg-xinit
 xorg-xinput
 xorg-xkill

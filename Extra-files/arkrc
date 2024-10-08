@@ -1,3 +1,6 @@
+MenuBar=Disabled
+StatusBar=Disabled
+
 [General]
 LockSidebar=true
 ShowSidebar=true
