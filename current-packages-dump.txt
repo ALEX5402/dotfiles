@@ -83,7 +83,6 @@ fcitx5
 ffmpegthumbnailer
 ffmpegthumbs
 filezilla
-firefox
 firewalld
 fish
 fisher
@@ -97,6 +96,7 @@ git
 github-cli
 github-desktop
 glances
+gnome-keyring
 gradle
 grim
 grimblast-git
@@ -366,6 +366,7 @@ waydroid-script-git
 wev
 wget
 which
+wine
 wireless_tools
 wireplumber
 wireshark-qt
@@ -393,7 +394,6 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
-xterm
 yay
 youtube-dl-git
 youtube-music-bin

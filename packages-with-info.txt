@@ -410,8 +410,6 @@ local/filezilla 3.67.1-2
     Fast and reliable FTP, FTPS and SFTP client
 local/findutils 4.10.0-2.1
     GNU utilities to locate files
-local/firefox 131.0-1.1
-    Fast, Private & Safe Web Browser
 local/firewalld 2.2.1-1
     Firewall daemon with D-Bus interface
 local/fish 3.7.1-2.1
@@ -462,6 +460,8 @@ local/gcc 14.2.1+r134+gab884fffe3fc-2
     The GNU Compiler Collection - C and C++ frontends
 local/gcc-libs 14.2.1+r134+gab884fffe3fc-2
     Runtime libraries shipped by GCC
+local/gcr 3.41.2-2.1
+    A library for bits of crypto UI and parsing
 local/gcr-4 4.3.0-1.1
     A library for bits of crypto UI and parsing
 local/gd 2.3.3-8
@@ -514,6 +514,8 @@ local/glusterfs 1:11.1-2.1
     a cluster file-system capable of scaling to several peta-bytes.
 local/gmp 6.3.0-2.1
     A free library for arbitrary precision arithmetic
+local/gnome-keyring 1:46.2-1.1 (gnome)
+    Stores passwords and encryption keys
 local/gnupg 2.4.5-5.1
     Complete and free implementation of the OpenPGP standard
 local/gnutls 3.8.7-1.1
@@ -952,6 +954,104 @@ local/lensfun 1:0.3.4-4.1
     Database of photographic lenses and a library that allows advanced access to the database
 local/less 1:661-1.1
     A terminal based program for viewing text files
+local/lib32-acl 2.3.2-1
+    Access control list libraries (32-bit)
+local/lib32-brotli 1.1.0-1
+    Generic-purpose lossless compression algorithm (32-bit)
+local/lib32-bzip2 1.0.8-4
+    A high-quality data compression program (32-bit)
+local/lib32-dbus 1.14.10-2
+    Freedesktop.org message bus system - 32-bit
+local/lib32-e2fsprogs 1.47.1-1
+    Ext2/3/4 filesystem libraries (32-bit)
+local/lib32-expat 2.6.3-1
+    An XML Parser library
+local/lib32-fontconfig 2:2.15.0-1
+    Library for configuring and customizing font access
+local/lib32-freetype2 2.13.3-2
+    Font rasterization library (32-bit)
+local/lib32-gcc-libs 14.2.1+r134+gab884fffe3fc-2
+    32-bit runtime libraries shipped by GCC
+local/lib32-gettext 0.22.5-1
+    GNU internationalization library (32-bit)
+local/lib32-glib2 2.82.1-1
+    Low level core library - 32-bit
+local/lib32-glibc 2.40+r16+gaa533d58ff-6
+    GNU C Library (32-bit)
+local/lib32-harfbuzz 10.0.1-1
+    OpenType text shaping engine - 32-bit
+local/lib32-icu 75.1-1
+    International Components for Unicode library (32 bit)
+local/lib32-keyutils 1.6.3-2
+    Linux Key Management Utilities (32-bit)
+local/lib32-krb5 1.21.3-1
+    The Kerberos network authentication system (32-bit)
+local/lib32-libcap 2.70-1
+    POSIX 1003.1e capabilities (32-bit)
+local/lib32-libffi 3.4.6-1
+    Portable foreign function interface library (32-bit)
+local/lib32-libgcrypt 1.11.0-1
+    General purpose cryptographic library based on the code from GnuPG (32-bit)
+local/lib32-libgpg-error 1.50-1
+    Support library for libgcrypt (32-bit)
+local/lib32-libldap 2.6.8-1
+    Lightweight Directory Access Protocol (LDAP) client libraries (32-bit)
+local/lib32-libnl 3.10.0-1
+    Library for applications dealing with netlink sockets (32 bit)
+local/lib32-libnsl 2.0.1-1
+    Public client interface library for NIS(YP)
+local/lib32-libpcap 1.10.5-2
+    A system-independent interface for user-level packet capture (32-bit)
+local/lib32-libpng 1.6.44-1
+    A collection of routines used to create PNG format graphics files (32-bit)
+local/lib32-libtirpc 1.3.5-1
+    Transport Independent RPC library (SunRPC replacement)
+local/lib32-libunwind 1.8.1-1
+    Determine and manipulate the call-chain of a program (32-bit)
+local/lib32-libx11 1.8.10-1
+    X11 client-side library (32-bit)
+local/lib32-libxau 1.0.11-2
+    X11 authorisation library (32-bit)
+local/lib32-libxcb 1.17.0-1
+    X11 client-side library (32-bit)
+local/lib32-libxcrypt 4.4.36-2
+    Modern library for one-way hashing of passwords (32-bit)
+local/lib32-libxcursor 1.2.2-1
+    X cursor management library (32-bit)
+local/lib32-libxdmcp 1.1.5-1
+    X11 Display Manager Control Protocol library (32-bit)
+local/lib32-libxext 1.3.6-1
+    X11 miscellaneous extensions library (32-bit)
+local/lib32-libxfixes 6.0.1-2
+    X11 miscellaneous 'fixes' extension library (32-bit)
+local/lib32-libxi 1.8.2-1
+    X11 Input extension library (32-bit)
+local/lib32-libxkbcommon 1.7.0-2
+    Keymap handling library for toolkits and window systems (32-bit)
+local/lib32-libxml2 2.13.4-1
+    XML C parser and toolkit (32-bit)
+local/lib32-libxrandr 1.5.4-1
+    X11 RandR extension library (32-bit)
+local/lib32-libxrender 0.9.11-2
+    X Rendering Extension client library (32-bit)
+local/lib32-openssl 1:3.3.2-1
+    The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
+local/lib32-pam 1.6.1-1
+    Pluggable Authentication Modules
+local/lib32-pcre2 10.44-1
+    A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
+local/lib32-systemd 256.6-1
+    system and service manager (32-bit)
+local/lib32-util-linux 2.40.2-1
+    Miscellaneous system utilities for Linux (32-bit)
+local/lib32-wayland 1.23.1-1
+    A computer display server protocol
+local/lib32-xz 5.6.3-1
+    Library and command line tools for XZ and LZMA compressed files (32-bit)
+local/lib32-zlib 1.3.1-1
+    Compression library implementing the deflate compression method found in gzip and PKZIP (32-bit)
+local/lib32-zstd 1.5.6-2
+    Zstandard - Fast real-time compression algorithm (32-bit)
 local/libabw 0.1.3-4.1
     a library that parses the file format of AbiWord documents
 local/libaccounts-glib 1.27-2.1
@@ -2958,7 +3058,7 @@ local/virt-manager 4.1.0-3
     Desktop user interface for managing virtual machines
 local/virtiofsd 1.11.1-1.1
     Vhost-user virtio-fs device backend written in Rust
-local/visual-studio-code-bin 1.94.0-1
+local/visual-studio-code-bin 1.94.1-1
     Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 local/vkbasalt-cli 3.1.1-3
     Command-line utility for vkBasalt
@@ -3010,6 +3110,8 @@ local/which 2.21-6.1
     A utility to show the full path of commands
 local/wildmidi 0.4.6-1.1
     Simple software MIDI player which has a core softsynth library
+local/wine 9.18-2
+    A compatibility layer for running Windows programs
 local/wireless_tools 30.pre9-4.1
     Tools allowing to manipulate the Wireless Extensions
 local/wireplumber 0.5.6-1.1
@@ -3136,8 +3238,6 @@ local/xorgproto 2024.1-2
     combined X.Org X11 Protocol headers
 local/xsettingsd 1.0.2-2.1
     Provides settings to X11 applications via the XSETTINGS specification
-local/xterm 394-1.1
-    X Terminal Emulator
 local/xvidcore 1.3.7-3.1
     XviD is an open source MPEG-4 video codec
 local/xxhash 0.8.2-1
@@ -3172,10 +3272,10 @@ local/zip 3.0-11.1
     Compressor/archiver for creating and modifying zipfiles
 local/zix 0.4.2-2.1
     A lightweight C99 portability and data structure library
+local/zlib 1:1.3.1-2.1
+    Compression library implementing the deflate compression method found in gzip and PKZIP
 local/zlib-ng 2.2.2-5
     zlib replacement with optimizations for next generation systems
-local/zlib-ng-compat 2.2.2-5
-    zlib replacement with optimizations for next generation systems (zlib compat)
 local/zram-generator 1.1.2-1.1
     Systemd unit generator for zram devices
 local/zstd 1.5.6-2

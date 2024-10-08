@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Game 831593107883032657
+Exec=/home/alex/Minecraft/runtime/jre-legacy/bin/java %u
+Type=Application
+NoDisplay=true
+Categories=Discord;Games;
+MimeType=x-scheme-handler/discord-831593107883032657;

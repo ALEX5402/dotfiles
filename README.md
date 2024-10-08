@@ -22,22 +22,73 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Oct  9 01:04:16 AM IST 2024
+## Changelog Wed Oct  9 03:14:23 AM IST 2024
 ```
- Configs/fastfetch/config.jsonc                     |  12 +-
- .../hyde/themes/Sweet-Dark/wallpapers/anime1.jpg   | Bin 6659754 -> 0 bytes
- Configs/hypr/hyprlock.conf.old                     |  61 ------
- Configs/hypr/keybindings.conf                      |   2 +-
- Configs/hypr/keybindings.conf.old                  | 206 ------------------
- Configs/hypr/windowrules.conf.old                  | 233 ---------------------
- .../pipewire/pipewire-pulse.conf.d/audiorelay.conf |   2 +-
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   6 +-
- Extra-files/dolphinrc                              |   1 +
- Extra-files/katerc                                 |   2 +-
- Extra-files/kdeglobals                             | 214 -------------------
- Extra-files/partitionmanagerrc                     |   3 +
- README.md                                          |  12 +-
- 14 files changed, 18 insertions(+), 738 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig         |  106 +-
+ Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++----------------
+ Configs/ags/user/colors-ags.css                    |   38 +-
+ Configs/cava/Wall-Dcol                             |   16 +-
+ Configs/cava/config                                |   16 +-
+ Configs/dunst/dunstrc                              |   12 +-
+ Configs/dunst/icons/hyprdots.svg                   |   12 +-
+ Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
+ Configs/dunst/wallbash.conf                        |   12 +-
+ Configs/gtk-3.0/settings.ini                       |    4 +-
+ Configs/hyde/hyde.conf                             |    2 +-
+ Configs/hyde/themes/Catppuccin Mocha/kitty.theme   |   84 +-
+ Configs/hyde/themes/Catppuccin Mocha/wall.set      |    2 +-
+ "Configs/hyde/themes/Ros\303\251 Pine/wall.set"    |    2 +-
+ Configs/hyde/themes/Sweet-Dark/kitty.theme         |   67 +-
+ Configs/hyde/themes/Tokyo Night/wall.set           |    2 +-
+ Configs/kitty/theme.conf                           |  105 +-
+ .../basic/profiles/Untitled/service.json           |    2 +-
+ .../basic/profiles/Untitled/streamEncoder.json.bak |    2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json      |    2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |    2 +-
+ Configs/obs-studio/global.ini                      |    4 +-
+ Configs/obs-studio/logs/2024-09-27 17-31-02.txt    |  446 -
+ Configs/obs-studio/logs/2024-09-28 18-06-01.txt    |  265 -
+ .../profiler_data/2024-09-26 11-00-32.csv.gz       |  Bin 4655 -> 0 bytes
+ .../profiler_data/2024-09-26 11-00-34.csv.gz       |  Bin 2945 -> 0 bytes
+ Configs/qt5ct/colors.conf                          |    6 +-
+ Configs/qt5ct/qt5ct.conf                           |    2 +-
+ Configs/qt6ct/colors.conf                          |    6 +-
+ Configs/qt6ct/qt6ct.conf                           |    2 +-
+ Configs/rofi/theme.rasi                            |   12 +-
+ Configs/rofi/wallust/colors-rofi.rasi              |   10 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
+ Configs/swappy/config                              |    2 +-
+ Configs/waybar/theme.css                           |   12 +-
+ Extra-files/brave-beta-flags.conf                  |    4 +-
+ Extra-files/brave-flags.conf                       |    4 +-
+ README.md                                          |   19 +-
+ .../Fan-control/etc/fancontrol                     |   24 +-
+ current-packages-dump.txt                          |    4 +-
+ packages-with-info.txt                             |  114 +-
+ 65 files changed, 2446 insertions(+), 8399 deletions(-)
 ```
  
