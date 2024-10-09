@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=archlinux-java-run --min 21 -- -jar SKlauncher-3.2.10.jar
+GenericName[en_US]=
+GenericName=
+Icon=/home/alex/Pictures/minecraft_alt_macos_bigsur_icon_189942.png
+MimeType=
+Name[en_US]=Minecraft
+Name=Minecraft
+Path=/home/alex/Minecraft
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

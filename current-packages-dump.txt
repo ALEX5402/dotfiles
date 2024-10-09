@@ -9,6 +9,7 @@ amdvlk
 ananicy-cpp
 android-apktool-bin
 android-ndk-26
+android-studio-alex
 android-tools
 appimagelauncher
 archlinux-xdg-menu
@@ -86,7 +87,6 @@ filezilla
 firewalld
 fish
 fisher
-flatpak
 fontforge
 freedownloadmanager
 fsarchiver
@@ -184,6 +184,7 @@ mtools
 musl
 nano
 nano-syntax-highlighting
+ncurses5-compat-libs
 neovim
 netctl
 network-manager-applet
@@ -192,6 +193,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+noisetorch
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji

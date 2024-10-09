@@ -50,6 +50,8 @@ local/android-apktool-bin 2.10.0-1
     A tool for reverse engineering Android .apk files
 local/android-ndk-26 r26.d-1
     Android C/C++ developer kit
+local/android-studio-alex 2024.2.1.9-1
+    The official Android IDE (Stable branch)
 local/android-tools 35.0.2-6.1
     Android platform tools
 local/android-udev 20240829-1
@@ -228,8 +230,6 @@ local/cmake 3.30.5-1.1
     A cross-platform open-source make system
 local/compiler-rt 18.1.8-1.1
     Compiler runtime libraries for clang
-local/composefs 1.0.4-1.1
-    A file system for mounting container images
 local/conmon 1:2.1.12-1.1
     OCI container runtime monitor
 local/containerd 1.7.22-1.1
@@ -280,7 +280,7 @@ local/desktop-file-utils 0.27-1.1
     Command line utilities for working with desktop entries
 local/device-mapper 2.03.27-1.1
     Device mapper userspace library and tools
-local/dhcpcd 10.0.10-1.1
+local/dhcpcd 10.1.0-1.1
     DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client
 local/diffutils 3.10-1.1
     Utility programs used for creating patch files
@@ -290,7 +290,7 @@ local/distrobox 1.7.2.1-1
     Use any linux distribution inside your terminal.
 local/dkms 3.0.13-4
     Dynamic Kernel Modules System
-local/dmidecode 3.6-1.1
+local/dmidecode 3.6-1.2
     Desktop Management Interface table related utilities
 local/dmraid 1.0.0.rc16.3-15.1
     Device mapper RAID interface
@@ -376,7 +376,7 @@ local/exiv2 0.28.3-1.1
     Exif, Iptc and XMP metadata manipulation library and tools
 local/expat 2.6.3-2.1
     An XML parser library
-local/eza 0.20.1-1.1
+local/eza 0.20.2-1.1
     A modern replacement for ls (community fork of exa)
 local/f2fs-tools 1.16.0-3.1
     Tools for Flash-Friendly File System (F2FS)
@@ -390,7 +390,7 @@ local/fancontrol-gui 0.8-2
     GUI for fancontrol and the fancontrol systemd service
 local/fastfetch 2.27.1-1.1
     An actively maintained, feature-rich and performance oriented, neofetch like system information tool
-local/fcitx5 5.1.10-2.1 (fcitx5-im)
+local/fcitx5 5.1.11-1.1 (fcitx5-im)
     Next generation of fcitx
 local/fd 10.2.0-1.1
     Simple, fast and user-friendly alternative to find
@@ -420,8 +420,6 @@ local/fisher 4.4.5-1
     A package manager for the fish shell
 local/flac 1.4.3-2.1
     Free Lossless Audio Codec
-local/flatpak 1:1.15.10-1.1
-    Linux application sandboxing and distribution framework (formerly xdg-app)
 local/flex 2.6.4-5.1
     A tool for generating text-scanning programs
 local/fluidsynth 2.3.6-1.1 (pro-audio)
@@ -766,9 +764,9 @@ local/kbookmarks5 5.116.0-1.1 (kf5)
     Support for bookmarks and the XBEL format
 local/kcmutils 6.6.0-1.1 (kf6)
     Utilities for interacting with KCModules
-local/kcodecs 6.6.0-1.1 (kf6)
+local/kcodecs 6.6.0-1.2 (kf6)
     Provide a collection of methods to manipulate strings using various encodings
-local/kcodecs5 5.116.0-1.2 (kf5)
+local/kcodecs5 5.116.0-1.3 (kf5)
     Provide a collection of methods to manipulate strings using various encodings
 local/kcolorpicker 0.3.1-4
     Qt based Color Picker with popup menu
@@ -1046,7 +1044,7 @@ local/lib32-pam 1.6.1-1
     Pluggable Authentication Modules
 local/lib32-pcre2 10.44-1
     A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
-local/lib32-systemd 256.6-1
+local/lib32-systemd 256.7-1
     system and service manager (32-bit)
 local/lib32-util-linux 2.40.2-1
     Miscellaneous system utilities for Linux (32-bit)
@@ -1054,8 +1052,10 @@ local/lib32-wayland 1.23.1-1
     A computer display server protocol
 local/lib32-xz 5.6.3-1
     Library and command line tools for XZ and LZMA compressed files (32-bit)
-local/lib32-zlib 1.3.1-1
-    Compression library implementing the deflate compression method found in gzip and PKZIP (32-bit)
+local/lib32-zlib-ng 2.2.2-3
+    zlib replacement with optimizations for next generation systems - 32-bit
+local/lib32-zlib-ng-compat 2.2.2-3
+    zlib replacement with optimizations for next generation systems - 32-bit (zlib compat)
 local/lib32-zstd 1.5.6-2
     Zstandard - Fast real-time compression algorithm (32-bit)
 local/libabw 0.1.3-4.1
@@ -1094,21 +1094,21 @@ local/libavtp 0.2.0-3.1
     Open source implementation of Audio Video Transport Protocol
 local/libb2 0.98.1-3.1
     C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
-local/libblockdev 3.1.1-2.1
+local/libblockdev 3.2.0-1.1
     A library for manipulating block devices
-local/libblockdev-crypto 3.1.1-2.1
+local/libblockdev-crypto 3.2.0-1.1
     A library for manipulating block devices - crypto support
-local/libblockdev-fs 3.1.1-2.1
+local/libblockdev-fs 3.2.0-1.1
     A library for manipulating block devices - filesystem support
-local/libblockdev-loop 3.1.1-2.1
+local/libblockdev-loop 3.2.0-1.1
     A library for manipulating block devices - loop device support
-local/libblockdev-mdraid 3.1.1-2.1
+local/libblockdev-mdraid 3.2.0-1.1
     A library for manipulating block devices - MDRAID support
-local/libblockdev-nvme 3.1.1-2.1
+local/libblockdev-nvme 3.2.0-1.1
     A library for manipulating block devices - NVME support
-local/libblockdev-part 3.1.1-2.1
+local/libblockdev-part 3.2.0-1.1
     A library for manipulating block devices - partitioning support
-local/libblockdev-swap 3.1.1-2.1
+local/libblockdev-swap 3.2.0-1.1
     A library for manipulating block devices - swap device support
 local/libbluray 1.3.4-2.1
     Library to access Blu-Ray disks for video playback
@@ -1332,8 +1332,6 @@ local/libluv 1.48.0_2-1.1
     Bare libuv bindings for lua
 local/libmad 0.15.1b-10.1
     A high-quality MPEG audio decoder
-local/libmalcontent 0.12.0-1.1
-    Parental control library
 local/libmanette 0.2.9-2.1
     Simple GObject game controller library
 local/libmatroska 1.7.1-2.1
@@ -1402,7 +1400,7 @@ local/libnice 0.1.22-1
     An implementation of the IETF's draft ICE (for p2p UDP data streams)
 local/libnl 3.10.0-1.1
     Library for applications dealing with netlink sockets
-local/libnm 1.48.10-1
+local/libnm 1.50.0-1
     NetworkManager client library
 local/libnma 1.10.6-3.1
     NetworkManager GUI client library (GTK3)
@@ -1564,7 +1562,7 @@ local/libunistring 1.2-1.1
     Library for manipulating Unicode strings and C strings
 local/libunwind 1.8.1-3.1
     Determine and manipulate the call-chain of a program
-local/libupnp 1.14.19-3.1
+local/libupnp 1.14.20-1.1
     Portable Open Source UPnP Development Kit
 local/liburcu 0.14.1-1.1
     LGPLv2.1 userspace RCU (read-copy-update) library
@@ -1870,6 +1868,8 @@ local/nano-syntax-highlighting 2022.11.02.r102.gbb94603-1
     Nano editor syntax highlighting enhancements
 local/ncurses 6.5-3.1
     System V Release 4.0 curses emulation library
+local/ncurses5-compat-libs 6.5-1
+    System V Release 4.0 curses emulation library, ABI 5
 local/ndctl 79-1.1
     Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
 local/neon 0.33.0-1.1
@@ -1886,7 +1886,7 @@ local/nettle 3.10-1.1
     A low-level cryptographic library
 local/network-manager-applet 1.36.0-1
     Applet for managing network connections
-local/networkmanager 1.48.10-1
+local/networkmanager 1.50.0-1
     Network connection manager and user applications
 local/networkmanager-openconnect 1.2.10-2.1
     NetworkManager VPN plugin for OpenConnect
@@ -1910,6 +1910,8 @@ local/nodejs 22.9.0-2
     Evented I/O for V8 javascript
 local/nodejs-nopt 7.2.0-2
     Node/npm Option Parsing library
+local/noisetorch 0.12.2-5
+    Real-time microphone noise suppression on Linux.
 local/noto-fonts 1:24.9.1-1
     Google Noto TTF fonts
 local/noto-fonts-cjk 20230817-2
@@ -1984,8 +1986,6 @@ local/os-prober 1.81-2.1
     Utility to detect other OSes on a set of drives
 local/osinfo-db 20240701-1
     Osinfo database of information about operating systems for virtualization provisioning tools
-local/ostree 2024.8-1.1
-    Operating system and container binary deployment and upgrades
 local/otf-aurulent-nerd 3.2.1-2 (nerd-fonts)
     Patched font Aurulent Sans Mono from nerd fonts library
 local/otf-codenewroman-nerd 3.2.1-2 (nerd-fonts)
@@ -2142,7 +2142,7 @@ local/plocate 1.1.22-3.1
     Alternative to locate, faster and compatible with mlocate's database.
 local/pm2ml 2021.11.20.1-15
     Generate metalinks for downloading Pacman packages and databases.
-local/podman 5.2.3-1.1
+local/podman 5.2.4-1.1
     Tool and library for running OCI-based containers in pods
 local/polkit 125-1.1
     Application development toolkit for controlling system-wide privileges
@@ -2572,7 +2572,7 @@ local/qpwgraph 0.7.8-1.1 (pro-audio)
     PipeWire Graph Qt GUI Interface
 local/qqc2-desktop-style 6.6.0-1.1 (kf6)
     A style for Qt Quick Controls 2 to make it follow your desktop theme
-local/qrencode 4.1.1-3.1
+local/qrencode 4.1.1-3.2
     C library for encoding data in a QR Code symbol.
 local/qt5-base 5.15.15+kde+r127-1.1 (qt5)
     A cross-platform application and UI framework
@@ -2650,7 +2650,7 @@ local/re2 1:20240702-2.1
     Fast, safe, thread-friendly regular expression engine
 local/readline 8.2.013-1.1
     GNU readline library
-local/rebuild-detector 4.4.3-3
+local/rebuild-detector 4.4.4-1
     Detects which packages need to be rebuilt
 local/redland 1:1.0.17-9.1
     Library that provides a high-level interface to RDF data
@@ -2814,13 +2814,13 @@ local/syntax-highlighting 6.6.0-1.1 (kf6)
     Syntax highlighting engine for structured text and code
 local/sysfsutils 2.1.1-2.1
     System Utilities Based on Sysfs
-local/systemd 256.6-1
+local/systemd 256.7-1
     system and service manager
-local/systemd-libs 256.6-1
+local/systemd-libs 256.7-1
     systemd client libraries
-local/systemd-resolvconf 256.6-1
+local/systemd-resolvconf 256.7-1
     systemd resolvconf replacement (for use with systemd-resolved)
-local/systemd-sysvcompat 256.6-1
+local/systemd-sysvcompat 256.7-1
     sysvinit compat for systemd
 local/taglib 2.0.2-1.1
     A Library for reading and editing the meta-data of several popular audio formats
@@ -3278,8 +3278,10 @@ local/zip 3.0-11.1
     Compressor/archiver for creating and modifying zipfiles
 local/zix 0.4.2-2.1
     A lightweight C99 portability and data structure library
-local/zlib 1:1.3.1-2.1
-    Compression library implementing the deflate compression method found in gzip and PKZIP
+local/zlib-ng 2.2.2-5
+    zlib replacement with optimizations for next generation systems
+local/zlib-ng-compat 2.2.2-5
+    zlib replacement with optimizations for next generation systems (zlib compat)
 local/zram-generator 1.1.2-1.1
     Systemd unit generator for zram devices
 local/zstd 1.5.6-2
