@@ -1,56 +1,33 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+## name: Gruvbox Dark
+## author: Pavel Pertsev
+## license: MIT/X11
+## upstream: https://raw.githubusercontent.com/gruvbox-community/gruvbox-contrib/master/kitty/gruvbox-dark.conf
 
-# gruvbox-dark colorscheme for kitty
-# snazzy theme used as base
+selection_foreground    #ebdbb2
+selection_background    #d65d0e
 
-cursor                  #928374
-cursor_text_color       background
-
-visual_bell_color       #8ec07c
-bell_border_color       #8ec07c
-
-active_border_color     #d3869b
-inactive_border_color   #665c54
-
-active_tab_foreground   #fbf1c7
-active_tab_background   #665c54
-inactive_tab_foreground #a89984
-inactive_tab_background #3c3836
-
+background              #282828
 foreground              #ebdbb2
-background              #272727
-selection_foreground    #655b53
-selection_background    #ebdbb2
-url_color               #d65c0d
 
-# black
-color0   #272727
-color8   #928373
+color0                  #3c3836
+color1                  #cc241d
+color2                  #98971a
+color3                  #d79921
+color4                  #458588
+color5                  #b16286
+color6                  #689d6a
+color7                  #a89984
+color8                  #928374
+color9                  #fb4934
+color10                 #b8bb26
+color11                 #fabd2f
+color12                 #83a598
+color13                 #d3869b
+color14                 #8ec07c
+color15                 #fbf1c7
 
-# red
-color1   #cc231c
-color9   #fb4833
+cursor                  #bdae93
+cursor_text_color       #665c54
 
-# green
-color2   #989719
-color10  #b8ba25
-
-# yellow
-color3   #d79920
-color11  #fabc2e
-
-# blue
-color4  #448488
-color12 #83a597
-
-# magenta
-color5   #b16185
-color13  #d3859a
-
-# cyan
-color6   #689d69
-color14  #8ec07b
-
-# white
-color7   #a89983
-color15  #ebdbb2
+url_color               #458588
