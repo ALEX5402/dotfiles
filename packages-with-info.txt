@@ -172,7 +172,7 @@ local/ca-certificates-utils 20240618-1
     Common CA certificates (utilities)
 local/cabextract 1.11-2.1
     A program to extract Microsoft cabinet (.CAB) files
-local/cachyos-kernel-manager 1.10.0-2 (cachyos)
+local/cachyos-kernel-manager 1.10.1-1 (cachyos)
     Simple kernel manager
 local/cachyos-keyring 20240331-1 (cachyos)
     CachyOS keyring
@@ -224,10 +224,12 @@ local/cloudflare-warp-bin 2024.6.497-1
     Cloudflare Warp Client
 local/clucene 2.3.3.4-15.1
     C++ port of the high-performance text search engine Lucene
-local/cmake 3.30.4-1.1
+local/cmake 3.30.5-1.1
     A cross-platform open-source make system
 local/compiler-rt 18.1.8-1.1
     Compiler runtime libraries for clang
+local/composefs 1.0.4-1.1
+    A file system for mounting container images
 local/conmon 1:2.1.12-1.1
     OCI container runtime monitor
 local/containerd 1.7.22-1.1
@@ -418,6 +420,8 @@ local/fisher 4.4.5-1
     A package manager for the fish shell
 local/flac 1.4.3-2.1
     Free Lossless Audio Codec
+local/flatpak 1:1.15.10-1.1
+    Linux application sandboxing and distribution framework (formerly xdg-app)
 local/flex 2.6.4-5.1
     A tool for generating text-scanning programs
 local/fluidsynth 2.3.6-1.1 (pro-audio)
@@ -662,6 +666,8 @@ local/hyprlang 0.5.3-1.1
     implementation library for the hypr config language
 local/hyprlock 0.4.1-1.1
     hyprland’s GPU-accelerated screen locking utility
+local/hyprpicker 0.4.1-1.1
+    A wlroots-compatible Wayland color picker that does not suck
 local/hyprutils 0.2.3-1.1
     Hyprland utilities library used across the ecosystem
 local/hyprwayland-scanner 0.4.2-1.1
@@ -1326,6 +1332,8 @@ local/libluv 1.48.0_2-1.1
     Bare libuv bindings for lua
 local/libmad 0.15.1b-10.1
     A high-quality MPEG audio decoder
+local/libmalcontent 0.12.0-1.1
+    Parental control library
 local/libmanette 0.2.9-2.1
     Simple GObject game controller library
 local/libmatroska 1.7.1-2.1
@@ -1774,8 +1782,6 @@ local/luajit 2.1.1725453128-1.1
     Just-in-time compiler and drop-in replacement for Lua 5.1
 local/luarocks 3.11.1-2
     Deployment and management system for Lua modules
-local/luit 20240102-2.1
-    Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
 local/lv2 1.18.10-1
     Plugin standard for audio systems
 local/lvm2 2.03.27-1.1
@@ -1912,7 +1918,7 @@ local/noto-fonts-emoji 1:2.047-1
     Google Noto emoji fonts
 local/noto-fonts-extra 1:24.9.1-1
     Google Noto TTF fonts - additional variants
-local/npm 10.8.3-1
+local/npm 10.9.0-1
     JavaScript package manager
 local/npth 1.7-1.1
     The new GNU portable threads library
@@ -1978,6 +1984,8 @@ local/os-prober 1.81-2.1
     Utility to detect other OSes on a set of drives
 local/osinfo-db 20240701-1
     Osinfo database of information about operating systems for virtualization provisioning tools
+local/ostree 2024.8-1.1
+    Operating system and container binary deployment and upgrades
 local/otf-aurulent-nerd 3.2.1-2 (nerd-fonts)
     Patched font Aurulent Sans Mono from nerd fonts library
 local/otf-codenewroman-nerd 3.2.1-2 (nerd-fonts)
@@ -3142,8 +3150,6 @@ local/x264 3:0.164.r3108.31e19f9-2.1
     Open Source H264/AVC video encoder
 local/x265 3.6-1.1
     Open Source H265/HEVC video encoder
-local/xbitmaps 1.1.3-2
-    X.org Bitmap files
 local/xcb-imdkit 1.0.9-1.1
     Input method development support for xcb
 local/xcb-proto 1.17.0-2
@@ -3274,8 +3280,6 @@ local/zix 0.4.2-2.1
     A lightweight C99 portability and data structure library
 local/zlib 1:1.3.1-2.1
     Compression library implementing the deflate compression method found in gzip and PKZIP
-local/zlib-ng 2.2.2-5
-    zlib replacement with optimizations for next generation systems
 local/zram-generator 1.1.2-1.1
     Systemd unit generator for zram devices
 local/zstd 1.5.6-2

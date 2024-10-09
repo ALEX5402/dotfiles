@@ -86,6 +86,7 @@ filezilla
 firewalld
 fish
 fisher
+flatpak
 fontforge
 freedownloadmanager
 fsarchiver
@@ -116,6 +117,7 @@ hwinfo
 hypridle
 hyprland
 hyprlock
+hyprpicker
 iaito
 inetutils
 intel-media-driver
