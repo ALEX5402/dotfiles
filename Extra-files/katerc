@@ -110,7 +110,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=<wallbash_1xa9>E6
-Search History=dolphin,directory,D6CBD5,A,Speaker,Speakers,emote,studio,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
+Search History=diff,dolphin,directory,D6CBD5,A,Speaker,Speakers,emote,studio,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
 
 [Konsole]
 AutoSyncronizeMode=0

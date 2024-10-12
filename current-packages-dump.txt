@@ -119,6 +119,7 @@ hyprland
 hyprlock
 hyprpicker
 iaito
+imhex
 inetutils
 intel-media-driver
 inxi
@@ -141,6 +142,11 @@ konsole
 kvantum
 kvantum-qt5
 less
+lib32-libva-mesa-driver
+lib32-mesa
+lib32-mesa-vdpau
+lib32-opencl-rusticl-mesa
+lib32-vulkan-radeon
 libdvdcss
 libgsf
 libopenraw
@@ -176,6 +182,7 @@ mdadm
 media-downloader
 meld
 mesa-utils
+mesa-vdpau
 meson
 modemmanager
 mpv
@@ -207,6 +214,7 @@ nwg-look
 obs-vaapi
 obsidian
 openbsd-netcat
+opencl-rusticl-mesa
 openssh
 os-prober
 otf-aurulent-nerd
@@ -263,6 +271,7 @@ reiserfsprogs
 rofi-lbonn-wayland-git
 rsync
 rtkit
+rust
 s-nail
 scrcpy
 sddm
