@@ -11,7 +11,7 @@ Search History=SwapBuffers,_ANativeWindow_getWidth,orig_ANativeWindow_getWidth,p
 [MainWindow]
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-splitterSizes=1516,105
+splitterSizes=392,56
 
 [Viewer]
 StatusBar=Disabled
