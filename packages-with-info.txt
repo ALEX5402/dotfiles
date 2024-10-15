@@ -3062,6 +3062,8 @@ local/ttf-victor-mono-nerd 3.2.1-2 (nerd-fonts)
     Patched font Victor Mono from nerd fonts library
 local/ttf-zed-mono-nerd 3.2.1-2 (nerd-fonts)
     Patched font Zed Mono from nerd fonts library
+local/tty-clock 2.3-2
+    Digital clock in ncurses
 local/turbo-base64 2023.08-2
     Fastest Base64 SIMD Encoding library
 local/twolame 0.4.0-4.1

@@ -142,6 +142,7 @@ alias play-m 'ytfzf -m --audio-only'
 alias yt-search 'ytfzf -cO'
 alias haru-play 'ytfzf -u haruna -t'
 
+
 #playgif
 alias gif-play 'chafa'
 

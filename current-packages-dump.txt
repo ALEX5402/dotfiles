@@ -356,6 +356,7 @@ ttf-ubuntu-mono-nerd
 ttf-ubuntu-nerd
 ttf-victor-mono-nerd
 ttf-zed-mono-nerd
+tty-clock
 udiskie
 ueberzugpp
 ugrep
