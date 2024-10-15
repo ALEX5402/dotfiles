@@ -1,7 +1,7 @@
     "pulseaudio": {
         "format": "{icon} {volume}",
         "rotate": ${r_deg},
-        "format-muted": "婢",
+        "format-muted": " ",
         "on-click": "pavucontrol -t 3",
         "on-click-middle": "volumecontrol.sh -o m",
         "on-scroll-up": "volumecontrol.sh -o i",

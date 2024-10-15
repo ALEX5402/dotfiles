@@ -84,7 +84,7 @@ local/at-spi2-core 2.54.0-2.1
     Protocol definitions and daemon for D-Bus at-spi
 local/atkmm 2.28.4-1.1
     C++ bindings for ATK
-local/attica 6.6.0-1.1 (kf6)
+local/attica 6.7.0-1.1 (kf6)
     Qt library that implements the Open Collaboration Services API
 local/attr 2.5.2-1.1
     Extended attribute support library for ACL support
@@ -106,7 +106,7 @@ local/b43-fwcutter 019-5.1
     firmware extractor for the b43 kernel module
 local/babl 0.1.108-1.1
     Dynamic, any to any, pixel format conversion library
-local/baloo 6.6.0-1.1 (kf6)
+local/baloo 6.7.0-1.1 (kf6)
     A framework for searching and managing metadata
 local/baloo-widgets 24.08.2-1.1
     Widgets for Baloo
@@ -146,7 +146,7 @@ local/bpf 6.10-4 (linux-tools)
     BPF tools
 local/brave-bin 1:1.70.126-1
     Web browser that blocks ads and trackers by default (binary release)
-local/breeze-icons 6.6.0-1.1 (kf6)
+local/breeze-icons 6.7.0-1.1 (kf6)
     Breeze icon theme
 local/bridge-utils 1.7.1-2.1
     Utilities for configuring the Linux ethernet bridge
@@ -286,7 +286,7 @@ local/diffutils 3.10-1.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/distrobox 1.7.2.1-1
+local/distrobox 1.8.0-1
     Use any linux distribution inside your terminal.
 local/dkms 3.0.13-4
     Dynamic Kernel Modules System
@@ -312,7 +312,7 @@ local/double-conversion 3.3.0-2.1
     Binary-decimal and decimal-binary routines for IEEE doubles
 local/downgrade 11.3.0-1
     Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
-local/dracut 104-1
+local/dracut 105-1
     An event driven initramfs infrastructure
 local/droidcam-obs-plugin 2.3.3-3
     plugin for droidcam obs
@@ -736,8 +736,8 @@ local/jfsutils 1.1.15-9.1
     JFS filesystem utilities
 local/jq 1.7.1-2.1
     Command-line JSON processor
-local/jre-openjdk 22.0.2.u9-1
-    OpenJDK Java 22 full runtime environment
+local/jre-openjdk 23.u37-1
+    OpenJDK Java 23 full runtime environment
 local/js128 128.3.1-1.1
     JavaScript interpreter and libraries - Version 128
 local/json-c 0.18-1.1
@@ -748,55 +748,55 @@ local/jsoncpp 1.9.6-3.1
     C++ library for interacting with JSON
 local/kaccounts-integration 24.08.2-1.1
     Online account management system and its Plasma integration components
-local/karchive 6.6.0-1.1 (kf6)
+local/karchive 6.7.0-1.1 (kf6)
     Qt addon providing access to numerous types of archives
 local/karchive5 5.116.0-1.1 (kf5)
     Qt 5 addon providing access to numerous types of archives
 local/kate 24.08.2-1.1 (kde-applications kde-utilities)
     Advanced text editor
-local/kauth 6.6.0-1.1 (kf6)
+local/kauth 6.7.0-1.1 (kf6)
     Abstraction to system policy and authentication features
 local/kauth5 5.116.0-1.1 (kf5)
     Abstraction to system policy and authentication features
 local/kbd 2.6.4-3.1
     Keytable files and keyboard utilities
-local/kbookmarks 6.6.0-1.1 (kf6)
+local/kbookmarks 6.7.0-1.1 (kf6)
     Support for bookmarks and the XBEL format
 local/kbookmarks5 5.116.0-1.1 (kf5)
     Support for bookmarks and the XBEL format
-local/kcmutils 6.6.0-1.1 (kf6)
+local/kcmutils 6.7.0-1.1 (kf6)
     Utilities for interacting with KCModules
-local/kcodecs 6.6.0-1.2 (kf6)
+local/kcodecs 6.7.0-1.1 (kf6)
     Provide a collection of methods to manipulate strings using various encodings
 local/kcodecs5 5.116.0-1.3 (kf5)
     Provide a collection of methods to manipulate strings using various encodings
 local/kcolorpicker 0.3.1-4
     Qt based Color Picker with popup menu
-local/kcolorscheme 6.6.0-1.1 (kf6)
+local/kcolorscheme 6.7.0-1.1 (kf6)
     Classes to read and interact with KColorScheme
-local/kcompletion 6.6.0-1.1 (kf6)
+local/kcompletion 6.7.0-1.1 (kf6)
     Text completion helpers and widgets
 local/kcompletion5 5.116.0-1.1 (kf5)
     Text completion helpers and widgets
-local/kconfig 6.6.0-1.1 (kf6)
+local/kconfig 6.7.0-1.1 (kf6)
     Configuration system
 local/kconfig5 5.116.0-1.1 (kf5)
     Configuration system
-local/kconfigwidgets 6.6.0-1.1 (kf6)
+local/kconfigwidgets 6.7.0-1.1 (kf6)
     Widgets for KConfig
 local/kconfigwidgets5 5.116.0-1.1 (kf5)
     Widgets for KConfig
-local/kcontacts 1:6.6.0-1.1 (kf6)
+local/kcontacts 1:6.7.0-1.1 (kf6)
     Address book API for KDE
-local/kcoreaddons 6.6.0-1.1 (kf6)
+local/kcoreaddons 6.7.0-1.1 (kf6)
     Addons to QtCore
 local/kcoreaddons5 5.116.0-1.1 (kf5)
     Addons to QtCore
-local/kcrash 6.6.0-1.1 (kf6)
+local/kcrash 6.7.0-1.1 (kf6)
     Support for application crash analysis and bug report from apps
 local/kcrash5 5.116.0-1.1 (kf5)
     Support for application crash analysis and bug report from apps
-local/kdbusaddons 6.6.0-1.1 (kf6)
+local/kdbusaddons 6.7.0-1.1 (kf6)
     Addons to QtDBus
 local/kdbusaddons5 5.116.0-1.1 (kf5)
     Addons to QtDBus
@@ -804,7 +804,7 @@ local/kde-cli-tools 6.2.0-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
 local/kde-gtk-config 6.2.0-1.1 (plasma)
     Syncs KDE settings to GTK applications
-local/kdeclarative 6.6.0-1.1 (kf6)
+local/kdeclarative 6.7.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
 local/kdeclarative5 5.116.0-1.1 (kf5)
     Provides integration of QML and KDE Frameworks
@@ -816,11 +816,11 @@ local/kded5 5.116.0-1.1 (kf5)
     Extensible deamon for providing system level services
 local/kdenlive 24.08.2-1.1 (kde-applications kde-multimedia)
     A non-linear video editor for Linux using the MLT video framework
-local/kdesu 6.6.0-1.1 (kf6)
+local/kdesu 6.7.0-1.1 (kf6)
     Integration with su for elevated privileges
 local/kdevelop 24.08.2-1.1 (kde-applications kdevelop)
     C++ IDE using KDE technologies
-local/kdnssd 6.6.0-1.1 (kf6)
+local/kdnssd 6.7.0-1.1 (kf6)
     Abstraction to system DNSSD features
 local/kdsoap-qt6 2.2.0-1
     Qt-based client-side and server-side SOAP component
@@ -828,29 +828,29 @@ local/kdsoap-ws-discovery-client 0.4.0-1.1
     WS-Discovery client library based on KDSoap
 local/keyutils 1.6.3-3.1
     Linux Key Management Utilities
-local/kfilemetadata 6.6.0-1.1 (kf6)
+local/kfilemetadata 6.7.0-1.1 (kf6)
     A library for extracting file metadata
-local/kglobalaccel 6.6.0-1.1 (kf6)
+local/kglobalaccel 6.7.0-1.1 (kf6)
     Add support for global workspace shortcuts
 local/kglobalaccel5 5.116.0-1.1 (kf5)
     Add support for global workspace shortcuts
-local/kguiaddons 6.6.0-1.1 (kf6)
+local/kguiaddons 6.7.0-1.1 (kf6)
     Addons to QtGui
 local/kguiaddons5 5.116.0-1.1 (kf5)
     Addons to QtGui
-local/ki18n 6.6.0-1.1 (kf6)
+local/ki18n 6.7.0-1.1 (kf6)
     Advanced internationalization framework
 local/ki18n5 5.116.0-1.1 (kf5)
     Advanced internationalization framework
-local/kiconthemes 6.6.0-1.1 (kf6)
+local/kiconthemes 6.7.0-1.1 (kf6)
     Support for icon themes
 local/kiconthemes5 5.116.0-1.1 (kf5)
     Support for icon themes
-local/kidletime 6.6.0-1.1 (kf6)
+local/kidletime 6.7.0-1.1 (kf6)
     Monitoring user activity
 local/kimageannotator 0.7.1-3
     Tool for annotating images
-local/kio 6.6.0-1.1 (kf6)
+local/kio 6.7.0-1.1 (kf6)
     Resource and network access abstraction
 local/kio-admin 24.08.2-1.1 (kde-applications kde-system)
     Manage files as administrator using the admin:// KIO protocol
@@ -858,15 +858,15 @@ local/kio-extras 24.08.2-1.1 (kde-applications kde-network)
     Additional components to increase the functionality of KIO
 local/kio5 5.116.0-1.1 (kf5)
     Resource and network access abstraction
-local/kirigami 6.6.0-1.1 (kf6)
+local/kirigami 6.7.0-1.1 (kf6)
     A QtQuick based components set
 local/kirigami-addons 1.5.0-1.1
     Add-ons for the Kirigami framework
 local/kirigami2 5.116.0-1.1 (kf5)
     A QtQuick based components set
-local/kitemmodels 6.6.0-1.1 (kf6)
+local/kitemmodels 6.7.0-1.1 (kf6)
     Models for Qt Model/View system
-local/kitemviews 6.6.0-1.1 (kf6)
+local/kitemviews 6.7.0-1.1 (kf6)
     Widget addons for Qt Model/View
 local/kitemviews5 5.116.0-1.1 (kf5)
     Widget addons for Qt Model/View
@@ -876,73 +876,73 @@ local/kitty-shell-integration 0.36.4-1.1
     Shell integration scripts for kitty, an OpenGL-based terminal emulator
 local/kitty-terminfo 0.36.4-1.1
     Terminfo for kitty, an OpenGL-based terminal emulator
-local/kjobwidgets 6.6.0-1.1 (kf6)
+local/kjobwidgets 6.7.0-1.1 (kf6)
     Widgets for tracking KJob instances
 local/kjobwidgets5 5.116.0-1.1 (kf5)
     Widgets for tracking KJob instances
 local/kmod 33-3.1
     Linux kernel module management tools and library
-local/knewstuff 6.6.0-1.1 (kf6)
+local/knewstuff 6.7.0-1.1 (kf6)
     Support for downloading application assets from the network
-local/knotifications 6.6.0-1.1 (kf6)
+local/knotifications 6.7.0-1.1 (kf6)
     Abstraction for system notifications
 local/knotifications5 5.116.0-1.1 (kf5)
     Abstraction for system notifications
-local/knotifyconfig 6.6.0-1.1 (kf6)
+local/knotifyconfig 6.7.0-1.1 (kf6)
     Configuration system for KNotify
 local/konsole 24.08.2-1.1 (kde-applications kde-utilities)
     KDE terminal emulator
-local/kpackage 6.6.0-1.1 (kf6)
+local/kpackage 6.7.0-1.1 (kf6)
     Framework that lets applications manage user installable packages of non-binary assets
 local/kpackage5 5.116.0-1.1 (kf5)
     Framework that lets applications manage user installable packages of non-binary assets
-local/kparts 6.6.0-1.1 (kf6)
+local/kparts 6.7.0-1.1 (kf6)
     Document centric plugin system
-local/kpeople 6.6.0-1.1 (kf6)
+local/kpeople 6.7.0-1.1 (kf6)
     A library that provides access to all contacts and the people who hold them
 local/kpmcore 24.08.2-1.1
     Library for managing partitions
-local/kpty 6.6.0-1.1 (kf6)
+local/kpty 6.7.0-1.1 (kf6)
     Pty abstraction
-local/kquickcharts 6.6.0-1.1 (kf6)
+local/kquickcharts 6.7.0-1.1 (kf6)
     A QtQuick plugin providing high-performance charts
 local/krb5 1.21.3-1.1
     The Kerberos network authentication system
-local/kservice 6.6.0-1.1 (kf6)
+local/kservice 6.7.0-1.1 (kf6)
     Advanced plugin and service introspection
 local/kservice5 5.116.0-1.1 (kf5)
     Advanced plugin and service introspection
-local/kstatusnotifieritem 6.6.0-1.1 (kf6)
+local/kstatusnotifieritem 6.7.0-1.1 (kf6)
     Implementation of Status Notifier Items
-local/ksvg 6.6.0-1.1 (kf6)
+local/ksvg 6.7.0-1.1 (kf6)
     Components for handling SVGs
-local/ktexteditor 6.6.0-1.1 (kf6)
+local/ktexteditor 6.7.0-1.1 (kf6)
     Advanced embeddable text editor
-local/ktexttemplate 6.6.0-1.1 (kf6)
+local/ktexttemplate 6.7.0-1.1 (kf6)
     Library to allow application developers to separate the structure of documents from the data they contain
-local/ktextwidgets 6.6.0-1.1 (kf6)
+local/ktextwidgets 6.7.0-1.1 (kf6)
     Advanced text editing widgets
 local/ktextwidgets5 5.116.0-1.1 (kf5)
     Advanced text editing widgets
-local/kuserfeedback 6.6.0-1.1
+local/kuserfeedback 6.7.0-1.1
     Framework for collecting user feedback for applications via telemetry and surveys
 local/kvantum 1.1.2-1.1
     SVG-based theme engine for Qt6 (including config tool and extra themes)
 local/kvantum-qt5 1.1.2-1.1
     SVG-based theme engine for Qt5
-local/kwallet 6.6.0-1.1 (kf6)
+local/kwallet 6.7.0-1.1 (kf6)
     Secure and unified container for user passwords
 local/kwallet5 5.116.0-1.1 (kf5)
     Secure and unified container for user passwords
-local/kwidgetsaddons 6.6.0-1.1 (kf6)
+local/kwidgetsaddons 6.7.0-1.1 (kf6)
     Addons to QtWidgets
 local/kwidgetsaddons5 5.116.0-1.1 (kf5)
     Addons to QtWidgets
-local/kwindowsystem 6.6.0-1.1 (kf6)
+local/kwindowsystem 6.7.0-1.1 (kf6)
     Access to the windowing system
 local/kwindowsystem5 5.116.0-1.1 (kf5)
     Access to the windowing system
-local/kxmlgui 6.6.0-1.1 (kf6)
+local/kxmlgui 6.7.0-1.1 (kf6)
     User configurable main windows
 local/kxmlgui5 5.116.0-1.1 (kf5)
     User configurable main windows
@@ -954,7 +954,7 @@ local/lapack 3.12.0-5.1
     Linear Algebra PACKage
 local/lcms2 2.16-1.1
     Small-footprint color management engine, version 2
-local/ldb 2:4.21.0-2.1
+local/ldb 2:4.21.1-1.1
     Schema-less, ldap like, API and database
 local/lensfun 1:0.3.4-4.1
     Database of photographic lenses and a library that allows advanced access to the database
@@ -1118,7 +1118,7 @@ local/libaccounts-glib 1.27-2.1
     Glib-based client library for accessing the online accounts database
 local/libaccounts-qt 1.17-1.1
     Qt-based client library for accessing the online accounts database
-local/libadwaita 1:1.6.0-1.1
+local/libadwaita 1:1.6.1-1.1
     Building blocks for modern adaptive GNOME applications
 local/libaio 0.3.113-3.1
     The Linux-native asynchronous I/O facility (aio) library
@@ -1128,7 +1128,7 @@ local/libappimage 1.0.4.5-7.1
     Reference implementation of the AppImage specification
 local/libappindicator-gtk3 12.10.0.r298-4
     Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
-local/libarchive 3.7.6-1
+local/libarchive 3.7.7-1
     Multi-format archive and compression library
 local/libass 0.17.3-1.1
     A portable library for SSA/ASS subtitles rendering
@@ -1284,7 +1284,7 @@ local/libfilezilla 1:0.48.1-1
     Small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs
 local/libfm-extra 1.3.2-1.1
     Extra library for file management
-local/libfm-qt 2.0.2-4.1
+local/libfm-qt 2.0.2-5.1
     Core library of PCManFM-Qt (Qt binding for libfm)
 local/libfontenc 1.1.8-1.1
     X11 font encoding library
@@ -1606,7 +1606,7 @@ local/libtool 2.5.3-2
     A generic library support script
 local/libtorrent 0.13.8-4.1
     BitTorrent library with a focus on high performance and good code
-local/libtraceevent 1:1.8.3-1.1
+local/libtraceevent 1:1.8.4-1.1
     Linux kernel trace event library
 local/libtracefs 1.8.1-1.1
     Linux kernel trace file system library
@@ -1652,7 +1652,7 @@ local/libvirt 1:10.8.0-1.1
     API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
 local/libvirt-glib 5.0.0-1.1
     GLib bindings for libvirt
-local/libvirt-python 1:10.7.0-1.1
+local/libvirt-python 1:10.8.0-1.1
     libvirt python binding
 local/libvisio 0.1.7-11.1
     Library providing ability to interpret and import visio diagrams
@@ -1668,7 +1668,7 @@ local/libvterm 0.3.3-2.1
     Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
 local/libwacom 2.13.0-1
     Library to identify Wacom tablets and their features
-local/libwbclient 2:4.21.0-2.1
+local/libwbclient 2:4.21.1-1.1
     winbind client library
 local/libwebp 1.4.0-3.1
     WebP library and conversion tools
@@ -1730,7 +1730,7 @@ local/libxkbfile 1.1.3-1.1
     X11 keyboard file manipulation library
 local/libxml2 2.13.4-1.1
     XML C parser and toolkit
-local/libxmlb 0.3.19-1.2
+local/libxmlb 0.3.20-1.1
     Library to help create and query binary XML blobs
 local/libxmu 1.2.1-1.1
     X11 miscellaneous micro-utility library
@@ -1830,8 +1830,6 @@ local/lua51 5.1.5-12.1
     Powerful lightweight programming language designed for extending applications
 local/lua51-lpeg 1.1.0-3
     Parsing Expression Grammars For Lua for Lua 5.1
-local/lua52 5.2.4-7.1
-    Powerful lightweight programming language designed for extending applications
 local/lua53 5.3.6-3.1
     Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.1727870382-1.1
@@ -1896,7 +1894,7 @@ local/mobile-broadband-provider-info 20240407-1
     APN configuration presets for mobile broadband connections
 local/modemmanager 1.22.0-1.1
     Mobile broadband modem management service
-local/modemmanager-qt 6.6.0-1.1 (kf6)
+local/modemmanager-qt 6.7.0-1.1 (kf6)
     Qt wrapper for ModemManager DBus API
 local/mpdecimal 4.0.0-2.1
     Package for correctly-rounded arbitrary precision decimal floating point arithmetic
@@ -2214,13 +2212,13 @@ local/polkit-qt5 0.200.0-1
     A library that allows developers to access PolicyKit API with a nice Qt-style API
 local/polkit-qt6 0.200.0-1
     A library that allows developers to access PolicyKit API with a nice Qt-style API
-local/poppler 24.09.0-2.1
+local/poppler 24.09.0-4.1
     PDF rendering library based on xpdf 3.0
 local/poppler-data 0.4.12-2
     Encoding data for the poppler PDF rendering library
-local/poppler-glib 24.09.0-2.1
+local/poppler-glib 24.09.0-4.1
     Poppler glib bindings
-local/poppler-qt6 24.09.0-2.1
+local/poppler-qt6 24.09.0-4.1
     Poppler Qt6 bindings
 local/popt 1.19-2.1
     A commandline option parser
@@ -2240,7 +2238,7 @@ local/procps-ng 4.0.4-3.1
     Utilities for monitoring your system and its processes
 local/proot 5.4.0-1
     chroot, mount --bind, and binfmt_misc without privilege/setup
-local/protobuf 28.2-1.1
+local/protobuf 28.2-3.1
     Protocol Buffers - Google's data interchange format
 local/proxychains-ng 4.17-2.1
     A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies
@@ -2250,13 +2248,13 @@ local/pugixml 1.14-1.1
     Light-weight, simple and fast XML parser for C++ with XPath support
 local/pulseaudio-qt 1.6.0-1.1
     Qt bindings for libpulse
-local/purpose 6.6.0-1.1 (kf6)
+local/purpose 6.7.0-1.1 (kf6)
     Framework for providing abstractions to get the developers purposes fulfilled
 local/pv 1.8.14-1.1
     A terminal-based tool for monitoring the progress of data through a pipeline
 local/pyalpm 0.10.10-1.2
     Python 3 bindings for libalpm
-local/pyside6 6.7.3-1.1
+local/pyside6 6.8.0-3.1
     Enables the use of Qt6 APIs in Python applications
 local/python 3.12.7-2
     The Python programming language
@@ -2632,11 +2630,11 @@ local/qemu-vmsr-helper 9.1.0-2
     QEMU persistent reservation utility
 local/qpwgraph 0.7.8-1.1 (pro-audio)
     PipeWire Graph Qt GUI Interface
-local/qqc2-desktop-style 6.6.0-1.1 (kf6)
+local/qqc2-desktop-style 6.7.0-1.1 (kf6)
     A style for Qt Quick Controls 2 to make it follow your desktop theme
 local/qrencode 4.1.1-3.2
     C library for encoding data in a QR Code symbol.
-local/qt5-base 5.15.15+kde+r127-1.1 (qt5)
+local/qt5-base 5.15.15+kde+r132-1.1 (qt5)
     A cross-platform application and UI framework
 local/qt5-charts 5.15.15-1.1 (qt5)
     Provides a set of easy to use chart components
@@ -2660,45 +2658,45 @@ local/qt5-tools 5.15.15+kde+r3-2.1 (qt5)
     A cross-platform application and UI framework (Development Tools, QtHelp)
 local/qt5-translations 5.15.15-1 (qt5)
     A cross-platform application and UI framework (Translations)
-local/qt5-wayland 5.15.15+kde+r59-1.1 (qt5)
+local/qt5-wayland 5.15.15+kde+r60-1.1 (qt5)
     Provides APIs for Wayland
 local/qt5-x11extras 5.15.15-1.1 (qt5)
     Provides platform-specific APIs for X11
 local/qt5ct 1.8-2.1
     Qt5 Configuration Utility
-local/qt6-5compat 6.7.3-1.1 (qt6)
+local/qt6-5compat 6.8.0-1.1 (qt6)
     Module that contains unsupported Qt 5 APIs
-local/qt6-base 6.7.3-2.1 (qt6)
+local/qt6-base 6.8.0-1.1 (qt6)
     A cross-platform application and UI framework
-local/qt6-connectivity 6.7.3-1.1 (qt6)
+local/qt6-connectivity 6.8.0-1.1 (qt6)
     Provides access to Bluetooth hardware
-local/qt6-declarative 6.7.3-3.1 (qt6)
+local/qt6-declarative 6.8.0-1.1 (qt6)
     Classes for QML and JavaScript languages
-local/qt6-imageformats 6.7.3-1.1 (qt6)
+local/qt6-imageformats 6.8.0-1.1 (qt6)
     Plugins for additional image formats: TIFF, MNG, TGA, WBMP
-local/qt6-multimedia 6.7.3-1.1 (qt6)
+local/qt6-multimedia 6.8.0-1.1 (qt6)
     Classes for audio, video, radio and camera functionality
-local/qt6-multimedia-ffmpeg 6.7.3-1.1
+local/qt6-multimedia-ffmpeg 6.8.0-1.1
     FFMpeg backend for qt6-multimedia
-local/qt6-networkauth 6.7.3-1.1 (qt6)
+local/qt6-networkauth 6.8.0-1.1 (qt6)
     Network authentication module
-local/qt6-positioning 6.7.3-1.1 (qt6)
+local/qt6-positioning 6.8.0-1.1 (qt6)
     Provides access to position, satellite and area monitoring classes
-local/qt6-shadertools 6.7.3-1.1 (qt6)
+local/qt6-shadertools 6.8.0-1.1 (qt6)
     Provides functionality for the shader pipeline that allows Qt Quick to operate on Vulkan, Metal, and Direct3D, in addition to OpenGL
-local/qt6-speech 6.7.3-1.1 (qt6)
+local/qt6-speech 6.8.0-1.1 (qt6)
     Qt Speech support
-local/qt6-svg 6.7.3-1.1 (qt6)
+local/qt6-svg 6.8.0-1.1 (qt6)
     Classes for displaying the contents of SVG files
-local/qt6-translations 6.7.3-1 (qt6)
+local/qt6-translations 6.8.0-1 (qt6)
     A cross-platform application and UI framework (Translations)
-local/qt6-wayland 6.7.3-1.1 (qt6)
+local/qt6-wayland 6.8.0-1.1 (qt6)
     Provides APIs for Wayland
-local/qt6-webchannel 6.7.3-1.1 (qt6)
+local/qt6-webchannel 6.8.0-1.1 (qt6)
     Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
-local/qt6-webengine 6.7.3-1 (qt6)
+local/qt6-webengine 6.8.0-1.1 (qt6)
     Provides support for web applications using the Chromium browser project
-local/qt6ct 0.9-10.1
+local/qt6ct 0.9-11.1
     Qt 6 Configuration Utility
 local/radare2 5.9.4-1.1
     Open-source tools to disasm, debug, analyze and manipulate binary files
@@ -2780,7 +2778,7 @@ local/shadow 4.16.0-1.1
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.4-1.1
     Freedesktop.org Shared MIME Info
-local/shiboken6 6.7.3-1.1
+local/shiboken6 6.8.0-3.1
     Generates bindings for C++ libraries using CPython source code
 local/signon-kwallet-extension 24.08.2-1.1 (kde-applications kde-network)
     KWallet integration for signon framework
@@ -2796,7 +2794,7 @@ local/slurp 1.5.0-1.1
     Select a region in a Wayland compositor
 local/smartmontools 7.4-2.1
     Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
-local/smbclient 2:4.21.0-2.1
+local/smbclient 2:4.21.1-1.1
     Tools to access a server's filespace and printers via SMB
 local/snappy 1.2.1-2.1
     A fast compressor/decompressor library
@@ -2804,11 +2802,11 @@ local/sndio 1.10.0-1.1
     A small audio and MIDI framework
 local/sof-firmware 2024.09-1
     Sound Open Firmware
-local/solid 6.6.0-1.1 (kf6)
+local/solid 6.7.0-1.1 (kf6)
     Hardware integration and detection
 local/solid5 5.116.0-1.1 (kf5)
     Hardware integration and detection
-local/sonnet 6.6.0-1.1 (kf6)
+local/sonnet 6.7.0-1.1 (kf6)
     Spelling framework for Qt
 local/sonnet5 5.116.0-1.1 (kf5)
     Spelling framework for Qt5
@@ -2874,9 +2872,9 @@ local/swappy 1.5.1-2.1
     A Wayland native snapshot editing tool
 local/swww 0.9.5-2.1
     A Solution to your Wayland Wallpaper Woes
-local/syndication 6.6.0-1.1 (kf6)
+local/syndication 6.7.0-1.1 (kf6)
     RSS/Atom parser library
-local/syntax-highlighting 6.6.0-1.1 (kf6)
+local/syntax-highlighting 6.7.0-1.1 (kf6)
     Syntax highlighting engine for structured text and code
 local/sysfsutils 2.1.1-2.1
     System Utilities Based on Sysfs
@@ -2904,7 +2902,7 @@ local/texinfo 7.1.1-1.1
     GNU documentation system for on-line information and printed output
 local/thin-provisioning-tools 1.1.0-1.1
     Suite of tools for manipulating the metadata of the dm-thin device-mapper target
-local/threadweaver 6.6.0-1.1 (kf6)
+local/threadweaver 6.7.0-1.1 (kf6)
     High-level multithreading framework
 local/timg 1.6.0-2
     Terminal Image and Video Viewer
@@ -3266,7 +3264,7 @@ local/xf86-video-vmware 13.4.0-3.1 (xorg-drivers)
     X.org vmware video driver
 local/xfsprogs 6.10.1-1.1
     XFS filesystem utilities
-local/xkeyboard-config 2.42-1
+local/xkeyboard-config 2.43-1
     X keyboard configuration files
 local/xl2tpd 1.3.18-2.1
     an open source implementation of the L2TP maintained by Xelerance Corporation
@@ -3324,7 +3322,7 @@ local/yay 12.4.2-1
     Yet another yogurt. Pacman wrapper and AUR helper written in go.
 local/youtube-dl-git 2021.12.17.r367.gc5098961b-1.1
     A small command-line program to download videos from YouTube.com and a few more sites (git version)
-local/youtube-music-bin 3.5.3-1
+local/youtube-music-bin 3.6.1-1
     YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
 local/yt-dlp 2024.10.07-1
     A youtube-dl fork with additional features and fixes
