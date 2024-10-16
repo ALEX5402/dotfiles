@@ -22,7 +22,7 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Tue Oct 15 05:43:13 PM IST 2024
+## Changelog Thu Oct 17 05:13:29 AM IST 2024
 ```
  Configs/Kvantum/wallbash/wallbash.kvconfig      |  106 +-
  Configs/Kvantum/wallbash/wallbash.svg           | 1178 +++++++++++------------
@@ -57,12 +57,10 @@
  Configs/dunst/icons/vol/vol-90.svg              |   10 +-
  Configs/dunst/icons/vol/vol-95.svg              |   10 +-
  Configs/dunst/wallbash.conf                     |   12 +-
- Configs/fish/config.fish                        |    1 +
  Configs/gtk-3.0/settings.ini                    |    4 +-
  Configs/hyde/hyde.conf                          |    2 +-
  "Configs/hyde/themes/Ros\303\251 Pine/wall.set" |    2 +-
  Configs/hypr/themes/theme.conf                  |   46 +-
- Configs/hypr/windowrules.conf                   |   15 +-
  Configs/kitty/theme.conf                        |   77 +-
  Configs/qt5ct/colors.conf                       |    6 +-
  Configs/qt5ct/qt5ct.conf                        |    2 +-
@@ -71,11 +69,13 @@
  Configs/rofi/theme.rasi                         |   12 +-
  Configs/rofi/wallust/colors-rofi.rasi           |    6 +-
  Configs/spicetify/Themes/Sleek/color.ini        |   40 +-
+ Configs/swappy/config                           |    2 +-
  Configs/waybar/theme.css                        |   12 +-
- Extra-files/QtProject.conf                      |    6 +-
- README.md                                       |    6 +-
- current-packages-dump.txt                       |    1 +
- packages-with-info.txt                          |    2 +
- 52 files changed, 940 insertions(+), 916 deletions(-)
+ Extra-files/katerc                              |    2 +-
+ Extra-files/partitionmanagerrc                  |    5 +-
+ Local/share/bin/brightnesscontrol.sh            |   54 --
+ README.md                                       |   57 +-
+ packages-with-info.txt                          |   94 +-
+ 52 files changed, 955 insertions(+), 1084 deletions(-)
 ```
  
