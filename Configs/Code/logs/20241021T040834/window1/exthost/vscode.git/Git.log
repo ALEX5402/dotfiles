@@ -1,0 +1,38 @@
+2024-10-21 04:08:35.832 [info] [main] Log level: Info
+2024-10-21 04:08:35.832 [info] [main] Validating found git in: "git"
+2024-10-21 04:08:35.832 [info] [main] Using git "2.47.0" from "git"
+2024-10-21 04:08:35.832 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-21 04:08:35.832 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-21 04:08:35.832 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-21 04:08:35.832 [info] [Model][openRepository] Opened repository: /home/alex/workflow/anime-api
+2024-10-21 04:08:35.832 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-21 04:08:35.832 [info] > git config --get commit.template [20ms]
+2024-10-21 04:08:35.833 [info] > git rev-parse --show-toplevel [32ms]
+2024-10-21 04:08:35.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-10-21 04:08:35.862 [info] > git status -z -uall [12ms]
+2024-10-21 04:08:35.863 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-21 04:08:35.874 [info] > git rev-parse --show-toplevel [33ms]
+2024-10-21 04:08:35.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-10-21 04:08:35.901 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-21 04:08:35.901 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-21 04:08:35.902 [info] > git config --get commit.template [18ms]
+2024-10-21 04:08:35.909 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-10-21 04:08:35.909 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-21 04:08:35.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-21 04:08:35.944 [info] > git reflog main --grep-reflog=branch: Created from *. [26ms]
+2024-10-21 04:08:35.952 [info] > git status -z -uall [17ms]
+2024-10-21 04:08:35.952 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-10-21 04:08:35.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-10-21 04:08:35.993 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [42ms]
+2024-10-21 04:08:35.993 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-21 04:08:35.993 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-21 04:08:36.003 [info] > git config --local branch.main.vscode-merge-base [10ms]
+2024-10-21 04:08:36.003 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-21 04:08:36.012 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-10-21 04:08:36.018 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-10-21 04:08:36.019 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-21 04:08:36.019 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-21 04:08:36.208 [info] > git show --textconv :api/server.js [8ms]
+2024-10-21 04:08:36.209 [info] > git ls-files --stage -- /home/alex/workflow/anime-api/api/server.js [2ms]
+2024-10-21 04:08:36.216 [info] > git cat-file -s 71a4b2e297d91c91fa9d3227f30de9a8f40b8eb5 [1ms]
+2024-10-21 04:08:36.417 [info] > git check-ignore -v -z --stdin [2ms]

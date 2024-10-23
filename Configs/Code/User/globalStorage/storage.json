@@ -5,7 +5,9 @@
             "vscode-remote://ssh-remote%2Boracle/home/ubuntu/managerbot": "__default__profile__",
             "file:///home/alex/Current-Projects/Bot-Managerbot": "__default__profile__",
             "vscode-remote://ssh-remote%2Bnewvps/root/bot": "__default__profile__",
-            "file:///home/alex/Current-Projects/imguiloader/app/libs/com": "__default__profile__"
+            "file:///home/alex/Current-Projects/imguiloader/app/libs/com": "__default__profile__",
+            "file:///home/alex/temp/anime-api": "__default__profile__",
+            "file:///home/alex/workflow/anime-api": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -17,20 +19,20 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/alex/Current-Projects/imguiloader/app/libs/com"
+                "folderUri": "file:///home/alex/workflow/anime-api"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/alex/Current-Projects/imguiloader/app/libs/com",
-            "backupPath": "/home/alex/.config/Code/Backups/0c5a1caedcceda7e5b3755622338faed",
+            "folder": "file:///home/alex/workflow/anime-api",
+            "backupPath": "/home/alex/.config/Code/Backups/4c077a7bb4880df896bdc533093a7940",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 960,
+                "width": 512,
                 "height": 526
             }
         },
@@ -86,10 +88,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/workflow/anime-api",
+                                        "path": "/home/alex/workflow/anime-api",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/workflow/anime-api"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/temp/anime-api",
+                                        "path": "/home/alex/temp/anime-api",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/temp/anime-api"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -176,13 +201,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -197,6 +220,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -282,13 +312,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -337,13 +365,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -703,6 +729,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -802,8 +835,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -811,8 +843,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1218,6 +1249,10 @@
                         "label": "Show &&Release Notes"
                     },
                     {
+                        "id": "workbench.action.getStartedWithAccessibilityFeatures",
+                        "label": "Get Started with Accessibility Features"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1491,6 +1526,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1725,9 +1765,13 @@
             "background": "#1f1f1f",
             "editorBackground": "#1f1f1f",
             "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
             "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
             "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
             "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
             "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {

@@ -22,8 +22,118 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Oct 18 03:04:05 PM IST 2024
+## Changelog Thu Oct 24 12:04:18 AM IST 2024
 ```
+ Configs/Code/Cache/Cache_Data/15651df7a7ad0fa5_0   | Bin 8833 -> 8833 bytes
+ .../Code/Cache/Cache_Data/index-dir/the-real-index | Bin 408 -> 1248 bytes
+ .../__default__profile__/extensions.builtin.cache  |   2 +-
+ .../__default__profile__/extensions.user.cache     |   2 +-
+ .../Code/Code Cache/js/index-dir/the-real-index    | Bin 48 -> 48 bytes
+ .../Code/Code Cache/wasm/index-dir/the-real-index  | Bin 48 -> 48 bytes
+ Configs/Code/DawnGraphiteCache/data_1              | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnGraphiteCache/index               | Bin 262512 -> 262512 bytes
+ Configs/Code/DawnWebGPUCache/data_1                | Bin 270336 -> 270336 bytes
+ Configs/Code/DawnWebGPUCache/index                 | Bin 262512 -> 262512 bytes
+ Configs/Code/GPUCache/data_0                       | Bin 45056 -> 81920 bytes
+ Configs/Code/GPUCache/data_1                       | Bin 532480 -> 794624 bytes
+ Configs/Code/GPUCache/data_2                       | Bin 2105344 -> 2105344 bytes
+ Configs/Code/GPUCache/data_3                       | Bin 4202496 -> 4202496 bytes
+ Configs/Code/GPUCache/index                        | Bin 262512 -> 262512 bytes
+ Configs/Code/Local Storage/leveldb/LOG             |   6 +-
+ Configs/Code/Local Storage/leveldb/LOG.old         |   6 +-
+ Configs/Code/Network Persistent State              |   2 +-
+ Configs/Code/Service Worker/Database/000003.log    | Bin 18450 -> 20003 bytes
+ Configs/Code/Service Worker/Database/LOG           |   6 +-
+ Configs/Code/Service Worker/Database/LOG.old       |   6 +-
+ .../ScriptCache/index-dir/the-real-index           | Bin 336 -> 360 bytes
+ Configs/Code/Session Storage/000003.log            | Bin 289 -> 384 bytes
+ Configs/Code/Session Storage/LOG                   |   6 +-
+ Configs/Code/Session Storage/LOG.old               |   6 +-
+ .../cache/index-dir/the-real-index                 | Bin 48 -> 48 bytes
+ Configs/Code/TransportSecurity                     |   2 +-
+ Configs/Code/User/globalStorage/state.vscdb        | Bin 155648 -> 159744 bytes
+ Configs/Code/User/globalStorage/state.vscdb.backup | Bin 155648 -> 159744 bytes
+ Configs/Code/User/globalStorage/storage.json       |  88 +++++--
+ Configs/Code/WebStorage/QuotaManager               | Bin 40960 -> 40960 bytes
+ Configs/Code/logs/20240919T031409/editSessions.log |   1 -
+ Configs/Code/logs/20240919T031409/main.log         |   4 -
+ Configs/Code/logs/20240919T031409/network.log      |   0
+ .../logs/20240919T031409/remoteTunnelService.log   |   1 -
+ .../Code/logs/20240919T031409/sharedprocess.log    |   0
+ Configs/Code/logs/20240919T031409/telemetry.log    |   2 -
+ Configs/Code/logs/20240919T031409/terminal.log     |  12 -
+ Configs/Code/logs/20240919T031409/userDataSync.log |   2 -
+ .../window1/exthost/extensionTelemetry.log         |   4 -
+ .../20240919T031409/window1/exthost/exthost.log    |  38 ---
+ .../1-Remote - SSH.log                             | 209 ---------------
+ .../GitHub Authentication.log                      |   7 -
+ .../Code/logs/20240919T031409/window1/network.log  |   0
+ .../20240919T031409/window1/notebook.rendering.log |   0
+ .../window1/output_20240919T031410/tasks.log       |   0
+ .../Code/logs/20240919T031409/window1/renderer.log |  12 -
+ .../Code/logs/20240919T031409/window1/views.log    |  15 --
+ Configs/Code/logs/20240919T034824/editSessions.log |   1 -
+ Configs/Code/logs/20240919T034824/main.log         |   4 -
+ Configs/Code/logs/20240919T034824/network.log      |   0
+ .../logs/20240919T034824/remoteTunnelService.log   |   1 -
+ .../Code/logs/20240919T034824/sharedprocess.log    |   0
+ Configs/Code/logs/20240919T034824/telemetry.log    |   2 -
+ Configs/Code/logs/20240919T034824/terminal.log     |  12 -
+ Configs/Code/logs/20240919T034824/userDataSync.log |   2 -
+ .../window1/exthost/extensionTelemetry.log         |   4 -
+ .../20240919T034824/window1/exthost/exthost.log    |  38 ---
+ .../1-Remote - SSH.log                             | 231 ----------------
+ .../GitHub Authentication.log                      |   7 -
+ .../Code/logs/20240919T034824/window1/network.log  |   0
+ .../20240919T034824/window1/notebook.rendering.log |   0
+ .../window1/output_20240919T034825/tasks.log       |   0
+ .../Code/logs/20240919T034824/window1/renderer.log |  12 -
+ .../Code/logs/20240919T034824/window1/views.log    |  15 --
+ Configs/Code/logs/20240919T035534/editSessions.log |   1 -
+ Configs/Code/logs/20240919T035534/main.log         |   4 -
+ Configs/Code/logs/20240919T035534/network.log      |   0
+ .../logs/20240919T035534/remoteTunnelService.log   |   1 -
+ .../Code/logs/20240919T035534/sharedprocess.log    |   0
+ Configs/Code/logs/20240919T035534/telemetry.log    |   2 -
+ Configs/Code/logs/20240919T035534/terminal.log     |  12 -
+ Configs/Code/logs/20240919T035534/userDataSync.log |   2 -
+ .../window1/exthost/extensionTelemetry.log         |   4 -
+ .../20240919T035534/window1/exthost/exthost.log    |  38 ---
+ .../1-Remote - SSH.log                             | 209 ---------------
+ .../GitHub Authentication.log                      |   7 -
+ .../Code/logs/20240919T035534/window1/network.log  |   0
+ .../20240919T035534/window1/notebook.rendering.log |   0
+ .../window1/output_20240919T035534/tasks.log       |   0
+ .../Code/logs/20240919T035534/window1/renderer.log |  12 -
+ .../Code/logs/20240919T035534/window1/views.log    |  15 --
+ Configs/Code/logs/20240919T093620/editSessions.log |   3 -
+ Configs/Code/logs/20240919T093620/main.log         |   6 -
+ Configs/Code/logs/20240919T093620/network.log      |   0
+ .../logs/20240919T093620/remoteTunnelService.log   |   1 -
+ .../Code/logs/20240919T093620/sharedprocess.log    |   0
+ Configs/Code/logs/20240919T093620/telemetry.log    |   2 -
+ Configs/Code/logs/20240919T093620/terminal.log     |  37 ---
+ Configs/Code/logs/20240919T093620/userDataSync.log |   2 -
+ .../window1/exthost/extensionTelemetry.log         |   4 -
+ .../20240919T093620/window1/exthost/exthost.log    |  38 ---
+ .../1-Remote - SSH.log                             | 238 -----------------
+ .../GitHub Authentication.log                      |   7 -
+ .../Code/logs/20240919T093620/window1/network.log  |   0
+ .../20240919T093620/window1/notebook.rendering.log |   0
+ .../window1/output_20240919T093621/tasks.log       |   0
+ .../Code/logs/20240919T093620/window1/renderer.log |  12 -
+ .../Code/logs/20240919T093620/window1/views.log    |  15 --
+ .../window2/exthost/extensionTelemetry.log         |   8 -
+ .../20240919T093620/window2/exthost/exthost.log    |  78 ------
+ .../1-Remote - SSH.log                             | 289 ---------------------
+ .../1-Remote - SSH.log                             | 153 -----------
+ .../Code/logs/20240919T093620/window2/network.log  |   0
+ .../20240919T093620/window2/notebook.rendering.log |   0
+ .../window2/output_20240919T093717/tasks.log       |   0
+ .../window2/output_20240919T093757/tasks.log       |   0
+ .../Code/logs/20240919T093620/window2/renderer.log |  76 ------
+ .../Code/logs/20240919T093620/window2/views.log    |  30 ---
+ Configs/ags/user/colors-ags.css                    |  38 +--
  Configs/cava/Wall-Dcol                             |  16 +-
  Configs/cava/config                                |  16 +-
  Configs/dunst/dunstrc                              |  12 +-
@@ -55,15 +165,27 @@
  Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
  Configs/dunst/wallbash.conf                        |  12 +-
  Configs/hyde/themes/Sweet-Dark/wall.set            |   2 +-
+ Configs/hypr/hyprland.conf                         |   5 +-
+ Configs/obs-studio/basic/scenes/Untitled.json      |   2 +-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |   2 +-
  Configs/obs-studio/global.ini                      |   4 +-
- Configs/obs-studio/logs/2024-09-29 09-35-36.txt    | 192 ---------------------
- .../profiler_data/2024-09-26 11-10-52.csv.gz       | Bin 2733 -> 0 bytes
+ Configs/obs-studio/logs/2024-10-01 12-58-13.txt    | 244 -----------------
+ Configs/obs-studio/logs/2024-10-01 13-00-48.txt    | 247 ------------------
+ Configs/obs-studio/logs/2024-10-01 13-01-06.txt    | 246 ------------------
+ Configs/obs-studio/logs/2024-10-01 16-49-36.txt    | 255 ------------------
+ .../profiler_data/2024-09-27 17-31-02.csv.gz       | Bin 44687 -> 0 bytes
+ .../profiler_data/2024-09-28 18-06-01.csv.gz       | Bin 4794 -> 0 bytes
+ .../profiler_data/2024-09-29 09-35-36.csv.gz       | Bin 3433 -> 0 bytes
+ .../profiler_data/2024-10-01 13-00-48.csv.gz       | Bin 4821 -> 0 bytes
  Configs/qt5ct/colors.conf                          |   6 +-
  Configs/qt6ct/colors.conf                          |   6 +-
- Configs/spicetify/Themes/Sleek/color.ini           |  40 ++---
+ Configs/spicetify/Themes/Sleek/color.ini           |  40 +--
  Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   4 +-
- README.md                                          |  57 +-----
- 40 files changed, 176 insertions(+), 423 deletions(-)
+ Extra-files/arkrc                                  |   2 +-
+ Extra-files/katerc                                 |   2 +-
+ README.md                                          |  45 +---
+ current-packages-dump.txt                          |   1 +
+ packages-with-info.txt                             | 104 ++++----
+ 162 files changed, 340 insertions(+), 3273 deletions(-)
 ```
  

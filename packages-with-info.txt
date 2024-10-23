@@ -40,9 +40,9 @@ local/alsa-ucm-conf 1.2.12-1
     ALSA Use Case Manager configuration (and topologies)
 local/alsa-utils 1.2.12-1.1
     Advanced Linux Sound Architecture - Utilities
-local/amd-ucode 20240909.552ed9b8-1
+local/amd-ucode 20241017.22a6c7dc-1
     Microcode update image for AMD CPUs
-local/amdvlk 2024.Q3.2-1.1
+local/amdvlk 2024.Q3.3-1.1
     AMD's standalone Vulkan driver
 local/ananicy-cpp 1.1.1-3
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
@@ -54,7 +54,7 @@ local/android-studio-alex 2024.2.1.10-1
     The official Android IDE (Stable branch)
 local/android-tools 35.0.2-6.1
     Android platform tools
-local/android-udev 20240829-1
+local/android-udev 20241019-1
     Udev rules to connect Android devices to your linux box
 local/aom 3.10.0-1.1
     Alliance for Open Media video codec
@@ -140,11 +140,11 @@ local/bluez-utils 5.78-1.1
     Development and debugging utilities for the bluetooth protocol stack
 local/boost-libs 1.86.0-3.1
     Free peer-reviewed portable C++ source libraries (runtime libraries)
-local/bottles 2:51.13-1
+local/bottles 2:51.15-1
     Easily manage wine and proton prefix
 local/bpf 6.10-4 (linux-tools)
     BPF tools
-local/brave-bin 1:1.70.126-1
+local/brave-bin 1:1.71.114-1
     Web browser that blocks ads and trackers by default (binary release)
 local/breeze-icons 6.7.0-1.1 (kf6)
     Breeze icon theme
@@ -208,7 +208,7 @@ local/chafa 1.14.2-2.1
     Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
 local/chaotic-keyring 20230616-1
     Chaotic-AUR PGP keyring
-local/chaotic-mirrorlist 20240306-1
+local/chaotic-mirrorlist 20240724-1
     Chaotic-AUR mirrorlist to use with Pacman
 local/check 0.15.2-2
     A unit testing framework for C
@@ -276,6 +276,8 @@ local/deepin-qt-dbus-factory 6.0.1-1.1
     A repository stores auto-generated Qt5 dbus code (libdframeworkdbus)
 local/default-cursors 3-1
     Default cursor set
+local/deno 1.46.3-2.1
+    A secure runtime for JavaScript and TypeScript
 local/desktop-file-utils 0.27-1.1
     Command line utilities for working with desktop entries
 local/device-mapper 2.03.27-1.1
@@ -288,7 +290,7 @@ local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
 local/distrobox 1.8.0-1
     Use any linux distribution inside your terminal.
-local/dkms 3.0.13-4
+local/dkms 3.1.0-1
     Dynamic Kernel Modules System
 local/dmidecode 3.6-1.2
     Desktop Management Interface table related utilities
@@ -346,9 +348,9 @@ local/efivar 39-1.1
     Tools and libraries to work with EFI variables
 local/electron 1:33-1
     Meta package providing the latest available stable Electron build
-local/electron31 31.7.0-1.1
+local/electron31 31.7.1-1
     Build cross platform desktop apps with web technologies
-local/electron33 33.0.0-1
+local/electron33 33.0.1-1
     Build cross platform desktop apps with web technologies
 local/elfutils 0.191-4.1
     Handle ELF object files and DWARF debugging information (utilities)
@@ -374,7 +376,7 @@ local/exiv2 0.28.3-1.1
     Exif, Iptc and XMP metadata manipulation library and tools
 local/expat 2.6.3-2.1
     An XML parser library
-local/eza 0.20.2-1.1
+local/eza 0.20.4-1.1
     A modern replacement for ls (community fork of exa)
 local/f2fs-tools 1.16.0-3.1
     Tools for Flash-Friendly File System (F2FS)
@@ -410,7 +412,7 @@ local/filezilla 3.67.1-2
     Fast and reliable FTP, FTPS and SFTP client
 local/findutils 4.10.0-2.1
     GNU utilities to locate files
-local/firewalld 2.2.1-1
+local/firewalld 2.2.3-1
     Firewall daemon with D-Bus interface
 local/fish 3.7.1-2.1
     Smart and user friendly shell intended mostly for interactive use
@@ -450,7 +452,7 @@ local/fvs 0.3.4-3
     File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
 local/fzf 0.55.0-1.1
     Command-line fuzzy finder
-local/gamescope 3.15.11-1.1
+local/gamescope 3.15.13-1.1
     SteamOS session compositing window manager
 local/gawk 5.3.1-1.1
     GNU version of awk
@@ -492,13 +494,13 @@ local/github-desktop 3.4.3-1
     GUI for managing Git and GitHub
 local/gjs 2:1.82.0-1.1
     Javascript Bindings for GNOME
-local/glances 4.1.2.1-2
+local/glances 4.2.0-1
     CLI curses-based monitoring tool
 local/glfw 3.4-2.1
     A free, open source, portable framework for graphical application development
 local/glib-networking 1:2.80.0-3.1
     Network extensions for GLib
-local/glib2 2.82.1-2.1
+local/glib2 2.82.2-1.1
     Low level core library
 local/glibc 2.40+r16+gaa533d58ff-6
     GNU C Library
@@ -672,7 +674,7 @@ local/i2c-tools 4.3-6.1
     Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
 local/iaito 5.9.4-1.1
     Qt and C++ GUI for radare2 reverse engineering framework
-local/iana-etc 20240814-1
+local/iana-etc 20241016-1
     /etc/protocols and /etc/services provided by IANA
 local/icoextract 0.1.5-1
     Icon extractor for Windows PE files (.exe/.dll) with optional thumbnailer functionality
@@ -832,7 +834,7 @@ local/kglobalaccel 6.7.0-1.1 (kf6)
     Add support for global workspace shortcuts
 local/kglobalaccel5 5.116.0-1.1 (kf5)
     Add support for global workspace shortcuts
-local/kguiaddons 6.7.0-1.1 (kf6)
+local/kguiaddons 6.7.0-2.1 (kf6)
     Addons to QtGui
 local/kguiaddons5 5.116.0-1.1 (kf5)
     Addons to QtGui
@@ -914,7 +916,7 @@ local/kstatusnotifieritem 6.7.0-1.1 (kf6)
     Implementation of Status Notifier Items
 local/ksvg 6.7.0-1.1 (kf6)
     Components for handling SVGs
-local/ktexteditor 6.7.0-1.1 (kf6)
+local/ktexteditor 6.7.0-2.1 (kf6)
     Advanced embeddable text editor
 local/ktexttemplate 6.7.0-1.1 (kf6)
     Library to allow application developers to separate the structure of documents from the data they contain
@@ -982,7 +984,7 @@ local/lib32-gcc-libs 14.2.1+r134+gab884fffe3fc-2
     32-bit runtime libraries shipped by GCC
 local/lib32-gettext 0.22.5-1
     GNU internationalization library (32-bit)
-local/lib32-glib2 2.82.1-1
+local/lib32-glib2 2.82.2-1
     Low level core library - 32-bit
 local/lib32-glibc 2.40+r16+gaa533d58ff-6
     GNU C Library (32-bit)
@@ -1312,8 +1314,6 @@ local/libgsf 1.14.53-1.1
     Extensible I/O abstraction library for dealing with structured file formats
 local/libgudev 238-1.1
     GObject bindings for libudev
-local/libhandy 1.8.3-2.1
-    GTK 3 UI elements for mobile devices
 local/libheif 1.18.2-2.1
     An HEIF and AVIF file format decoder and encoder
 local/libice 1.1.1-3.1
@@ -1448,7 +1448,7 @@ local/libnghttp2 1.63.0-1.1
     Framing layer of HTTP/2 is implemented as a reusable C library
 local/libnghttp3 1.6.0-1.1
     HTTP/3 library written in C
-local/libngtcp2 1.8.0-1.1
+local/libngtcp2 1.8.1-1.1
     Implementation of IETF QUIC protocol
 local/libnice 0.1.22-1
     An implementation of the IETF's draft ICE (for p2p UDP data streams)
@@ -1578,8 +1578,8 @@ local/libssh2 1.11.0-1.1
     A library implementing the SSH2 protocol as defined by Internet Drafts
 local/libstaroffice 0.0.7-3.1
     filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
-local/libstdc++5 3.3.6-9
-    GNU Standard C++ library version 3
+local/libstdc++5 3.3.6-10
+    Legacy GNU Standard C++ library version 3
 local/libstemmer 2.2.0-2.1
     Stemming library supporting several languages
 local/libsysprof-capture 47.0-1.1
@@ -1596,7 +1596,7 @@ local/libtheora 1.1.1-6.1
     Standard encoder and decoder library for the Theora video compression format
 local/libtiff 4.7.0-1.1
     Library for manipulation of TIFF images
-local/libtirpc 1.3.5-1.1
+local/libtirpc 1.3.6-1.1
     Transport Independent RPC library (SunRPC replacement)
 local/libtommath 1.3.0-1.1
     Highly optimized and portable routines for integer based number theoretic applications
@@ -1630,7 +1630,7 @@ local/libutempter 1.2.1-4.1
     Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files
 local/libutf8proc 2.9.0-1.1
     C library for processing UTF-8 encoded Unicode strings
-local/libuv 1.49.1-1
+local/libuv 1.49.2-1.1
     Multi-platform support library with a focus on asynchronous I/O
 local/libva 2.22.0-1.1
     Video Acceleration (VA) API for Linux
@@ -1760,7 +1760,7 @@ local/libyaml 0.2.5-3.1
     YAML 1.1 library
 local/libyuv r2426+464c51a03-1.1
     Library for YUV scaling
-local/libzip 1.10.1-2.1
+local/libzip 1.11.1-1.1
     C library for reading, creating, and modifying zip archives
 local/libzmf 0.0.2-16.1
     a library for import of Zoner drawing and bitmap files
@@ -1768,31 +1768,31 @@ local/licenses 20240728-1
     A set of common license files
 local/lilv 0.24.24-2
     A C library interface to the LV2 plug-in standard
-local/linux 6.11.3.arch1-1
+local/linux 6.11.4.arch1-1
     The Linux kernel and modules
 local/linux-api-headers 6.11-2
     Kernel headers sanitized for use in userspace
-local/linux-cachyos 6.11.3-3
+local/linux-cachyos 6.11.4-4
     The Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel and modules
-local/linux-cachyos-headers 6.11.3-3
+local/linux-cachyos-headers 6.11.4-4
     Headers and scripts for building modules for the Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel
-local/linux-firmware 20240909.552ed9b8-1
+local/linux-firmware 20241017.22a6c7dc-1
     Firmware files for Linux
-local/linux-firmware-whence 20240909.552ed9b8-1
+local/linux-firmware-whence 20241017.22a6c7dc-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-headers 6.11.3.arch1-1
+local/linux-headers 6.11.4.arch1-1
     Headers and scripts for building modules for the Linux kernel
-local/linux-lts 6.6.56-1
+local/linux-lts 6.6.57-1
     The LTS Linux kernel and modules
-local/linux-lts-headers 6.6.56-1
+local/linux-lts-headers 6.6.57-1
     Headers and scripts for building modules for the LTS Linux kernel
-local/linux-xanmod-edge-x64v3 6.11.3-2
+local/linux-xanmod-edge-x64v3 6.11.4-1
     The Linux kernel and modules with Xanmod patches
-local/linux-xanmod-edge-x64v3-headers 6.11.3-2
+local/linux-xanmod-edge-x64v3-headers 6.11.4-1
     Headers and scripts for building modules for the Linux Xanmod - Rolling Release [EDGE] kernel
-local/linux-zen 6.11.3.zen1-1
+local/linux-zen 6.11.4.zen1-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.11.3.zen1-1
+local/linux-zen-headers 6.11.4.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/lld 18.1.8-1.1
     Linker from the LLVM project
@@ -1880,7 +1880,7 @@ local/mesa-utils 9.0.0-5.1
     Essential Mesa utilities
 local/mesa-vdpau 1:24.2.5-2
     Open-source VDPAU drivers
-local/meson 1.5.2-1
+local/meson 1.6.0-1
     High productivity build system
 local/minizip 1:1.3.1-2.1
     Mini zip and unzip based on zlib
@@ -2252,7 +2252,7 @@ local/pv 1.9.0-1.1
     A terminal-based tool for monitoring the progress of data through a pipeline
 local/pyalpm 0.10.10-1.2
     Python 3 bindings for libalpm
-local/pyside6 6.8.0.1-1.1
+local/pyside6 6.8.0.1-2.1
     Enables the use of Qt6 APIs in Python applications
 local/python 3.12.7-2
     The Python programming language
@@ -2446,13 +2446,13 @@ local/python-tomlkit 0.13.2-1
     Style-preserving TOML library for Python
 local/python-tqdm 4.66.5-1
     Fast, Extensible Progress Meter
-local/python-trove-classifiers 2024.9.12-1
+local/python-trove-classifiers 2024.10.12-1
     Canonical source for classifiers on PyPI (pypi.org)
 local/python-typing_extensions 4.12.2-1
     Backported and Experimental Type Hints for Python 3.8+
 local/python-urllib3 1.26.20-1
     HTTP library with thread-safe connection pooling and file post support
-local/python-validate-pyproject 0.20.2-1
+local/python-validate-pyproject 0.21-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
 local/python-virtualenv 20.26.2-1
     Virtual Python Environment builder
@@ -2692,7 +2692,7 @@ local/qt6-wayland 6.8.0-1.1 (qt6)
     Provides APIs for Wayland
 local/qt6-webchannel 6.8.0-1.1 (qt6)
     Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
-local/qt6-webengine 6.8.0-3.1 (qt6)
+local/qt6-webengine 6.8.0-5.1 (qt6)
     Provides support for web applications using the Chromium browser project
 local/qt6ct 0.9-11.1
     Qt 6 Configuration Utility
@@ -2736,7 +2736,7 @@ local/rubberband 3.3.0-2.1
     Time-stretching and pitch-shifting audio library and utility
 local/runc 1.1.15-1.1
     CLI tool for managing OCI compliant containers
-local/rust 1:1.81.0-1.1
+local/rust 1:1.82.0-2
     Systems programming language focused on safety, speed and concurrency
 local/s-nail 14.9.24-2.1
     Environment for sending and receiving mail
@@ -2776,7 +2776,7 @@ local/shadow 4.16.0-1.1
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.4-1.1
     Freedesktop.org Shared MIME Info
-local/shiboken6 6.8.0.1-1.1
+local/shiboken6 6.8.0.1-2.1
     Generates bindings for C++ libraries using CPython source code
 local/signon-kwallet-extension 24.08.2-1.1 (kde-applications kde-network)
     KWallet integration for signon framework
@@ -2850,7 +2850,7 @@ local/srt 1.5.3-2.1
     Secure Reliable Transport library
 local/stacer-bin 1.1.0-5
     Linux System Optimizer and Monitoring
-local/starship 1.20.1-1.1
+local/starship 1.21.1-1.1
     The cross-shell prompt for astronauts
 local/startup-notification 0.12-8.1
     Libary to monitor and display application startup
@@ -2916,7 +2916,7 @@ local/tmux 3.5_a-1.1
     Terminal multiplexer
 local/tomlplusplus 3.4.0-1.1
     Header-only TOML config file parser and serializer for C++17
-local/tpm2-tss 4.0.1-1.1
+local/tpm2-tss 4.1.3-1.1
     Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 local/tree-sitter 0.24.3-1.1
     Incremental parsing library
@@ -3144,9 +3144,9 @@ local/vortex-thermal 1:2.0-1 (vortex)
     Vortex - Thermal
 local/vpnc 1:0.5.3.r539.r239-1.1
     VPN client for cisco3000 VPN Concentrators
-local/vte-common 0.78.0-1.1
+local/vte-common 0.78.1-1.1
     Virtual Terminal Emulator widget (common files)
-local/vte3 0.78.0-1.1
+local/vte3 0.78.1-1.1
     Virtual Terminal Emulator widget (GTK3)
 local/vulkan-headers 1:1.3.295-1 (vulkan-devel)
     Vulkan header files
@@ -3322,7 +3322,7 @@ local/yay 12.4.2-1
     Yet another yogurt. Pacman wrapper and AUR helper written in go.
 local/youtube-dl-git 2021.12.17.r367.gc5098961b-1.1
     A small command-line program to download videos from YouTube.com and a few more sites (git version)
-local/youtube-music-bin 3.6.1-1
+local/youtube-music-bin 3.6.2-1
     YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
 local/yt-dlp 2024.10.07-1
     A youtube-dl fork with additional features and fixes
@@ -3332,9 +3332,9 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
-local/zed 0.157.4-1.1
+local/zed 0.157.5-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-local/zen-browser-bin 1.0.1.a.10-1
+local/zen-browser-bin 1.0.1.a.11-1
     Performance oriented Firefox-based web browser
 local/zeromq 4.3.5-2.1
     Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.

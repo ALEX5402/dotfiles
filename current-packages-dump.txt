@@ -50,6 +50,7 @@ cpupower
 cryptsetup
 ddcutil
 deepin-qt-dbus-factory
+deno
 device-mapper
 diffutils
 distrobox

@@ -1,0 +1,50 @@
+2024-10-19 04:23:28.633 [info] [main] Log level: Info
+2024-10-19 04:23:28.633 [info] [main] Validating found git in: "git"
+2024-10-19 04:23:28.633 [info] [main] Using git "2.47.0" from "git"
+2024-10-19 04:23:28.633 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-19 04:23:28.633 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-19 04:23:28.633 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-19 04:23:28.633 [info] [Model][openRepository] Opened repository: /home/alex/temp/anime-api
+2024-10-19 04:23:28.633 [info] > git config --get commit.template [6ms]
+2024-10-19 04:23:28.633 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-19 04:23:28.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-19 04:23:28.633 [info] > git status -z -uall [9ms]
+2024-10-19 04:23:28.633 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-19 04:23:28.633 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-10-19 04:23:28.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-19 04:23:28.634 [info] > git rev-parse --show-toplevel [23ms]
+2024-10-19 04:23:28.634 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-19 04:23:28.634 [info] > git config --local branch.main.vscode-merge-base [20ms]
+2024-10-19 04:23:28.634 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-19 04:23:28.634 [info] > git config --get commit.template [32ms]
+2024-10-19 04:23:28.634 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2024-10-19 04:23:28.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-19 04:23:28.634 [info] > git status -z -uall [9ms]
+2024-10-19 04:23:28.634 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-19 04:23:28.641 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [23ms]
+2024-10-19 04:23:28.641 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-19 04:23:28.641 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-19 04:23:28.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2024-10-19 04:23:28.714 [info] > git config --local branch.main.vscode-merge-base [21ms]
+2024-10-19 04:23:28.714 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-19 04:23:28.721 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-10-19 04:23:28.728 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-19 04:23:28.728 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-19 04:23:28.728 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-19 04:23:29.113 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-19 04:23:43.605 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-19 04:23:44.685 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-19 04:23:48.080 [info] > git show --textconv :src/controllers/animeInfo.controller.js [7ms]
+2024-10-19 04:23:48.082 [info] > git ls-files --stage -- /home/alex/temp/anime-api/src/controllers/animeInfo.controller.js [2ms]
+2024-10-19 04:23:48.091 [info] > git cat-file -s 3fa9df7ff73cf8b8ae7af9a780abb399bbeee980 [2ms]
+2024-10-19 04:24:25.922 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-19 04:24:29.450 [info] > git config --get commit.template [8ms]
+2024-10-19 04:24:29.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-19 04:24:29.465 [info] > git status -z -uall [7ms]
+2024-10-19 04:24:29.465 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-19 04:25:56.723 [info] > git show --textconv :package.json [7ms]
+2024-10-19 04:25:56.724 [info] > git ls-files --stage -- /home/alex/temp/anime-api/package.json [2ms]
+2024-10-19 04:25:56.729 [info] > git cat-file -s f3b4334b25aa0253f8ccbeca28cbc87ff551bb45 [1ms]
+2024-10-19 04:25:57.311 [info] > git show --textconv :README.md [15ms]
+2024-10-19 04:25:57.311 [info] > git ls-files --stage -- /home/alex/temp/anime-api/README.md [9ms]
+2024-10-19 04:25:57.340 [info] > git cat-file -s 9ee3ea4d32fe6a8228fa7b53f7e9e1040d93f963 [23ms]
