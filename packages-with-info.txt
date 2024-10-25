@@ -164,7 +164,7 @@ local/bubblewrap 0.10.0-1.1
     Unprivileged sandboxing tool
 local/bzip2 1.0.8-6.1
     A high-quality data compression program
-local/c-ares 1.33.1-1.1
+local/c-ares 1.34.2-1.1
     A C library for asynchronous DNS requests
 local/ca-certificates 20240618-1
     Common CA certificates - default providers
@@ -214,7 +214,7 @@ local/check 0.15.2-2
     A unit testing framework for C
 local/chromaprint 1.5.1-8.1
     Library for extracting fingerprints from any audio source
-local/chwd 1.9.1-1 (cachyos)
+local/chwd 1.10.0-1 (cachyos)
     CachyOS Hardware Detection Tool
 local/cifs-utils 7.1-1
     CIFS filesystem user-space tools
@@ -234,7 +234,7 @@ local/conmon 1:2.1.12-1.1
     OCI container runtime monitor
 local/containerd 1.7.23-1.1
     An open and reliable container runtime
-local/containers-common 1:0.60.4-1
+local/containers-common 1:0.60.4-2
     Configuration files and manpages for containers
 local/convertlit 1.8-12
     An extractor/converter for .LIT eBooks
@@ -250,7 +250,7 @@ local/cpupower 6.10-4 (linux-tools)
     Linux kernel tool to examine and tune power saving related features of your processor
 local/cryptsetup 2.7.5-1.1
     Userspace setup tool for transparent encryption of block devices using dm-crypt
-local/curl 8.10.1-1.1
+local/curl 8.10.1-2.1
     command line tool and library for transferring data with URLs
 local/dav1d 1.4.3-1.1
     AV1 cross-platform decoder focused on speed and correctness
@@ -312,7 +312,7 @@ local/dotconf 1.4.1-1.1
     A C library for parsing configuration files
 local/double-conversion 3.3.0-2.1
     Binary-decimal and decimal-binary routines for IEEE doubles
-local/downgrade 11.3.0-1
+local/downgrade 11.4.2-1
     Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 local/dracut 105-1
     An event driven initramfs infrastructure
@@ -350,9 +350,9 @@ local/electron 1:33-1
     Meta package providing the latest available stable Electron build
 local/electron31 31.7.1-1
     Build cross platform desktop apps with web technologies
-local/electron33 33.0.1-1
+local/electron33 33.0.2-1
     Build cross platform desktop apps with web technologies
-local/elfutils 0.191-4.1
+local/elfutils 0.192-1.1
     Handle ELF object files and DWARF debugging information (utilities)
 local/ell 0.69-1.1
     Embedded Linux library
@@ -388,8 +388,8 @@ local/fakeroot 1.36-1.1
     Tool for simulating superuser privileges
 local/fancontrol-gui 0.8-2
     GUI for fancontrol and the fancontrol systemd service
-local/fastfetch 2.27.1-1.1
-    An actively maintained, feature-rich and performance oriented, neofetch like system information tool
+local/fastfetch 2.28.0-1.1
+    A feature-rich and performance oriented neofetch like system information tool
 local/fcitx5 5.1.11-1.1 (fcitx5-im)
     Next generation of fcitx
 local/fd 10.2.0-1.1
@@ -422,7 +422,7 @@ local/flac 1.4.3-2.1
     Free Lossless Audio Codec
 local/flex 2.6.4-5.1
     A tool for generating text-scanning programs
-local/fluidsynth 2.3.6-1.1 (pro-audio)
+local/fluidsynth 2.3.7-1.1 (pro-audio)
     A real-time software synthesizer based on the SoundFont 2 specifications
 local/fmt 11.0.2-1.1
     Open-source formatting library for C++
@@ -492,7 +492,7 @@ local/github-cli 2.59.0-1.1
     The GitHub CLI
 local/github-desktop 3.4.3-1
     GUI for managing Git and GitHub
-local/gjs 2:1.82.0-1.1
+local/gjs 2:1.82.1-1
     Javascript Bindings for GNOME
 local/glances 4.2.0-1
     CLI curses-based monitoring tool
@@ -656,7 +656,7 @@ local/hyphen 2.8.8-6.1
     library for high quality hyphenation and justification
 local/hyprcursor 0.1.10-1.1
     The hyprland cursor format, library and utilities
-local/hypridle 0.1.2-1.1
+local/hypridle 0.1.3-1.1
     hyprland’s idle daemon
 local/hyprland 0.44.1-1
     a highly customizable dynamic tiling Wayland compositor
@@ -670,7 +670,7 @@ local/hyprutils 0.2.3-1.1
     Hyprland utilities library used across the ecosystem
 local/hyprwayland-scanner 0.4.2-1.1
     A Hyprland implementation of wayland-scanner, in and for C++
-local/i2c-tools 4.3-6.1
+local/i2c-tools 4.4-1.1
     Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
 local/iaito 5.9.4-1.1
     Qt and C++ GUI for radare2 reverse engineering framework
@@ -710,7 +710,7 @@ local/iso-codes 4.17.0-1
     Lists of the country, language, and currency names
 local/it87-dkms-git 269.213db3a-1
     Linux Driver for ITE LPC chips
-local/iwd 2.22-1.1
+local/iwd 3.0-1.1
     Internet Wireless Daemon
 local/jadx 1.5.0-1
     Command line and GUI tools to produce Java source code from Android Dex and APK files
@@ -800,9 +800,9 @@ local/kdbusaddons 6.7.0-1.1 (kf6)
     Addons to QtDBus
 local/kdbusaddons5 5.116.0-1.1 (kf5)
     Addons to QtDBus
-local/kde-cli-tools 6.2.1-1.1 (plasma)
+local/kde-cli-tools 6.2.2-1.1 (plasma)
     Tools based on KDE Frameworks 5 to better interact with the system
-local/kde-gtk-config 6.2.1-1.1 (plasma)
+local/kde-gtk-config 6.2.2-1.1 (plasma)
     Syncs KDE settings to GTK applications
 local/kdeclarative 6.7.0-1.1 (kf6)
     Provides integration of QML and KDE Frameworks
@@ -810,7 +810,7 @@ local/kdeclarative5 5.116.0-1.1 (kf5)
     Provides integration of QML and KDE Frameworks
 local/kdeconnect 24.08.2-1.1 (kde-applications kde-network)
     Adds communication between KDE and your smartphone
-local/kdecoration 6.2.1-1.1 (plasma)
+local/kdecoration 6.2.2-1.1 (plasma)
     Plugin based library to create window decorations
 local/kded5 5.116.0-1.1 (kf5)
     Extensible deamon for providing system level services
@@ -968,7 +968,7 @@ local/lib32-bzip2 1.0.8-4
     A high-quality data compression program (32-bit)
 local/lib32-clang 18.1.8-1
     C language family frontend for LLVM (32-bit)
-local/lib32-curl 8.10.1-1
+local/lib32-curl 8.10.1-2
     command line tool and library for transferring data with URLs (32-bit)
 local/lib32-dbus 1.14.10-2
     Freedesktop.org message bus system - 32-bit
@@ -992,6 +992,8 @@ local/lib32-harfbuzz 10.0.1-1
     OpenType text shaping engine - 32-bit
 local/lib32-icu 75.1-1
     International Components for Unicode library (32 bit)
+local/lib32-json-c 0.18-1
+    JSON implementation in C (32-bit)
 local/lib32-keyutils 1.6.3-2
     Linux Key Management Utilities (32-bit)
 local/lib32-krb5 1.21.3-1
@@ -1000,7 +1002,7 @@ local/lib32-libcap 2.70-1
     POSIX 1003.1e capabilities (32-bit)
 local/lib32-libdrm 2.4.123-1
     Userspace interface to kernel DRM services (32-bit)
-local/lib32-libelf 0.191-1
+local/lib32-libelf 0.192-1
     Handle ELF object files and DWARF debugging information (libraries) (32-bit)
 local/lib32-libffi 3.4.6-1
     Portable foreign function interface library (32-bit)
@@ -1014,7 +1016,7 @@ local/lib32-libidn2 2.3.7-1
     Free software implementation of IDNA2008, Punycode and TR46
 local/lib32-libldap 2.6.8-1
     Lightweight Directory Access Protocol (LDAP) client libraries (32-bit)
-local/lib32-libnghttp2 1.63.0-1
+local/lib32-libnghttp2 1.64.0-1
     Framing layer of HTTP/2 is implemented as a reusable C library (32-bit)
 local/lib32-libnghttp3 1.6.0-1
     HTTP/3 library written in C (32-bit)
@@ -1258,7 +1260,7 @@ local/libedit 20240517_3.1-1.1
     Command line editor library providing generic line editing, history, and tokenization functions
 local/libei 1.3.0-1.1
     Library for Emulated Input
-local/libelf 0.191-4.1
+local/libelf 0.192-1.1
     Handle ELF object files and DWARF debugging information (libraries)
 local/libepoxy 1.5.10-3.1
     Library handling OpenGL function pointer management
@@ -1362,7 +1364,7 @@ local/libkomparediff2 24.08.2-1.1
     Library to compare files and strings
 local/libksba 1.6.7-1.1
     Library for working with X.509 certificates, CMS data and related objects
-local/libksysguard 6.2.1-1 (plasma)
+local/libksysguard 6.2.2-1 (plasma)
     Library to retrieve information on the current status of computer hardware
 local/liblangtag 0.6.7-1.1
     interface library to access/deal with tags for identifying languages
@@ -1444,7 +1446,7 @@ local/libnfs 5.0.3-1.1
     client library for accessing NFS shares
 local/libnftnl 1.2.8-1.1
     Netfilter library providing interface to the nf_tables subsystem
-local/libnghttp2 1.63.0-1.1
+local/libnghttp2 1.64.0-1.1
     Framing layer of HTTP/2 is implemented as a reusable C library
 local/libnghttp3 1.6.0-1.1
     HTTP/3 library written in C
@@ -1768,31 +1770,31 @@ local/licenses 20240728-1
     A set of common license files
 local/lilv 0.24.24-2
     A C library interface to the LV2 plug-in standard
-local/linux 6.11.4.arch1-1
+local/linux 6.11.5.arch1-1
     The Linux kernel and modules
 local/linux-api-headers 6.11-2
     Kernel headers sanitized for use in userspace
-local/linux-cachyos 6.11.4-4
+local/linux-cachyos 6.11.5-2
     The Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel and modules
-local/linux-cachyos-headers 6.11.4-4
+local/linux-cachyos-headers 6.11.5-2
     Headers and scripts for building modules for the Linux SCHED-EXT + BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements kernel
 local/linux-firmware 20241017.22a6c7dc-1
     Firmware files for Linux
 local/linux-firmware-whence 20241017.22a6c7dc-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-headers 6.11.4.arch1-1
+local/linux-headers 6.11.5.arch1-1
     Headers and scripts for building modules for the Linux kernel
-local/linux-lts 6.6.57-1
+local/linux-lts 6.6.58-1
     The LTS Linux kernel and modules
-local/linux-lts-headers 6.6.57-1
+local/linux-lts-headers 6.6.58-1
     Headers and scripts for building modules for the LTS Linux kernel
-local/linux-xanmod-edge-x64v3 6.11.4-1
+local/linux-xanmod-edge-x64v3 6.11.5-1
     The Linux kernel and modules with Xanmod patches
-local/linux-xanmod-edge-x64v3-headers 6.11.4-1
+local/linux-xanmod-edge-x64v3-headers 6.11.5-1
     Headers and scripts for building modules for the Linux Xanmod - Rolling Release [EDGE] kernel
-local/linux-zen 6.11.4.zen1-1
+local/linux-zen 6.11.5.zen1-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.11.4.zen1-1
+local/linux-zen-headers 6.11.5.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/lld 18.1.8-1.1
     Linker from the LLVM project
@@ -1980,7 +1982,7 @@ local/npm 10.9.0-1
     JavaScript package manager
 local/npth 1.7-1.1
     The new GNU portable threads library
-local/nspr 4.35-3.1
+local/nspr 4.36-1.1
     Netscape Portable Runtime
 local/nss 3.105-1.1
     Network Security Services
@@ -1992,7 +1994,7 @@ local/ntp 4.2.8.p18-1
     Network Time Protocol reference implementation
 local/numactl 2.0.18-1
     Simple NUMA policy support
-local/nushell 0.99.0-1
+local/nushell 0.99.1-1
     A new type of shell
 local/nwg-look 0.2.7-1.1
     GTK3 settings editor adapted to work on wlroots-based compositors
@@ -2092,7 +2094,7 @@ local/pangomm 2.46.4-1.3
     C++ bindings for Pango
 local/pangomm-2.48 2.54.0-1.1
     C++ bindings for Pango
-local/parallel 20240922-1
+local/parallel 20241022-1
     A shell tool for executing jobs in parallel
 local/parted 3.6-2.1
     A program for creating, destroying, resizing, checking and copying partitions
@@ -2192,7 +2194,7 @@ local/pkgconf 2.1.1-1.1
     Package compiler and linker metadata toolkit
 local/pkgfile 22-1.1
     alpm .files metadata explorer
-local/plasma-activities 6.2.1-1.1 (plasma)
+local/plasma-activities 6.2.2-1.1 (plasma)
     Core components for KDE Activities
 local/playerctl 2.4.1-4.1
     mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
@@ -2200,7 +2202,7 @@ local/plocate 1.1.22-3.1
     Alternative to locate, faster and compatible with mlocate's database.
 local/pm2ml 2021.11.20.1-15
     Generate metalinks for downloading Pacman packages and databases.
-local/podman 5.2.4-1.1
+local/podman 5.2.5-1.1
     Tool and library for running OCI-based containers in pods
 local/polkit 125-1.1
     Application development toolkit for controlling system-wide privileges
@@ -2356,7 +2358,7 @@ local/python-msgpack 1.0.5-2.1
     MessagePack serializer implementation for Python
 local/python-ordered-set 4.1.0-5
     A MutableSet that remembers its order, so that every entry has an index
-local/python-orjson 3.10.7-1.1
+local/python-orjson 3.10.10-1.1
     Fast, correct Python JSON library supporting dataclasses and datetimes
 local/python-packaging 24.1-1
     Core utilities for Python packages
@@ -2374,7 +2376,7 @@ local/python-platformdirs 4.3.6-1
     A library to determine platform-specific system directories
 local/python-pluggy 1.5.0-1
     Plugin and hook calling mechanisms for python
-local/python-poetry 1.8.3-1
+local/python-poetry 1.8.4-1
     Python dependency management and packaging made easy
 local/python-poetry-core 1.9.0-5 (python-build-backend)
     Poetry PEP 517 Build Backend & Core Utilities
@@ -2382,7 +2384,7 @@ local/python-poetry-plugin-export 1.8.0-1
     Poetry plugin to export the dependencies to various formats
 local/python-prompt_toolkit 3.0.48-1
     Library for building powerful interactive command lines in Python
-local/python-psutil 6.0.0-1
+local/python-psutil 6.1.0-1.1
     A cross-platform process and system utilities module for Python
 local/python-ptyprocess 0.7.0-6
     Run a subprocess in a pseudo terminal
@@ -2446,7 +2448,7 @@ local/python-tomlkit 0.13.2-1
     Style-preserving TOML library for Python
 local/python-tqdm 4.66.5-1
     Fast, Extensible Progress Meter
-local/python-trove-classifiers 2024.10.12-1
+local/python-trove-classifiers 2024.10.21.16-1
     Canonical source for classifiers on PyPI (pypi.org)
 local/python-typing_extensions 4.12.2-1
     Backported and Experimental Type Hints for Python 3.8+
@@ -2468,163 +2470,163 @@ local/python3-xcgf 2021-15
     Xyne's common generic functions, for internal use.
 local/python3-xcpf 2021.12-14
     Xyne's common Pacman functions, for internal use.
-local/qca-qt5 2.3.9-2
+local/qca-qt5 2.3.9-3
     Qt Cryptographic Architecture
-local/qca-qt6 2.3.9-2
+local/qca-qt6 2.3.9-3
     Qt Cryptographic Architecture
-local/qemu-audio-alsa 9.1.0-2
+local/qemu-audio-alsa 9.1.1-1
     QEMU ALSA audio driver
-local/qemu-audio-dbus 9.1.0-2
+local/qemu-audio-dbus 9.1.1-1
     QEMU D-Bus audio driver
-local/qemu-audio-jack 9.1.0-2
+local/qemu-audio-jack 9.1.1-1
     QEMU JACK audio driver
-local/qemu-audio-oss 9.1.0-2
+local/qemu-audio-oss 9.1.1-1
     QEMU OSS audio driver
-local/qemu-audio-pa 9.1.0-2
+local/qemu-audio-pa 9.1.1-1
     QEMU PulseAudio audio driver
-local/qemu-audio-pipewire 9.1.0-2
+local/qemu-audio-pipewire 9.1.1-1
     QEMU PipeWire audio driver
-local/qemu-audio-sdl 9.1.0-2
+local/qemu-audio-sdl 9.1.1-1
     QEMU SDL audio driver
-local/qemu-audio-spice 9.1.0-2
+local/qemu-audio-spice 9.1.1-1
     QEMU spice audio driver
-local/qemu-base 9.1.0-2
+local/qemu-base 9.1.1-1
     A basic QEMU setup for headless environments
-local/qemu-block-curl 9.1.0-2
+local/qemu-block-curl 9.1.1-1
     QEMU curl block driver
-local/qemu-block-dmg 9.1.0-2
+local/qemu-block-dmg 9.1.1-1
     QEMU DMG block driver
-local/qemu-block-gluster 9.1.0-2
+local/qemu-block-gluster 9.1.1-1
     QEMU Gluster block driver
-local/qemu-block-iscsi 9.1.0-2
+local/qemu-block-iscsi 9.1.1-1
     QEMU iSCSI block driver
-local/qemu-block-nfs 9.1.0-2
+local/qemu-block-nfs 9.1.1-1
     QEMU NFS block driver
-local/qemu-block-ssh 9.1.0-2
+local/qemu-block-ssh 9.1.1-1
     QEMU SSH block driver
-local/qemu-chardev-baum 9.1.0-2
+local/qemu-chardev-baum 9.1.1-1
     QEMU Baum chardev driver
-local/qemu-chardev-spice 9.1.0-2
+local/qemu-chardev-spice 9.1.1-1
     QEMU spice chardev driver
-local/qemu-common 9.1.0-2
+local/qemu-common 9.1.1-1
     A generic and open source machine emulator and virtualizer
-local/qemu-desktop 9.1.0-2
+local/qemu-desktop 9.1.1-1
     A QEMU setup for desktop environments
-local/qemu-docs 9.1.0-2
+local/qemu-docs 9.1.1-1
     A generic and open source machine emulator and virtualizer - documentation
-local/qemu-emulators-full 9.1.0-2
+local/qemu-emulators-full 9.1.1-1
     All QEMU user mode and system emulators
-local/qemu-full 9.1.0-2
+local/qemu-full 9.1.1-1
     A full QEMU setup
-local/qemu-hw-display-qxl 9.1.0-2
+local/qemu-hw-display-qxl 9.1.1-1
     QEMU QXL display device
-local/qemu-hw-display-virtio-gpu 9.1.0-2
+local/qemu-hw-display-virtio-gpu 9.1.1-1
     QEMU virtio-gpu display device
-local/qemu-hw-display-virtio-gpu-gl 9.1.0-2
+local/qemu-hw-display-virtio-gpu-gl 9.1.1-1
     QEMU virtio-gpu-gl display device
-local/qemu-hw-display-virtio-gpu-pci 9.1.0-2
+local/qemu-hw-display-virtio-gpu-pci 9.1.1-1
     QEMU virtio-gpu-pci display device
-local/qemu-hw-display-virtio-gpu-pci-gl 9.1.0-2
+local/qemu-hw-display-virtio-gpu-pci-gl 9.1.1-1
     QEMU virtio-gpu-pci-gl display device
-local/qemu-hw-display-virtio-vga 9.1.0-2
+local/qemu-hw-display-virtio-vga 9.1.1-1
     QEMU virtio-vga display device
-local/qemu-hw-display-virtio-vga-gl 9.1.0-2
+local/qemu-hw-display-virtio-vga-gl 9.1.1-1
     QEMU virtio-vga-gl display device
-local/qemu-hw-s390x-virtio-gpu-ccw 9.1.0-2
+local/qemu-hw-s390x-virtio-gpu-ccw 9.1.1-1
     QEMU s390x-virtio-gpu-ccw display device
-local/qemu-hw-usb-host 9.1.0-2
+local/qemu-hw-usb-host 9.1.1-1
     QEMU USB host device
-local/qemu-hw-usb-redirect 9.1.0-2
+local/qemu-hw-usb-redirect 9.1.1-1
     QEMU usbredir device
-local/qemu-hw-usb-smartcard 9.1.0-2
+local/qemu-hw-usb-smartcard 9.1.1-1
     QEMU USB smartcard device
-local/qemu-img 9.1.0-2
+local/qemu-img 9.1.1-1
     QEMU tooling for manipulating disk images
-local/qemu-pr-helper 9.1.0-2
+local/qemu-pr-helper 9.1.1-1
     QEMU persistent reservation utility
-local/qemu-system-aarch64 9.1.0-2
+local/qemu-system-aarch64 9.1.1-1
     QEMU system emulator for AARCH64
-local/qemu-system-alpha 9.1.0-2
+local/qemu-system-alpha 9.1.1-1
     QEMU system emulator for Alpha
-local/qemu-system-alpha-firmware 9.1.0-2
+local/qemu-system-alpha-firmware 9.1.1-1
     Firmware for QEMU system emulator for Alpha
-local/qemu-system-arm 9.1.0-2
+local/qemu-system-arm 9.1.1-1
     QEMU system emulator for ARM
-local/qemu-system-arm-firmware 9.1.0-2
+local/qemu-system-arm-firmware 9.1.1-1
     Firmware for QEMU system emulator for ARM
-local/qemu-system-avr 9.1.0-2
+local/qemu-system-avr 9.1.1-1
     QEMU system emulator for AVR
-local/qemu-system-cris 9.1.0-2
+local/qemu-system-cris 9.1.1-1
     QEMU system emulator for CRIS
-local/qemu-system-hppa 9.1.0-2
+local/qemu-system-hppa 9.1.1-1
     QEMU system emulator for HPPA
-local/qemu-system-hppa-firmware 9.1.0-2
+local/qemu-system-hppa-firmware 9.1.1-1
     Firmware for QEMU system emulator for HPPA
-local/qemu-system-loongarch64 9.1.0-2
+local/qemu-system-loongarch64 9.1.1-1
     QEMU system emulator for LoongArch64
-local/qemu-system-m68k 9.1.0-2
+local/qemu-system-m68k 9.1.1-1
     QEMU system emulator for ColdFire (m68k)
-local/qemu-system-microblaze 9.1.0-2
+local/qemu-system-microblaze 9.1.1-1
     QEMU system emulator for Microblaze
-local/qemu-system-microblaze-firmware 9.1.0-2
+local/qemu-system-microblaze-firmware 9.1.1-1
     Firmware for QEMU system emulator for Microblaze
-local/qemu-system-mips 9.1.0-2
+local/qemu-system-mips 9.1.1-1
     QEMU system emulator for MIPS
-local/qemu-system-or1k 9.1.0-2
+local/qemu-system-or1k 9.1.1-1
     QEMU system emulator for OpenRisc32
-local/qemu-system-ppc 9.1.0-2
+local/qemu-system-ppc 9.1.1-1
     QEMU system emulator for PPC
-local/qemu-system-ppc-firmware 9.1.0-2
+local/qemu-system-ppc-firmware 9.1.1-1
     Firmware for QEMU system emulator for PPC
-local/qemu-system-riscv 9.1.0-2
+local/qemu-system-riscv 9.1.1-1
     QEMU system emulator for RISC-V
-local/qemu-system-riscv-firmware 9.1.0-2
+local/qemu-system-riscv-firmware 9.1.1-1
     Firmware for QEMU system emulator for RISC-V
-local/qemu-system-rx 9.1.0-2
+local/qemu-system-rx 9.1.1-1
     QEMU system emulator for RX
-local/qemu-system-s390x 9.1.0-2
+local/qemu-system-s390x 9.1.1-1
     QEMU system emulator for S390
-local/qemu-system-s390x-firmware 9.1.0-2
+local/qemu-system-s390x-firmware 9.1.1-1
     Firmware for QEMU system emulator for S390
-local/qemu-system-sh4 9.1.0-2
+local/qemu-system-sh4 9.1.1-1
     QEMU system emulator for SH4
-local/qemu-system-sparc 9.1.0-2
+local/qemu-system-sparc 9.1.1-1
     QEMU system emulator for SPARC
-local/qemu-system-sparc-firmware 9.1.0-2
+local/qemu-system-sparc-firmware 9.1.1-1
     Firmware for QEMU system emulator for SPARC
-local/qemu-system-tricore 9.1.0-2
+local/qemu-system-tricore 9.1.1-1
     QEMU system emulator for tricore
-local/qemu-system-x86 9.1.0-2
+local/qemu-system-x86 9.1.1-1
     QEMU system emulator for x86
-local/qemu-system-x86-firmware 9.1.0-2
+local/qemu-system-x86-firmware 9.1.1-1
     Firmware for QEMU system emulator for x86
-local/qemu-system-xtensa 9.1.0-2
+local/qemu-system-xtensa 9.1.1-1
     QEMU system emulator for Xtensa
-local/qemu-tests 9.1.0-2
+local/qemu-tests 9.1.1-1
     QEMU tests
-local/qemu-tools 9.1.0-2
+local/qemu-tools 9.1.1-1
     QEMU tools
-local/qemu-ui-curses 9.1.0-2
+local/qemu-ui-curses 9.1.1-1
     QEMU curses UI driver
-local/qemu-ui-dbus 9.1.0-2
+local/qemu-ui-dbus 9.1.1-1
     QEMU D-Bus UI driver
-local/qemu-ui-egl-headless 9.1.0-2
+local/qemu-ui-egl-headless 9.1.1-1
     QEMU EGL headless UI driver
-local/qemu-ui-gtk 9.1.0-2
+local/qemu-ui-gtk 9.1.1-1
     QEMU GTK UI driver
-local/qemu-ui-opengl 9.1.0-2
+local/qemu-ui-opengl 9.1.1-1
     QEMU OpenGL UI driver
-local/qemu-ui-sdl 9.1.0-2
+local/qemu-ui-sdl 9.1.1-1
     QEMU SDL UI driver
-local/qemu-ui-spice-app 9.1.0-2
+local/qemu-ui-spice-app 9.1.1-1
     QEMU spice app UI driver
-local/qemu-ui-spice-core 9.1.0-2
+local/qemu-ui-spice-core 9.1.1-1
     QEMU spice core UI driver
-local/qemu-user 9.1.0-2
+local/qemu-user 9.1.1-1
     QEMU user mode emulation
-local/qemu-vhost-user-gpu 9.1.0-2
+local/qemu-vhost-user-gpu 9.1.1-1
     QEMU vhost-user-gpu display device
-local/qemu-vmsr-helper 9.1.0-2
+local/qemu-vmsr-helper 9.1.1-1
     QEMU persistent reservation utility
 local/qpwgraph 0.7.8-1.1 (pro-audio)
     PipeWire Graph Qt GUI Interface
@@ -2734,7 +2736,7 @@ local/rtmpdump 1:2.4.r105.6f6bb13-1.1
     A toolkit for RTMP streams
 local/rubberband 3.3.0-2.1
     Time-stretching and pitch-shifting audio library and utility
-local/runc 1.1.15-1.1
+local/runc 1.2.0-1.1
     CLI tool for managing OCI compliant containers
 local/rust 1:1.82.0-2
     Systems programming language focused on safety, speed and concurrency
@@ -2860,7 +2862,7 @@ local/strace 6.11-1.1
     A diagnostic, debugging and instructional userspace tracer
 local/sudo 1.9.16-1.1
     Give certain users the ability to run some commands as root
-local/suitesparse 7.8.2-1.1
+local/suitesparse 7.8.3-1.1
     A collection of sparse matrix libraries
 local/svt-av1 2.2.1-2
     Scalable Video Technology AV1 encoder and decoder
@@ -3170,7 +3172,7 @@ local/wayland 1.23.1-1.1
     A computer display server protocol
 local/wayland-protocols 1.38-1
     Specifications of extended Wayland protocols
-local/webkit2gtk 2.46.1-4
+local/webkit2gtk 2.46.2-1
     Web content engine for GTK
 local/webrtc-audio-processing-1 1.3-3.1
     AudioProcessing library based on Google's implementation of WebRTC
@@ -3262,7 +3264,7 @@ local/xf86-video-nouveau 1.0.17-3.1 (xorg-drivers)
     Open Source 3D acceleration driver for nVidia cards
 local/xf86-video-vmware 13.4.0-3.1 (xorg-drivers)
     X.org vmware video driver
-local/xfsprogs 6.10.1-1.1
+local/xfsprogs 6.11.0-1.1
     XFS filesystem utilities
 local/xkeyboard-config 2.43-1
     X keyboard configuration files
@@ -3324,7 +3326,7 @@ local/youtube-dl-git 2021.12.17.r367.gc5098961b-1.1
     A small command-line program to download videos from YouTube.com and a few more sites (git version)
 local/youtube-music-bin 3.6.2-1
     YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
-local/yt-dlp 2024.10.07-1
+local/yt-dlp 2024.10.22-1
     A youtube-dl fork with additional features and fixes
 local/ytfzf-git r2078.8637bc3-1
     A posix script to find and watch youtube videos from the terminal. (Without API)
@@ -3332,7 +3334,7 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-1.1
     Application and library for reading bar codes from various sources
-local/zed 0.157.5-1.1
+local/zed 0.158.1-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 local/zen-browser-bin 1.0.1.a.11-1
     Performance oriented Firefox-based web browser
