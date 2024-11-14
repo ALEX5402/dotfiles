@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Video-editor
+GenericName=Terminal entering Video-editor
+Comment=Terminal entering Video-editor
+Categories=Distrobox;System;Utility
+Exec=/usr/bin/distrobox enter  video-editor
+Icon=/home/alex/.local/share/icons/distrobox/arch.png
+Keywords=distrobox;
+NoDisplay=false
+Terminal=true
+TryExec=/usr/bin/distrobox
+Type=Application
+Actions=Remove;
+
+[Desktop Action Remove]
+Name=Remove Video-editor from system
+Exec=/usr/bin/distrobox rm  video-editor

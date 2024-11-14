@@ -39,9 +39,9 @@ disabled = false
 ## SECOND LINE/ROW: Prompt
 # Somethere at the beginning
 [battery]
-full_symbol = " "
-charging_symbol = " "
-discharging_symbol = " "
+full_symbol = "󱟢 "
+charging_symbol = "󰂄 "
+discharging_symbol = "󰂃 "
 disabled = true
 
 [[battery.display]]  # "bold red" style when capacity is between 0% and 10%
@@ -61,7 +61,7 @@ disabled = true
 
 # Prompt: optional param 1
 [time]
-format = " 🕙 $time($style)\n"
+format = "🕙 $time($style)\n"
 time_format = "%T"
 style = "bright-white"
 disabled = true
@@ -73,7 +73,7 @@ error_symbol = " [×](bold red)"
 
 # SYMBOLS
 [status]
-symbol = "🔴"
+symbol = "󱡞"
 format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 disabled = false
@@ -124,16 +124,16 @@ symbol = " "
 symbol = "λ "
 
 [memory_usage]
-symbol = " "
+symbol = " "
 
 [nim]
-symbol = " "
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
 
 [package]
-symbol = " "
+symbol = "󰏖 "
 
 [perl]
 symbol = " "
