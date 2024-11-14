@@ -22,18 +22,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Nov 15 01:54:01 AM IST 2024
+## Changelog Fri Nov 15 02:05:47 AM IST 2024
 ```
- Configs/hypr/hyprland.conf                 |   2 +-
- Configs/hypr/themes/theme.conf             |   2 +-
- Configs/swappy/config                      |   2 +-
- Extra-files/QtProject.conf                 |   6 +-
- Extra-files/Starship_configs/starship.toml |  16 +--
- Extra-files/kdenliverc                     |   2 +-
- Extra-files/partitionmanagerrc             |   2 +-
- README.md                                  |   6 +-
- current-packages-dump.txt                  |  11 +-
- packages-with-info.txt                     | 200 +++++++++++++++--------------
- 10 files changed, 126 insertions(+), 123 deletions(-)
+ README.md | 15 +--------------
+ 1 file changed, 1 insertion(+), 14 deletions(-)
 ```
  
