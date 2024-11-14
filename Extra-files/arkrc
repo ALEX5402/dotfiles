@@ -1,0 +1,18 @@
+MenuBar=Disabled
+StatusBar=Disabled
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[KTextEditor::Search]
+Search History=unzip,folder_name,sock,Shell,daemonPath,socket,SwapBuffers,_ANativeWindow_getWidth,orig_ANativeWindow_getWidth,provider,lseek,Switch,loadCFGLive,IsHideEsp,attachMetaBase,ParticleView,channel,targetLibName,payloads,Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+splitterSizes=466,67
+
+[Viewer]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

@@ -1,0 +1,215 @@
+$HOME/.config/kdeglobals|killall -SIGUSR1 dolphin
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=30, 30, 46
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=30, 30, 46
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=169,14,20
+BackgroundNormal=49, 50, 68
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Complementary]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Header]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Header][Inactive]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Selection]
+BackgroundAlternate=163,8,13
+BackgroundNormal=163,8,13
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=255,255,255
+ForegroundLink=161,0,0
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=255,255,255
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Tooltip]
+BackgroundAlternate=27,25,35
+BackgroundNormal=30, 30, 46
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:View]
+BackgroundAlternate=24, 24, 37
+BackgroundNormal=30, 30, 46
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Window]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=221,0,0
+DecorationHover=221,0,0
+ForegroundActive=221,0,0
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,180,180
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+
+[General]
+AccentColor=221,0,0
+ColorSchemeHash=656e398971b22276207859b495d3493f023589eb
+LastUsedCustomAccentColor=221,0,0
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+accentColorFromWallpaper=false
+toolBarFont=Liberation Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Gruvbox-Plus-Dark
+
+[KDE]
+AnimationDurationFactor=0.7071067811865475
+LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=true
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=true
+Speedbar Width=150
+View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Shortcuts]
+AboutApp=
+AboutKDE=
+Clear=
+ConfigureNotifications=
+ConfigureToolbars=
+Donate=
+EditBookmarks=
+FitToHeight=
+FitToPage=
+FitToWidth=
+Goto=
+GotoPage=
+Help=
+Mail=
+OpenRecent=
+PrintPreview=
+ReportBug=
+Revert=
+ShowStatusbar=
+ShowToolbar=
+Spelling=
+SwitchApplicationLanguage=
+WhatsThis=
+Zoom=
+ZoomIn=
+ZoomOut=
+
+[WM]
+activeBackground=30,30,46
+activeBlend=205,214,244
+activeForeground=205,214,244
+inactiveBackground=17,17,27
+inactiveBlend=166,173,200
+inactiveForeground=166,173,200

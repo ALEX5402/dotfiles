@@ -1,0 +1,22 @@
+$HOME/.config/ags/user/colors-ags.css
+@define-color foreground #<wallbash_1xa7>;
+@define-color background <wallbash_1xa8_rgba(0.8)>;
+@define-color cursor #<wallbash_1xa9>;
+
+@define-color color0 #<wallbash_4xa8>;
+@define-color color1 #<wallbash_2xa7>;
+@define-color color2 #<wallbash_1xa7>;
+@define-color color3 #<wallbash_1xa7>;
+@define-color color4 #<wallbash_1xa7>;
+@define-color color5 #<wallbash_1xa7>;
+@define-color color6 #<wallbash_1xa7>;
+@define-color color7 #<wallbash_1xa7>;
+@define-color color8 #<wallbash_1xa7>;
+@define-color color9 #<wallbash_2xa6>;
+@define-color color10 #<wallbash_1xa7>;
+@define-color color11 #<wallbash_1xa7>;
+@define-color color12 #<wallbash_1xa7>;
+@define-color color13 #<wallbash_1xa7>;
+@define-color color14 #<wallbash_1xa7>;
+@define-color color15 #<wallbash_1xa7>;
+
