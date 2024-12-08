@@ -28,6 +28,7 @@ bash-completion
 bat
 beautyline
 bind
+binwalk
 bluez
 bluez-utils
 bottles
@@ -112,6 +113,7 @@ gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
+gucharmap
 gwenview
 haveged
 hdparm
@@ -202,6 +204,7 @@ networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
+ngrok
 nilfs-utils
 noisetorch
 noto-fonts
@@ -278,6 +281,7 @@ rtkit
 rust
 s-nail
 scrcpy
+screen
 sddm
 sdkmanager
 sdl12-compat

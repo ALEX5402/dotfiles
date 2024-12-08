@@ -22,9 +22,67 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Fri Nov 15 02:05:47 AM IST 2024
+## Changelog Sun Dec  8 12:35:01 PM IST 2024
 ```
- README.md | 15 +--------------
- 1 file changed, 1 insertion(+), 14 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig         |  110 +-
+ Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++++++++++++++----
+ Configs/ags/user/colors-ags.css                    |   38 +-
+ Configs/cava/Wall-Dcol                             |   16 +-
+ Configs/cava/config                                |   16 +-
+ Configs/dunst/dunstrc                              |   12 +-
+ Configs/dunst/icons/hyprdots.svg                   |   12 +-
+ Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
+ Configs/dunst/wallbash.conf                        |   12 +-
+ Configs/hyde/hyde.conf                             |    2 +-
+ Configs/hyde/themes/Sweet-Dark/hypr.theme          |    2 +-
+ Configs/hyde/themes/Sweet-Dark/wall.set            |    2 +-
+ Configs/hypr/hyprland.conf                         |    2 +-
+ Configs/hypr/themes/colors.conf                    |   14 -
+ Configs/hypr/themes/theme.conf                     |    2 +-
+ Configs/hypr/windowrules.conf                      |    2 +-
+ Configs/kitty/theme.conf                           |   64 +-
+ Configs/qt5ct/colors.conf                          |    6 +-
+ Configs/qt6ct/colors.conf                          |    6 +-
+ Configs/rofi/theme.rasi                            |   14 +-
+ Configs/rofi/wallust/colors-rofi.rasi              |   27 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
+ Configs/swappy/config                              |    2 +-
+ Configs/waybar/theme.css                           |   17 +-
+ Extra-files/QtProject.conf                         |    8 +-
+ Extra-files/Starship_configs/starship.toml         |    2 +-
+ Extra-files/arkrc                                  |    4 +-
+ Extra-files/dolphinrc                              |    3 +
+ Extra-files/katerc                                 |    4 +-
+ .../discord-1139268729578987601.desktop            |    2 +-
+ .../discord-831593107883032657.desktop             |    2 +-
+ Local/share/applications/mimeinfo.cache            |    4 +
+ README.md                                          |    6 +-
+ current-packages-dump.txt                          |    4 +
+ packages-with-info.txt                             |  820 +-
+ 59 files changed, 8005 insertions(+), 2653 deletions(-)
 ```
  
