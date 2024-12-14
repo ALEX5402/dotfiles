@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Game 831593107883032657
-Exec=/home/alex/minecraft/runtime/java-runtime-delta/bin/java %u
+Exec=/home/alex/minecraft/runtime/jre-legacy/bin/java %u
 Type=Application
 NoDisplay=true
 Categories=Discord;Games;
