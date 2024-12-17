@@ -88,6 +88,9 @@ pkg-config
 starship                                               # customizable shell prompt
 fastfetch                                              # system information fetch tool
 ytfzf-git                                              # to play songs
+qt5-quickcontrols
+qt5-quickcontrols2
+
 
 # ------------------------------------------------------ // fonts are optional
 #ttf-jetbrains-mono                                     # font

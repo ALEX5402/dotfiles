@@ -22,11 +22,17 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Dec 18 02:39:38 AM IST 2024
+## Changelog Wed Dec 18 04:58:41 AM IST 2024
 ```
- README.md                 |   45 +-
- current-packages-dump.txt |  440 ++++++-------
- packages-with-info.txt    | 1612 +++++++++++++++------------------------------
- 3 files changed, 712 insertions(+), 1385 deletions(-)
+ Configs/hypr/animations.conf  |   2 +-
+ Configs/hypr/keybindings.conf |   2 +-
+ Configs/hypr/windowrules.conf |   2 +-
+ Configs/obs-studio/user.ini   |   4 +-
+ Extra-files/QtProject.conf    |   4 +-
+ README.md                     |   8 +--
+ current-packages-dump.txt     |  23 ++++--
+ dependencies-list.txt         |   3 +
+ packages-with-info.txt        | 160 ++++++++++++++++++++++++++++++++++++++----
+ 9 files changed, 176 insertions(+), 32 deletions(-)
 ```
  
