@@ -31,7 +31,6 @@ group {
 
 decoration {
     rounding = 3
-    drop_shadow = false
 
     blur {
         enabled = false

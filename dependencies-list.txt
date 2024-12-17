@@ -27,7 +27,6 @@ hyprland                                               # wlroots-based wayland c
 dunst                                                  # notification daemon
 rofi-lbonn-wayland-git                                 # application launcher
 waybar                                                 # system bar
-aylurs-gtk-shell                                       # ags bar for the global search
 swww                                                   # wallpaper
 hyprlock                                               # lock screen
 wlogout                                                # logout menu
@@ -78,10 +77,18 @@ kwrite
 
 # --------------------------------------------------- // Shell  + extra
 eza                                                    # ls replacement
+fd
+fisher
 fish                                                   # file lister for fish
 nushell                                                     # nu shell
+cmake
+meson
+cpio
+pkg-config
 starship                                               # customizable shell prompt
 fastfetch                                              # system information fetch tool
 ytfzf-git                                              # to play songs
-ttf-jetbrains-mono                                     # font
-nerd-fonts                                             # all nerd fonts
+
+# ------------------------------------------------------ // fonts are optional
+#ttf-jetbrains-mono                                     # font
+#nerd-fonts                                             # all nerd fonts

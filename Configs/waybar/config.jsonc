@@ -17,8 +17,8 @@
 // positions generated based on config.ctl //
 
 	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/weather","mpris","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/notifications","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -63,52 +63,52 @@
 
 
     "custom/cpuinfo": {
-        "exec": " cpuinfo.sh",
+        "exec": "NO_EMOJI=1 cpuinfo.sh",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "interval": 5, // once every 5 seconds
+        "restart-interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000
     },
 
     "custom/gpuinfo": {
-        "exec": " gpuinfo.sh",
+        "exec": " NO_EMOJI=1 gpuinfo.sh",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "interval": 5, // once every 5 seconds
+        "restart-interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000,
-        "on-click": "gpuinfo.sh --toggle",
+        "on-click": "NO_EMOJI=1 gpuinfo.sh --toggle",
     },
 
     "custom/gpuinfo#nvidia": {
-        "exec": " gpuinfo.sh --use nvidia ",
+        "exec": " NO_EMOJI=1 gpuinfo.sh --use nvidia ",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "interval": 5, // once every 5 seconds
+        "restart-interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000,
     },
 
     "custom/gpuinfo#amd": {
-        "exec": " gpuinfo.sh --use amd ",
+        "exec": " NO_EMOJI=1 gpuinfo.sh --use amd ",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "interval": 5, // once every 5 seconds
+        "restart-interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000,
     },
 
     "custom/gpuinfo#intel": {
-        "exec": " gpuinfo.sh --use intel ",
+        "exec": " NO_EMOJI=1 gpuinfo.sh --use intel ",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "interval": 5, // once every 5 seconds
+        "restart-interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000,
     },
@@ -216,23 +216,6 @@
             "default": "󰊠",
 	},
 },
-    "hyprland/window": {
-        "format": "  {}",
-        "rotate": 0,
-        "separate-outputs": true,
-        "rewrite": {
-            "alex@SoulHunter:(.*)": "$1 ",
-            "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*)Mozilla Firefox": "Firefox 󰈹",
-            "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
-            "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓"
-        },
-        "max-length": 1000
-    },
-
     "backlight": {
         "device": "intel_backlight",
         "rotate": 0,
@@ -341,40 +324,35 @@
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
-    "custom/wallchange": {
-        "format": "{}",
+    "custom/notifications": {
+      // "format": "{icon} {}",
+        "format": "{} {icon}", // TODO: workaround for the module not showing up // revert when fixed
         "rotate": 0,
-        "exec": "echo ; echo 󰆊 switch wallpaper",
-        "on-click": "swwwallpaper.sh -n",
-        "on-click-right": "swwwallpaper.sh -p",
-        "on-click-middle": "sleep 0.1 && swwwallselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
-    "custom/theme": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰟡 switch theme",
-        "on-click": "themeswitch.sh -n",
-        "on-click-right": "themeswitch.sh -p",
-        "on-click-middle": "sleep 0.1 && themeselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
-    "custom/wbar": {
-        "format": "{}", //    //
-        "rotate": 0,
-        "exec": "echo ; echo  switch bar //  dock",
-        "on-click": "wbarconfgen.sh n",
-        "on-click-right": "wbarconfgen.sh p",
-        "on-click-middle": "sleep 0.1 && quickapps.sh kitty zeditor youtube-music dolphin",
-        "interval" : 86400,
-        "tooltip": true
-    },
-
-    "custom/cliphist": {
+        "format-icons": {
+            "email-notification": "<span foreground='white'><sup></sup></span>",
+            "chat-notification": "󱋊<span foreground='white'><sup></sup></span>",
+            "warning-notification": "󱨪<span foreground='yellow'><sup></sup></span>",
+            "error-notification": "󱨪<span foreground='red'><sup></sup></span>",
+            "network-notification": "󱂇<span foreground='white'><sup></sup></span>",
+            "battery-notification": "󰁺<span foreground='white'><sup></sup></span>",
+            "update-notification": "󰚰<span foreground='white'><sup></sup></span>",
+            "music-notification": "󰝚<span foreground='white'><sup></sup></span>",
+            "volume-notification": "󰕿<span foreground='white'><sup></sup></span>",
+            "notification": "<span foreground='white'><sup></sup></span>",
+            "dnd": "",
+            "none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which dunstctl",
+        "exec": "notifications.py",
+        "on-scroll-down": "sleep 0.1 && dunstctl history-pop",
+        "on-click": "dunstctl set-paused toggle",
+        "on-click-middle": "dunstctl history-clear",
+        "on-click-right": "dunstctl close-all",
+        "interval": 1,
+        "tooltip": true,
+        "escape": true
+    },    "custom/cliphist": {
         "format": "{}",
         "rotate": 0,
         "exec": "echo ; echo 󰅇 clipboard history",
