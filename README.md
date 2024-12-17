@@ -22,48 +22,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sun Dec 15 01:13:08 AM IST 2024
+## Changelog Wed Dec 18 02:39:38 AM IST 2024
 ```
- Configs/ags/user/colors-ags.css                    |  38 +--
- Configs/cava/Wall-Dcol                             |  16 +-
- Configs/cava/config                                |  16 +-
- Configs/dunst/dunstrc                              |  12 +-
- Configs/dunst/icons/hyprdots.svg                   |  12 +-
- Configs/dunst/icons/vol/muted-mic.svg              |   2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |   2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |   2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |   2 +-
- Configs/dunst/icons/vol/vol-0.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-10.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-100.svg                |  10 +-
- Configs/dunst/icons/vol/vol-15.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-20.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-25.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-30.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-35.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-40.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-45.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-5.svg                  |  10 +-
- Configs/dunst/icons/vol/vol-50.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-55.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-60.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-65.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-70.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-75.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-80.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-85.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-90.svg                 |  10 +-
- Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
- Configs/dunst/wallbash.conf                        |  12 +-
- Configs/hyde/themes/Sweet-Dark/wall.set            |   2 +-
- Configs/qt5ct/colors.conf                          |   6 +-
- Configs/qt6ct/colors.conf                          |   6 +-
- Configs/spicetify/Themes/Sleek/color.ini           |  40 +--
- Configs/swappy/config                              |   2 +-
- Extra-files/QtProject.conf                         |   6 +-
- .../discord-831593107883032657.desktop             |   2 +-
- README.md                                          |  64 +---
- packages-with-info.txt                             | 340 ++++++++++-----------
- 40 files changed, 365 insertions(+), 427 deletions(-)
+ README.md                 |   45 +-
+ current-packages-dump.txt |  440 ++++++-------
+ packages-with-info.txt    | 1612 +++++++++++++++------------------------------
+ 3 files changed, 712 insertions(+), 1385 deletions(-)
 ```
  
