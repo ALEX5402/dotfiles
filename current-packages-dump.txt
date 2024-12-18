@@ -87,6 +87,7 @@ fisher
 fsarchiver
 gimp
 git
+github-cli
 gksu
 gnome-keyring
 gpart
@@ -184,6 +185,7 @@ nushell
 nvme-cli
 nwg-look
 obs-studio
+obs-vaapi
 okular
 open-iscsi
 openconnect
@@ -243,7 +245,6 @@ sdparm
 sg3_utils
 smartmontools
 sof-firmware
-sofirem-git
 spicetify-cli
 squashfs-tools
 stacer-bin

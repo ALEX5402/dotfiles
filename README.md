@@ -22,17 +22,73 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Dec 18 04:58:41 AM IST 2024
+## Changelog Wed Dec 18 06:36:24 AM IST 2024
 ```
- Configs/hypr/animations.conf  |   2 +-
- Configs/hypr/keybindings.conf |   2 +-
- Configs/hypr/windowrules.conf |   2 +-
- Configs/obs-studio/user.ini   |   4 +-
- Extra-files/QtProject.conf    |   4 +-
- README.md                     |   8 +--
- current-packages-dump.txt     |  23 ++++--
- dependencies-list.txt         |   3 +
- packages-with-info.txt        | 160 ++++++++++++++++++++++++++++++++++++++----
- 9 files changed, 176 insertions(+), 32 deletions(-)
+ Configs/cava/Wall-Dcol                             |  16 +--
+ Configs/cava/config                                |  16 +--
+ Configs/dunst/dunstrc                              |  12 +--
+ Configs/dunst/icons/hyprdots.svg                   |  12 +--
+ Configs/dunst/icons/vol/muted-mic.svg              |   2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |   2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |   2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |   2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |  10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |  10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |  10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |  10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |  10 +-
+ Configs/dunst/wallbash.conf                        |  12 +--
+ Configs/hyde/themes/Catppuccin Mocha/wall.set      |   2 +-
+ .../themes/Catppuccin Mocha/wallpapers/1325913.png | Bin 3266043 -> 0 bytes
+ .../Catppuccin Mocha/wallpapers/1328119.jpeg       | Bin 1701032 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/1329617.png | Bin 7181286 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/1345040.png | Bin 4433757 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/1351258.png | Bin 2936967 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/1357334.png | Bin 8652964 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/719179.png  | Bin 3150248 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/752149.png  | Bin 3713143 -> 0 bytes
+ .../wallpapers/abstract_blured.jpg                 | Bin 194564 -> 0 bytes
+ .../wallpapers/anime-girl-3840x2160-14871.jpeg     | Bin 2181460 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/anya.png    | Bin 2677649 -> 0 bytes
+ .../Catppuccin Mocha/wallpapers/artdeco-girrrr.png | Bin 9288072 -> 0 bytes
+ .../wallpapers/chainsaw_angel_lake.jpg             | Bin 4280824 -> 0 bytes
+ .../Catppuccin Mocha/wallpapers/decent-dddd.png    | Bin 9157093 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/huhu.png    | Bin 10172941 -> 0 bytes
+ .../themes/Catppuccin Mocha/wallpapers/huru.png    | Bin 9196746 -> 0 bytes
+ .../Catppuccin Mocha/wallpapers/pixel-girrr.png    | Bin 7855790 -> 0 bytes
+ .../pixelart-12_upscayl_2x_ultrasharp.png          | Bin 16408680 -> 0 bytes
+ .../Catppuccin Mocha/wallpapers/texture-hgg.png    | Bin 8602658 -> 0 bytes
+ ...04-10-04_upscayl_5x_realesrgan-x4plus-anime.png | Bin 18858484 -> 0 bytes
+ .../unknown_upscayl_4x_realesrgan-x4plus-anime.png | Bin 14164603 -> 0 bytes
+ .../obs-studio/basic/profiles/Untitled/basic.ini   | 110 +++++++++++++++++++++
+ Configs/obs-studio/basic/scenes/Untitled.json      |  90 ++++++++++++++++-
+ Configs/obs-studio/basic/scenes/Untitled.json.bak  |  92 ++++++++++++++++-
+ Configs/obs-studio/user.ini                        |   6 +-
+ Configs/qt5ct/colors.conf                          |   6 +-
+ Configs/qt6ct/colors.conf                          |   6 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |  40 ++++----
+ Configs/swappy/config                              |   2 +-
+ Extra-files/konsolerc                              |   5 +-
+ Local/share/kxmlgui5/konsole/konsoleui.rc          |  68 ++++++++-----
+ README.md                                          |  14 +--
+ current-packages-dump.txt                          |   3 +-
+ packages-with-info.txt                             |  30 +++---
+ 65 files changed, 526 insertions(+), 234 deletions(-)
 ```
  
