@@ -302,6 +302,8 @@ local/dolphin 24.12.0-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-5.1
     DOS filesystem utilities
+local/dotconf 1.4.1-1.1
+    A C library for parsing configuration files
 local/double-conversion 3.3.0-2.2
     Binary-decimal and decimal-binary routines for IEEE doubles
 local/downgrade 11.4.2-1
@@ -1000,6 +1002,8 @@ local/libadwaita-without-adwaita-git 1.6.0-15
     libadwaita; Includes a patch to not overwrite the system theme
 local/libaio 0.3.113-3.1
     The Linux-native asynchronous I/O facility (aio) library
+local/libao 1.2.2-6.1
+    Cross-platform audio output library and plugins
 local/libappindicator-gtk3 12.10.0.r298-4
     Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
 local/libarchive 3.7.7-1
@@ -1730,6 +1734,8 @@ local/mpg123 1.32.9-1.1
     Console based real time MPEG Audio Player for Layer 1, 2 and 3
 local/mpv 1:0.39.0-4.1
     a free, open source, and cross-platform media player
+local/mpv-mpris 1.1-3.1
+    MPRIS plugin for mpv
 local/msgpack-c 6.1.0-2.1
     An efficient object serialization library
 local/mtdev 1.1.7-1.1
@@ -2112,6 +2118,8 @@ local/python-pyamdgpuinfo 2.1.6-1
     AMD GPU stats
 local/python-pycurl 7.45.3-1.1
     A Python 3.x interface to libcurl
+local/python-pyxdg 0.28-3
+    Python library to access freedesktop.org standards
 local/python-requests 2.32.3-1
     Python HTTP for Humans
 local/python-setproctitle 1.3.3-2.1
@@ -2482,6 +2490,8 @@ local/spandsp 0.0.6-5
     Low-level signal processing library that modulates and demodulates signals commonly used in telephony
 local/spdlog 1.15.0-1.1
     Very fast, header-only/compiled, C++ logging library
+local/speech-dispatcher 0.11.5-2.1
+    High-level device independent layer for speech synthesis interface
 local/speex 1.2.1-2.1
     A free codec for free speech
 local/speexdsp 1.2.1-2.1

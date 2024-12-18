@@ -161,6 +161,7 @@ mobile-broadband-provider-info
 modemmanager
 most
 mpv
+mpv-mpris
 mtools
 nano
 nbd
@@ -245,6 +246,7 @@ sdparm
 sg3_utils
 smartmontools
 sof-firmware
+speech-dispatcher
 spicetify-cli
 squashfs-tools
 stacer-bin
