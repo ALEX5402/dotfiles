@@ -109,8 +109,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Replace History=fastboot,,<wallbash_1xa9>E6
-Search History=text,FFFFFF,1D2327,menu,audio,AudioRelay,$fastboot,images/,%fastboot%,82.112.230.52,studio,aidl,keepalive_count,vis,EpisodesXXXXXXXXX,PI,$NEW_PKGBUILD,diff,dolphin,directory,D6CBD5,A,Speaker,Speakers,emote,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
+Replace History=/,fastboot,,<wallbash_1xa9>E6
+Search History=\\\\,text,FFFFFF,1D2327,menu,audio,AudioRelay,$fastboot,images/,%fastboot%,82.112.230.52,studio,aidl,keepalive_count,vis,EpisodesXXXXXXXXX,PI,$NEW_PKGBUILD,diff,dolphin,directory,D6CBD5,A,Speaker,Speakers,emote,android,icat,#101C2F,coffee,buymeacoffee,.o,jni/main.cpp,discord,common,shuf,nerd-fonts,kde,quit,arg
 
 [Konsole]
 AutoSyncronizeMode=0
