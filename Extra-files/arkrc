@@ -9,6 +9,7 @@ ShowSidebar=true
 Search History=device_check,unzip,folder_name,sock,Shell,daemonPath,socket,SwapBuffers,_ANativeWindow_getWidth,orig_ANativeWindow_getWidth,provider,lseek,Switch,loadCFGLive,IsHideEsp,attachMetaBase,ParticleView,channel,targetLibName,payloads,Darkespyt,myteamID,localplayer,Player,name,MinimalViewInfoMinimalViewInfo,cameraManager,LineOfSightTo,Changes,isLibSetup,IsConnected,InitServer,Size,featureList
 
 [MainWindow]
+MenuBar=Disabled
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 splitterSizes=395,72
