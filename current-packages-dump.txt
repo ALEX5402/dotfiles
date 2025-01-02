@@ -63,6 +63,7 @@ dnsmasq
 dolphin
 dosfstools
 downgrade
+dracut-hook
 duf
 dunst
 e2fsprogs
@@ -96,6 +97,7 @@ gpm
 gptfdisk
 grimblast-git
 grub
+grub-customizer
 gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-base
@@ -104,13 +106,13 @@ gst-plugins-ugly
 gummy
 gwenview
 hdparm
+heroic-games-launcher
 htop
 hw-probe
 hwinfo
 hyperv
-hypridle
-hyprland-git
-hyprlock-git
+hyprland
+hyprlock
 hyprpicker
 inxi
 it87-dkms-git
@@ -162,6 +164,9 @@ mdadm
 memtest86+
 memtest86+-efi
 mesa
+mesa-demos
+mesa-utils
+meson
 micro
 mkinitcpio
 mkinitcpio-firmware
@@ -221,6 +226,7 @@ pipewire-zeroconf
 pkgfile
 playerctl
 plocate
+podman
 polkit
 polkit-gnome
 ppp
@@ -229,6 +235,7 @@ pv
 python-pyamdgpuinfo
 qemu-base
 qemu-full
+qpwgraph
 qt5-graphicaleffects
 qt5-imageformats
 qt5-quickcontrols
@@ -236,6 +243,7 @@ qt5-quickcontrols2
 qt5-tools
 qt5-wayland
 qt5ct
+qt6-tools
 qt6ct
 qtscrcpy
 quickemu-git
@@ -327,6 +335,7 @@ vesktop
 vim
 vimix-cursors
 visual-studio-code-bin
+viusb
 volumeicon
 vortex-thermal
 vpnc
