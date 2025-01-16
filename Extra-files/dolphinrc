@@ -10,6 +10,7 @@ PreviewSize=32
 1920x1080 screen: Window-Maximized=true
 
 [General]
+LockPanels=false
 ShowSelectionToggle=false
 Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324

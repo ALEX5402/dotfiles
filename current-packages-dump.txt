@@ -44,6 +44,7 @@ cachyos-keyring
 cachyos-mirrorlist
 cachyos-v3-mirrorlist
 cachyos-v4-mirrorlist
+cargo-ndk
 cava
 chrony
 cliphist
@@ -57,6 +58,7 @@ ddrescue
 dex
 dialog
 diffutils
+distrobox
 dmidecode
 dmraid
 dnsmasq
@@ -64,6 +66,7 @@ dolphin
 dosfstools
 downgrade
 dracut-hook
+droidcam-obs-plugin-bin
 duf
 dunst
 e2fsprogs
@@ -111,6 +114,7 @@ htop
 hw-probe
 hwinfo
 hyperv
+hypridle
 hyprland
 hyprlock
 hyprpicker
@@ -256,7 +260,6 @@ rofi-wayland
 rp-pppoe
 rsync
 rtl8821cu-morrownr-dkms-git
-rust
 sardi-icons
 scrcpy
 screen
