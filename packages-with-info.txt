@@ -2708,6 +2708,8 @@ local/threadweaver 6.10.0-1.1 (kf6)
     High-level multithreading framework
 local/tinysparql 3.8.2-2
     Low-footprint RDF triple store with SPARQL 1.1 interface
+local/tmate 2.4.0-5.1
+    Instant terminal sharing
 local/tmux 3.5_a-1.1
     Terminal multiplexer
 local/tomlplusplus 3.4.0-1.1

@@ -283,6 +283,7 @@ tcpdump
 terminus-font
 testdisk
 the_silver_searcher
+tmate
 tmux
 tpm2-tss
 ttf-anonymous-pro
