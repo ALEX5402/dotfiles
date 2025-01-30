@@ -28,6 +28,7 @@ arcolinux-systemd-services-git
 arcolinuxd-system-config-git
 ark
 awesome-terminal-fonts
+ayugram-desktop-bin
 base
 base-devel
 bash-completion
@@ -70,7 +71,6 @@ droidcam-obs-plugin-bin
 duf
 dunst
 e2fsprogs
-edid-decode-git
 edk2-shell
 efibootmgr
 emote
