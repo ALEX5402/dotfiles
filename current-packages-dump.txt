@@ -407,4 +407,5 @@ youtube-dl-git
 youtube-music-bin
 ytfzf-git
 zen-browser-bin
+zip
 zram-generator

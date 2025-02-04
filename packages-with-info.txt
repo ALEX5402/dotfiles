@@ -3110,6 +3110,8 @@ local/zeromq 4.3.5-2.1
     Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.
 local/zimg 3.0.5-1.1
     Scaling, colorspace conversion, and dithering library
+local/zip 3.0-11.1
+    Compressor/archiver for creating and modifying zipfiles
 local/zix 0.6.2-1.1
     A lightweight C99 portability and data structure library
 local/zlib-ng 2.2.3-2
