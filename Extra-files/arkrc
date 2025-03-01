@@ -12,9 +12,7 @@ Search History=builder,progressDialog,NekoHook,nether,device_check,unzip,folder_
 [MainWindow]
 MenuBar=Disabled
 StatusBar=Disabled
-ToolBarsMovable=Disabled
 splitterSizes=323,59
 
 [Viewer]
 StatusBar=Disabled
-ToolBarsMovable=Disabled

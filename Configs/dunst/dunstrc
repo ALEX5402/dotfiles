@@ -449,15 +449,15 @@
     timeout = 0
 
 [urgency_low]
-    background = "#A3986580"
-    foreground = "#FFF5CCE6"
-    frame_color = "#A3986503"
+    background = "#65A36E80"
+    foreground = "#CCFFD3E6"
+    frame_color = "#65A36E03"
     icon = "/home/alex/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#6B673A80"
-    foreground = "#FFFBCCE6"
-    frame_color = "#6B673A03"
+    background = "#3A666B80"
+    foreground = "#CCFAFFE6"
+    frame_color = "#3A666B03"
     icon = "/home/alex/.config/dunst/icons/hyprdots.svg"
     timeout = 5

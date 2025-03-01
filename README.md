@@ -22,23 +22,66 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Wed Feb  5 12:50:48 AM IST 2025
+## Changelog Sat Mar  1 12:19:22 PM IST 2025
 ```
- Configs/swappy/config                              |  2 +-
- Extra-files/QtProject.conf                         |  2 +-
- Extra-files/arkrc                                  |  1 +
- Extra-files/dolphinrc                              |  2 +-
- Extra-files/katerc                                 |  2 +-
- .../share/gwenview/recentfolders/gvhistoryFwBRATrc |  3 --
- .../share/gwenview/recentfolders/gvhistoryJJNvvxrc |  3 --
- .../share/gwenview/recentfolders/gvhistoryMLEzIWrc |  3 --
- .../share/gwenview/recentfolders/gvhistoryWTbmXSrc |  3 --
- .../share/gwenview/recentfolders/gvhistoryayVWahrc |  3 --
- .../share/gwenview/recentfolders/gvhistorybbHLxRrc |  3 --
- .../share/gwenview/recentfolders/gvhistoryuYKolbrc |  3 --
- README.md                                          | 51 +---------------------
- current-packages-dump.txt                          |  1 +
- packages-with-info.txt                             |  2 +
- 15 files changed, 9 insertions(+), 75 deletions(-)
+ Configs/Kvantum/wallbash/wallbash.kvconfig         |  106 +-
+ Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++----------------
+ Configs/btop/btop.log                              |    6 +
+ Configs/cava/Wall-Dcol                             |   16 +-
+ Configs/cava/config                                |   16 +-
+ Configs/dunst/dunstrc                              |   12 +-
+ Configs/dunst/icons/hyprdots.svg                   |   12 +-
+ Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
+ Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
+ Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
+ Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
+ Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-100.svg                |   10 +-
+ Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
+ Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
+ Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
+ Configs/dunst/wallbash.conf                        |   12 +-
+ Configs/gtk-3.0/settings.ini                       |    4 +-
+ Configs/hyde/hyde.conf                             |    2 +-
+ Configs/hyde/themes/Catppuccin Mocha/wall.set      |    2 +-
+ Configs/hyde/themes/Sweet-Dark/wall.set            |    2 +-
+ Configs/hypr/keybindings.conf                      |    2 +-
+ Configs/hypr/themes/theme.conf                     |   23 +-
+ Configs/kitty/kitty.conf                           |   33 +
+ Configs/kitty/theme.conf                           |  104 +-
+ Configs/qt5ct/colors.conf                          |    6 +-
+ Configs/qt5ct/qt5ct.conf                           |    2 +-
+ Configs/qt6ct/colors.conf                          |    6 +-
+ Configs/qt6ct/qt6ct.conf                           |    2 +-
+ Configs/rofi/theme.rasi                            |   12 +-
+ Configs/rofi/wallust/colors-rofi.rasi              |   12 +-
+ Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
+ Configs/swappy/config                              |    2 +-
+ Configs/waybar/theme.css                           |   12 +-
+ Extra-files/QtProject.conf                         |    8 +-
+ Extra-files/arkrc                                  |    2 -
+ Extra-files/dolphinrc                              |    5 +-
+ Extra-files/partitionmanagerrc                     |    5 +-
+ .../share/gwenview/recentfolders/gvhistorybzClJlrc |    3 -
+ README.md                                          |   20 +-
+ current-packages-dump.txt                          |    3 +-
+ packages-with-info.txt                             |  818 +-
+ 58 files changed, 2721 insertions(+), 7970 deletions(-)
 ```
  

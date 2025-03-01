@@ -36,6 +36,7 @@ bat
 bind
 bluez
 bottles
+brave-bin
 brightnessctl
 brillo
 broadcom-wl-dkms
@@ -73,7 +74,6 @@ dunst
 e2fsprogs
 edk2-shell
 efibootmgr
-emote
 ethtool
 exfatprogs
 expac
@@ -124,6 +124,7 @@ iw
 iwd
 jadx
 jadx-gui-desktop
+jdk17-openjdk
 jdk21-openjdk
 jfsutils
 kate

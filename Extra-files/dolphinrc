@@ -4,6 +4,7 @@ MenuBar=Disabled
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [DetailsMode]
+IconSize=32
 PreviewSize=22
 
 [ExtractDialog]
@@ -18,9 +19,6 @@ ViewPropsTimestamp=2023,4,26,16,58,48.324
 MaximumTextLines=1
 PreviewSize=48
 
-[InformationPanel]
-dateFormat=ShortFormat
-
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
@@ -30,7 +28,6 @@ Places Icons Static Size=16
 
 [MainWindow]
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
 IconSize=16
