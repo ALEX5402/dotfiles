@@ -1,6 +1,3 @@
-[MainWindow]
-ToolBarsMovable=Disabled
-
 [Media Browser]
 Allow Expansion=false
 Decoration position=2
@@ -93,4 +90,4 @@ producerslist=avformat,avformat-novalidate,abnormal,blank,color,colour,consumer,
 widgetstyle=Default
 
 [version]
-version=24.08.3
+version=24.12.2

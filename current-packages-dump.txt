@@ -13,6 +13,7 @@ alsa-utils
 amd-ucode
 ananicy-cpp
 android-apktool-bin
+android-sdk-build-tools
 android-sdk-platform-tools
 android-studio-alex
 android-tools
