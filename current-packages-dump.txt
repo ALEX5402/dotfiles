@@ -1,4 +1,4 @@
-64gram-desktop
+64gram-desktop-bin
 accountsservice
 acpilight
 adobe-source-han-sans-cn-fonts
@@ -29,7 +29,6 @@ arcolinux-systemd-services-git
 arcolinuxd-system-config-git
 ark
 awesome-terminal-fonts
-ayugram-desktop-bin
 base
 base-devel
 bash-completion
@@ -65,6 +64,7 @@ distrobox
 dmidecode
 dmraid
 dnsmasq
+docker
 dolphin
 dosfstools
 downgrade
@@ -75,6 +75,7 @@ dunst
 e2fsprogs
 edk2-shell
 efibootmgr
+emote
 ethtool
 exfatprogs
 expac
@@ -110,7 +111,6 @@ gst-plugins-ugly
 gummy
 gwenview
 hdparm
-heroic-games-launcher
 htop
 hw-probe
 hwinfo
@@ -135,6 +135,7 @@ kitty
 konsole
 kvantum
 kvantum-qt5
+ladspa
 laptop-detect
 ldns
 less
@@ -270,6 +271,7 @@ sdparm
 sg3_utils
 smartmontools
 sof-firmware
+sox
 speech-dispatcher
 spicetify-cli
 squashfs-tools
