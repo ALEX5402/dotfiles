@@ -277,6 +277,7 @@ spicetify-cli
 squashfs-tools
 stacer-bin
 starship
+stremio
 sudo
 surfn-icons-git
 swappy

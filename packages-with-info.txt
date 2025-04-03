@@ -2440,6 +2440,8 @@ local/qt5-graphicaleffects 5.15.16-3.1 (qt5)
     Graphical effects for use with Qt Quick 2
 local/qt5-imageformats 5.15.16+kde+r2-3.1 (qt5)
     Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+local/qt5-location 5.15.16+kde+r7-4.1 (qt5)
+    Provides access to position, satellite and area monitoring classes
 local/qt5-multimedia 5.15.16+kde+r2-3.1 (qt5)
     Classes for audio, video, radio and camera functionality
 local/qt5-quickcontrols 5.15.16-3.1 (qt5)
@@ -2456,6 +2458,10 @@ local/qt5-translations 5.15.16-3 (qt5)
     A cross-platform application and UI framework (Translations)
 local/qt5-wayland 5.15.16+kde+r60-1.1 (qt5)
     Provides APIs for Wayland
+local/qt5-webchannel 5.15.16+kde+r3-3.1 (qt5)
+    Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
+local/qt5-webengine 5.15.18-6 (qt5)
+    Provides support for web applications using the Chromium browser project
 local/qt5-x11extras 5.15.16-3.1 (qt5)
     Provides platform-specific APIs for X11
 local/qt5ct 1.9-1.1
@@ -2664,6 +2670,8 @@ local/startup-notification 0.12-8.2
     Libary to monitor and display application startup
 local/stoken 0.92-4.1
     RSA SecurID-compatible software token for Linux/UNIX systems
+local/stremio 4.4.168-2
+    A one-stop hub for video content aggregation (Movies, TV shows, series, live television or web channels)
 local/sudo 1.9.16.p2-2.1
     Give certain users the ability to run some commands as root
 local/suitesparse 7.10.1-1.1

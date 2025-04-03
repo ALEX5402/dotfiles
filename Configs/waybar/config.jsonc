@@ -17,7 +17,7 @@
 // positions generated based on config.ctl //
 
 	"modules-left": ["custom/padd","custom/l_end","cpu","memory","disk","custom/cpuinfo","custom/gpuinfo","custom/weather","mpris","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/notifications","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
@@ -216,6 +216,23 @@
             "default": "󰊠",
 	},
 },
+    "hyprland/window": {
+        "format": "  {}",
+        "rotate": 0,
+        "separate-outputs": true,
+        "rewrite": {
+            "alex@SoulHunter:(.*)": "$1 ",
+            "(.*) — Mozilla Firefox": "$1 󰈹",
+            "(.*)Mozilla Firefox": "Firefox 󰈹",
+            "(.*) - Visual Studio Code": "$1 󰨞",
+            "(.*)Visual Studio Code": "Code 󰨞",
+            "(.*) — Dolphin": "$1 󰉋",
+            "(.*)Spotify": "Spotify 󰓇",
+            "(.*)Steam": "Steam 󰓓"
+        },
+        "max-length": 1000
+    },
+
     "backlight": {
         "device": "intel_backlight",
         "rotate": 0,
