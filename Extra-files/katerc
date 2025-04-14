@@ -108,9 +108,6 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
-[KTextEditor::Search]
-Replace History=seasson2,/,fastboot,,<wallbash_1xa9>E6
-
 [Konsole]
 AutoSyncronizeMode=0
 KonsoleEscKeyBehaviour=true

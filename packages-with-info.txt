@@ -326,6 +326,8 @@ local/dnssec-anchors 20190629-4
     DNSSEC trust anchors for the root zone
 local/docker 1:28.0.4-1.1
     Pack, ship and run any application as a lightweight container
+local/docker-compose 2.34.0-1.1
+    Fast, isolated development environments using Docker
 local/dolphin 24.12.3-1.1 (kde-applications kde-system)
     KDE File Manager
 local/dosfstools 4.2-5.1
@@ -1924,6 +1926,8 @@ local/nodejs 23.8.0-5
     Evented I/O for V8 javascript
 local/nodejs-nopt 7.2.1-1
     Node/npm Option Parsing library
+local/noisetorch 0.12.2-5
+    Real-time microphone noise suppression on Linux.
 local/noto-fonts 1:2025.03.01-1
     Google Noto TTF fonts
 local/noto-fonts-emoji 1:2.047-1
@@ -2250,6 +2254,8 @@ local/python-psutil 7.0.0-1.1
     A cross-platform process and system utilities module for Python
 local/python-pyamdgpuinfo 2.1.6-1
     AMD GPU stats
+local/python-pyclipper 1.3.0.post6-1.1
+    Cython wrapper for the C++ translation of the Angus Johnson’s Clipper library
 local/python-pycurl 7.45.4-1.1
     A Python 3.x interface to libcurl
 local/python-pyxdg 0.28-4
@@ -2878,8 +2884,8 @@ local/util-linux-libs 2.41-3.1
     util-linux runtime libraries
 local/v4l-utils-git 1.28.1.r52.g363495b6-2
     Userspace tools and conversion library for Video 4 Linux
-local/v4l2loopback-dkms 0.14.0-1
-    v4l2-loopback device – module sources
+local/v4l2loopback-dc-dkms 1:2.1.2-1
+    A tool for using your android device as a wireless/usb webcam
 local/vapoursynth R70-2.1
     A video processing framework with the future in mind
 local/vde2 2.3.3-6.1
@@ -3128,6 +3134,8 @@ local/yad 14.1-2.1
     A fork of zenity - display graphical dialogs from shell scripts or command line
 local/yajl 2.1.0-6.1
     Yet Another JSON Library
+local/yarn 1.22.22-2
+    Fast, reliable, and secure dependency management
 local/yay 12.4.2-1
     Yet another yogurt. Pacman wrapper and AUR helper written in go.
 local/youtube-dl-git 2021.12.17.r417.g4e714f9df-1
@@ -3140,7 +3148,7 @@ local/yyjson 0.10.0-1.1
     A high performance JSON library written in ANSI C
 local/zbar 0.23.93-4.1
     Application and library for reading bar codes from various sources
-local/zen-browser-bin 1.10.3b-1
+local/zen-browser-bin 1.11.2b-1
     Performance oriented Firefox-based web browser
 local/zenity 4.1.90-1.1
     Display graphical dialog boxes from shell scripts

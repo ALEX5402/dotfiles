@@ -51,6 +51,16 @@ sshkey=~/.ssh/gitlab
 useSshConfig=true
 username=git
 
+[SSH Config][mining-server1]
+hostname=147.93.106.180
+identifier=mining-server1
+importedFromSshConfig=true
+port=22
+profileName=alex
+sshkey=~/.ssh/newvps2
+useSshConfig=true
+username=root
+
 [SSH Config][newvps]
 hostname=109.199.121.208
 identifier=newvps

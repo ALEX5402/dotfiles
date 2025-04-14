@@ -65,6 +65,7 @@ dmidecode
 dmraid
 dnsmasq
 docker
+docker-compose
 dolphin
 dosfstools
 downgrade
@@ -199,6 +200,7 @@ networkmanager-qt5
 networkmanager-vpnc
 nfs-utils
 nilfs-utils
+noisetorch
 noto-fonts
 noto-fonts-emoji
 ntfs-3g
@@ -240,6 +242,7 @@ ppp
 pptpclient
 pv
 python-pyamdgpuinfo
+python-pyclipper
 qemu-base
 qemu-full
 qpwgraph
@@ -340,6 +343,7 @@ upscayl-bin
 usb_modeswitch
 usbmuxd
 usbutils
+v4l2loopback-dc-dkms
 vesktop
 vim
 vimix-cursors
@@ -407,6 +411,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yad
+yarn
 yay
 youtube-dl-git
 youtube-music-bin
