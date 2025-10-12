@@ -2,85 +2,87 @@
   Don't Touch My dot files 🙂
  
 
-# Credits
-- [Hyprdots](https://github.com/prasanthrangan/hyprdots) for the wallbash script and other importent scripts
-
 ## Screenshots
-![240820_10h15m28s_screenshot](https://github.com/user-attachments/assets/8aaad8cb-e78d-4759-a6ea-915c0e37c3b5)
-![240820_11h55m26s_screenshot](https://github.com/user-attachments/assets/ae43e6e7-add8-498c-b259-99ba6df4f33b)
-![240820_10h14m53s_screenshot](https://github.com/user-attachments/assets/a1a739b8-4838-4f06-98db-be918e2015af)
-![240820_10h14m00s_screenshot](https://github.com/user-attachments/assets/5f267d64-b9d6-4261-8ef8-edfbc5ba6ec4)
-![240820_10h13m02s_screenshot](https://github.com/user-attachments/assets/f5edfff4-af59-4760-b503-04198769a2ff)
-![240820_10h13m16s_screenshot](https://github.com/user-attachments/assets/15880e4d-aacd-4680-9334-ea787826ddd7)
-![240820_10h12m52s_screenshot](https://github.com/user-attachments/assets/21a78295-02d1-4c96-9a24-dcff256fe552)
-![240820_10h12m37s_screenshot](https://github.com/user-attachments/assets/b9224ad0-5739-4cf5-ba1d-aea36b0a3b6a)
-![240820_10h11m32s_screenshot](https://github.com/user-attachments/assets/53774a21-02a5-489a-bbb1-25ba0bdc697d)
-![240820_10h13m23s_screenshot](https://github.com/user-attachments/assets/d07fb201-ba3b-4d7b-90a1-6f9f122a3e63)
+<img width="1920" height="1080" alt="Screenshot_20251013_032210" src="https://github.com/user-attachments/assets/4bb13550-62e4-441a-b04a-523b67eb7814" />
+<img width="1920" height="1080" alt="Screenshot_20251013_032442" src="https://github.com/user-attachments/assets/22134d63-51c4-428f-85a9-8e41c661af20" />
 
 ## Install ( I use cachy os repo and chaotic-aur repo BTW keep that in mind )
 ``` ./install-packages dependencies-list ```
 
 # Then simply links the folders by filemager
  
-## Changelog Mon Apr 14 05:37:35 PM IST 2025
+## Changelog Mon Oct 13 03:25:32 AM IST 2025
 ```
- Configs/Kvantum/wallbash/wallbash.kvconfig         |  106 +-
- Configs/Kvantum/wallbash/wallbash.svg              | 9163 ++++++++++++++++----
- Configs/btop/btop.log                              |    3 +
- Configs/cava/Wall-Dcol                             |   16 +-
- Configs/cava/config                                |   16 +-
- Configs/dunst/dunstrc                              |   12 +-
- Configs/dunst/icons/hyprdots.svg                   |   12 +-
- Configs/dunst/icons/vol/muted-mic.svg              |    2 +-
- Configs/dunst/icons/vol/muted-speaker.svg          |    2 +-
- Configs/dunst/icons/vol/unmuted-mic.svg            |    2 +-
- Configs/dunst/icons/vol/unmuted-speaker.svg        |    2 +-
- Configs/dunst/icons/vol/vol-0.svg                  |   10 +-
- Configs/dunst/icons/vol/vol-10.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-100.svg                |   10 +-
- Configs/dunst/icons/vol/vol-15.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-20.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-25.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-30.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-35.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-40.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-45.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-5.svg                  |   10 +-
- Configs/dunst/icons/vol/vol-50.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-55.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-60.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-65.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-70.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-75.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-80.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-85.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-90.svg                 |   10 +-
- Configs/dunst/icons/vol/vol-95.svg                 |   10 +-
- Configs/dunst/wallbash.conf                        |   12 +-
- Configs/gtk-3.0/settings.ini                       |    4 +-
- Configs/hyde/hyde.conf                             |    2 +-
- Configs/hyde/themes/Catppuccin Mocha/wall.set      |    2 +-
- Configs/hypr/themes/theme.conf                     |   23 +-
- Configs/kitty/theme.conf                           |  104 +-
- Configs/qt5ct/colors.conf                          |    6 +-
- Configs/qt5ct/qt5ct.conf                           |    2 +-
- Configs/qt6ct/colors.conf                          |    6 +-
- Configs/qt6ct/qt6ct.conf                           |    2 +-
- Configs/rofi/theme.rasi                            |   12 +-
- Configs/rofi/wallust/colors-rofi.rasi              |   12 +-
- Configs/spicetify/Themes/Sleek/color.ini           |   40 +-
- Configs/swappy/config                              |    2 +-
- Configs/waybar/theme.css                           |   12 +-
- Extra-files/katerc                                 |    3 -
- Extra-files/konsolesshconfig                       |   10 +
- Extra-files/partitionmanagerrc                     |    2 +-
- .../share/gwenview/recentfolders/gvhistoryAiaNgnrc |    2 +-
- .../share/gwenview/recentfolders/gvhistoryVpDPaUrc |    2 +-
- .../share/gwenview/recentfolders/gvhistorylalGOlrc |    2 +-
- .../share/gwenview/recentfolders/gvhistoryudjylJrc |    2 +-
- README.md                                          |   49 +-
- current-packages-dump.txt                          |    5 +
- packages-with-info.txt                             |   14 +-
- 57 files changed, 7560 insertions(+), 2318 deletions(-)
+ Configs/KDE/UserFeedback.conf                      |    2 -
+ .../KDE/UserFeedback.org.kde.plasma-welcome.conf   |    2 -
+ Configs/cava/Wall-Dcol                             |   13 -
+ Configs/cava/config                                |   57 -
+ Configs/cava/shaders/bar_spectrum.frag             |   79 -
+ Configs/cava/shaders/northern_lights.frag          |   34 -
+ Configs/cava/shaders/pass_through.vert             |   14 -
+ Configs/cava/shaders/spectrogram.frag              |   53 -
+ .../cava/shaders/winamp_line_style_spectrum.frag   |  112 -
+ Configs/dconf/user                                 |  Bin 3320 -> 0 bytes
+ Configs/xyz.chatboxapp.app/.updaterId              |    1 -
+ .../Cache/Cache_Data/1676204418d3558b_0            |  Bin 457274 -> 0 bytes
+ .../Cache/Cache_Data/1abd0b7f765f1690_0            |  Bin 5726 -> 0 bytes
+ .../Cache/Cache_Data/5283edf90cf4ab50_0            |  Bin 5598 -> 0 bytes
+ .../Cache/Cache_Data/eebc7986df07ff61_0            |  Bin 143228 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Cache/Cache_Data/index  |  Bin 24 -> 0 bytes
+ .../Cache/Cache_Data/index-dir/the-real-index      |  Bin 144 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Code Cache/js/index     |  Bin 24 -> 0 bytes
+ .../Code Cache/js/index-dir/the-real-index         |  Bin 48 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Code Cache/wasm/index   |  Bin 24 -> 0 bytes
+ .../Code Cache/wasm/index-dir/the-real-index       |  Bin 48 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Cookies                 |  Bin 20480 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Cookies-journal         |    0
+ Configs/xyz.chatboxapp.app/Crashpad/client_id      |    1 -
+ Configs/xyz.chatboxapp.app/DawnCache/data_0        |  Bin 8192 -> 0 bytes
+ Configs/xyz.chatboxapp.app/DawnCache/data_1        |  Bin 270336 -> 0 bytes
+ Configs/xyz.chatboxapp.app/DawnCache/data_2        |  Bin 8192 -> 0 bytes
+ Configs/xyz.chatboxapp.app/DawnCache/data_3        |  Bin 8192 -> 0 bytes
+ Configs/xyz.chatboxapp.app/DawnCache/index         |  Bin 262512 -> 0 bytes
+ .../Dictionaries/en-US-10-1.bdic                   |  Bin 451968 -> 0 bytes
+ Configs/xyz.chatboxapp.app/GPUCache/data_0         |  Bin 45056 -> 0 bytes
+ Configs/xyz.chatboxapp.app/GPUCache/data_1         |  Bin 270336 -> 0 bytes
+ Configs/xyz.chatboxapp.app/GPUCache/data_2         |  Bin 1056768 -> 0 bytes
+ Configs/xyz.chatboxapp.app/GPUCache/data_3         |  Bin 4202496 -> 0 bytes
+ Configs/xyz.chatboxapp.app/GPUCache/index          |  Bin 262512 -> 0 bytes
+ .../IndexedDB/file__0.indexeddb.leveldb/000003.log |  Bin 1816 -> 0 bytes
+ .../IndexedDB/file__0.indexeddb.leveldb/CURRENT    |    1 -
+ .../IndexedDB/file__0.indexeddb.leveldb/LOCK       |    0
+ .../IndexedDB/file__0.indexeddb.leveldb/LOG        |    2 -
+ .../file__0.indexeddb.leveldb/MANIFEST-000001      |  Bin 23 -> 0 bytes
+ .../Local Storage/leveldb/000003.log               |  Bin 73 -> 0 bytes
+ .../Local Storage/leveldb/CURRENT                  |    1 -
+ .../xyz.chatboxapp.app/Local Storage/leveldb/LOCK  |    0
+ .../xyz.chatboxapp.app/Local Storage/leveldb/LOG   |    2 -
+ .../Local Storage/leveldb/MANIFEST-000001          |  Bin 41 -> 0 bytes
+ .../xyz.chatboxapp.app/Network Persistent State    |    1 -
+ Configs/xyz.chatboxapp.app/Preferences             |    1 -
+ .../xyz.chatboxapp.app/Session Storage/000003.log  |  Bin 540 -> 0 bytes
+ Configs/xyz.chatboxapp.app/Session Storage/CURRENT |    1 -
+ Configs/xyz.chatboxapp.app/Session Storage/LOCK    |    0
+ Configs/xyz.chatboxapp.app/Session Storage/LOG     |    2 -
+ .../Session Storage/MANIFEST-000001                |  Bin 41 -> 0 bytes
+ Configs/xyz.chatboxapp.app/TransportSecurity       |    1 -
+ Configs/xyz.chatboxapp.app/WebStorage/QuotaManager |  Bin 40960 -> 0 bytes
+ .../WebStorage/QuotaManager-journal                |    0
+ Configs/xyz.chatboxapp.app/config.json             |   71 -
+ Configs/xyz.chatboxapp.app/databases/Databases.db  |  Bin 28672 -> 0 bytes
+ .../databases/Databases.db-journal                 |    0
+ Configs/xyz.chatboxapp.app/databases/chatbox_kb.db |  Bin 16384 -> 0 bytes
+ Configs/xyz.chatboxapp.app/logs/main.log           |   19 -
+ Local/bin/cvim                                     |    7 -
+ Local/bin/upload                                   |  139 -
+ Local/bin/upload-go                                |   27 -
+ Local/bin/waydroid.sh                              |    5 -
+ Local/bin/waydroid_padding.sh                      |    3 -
+ Local/bin/waydroid_size.sh                         |    7 -
+ README.md                                          |   77 +-
+ current-packages-dump.txt                          |  445 +--
+ info.txt                                           |   15 +-
+ packages-with-info.txt                             | 3120 ++++++++------------
+ 70 files changed, 1296 insertions(+), 3019 deletions(-)
 ```
  
