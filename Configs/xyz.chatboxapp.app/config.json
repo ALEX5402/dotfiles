@@ -1,0 +1,71 @@
+{
+	"configVersion": 11,
+	"chat-sessions": [],
+	"settings": {
+		"showWordCount": false,
+		"showTokenCount": false,
+		"showTokenUsed": true,
+		"showModelName": true,
+		"showMessageTimestamp": false,
+		"showFirstTokenLatency": false,
+		"userAvatarKey": "",
+		"defaultAssistantAvatarKey": "",
+		"theme": 2,
+		"language": "en",
+		"fontSize": 14,
+		"spellCheck": true,
+		"defaultPrompt": "You are a helpful assistant.",
+		"allowReportingAndTracking": true,
+		"enableMarkdownRendering": true,
+		"enableLaTeXRendering": true,
+		"enableMermaidRendering": true,
+		"injectDefaultMetadata": true,
+		"autoPreviewArtifacts": false,
+		"autoCollapseCodeBlock": true,
+		"pasteLongTextAsAFile": true,
+		"autoGenerateTitle": true,
+		"autoLaunch": false,
+		"autoUpdate": true,
+		"betaUpdate": false,
+		"shortcuts": {
+			"quickToggle": "Alt+`",
+			"inputBoxFocus": "mod+i",
+			"inputBoxWebBrowsingMode": "mod+e",
+			"newChat": "mod+n",
+			"newPictureChat": "mod+shift+n",
+			"sessionListNavNext": "mod+tab",
+			"sessionListNavPrev": "mod+shift+tab",
+			"sessionListNavTargetIndex": "mod",
+			"messageListRefreshContext": "mod+r",
+			"dialogOpenSearch": "mod+k",
+			"inpubBoxSendMessage": "Enter",
+			"inpubBoxSendMessageWithoutResponse": "Ctrl+Enter",
+			"optionNavUp": "up",
+			"optionNavDown": "down",
+			"optionSelect": "enter"
+		},
+		"extension": {
+			"webSearch": {
+				"provider": "build-in",
+				"tavilyApiKey": ""
+			},
+			"knowledgeBase": {
+				"models": {}
+			}
+		},
+		"mcp": {
+			"servers": [],
+			"enabledBuiltinServers": []
+		},
+		"providers": {},
+		"customProviders": []
+	},
+	"chat-sessions-list": [],
+	"windowState": {
+		"width": 1024,
+		"height": 768,
+		"x": 452,
+		"y": 184,
+		"mode": 1
+	}
+}

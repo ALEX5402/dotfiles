@@ -1,0 +1,6 @@
+[DrKonqi]
+DownloadSymbols=true
+Sentry=true
+
+[SystemInformation]
+CompiledSources=false

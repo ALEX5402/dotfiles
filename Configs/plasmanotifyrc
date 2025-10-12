@@ -1,0 +1,17 @@
+[Applications][code]
+Seen=true
+
+[Applications][com.ayugram.desktop]
+Seen=true
+
+[Applications][cursor]
+Seen=true
+
+[Applications][firefox]
+Seen=true
+
+[Applications][upscayl]
+Seen=true
+
+[Notifications]
+PopupPosition=BottomRight

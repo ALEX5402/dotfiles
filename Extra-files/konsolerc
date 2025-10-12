@@ -1,0 +1,10 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=alex.profile
+
+[General]
+ConfigVersion=1
+
+[UiSettings]
+ColorScheme=Breeze Dark

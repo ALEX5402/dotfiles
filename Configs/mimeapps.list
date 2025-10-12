@@ -1,0 +1,29 @@
+[Default Applications]
+x-scheme-handler/tg=userapp-AyuGram Desktop-Q7U5D3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-VXJ5D3.desktop
+x-scheme-handler/discord-831593107883032657=discord-831593107883032657.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+x-scheme-handler/chatbox=xyz.chatboxapp.app.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-AyuGram Desktop-Q7U5D3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-VXJ5D3.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;

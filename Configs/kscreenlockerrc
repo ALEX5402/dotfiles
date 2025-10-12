@@ -1,0 +1,8 @@
+[Daemon]
+Autolock=false
+LockOnResume=false
+Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/alex/kdesettings/wallpapers/240725_20h13m49s_screenshot.png
+PreviewImage=/home/alex/kdesettings/wallpapers/240725_20h13m49s_screenshot.png

@@ -1,0 +1,181 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=30, 30, 46
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=30, 30, 46
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=177,14,23
+BackgroundNormal=49, 50, 68
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Complementary]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Header]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Selection]
+BackgroundAlternate=172,8,16
+BackgroundNormal=172,8,16
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=255,255,255
+ForegroundLink=170,0,3
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=255,255,255
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Tooltip]
+BackgroundAlternate=27,25,35
+BackgroundNormal=30, 30, 46
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:View]
+BackgroundAlternate=24, 24, 37
+BackgroundNormal=30, 30, 46
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Window]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=233,0,4
+DecorationHover=233,0,4
+ForegroundActive=233,0,4
+ForegroundInactive=166, 173, 200
+ForegroundLink=255,182,182
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[DirSelect Dialog]
+DirSelectDialog Size=820,584
+History Items[$e]=file:$HOME/Telegram,file:///media/sdk-tools
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+AccentColor=233,0,4
+ColorSchemeHash=656e398971b22276207859b495d3493f023589eb
+LastUsedCustomAccentColor=233,0,4
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=BeautySolar
+
+[KDE]
+LookAndFeelPackage=org.kde.breezedark.desktop
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Sounds]
+Theme=oxygen
+
+[WM]
+activeBackground=30,30,46
+activeBlend=205,214,244
+activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=205,214,244
+inactiveBackground=17,17,27
+inactiveBlend=166,173,200
+inactiveForeground=166,173,200

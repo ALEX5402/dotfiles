@@ -1,0 +1,17 @@
+[DetailsMode]
+LeftPadding=50
+PreviewSize=32
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,10,9,19,9,44.912
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,opendocumentthumbnail,fontthumbnail,svgthumbnail,ebookthumbnail,imagethumbnail,kraorathumbnail,comicbookthumbnail,windowsexethumbnail,ffmpegthumbs,cursorthumbnail,directorythumbnail,djvuthumbnail,exrthumbnail,audiothumbnail,jpegthumbnail,windowsimagethumbnail,heif,librsvg,glycin-image-rs,jxl,glycin-jxl,glycin-svg,glycin-heif,exe-thumbnailer,avif

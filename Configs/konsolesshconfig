@@ -1,0 +1,72 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][api]
+hostname=72.60.67.207
+identifier=api
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/hostinger1
+useSshConfig=true
+username=root
+
+[SSH Config][gitgay]
+hostname=git.gay
+identifier=gitgay
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/gitgay
+useSshConfig=true
+username=git
+
+[SSH Config][github.alex5402]
+hostname=github.com
+identifier=github.alex5402
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/github-1-.key
+useSshConfig=true
+username=git
+
+[SSH Config][gitlab]
+hostname=gitlab.com
+identifier=gitlab
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=~/.ssh/gitlab
+useSshConfig=true
+username=git
+
+[SSH Config][oracle]
+hostname=141.148.198.122
+identifier=oracle
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/oracle
+useSshConfig=true
+username=ubuntu
+
+[SSH Config][segfault]
+hostname=adm.segfault.net
+identifier=segfault
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/adm-segfault
+useSshConfig=true
+username=root
+
+[SSH Config][testing-server]
+hostname=46.166.165.2
+identifier=testing-server
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/nvidia
+useSshConfig=true
+username=root
