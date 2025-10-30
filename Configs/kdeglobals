@@ -119,8 +119,8 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=820,584
-History Items[$e]=file:$HOME/Telegram,file:///media/sdk-tools
+DirSelectDialog Size=839,584
+History Items[$e]=file:$HOME/minecraft,file:$HOME/dotfiles/wallpapers,file:$HOME/Telegram,file:///media/sdk-tools
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -133,11 +133,11 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
-fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=JetBrains Mono NL,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono NL,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono NL,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono NL,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono NL,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=BeautySolar
@@ -150,8 +150,6 @@ Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -174,7 +172,7 @@ Theme=oxygen
 [WM]
 activeBackground=30,30,46
 activeBlend=205,214,244
-activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeFont=JetBrains Mono NL,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=205,214,244
 inactiveBackground=17,17,27
 inactiveBlend=166,173,200

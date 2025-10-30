@@ -492,7 +492,7 @@ alias tree 'eza -aT --color=always --group-directories-first --icons' # tree lis
 alias l. 'eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
 
 # Replace some more things with better alternatives
-alias cat 'bat --style header --style snip --style changes --style header'
+alias catt 'bat --style header --style snip --style changes --style header'
 if not test -x /usr/bin/yay; and test -x /usr/bin/paru
     alias yay 'paru'
 end
@@ -531,7 +531,7 @@ alias ipinfo 'curl ipinfo.io'
 alias pull 'git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias diff 'git diff'
 alias push='git push origin $(git rev-parse --abbrev-ref HEAD)'
-alias commit 'git commit'
+
 alias clone 'git clone'
 alias git-push-behave 'git config --global push.default'
 alias git-setefitor 'git config --global core.editor'
