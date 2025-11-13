@@ -11,27 +11,11 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Thu Oct 30 11:20:17 PM IST 2025
+## Changelog Fri Nov 14 02:40:27 AM IST 2025
 ```
- Configs/QtProject.conf             |   2 +-
- Configs/Trolltech.conf             |   2 +-
- Configs/dolphinrc                  |   2 +-
- Configs/fish/config.fish           |   4 +-
- Configs/gtkrc                      |   6 +-
- Configs/gtkrc-2.0                  |   2 +-
- Configs/gwenviewrc                 |  33 --
- Configs/kactivitymanagerd-statsrc  |   5 -
- Configs/kactivitymanagerdrc        |   5 -
- Configs/kdeglobals                 |  18 +-
- Configs/kglobalshortcutsrc         |  41 +-
- Configs/krdpserverrc               |   3 -
- Configs/kscreenlockerrc            |   8 -
- Configs/kwinrc                     |  15 +-
- Configs/mimeapps.list              | 120 +++++-
- Configs/xsettingsd/xsettingsd.conf |   2 +-
- README.md                          |   7 +-
- current-packages-dump.txt          |  19 +-
- packages-with-info.txt             | 830 +++++++++++++++++++++++++++----------
- 19 files changed, 790 insertions(+), 334 deletions(-)
+ README.md                 |  24 +-
+ current-packages-dump.txt |   8 +
+ packages-with-info.txt    | 574 ++++++++++++++++++++++++----------------------
+ 3 files changed, 304 insertions(+), 302 deletions(-)
 ```
  

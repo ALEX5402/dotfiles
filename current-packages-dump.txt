@@ -1,3 +1,4 @@
+64gram-desktop-bin
 alacritty
 amd-ucode
 ananicy-cpp
@@ -16,6 +17,7 @@ bibata-cursor-git
 bind
 bottles
 brave-bin
+bun-bin
 cachyos-keyring
 cachyos-mirrorlist
 cachyos-v3-mirrorlist
@@ -34,6 +36,7 @@ dolphin
 droidcam-obs-plugin
 efibootmgr
 eza
+factory-cli-bin
 fancontrol-gui
 fastfetch
 fatsort
@@ -75,6 +78,8 @@ libvirt
 linux-cachyos
 linux-cachyos-headers
 linux-firmware
+linux-xanmod-edge-x64v3
+linux-xanmod-edge-x64v3-headers
 linux-zen
 meson
 mongodb-compass
@@ -194,6 +199,7 @@ ugrep
 unrar
 unzip
 upscayl-desktop-git
+ventoy-bin
 vesktop
 vim
 virt-manager
@@ -207,6 +213,7 @@ wget
 wireless_tools
 wireplumber
 wpa_supplicant
+xclip
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
@@ -214,6 +221,7 @@ xf86-video-nouveau
 xorg-xinit
 youtube-dl-git
 youtube-music-bin
+yt-dlp
 zed
 zip
 zram-generator
