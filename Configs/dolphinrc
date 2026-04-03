@@ -1,10 +1,18 @@
+MenuBar=Disabled
+
 [DetailsMode]
-LeftPadding=90
-PreviewSize=32
+RightPadding=0
+
+[ExtractDialog]
+1920x1080 screen: Height=540
+1920x1080 screen: Width=1280
 
 [General]
 Version=202
-ViewPropsTimestamp=2025,10,9,19,9,44.912
+ViewPropsTimestamp=2026,1,5,23,30,39.364
+
+[InformationPanel]
+previewsShown=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -14,4 +22,4 @@ Places Icons Static Size=22
 MenuBar=Disabled
 
 [PreviewSettings]
-Plugins=appimagethumbnail,opendocumentthumbnail,fontthumbnail,svgthumbnail,ebookthumbnail,imagethumbnail,kraorathumbnail,comicbookthumbnail,windowsexethumbnail,ffmpegthumbs,cursorthumbnail,directorythumbnail,djvuthumbnail,exrthumbnail,audiothumbnail,jpegthumbnail,windowsimagethumbnail,heif,librsvg,glycin-image-rs,jxl,glycin-jxl,glycin-svg,glycin-heif,exe-thumbnailer,avif
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs,exe-thumbnailer

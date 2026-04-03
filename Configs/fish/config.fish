@@ -45,9 +45,9 @@ if test -d ~/.cargo/bin
 end
 
 # Add /opt/android-ndk/ to PATH
-if test -d /opt/android-ndk
-    if not contains -- /opt/android-ndk $PATH
-        set -p PATH /opt/android-ndk
+if test -d /media/sdk-tools/SDK/ndk/25.1.8937393/
+    if not contains -- /media/sdk-tools/SDK/ndk/25.1.8937393/ $PATH
+        set -p PATH /media/sdk-tools/SDK/ndk/25.1.8937393/
     end
 end
 
@@ -66,17 +66,63 @@ if test -d ~/Applications/depot_tools
 end
 
 
-function gitset --description "Set github username and ssh key based on workspace"
-    set current_dir (pwd)
+function gitset --description "Set github username and ssh key based on repo remote or argument"
+    set -l profile ""
 
-    if string match -q "$HOME/workspace/github-honeypie112/*" $current_dir
+    # 1. Check for manual arguments (gitset 1 or gitset 2)
+    if test (count $argv) -gt 0
+        if test "$argv[1]" = "1"
+            set profile "ArtRuntime"
+        else if test "$argv[1]" = "2"
+            set profile "alex5402"
+        else
+            echo "Invalid argument. Use '1' for ArtRuntime or '2' for alex5402."
+            return 1
+        end
+    else
+        # 2. Auto-detect based on the current git repository's remote URL
+
+        # Check if we are inside a git repository
+        if not git rev-parse --is-inside-work-tree >/dev/null 2>&1
+#             echo "Not inside a git repository."
+            return 1
+        end
+
+        # Get the remote origin URL
+        set -l remote_url (git remote get-url origin 2>/dev/null)
+
+        # If there is no remote origin (e.g., newly initialized empty repo)
+        if test -z "$remote_url"
+            echo "repo git configs are missing"
+            return 1
+        end
+
+        # Extract the username from the GitHub URL (handles both SSH and HTTPS)
+        set -l repo_user (string replace -r '^.*github\.com[:/]([^/]+).*$' '$1' "$remote_url")
+
+        # Match the extracted username to your profiles
+        if test "$repo_user" = "ArtRuntime"
+            set profile "ArtRuntime"
+        else if test "$repo_user" = "alex5402"
+            set profile "alex5402"
+        else
+            # If it belongs to someone else, do nothing and exit silently
+            return 0
+        end
+    end
+
+    # 3. Apply the selected configuration
+    if test "$profile" = "ArtRuntime"
+        echo "Activating Git profile: ArtRuntime"
         eval (ssh-agent -c) > /dev/null 2>&1
         ssh-add ~/.ssh/github2 > /dev/null 2>&1
-        git config user.name "honeypie112" > /dev/null 2>&1
+        git config user.name "ArtRuntime" > /dev/null 2>&1
         git config user.email "alexbhaiya@duck.com" > /dev/null 2>&1
         git config user.signingKey 38E33F18B009C9A7 > /dev/null 2>&1
         git config --local commit.gpgsign true > /dev/null 2>&1
-    else
+
+    else if test "$profile" = "alex5402"
+        echo "Activating Git profile: alex5402"
         eval (ssh-agent -c) > /dev/null 2>&1
         ssh-add ~/.ssh/github > /dev/null 2>&1
         git config user.name "alex5402" > /dev/null 2>&1
@@ -157,145 +203,47 @@ function upload-buzz
 end
 
 
-
-function upload --description "Upload files to 0x0.st with options"
-
-    set timestamp (date "+%Y%m%d%H%M%S")
-    set log_file "upload-logs$timestamp.txt"
-
-    function upload_file
-        set filename $argv[1]
-        set filetype $argv[2]
-        set filesize (stat -c%s $filename 2>/dev/null)
-
-        if test "$filesize" -gt 500000000
-            echo "Skipping $filename: >500 MB" >> $log_file
-            return
-        end
-
-        set filelink (curl -sf -F "file=@$filename" 0x0.st)
-        if test -z "$filelink"
-            echo "Failed to upload $filename." >> $log_file
-            return
-        end
-
-        set filelink (string replace "http:" "https:" $filelink)
-        echo "{filename:\""(basename $filename)"\", filetype:\"$filetype\", filelink:\"$filelink\"}"
-    end
+function upload --description "Upload files to 0x0.st"
 
     function upload_singlefile
-        set filename $argv[1]
-        set filetype $argv[2]
-        set filesize (stat -c%s $filename 2>/dev/null)
+        set file $argv[1]
 
-        if test "$filesize" -gt 500000000
-            echo "Skipping $filename: >500 MB" >> $log_file
-            return
+        if not test -f "$file"
+            echo "❌ File not found: $file"
+            return 1
         end
 
-        set filelink (curl -sf -F "file=@$filename" 0x0.st)
-        if test -z "$filelink"
-            echo "Failed to upload $filename." >> $log_file
-            return
+        set size (stat -c%s "$file" 2>/dev/null)
+        if test -z "$size" -o "$size" -gt 500000000
+            echo "❌ File too large or invalid"
+            return 1
         end
 
-        set filelink (string replace "http:" "https:" $filelink)
-        echo -e "\e[32m$filelink\e[0m"
-        echo "{filename:\""(basename $filename)"\", filetype:\"$filetype\", filelink:\"$filelink\"}"
+        echo "⏫ Uploading $file …"
+
+        set link (curl -4 -s -F "file=@$file" https://0x0.st)
+
+        if test -z "$link"
+            echo "❌ Upload failed"
+            return 1
+        end
+
+        set_color green
+        echo "✔ Uploaded:"
+        echo $link
+        set_color normal
     end
 
-    function remove_files
-        find . -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' \) -delete
-        echo "🧹 All .json and .txt files removed from current directory."
-    end
-
-    function updatescript
-        curl -LSs "https://raw.githubusercontent.com/ALEX5402/Q-shere/main/setup.sh" | bash -
-    end
-
-    function show_usage
-        echo "Usage:"
-        echo "  upload -f <type1> [<type2> ...]   Upload specific file types"
-        echo "  upload -j                         Upload all files in directory"
-        echo "  upload -d                         Delete all .json and .txt files"
-        echo "  upload <file>                    Upload a specific file"
-        echo "  upload -u                         Update script"
-        echo "  upload -h                         Show help"
-    end
-
-    if test (count $argv) -eq 0
-        echo "❌ No arguments provided."
-        show_usage
+    if test (count $argv) -ne 1
+        echo "Usage: upload <file>"
         return 1
     end
 
-    switch $argv[1]
-        case '-f'
-            if test (count $argv) -eq 1
-                echo "Usage: upload -f <type1> [<type2> ...]"
-                return 1
-            end
-
-            set output_file "$timestamp-links.json"
-            touch $output_file $log_file
-            echo "[" >> $output_file
-
-            for type in $argv[2..-1]
-                set files (find . -maxdepth 1 -type f -name "*.$type")
-                if test (count $files) -eq 0
-                    echo "No files found with .$type"
-                    echo "No files found with .$type" >> $log_file
-                    continue
-                end
-
-                for file in $files
-                    upload_file $file $type >> $output_file
-                end
-            end
-
-            echo "]" >> $output_file
-            echo "✅ Upload complete. Output saved to $output_file"
-            return 0
-
-        case '-j'
-            set output_file "$timestamp-links.json"
-            touch $output_file $log_file
-            echo "[" >> $output_file
-
-            for file in *
-                if test -f $file
-                    set ext (string split -r . -- $file)[-1]
-                    upload_file $file $ext >> $output_file
-                end
-            end
-
-            echo "]" >> $output_file
-            echo "✅ Upload complete. Output saved to $output_file"
-            return 0
-
-        case '-d'
-            remove_files
-            return 0
-
-        case '-u'
-            updatescript
-            return 0
-
-        case '-h'
-            show_usage
-            return 0
-
-        case '*'
-            if test -f $argv[1]
-                set ext (string split -r . -- $argv[1])[-1]
-                upload_singlefile $argv[1] $ext
-            else
-                echo "Invalid option or file not found: $argv[1]"
-                show_usage
-                return 1
-            end
-    end
+    upload_singlefile "$argv[1]"
 end
+
+
+
 
 
 function waydroid_size --description "Set Waydroid screen resolution: height and width"
