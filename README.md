@@ -11,10 +11,9 @@
 
 # Then simply links the folders by filemager
  
-## Changelog Sat Apr  4 03:07:15 AM IST 2026
+## Changelog Sat Apr  4 03:07:30 AM IST 2026
 ```
- Configs/kglobalshortcutsrc | 65 +++++++++++++++++++++++++++++++++++++++-------
- README.md                  |  6 +----
- 2 files changed, 56 insertions(+), 15 deletions(-)
+ README.md | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
 ```
  
