@@ -1,0 +1,3 @@
+## this is packages for winget
+
+DEVCOM.JetBrainsMonoNerdFont

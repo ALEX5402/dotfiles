@@ -1,0 +1,598 @@
+## Set values
+# Hide welcome message & ensure we are reporting fish as shell
+set fish_greeting
+set VIRTUAL_ENV_DISABLE_PROMPT "1"
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+set -x SHELL /usr/bin/fish
+
+set -x GPG_TTY $(tty)
+#youtubedl fix
+function ytd
+    yt-dlp $argv[1]
+end
+
+# Set settings for https://github.com/franciscolourenco/done
+set -U __done_min_cmd_duration 10000
+set -U __done_notification_urgency_level low
+
+#for btop
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# set -gx PATH $HOME/Android/Sdk/ndk/26.1.10909125 $PATH
+
+# Add ~/.local/bin to PATH
+if test -d ~/.local/bin
+    if not contains -- ~/.local/bin $PATH
+        set -p PATH ~/.local/bin
+    end
+end
+
+# Add ~/.cargo/bin to PATH
+if test -d ~/.cargo/bin
+    if not contains -- ~/.cargo/bin $PATH
+        set -p PATH ~/.cargo/bin
+    end
+end
+
+# Add /opt/android-ndk/ to PATH
+if test -d /media/sdk-tools/SDK/ndk/25.1.8937393/
+    if not contains -- /media/sdk-tools/SDK/ndk/25.1.8937393/ $PATH
+        set -p PATH /media/sdk-tools/SDK/ndk/25.1.8937393/
+    end
+end
+
+# Add ~/.cargo/bin to PATH
+if test -d ~/.cargo/bin
+    if not contains -- ~/.cargo/bin $PATH
+        set -p PATH ~/.cargo/bin
+    end
+end
+
+# Add depot_tools to PATH
+if test -d ~/Applications/depot_tools
+    if not contains -- ~/Applications/depot_tools $PATH
+        set -p PATH ~/Applications/depot_tools
+    end
+end
+
+
+function gitset --description "Set github username and ssh key based on repo remote or argument"
+    set -l profile ""
+
+    # 1. Check for manual arguments (gitset 1 or gitset 2)
+    if test (count $argv) -gt 0
+        if test "$argv[1]" = "1"
+            set profile "ArtRuntime"
+        else if test "$argv[1]" = "2"
+            set profile "alex5402"
+        else
+            echo "Invalid argument. Use '1' for ArtRuntime or '2' for alex5402."
+            return 1
+        end
+    else
+        # 2. Auto-detect based on the current git repository's remote URL
+
+        # Check if we are inside a git repository
+        if not git rev-parse --is-inside-work-tree >/dev/null 2>&1
+#             echo "Not inside a git repository."
+            return 1
+        end
+
+        # Get the remote origin URL
+        set -l remote_url (git remote get-url origin 2>/dev/null)
+
+        # If there is no remote origin (e.g., newly initialized empty repo)
+        if test -z "$remote_url"
+            echo "repo git configs are missing"
+            return 1
+        end
+
+        # Extract the username from the GitHub URL (handles both SSH and HTTPS)
+        set -l repo_user (string replace -r '^.*github\.com[:/]([^/]+).*$' '$1' "$remote_url")
+
+        # Match the extracted username to your profiles
+        if test "$repo_user" = "ArtRuntime"
+            set profile "ArtRuntime"
+        else if test "$repo_user" = "alex5402"
+            set profile "alex5402"
+        else
+            # If it belongs to someone else, do nothing and exit silently
+            return 0
+        end
+    end
+
+    # 3. Apply the selected configuration
+    if test "$profile" = "ArtRuntime"
+        echo "Activating Git profile: ArtRuntime"
+        eval (ssh-agent -c) > /dev/null 2>&1
+        ssh-add ~/.ssh/artruntime-github > /dev/null 2>&1
+        git config user.name "ArtRuntime" > /dev/null 2>&1
+        git config user.email "alexbhaiya@duck.com" > /dev/null 2>&1
+        git config user.signingKey 38E33F18B009C9A7 > /dev/null 2>&1
+        git config --local commit.gpgsign true > /dev/null 2>&1
+
+    else if test "$profile" = "alex5402"
+        echo "Activating Git profile: alex5402"
+        eval (ssh-agent -c) > /dev/null 2>&1
+        ssh-add ~/.ssh/alex5402-github > /dev/null 2>&1
+        git config user.name "alex5402" > /dev/null 2>&1
+        git config user.email "alex5402private@gmail.com" > /dev/null 2>&1
+        git config user.signingKey D64F014312B9F022 > /dev/null 2>&1
+        git config --local commit.gpgsign true > /dev/null 2>&1
+    end
+end
+
+gitset
+
+function upload-go
+    if test (count $argv) -eq 0
+        echo '❌ ERROR: No File Specified!'
+        return 1
+    end
+
+    set FILE $argv[1]
+
+    set SERVER (curl -s https://api.gofile.io/servers | jq -r '.data.servers[0].name')
+    if test -z "$SERVER"
+        echo "❌ Failed to get upload server from GoFile."
+        return 1
+    end
+
+    set LINK (curl -# -F "file=@$FILE" "https://$SERVER.gofile.io/uploadFile" | jq -r '.data.downloadPage' 2>/dev/null)
+
+    if test -z "$LINK"
+        echo "❌ Upload failed or invalid response from server."
+        return 1
+    end
+
+    echo "✅ Uploaded successfully:"
+    echo "$LINK"
+    echo
+end
+
+
+function waydroid_size --description "Set Waydroid screen resolution: height and width"
+    if test (count $argv) -ne 2
+        echo "❌ Usage: set-waydroid-res <height> <width>"
+        return 1
+    end
+
+    set height $argv[1]
+    set width $argv[2]
+
+    waydroid prop set persist.waydroid.height $height
+    waydroid prop set persist.waydroid.width $width
+
+    echo "✅ Set height: $height  width: $width"
+end
+
+function waydroid_padding --description "Set Waydroid height and width padding"
+    if test (count $argv) -ne 2
+        echo "❌ Usage: waydroid_padding <height_padding> <width_padding>"
+        return 1
+    end
+
+    set height_padding $argv[1]
+    set width_padding $argv[2]
+
+    waydroid prop set persist.waydroid.height_padding $height_padding
+    waydroid prop set persist.waydroid.width_padding $width_padding
+
+    echo "✅ Set height padding = $height_padding and width padding = $width_padding"
+end
+
+## port forward setup 😜
+function port-forward
+    if test (count $argv) -eq 0
+        echo "❌ Please choose a port to forward."
+        echo "👉 Example: port-forward 3000"
+        return 1
+    end
+
+    set port $argv[1]
+    echo "🌐 Forwarding localhost:$port to https://srv.us (remote port 80)..."
+    ssh -R 80:localhost:$port srv.us
+end
+
+
+## Starship prompt
+if status --is-interactive
+   source ("/usr/bin/starship" init fish --print-full-init | psub)
+end
+
+
+## Functions
+# Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
+function __history_previous_command
+  switch (commandline -t)
+  case "!"
+    commandline -t $history[1]; commandline -f repaint
+  case "*"
+    commandline -i !
+  end
+end
+
+function __history_previous_command_arguments
+  switch (commandline -t)
+  case "!"
+    commandline -t ""
+    commandline -f history-token-search-backward
+  case "*"
+    commandline -i '$'
+  end
+end
+
+if [ "$fish_key_bindings" = fish_vi_key_bindings ];
+  bind -Minsert ! __history_previous_command
+  bind -Minsert '$' __history_previous_command_arguments
+else
+  bind ! __history_previous_command
+  bind '$' __history_previous_command_arguments
+end
+
+# Fish command history
+function history
+    builtin history --show-time='%F %T '
+end
+
+function backup --argument filename
+    cp $filename $filename.bak
+end
+
+# Copy DIR1 DIR2
+function copy
+    set count (count $argv | tr -d \n)
+    if test "$count" = 2; and test -d "$argv[1]"
+	set from (echo $argv[1] | string trim --right --chars=/)
+	set to (echo $argv[2])
+        command cp -r $from $to
+    else
+        command cp $argv
+    end
+end
+
+# Cleanup local orphaned packages with cache
+function cleanup
+     sudo pacman -Sc
+     paru -Sc
+    while pacman -Qdtq
+        sudo pacman -R (pacman -Qdtq)
+    end
+end
+
+
+# host http using python
+function open-http
+    if test (count $argv) -eq 0
+        echo "Usage: host-http <port>"
+        return 1
+    end
+
+    set port $argv[1]
+    echo "Starting HTTP server on port $port..."
+    python3 -m http.server $port
+end
+
+
+#to play youtube with ytfzf
+# alias play 'ytfzf -t' # play
+# alias play-l 'ytfzf -L'
+# alias play-m 'ytfzf -m --audio-only'
+# alias yt-search 'ytfzf -cO'
+# alias haru-play 'ytfzf -u haruna -t'
+
+
+
+#playgif
+alias gif-play 'chafa'
+
+# Replace ls with eza
+alias ll 'eza --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
+alias lsr 'eza --color=always --git --group-directories-first --icons' # normal listing
+alias lss 'eza --tree --level=2 --color=always --group-directories-first --icons' # preferred listing
+alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ls 'eza -l --color=always --group-directories-first --icons'  # long format
+alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias tree 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l. 'eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
+
+# Replace some more things with better alternatives
+alias catt 'bat --style header --style snip --style changes --style header'
+if not test -x /usr/bin/yay; and test -x /usr/bin/paru
+    alias yay 'paru'
+end
+
+
+
+## fix scrollback buffer clear for kitty
+alias clearf "printf '\033[2J\033[3J\033[1;1H'"
+
+alias install 'paru -S'
+alias remove 'paru -R'
+alias update 'sudo pacman -Syu'
+
+alias print-fingerprint-jar 'keytool -printcert -jarfile'
+alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
+alias waystart 'waydroid show-full-ui'
+alias fish 'source ~/.config/fish/config.fish'
+alias ipinfo 'curl ipinfo.io'
+# git stuff
+
+alias pull 'git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias diff 'git diff'
+alias push='git push origin $(git rev-parse --abbrev-ref HEAD)'
+
+alias clone 'git clone'
+alias git-push-behave 'git config --global push.default'
+alias git-setefitor 'git config --global core.editor'
+alias git-colour 'git config --global color.ui'
+alias git-addd 'git remote add origin'
+
+alias warpc 'warp-cli connect'
+alias flex 'fastfetch'
+alias warpd 'warp-cli disconnect'
+alias .. 'cd ..'
+alias ... 'cd ../..'
+alias .... 'cd ../../..'
+alias ..... 'cd ../../../..'
+alias ...... 'cd ../../../../..'
+alias big 'expac -H M "%m\t%n" | sort -h | nl'     # Sort installed packages according to size in MB (expac must be installed)
+alias dir 'lsd --color=auto'
+alias fixpacman 'sudo rm /var/lib/pacman/db.lck'
+alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
+alias grep 'ugrep --color=auto'
+alias egrep 'ugrep -E --color=auto'
+alias fgrep 'ugrep -F --color=auto'
+alias hw 'hwinfo --short'
+alias ip 'ip -color'
+alias psmem 'ps auxf | sort -nr -k 4'
+alias psmem10 'ps auxf | sort -nr -k 4 | head -10'
+alias rmpkg 'sudo pacman -Rdd'
+alias tarnow 'tar -acf '
+alias untar 'tar -zxvf '
+alias vdir 'vdir --color=auto'
+alias wget 'wget -c '
+alias staccer 'QT_QPA_PLATFORM=xcb stacer'
+alias remove-force 'sudo pacman -Rnsdd'
+abbr se "sudo systemctl enable --now"
+# Get fastest mirrors
+alias mirror-update 'sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
+alias mirror-age 'sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist'
+alias mirror-delay 'sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist'
+alias mirrors-score 'sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist'
+
+alias please 'sudo'
+alias helpme 'echo "To print basic information about a command use tldr <command>"'
+alias pacdiff 'sudo -H DIFFPROG=meld pacdiff'
+
+# Get the error messages from journalctl
+alias jctl 'journalctl -p 3 -xb'
+
+# Recent installed packages
+alias rip 'expac --timefmt="%Y-%m-%d %T" "%l\t%n %v" | sort | tail -200 | nl'
+
+
+# fish completion for hyprkeys                             -*- shell-script -*-
+
+function __hyprkeys_debug
+    set -l file "$BASH_COMP_DEBUG_FILE"
+    if test -n "$file"
+        echo "$argv" >> $file
+    end
+end
+
+function __hyprkeys_perform_completion
+    __hyprkeys_debug "Starting __hyprkeys_perform_completion"
+
+    # Extract all args except the last one
+    set -l args (commandline -opc)
+    # Extract the last arg and escape it in case it is a space
+    set -l lastArg (string escape -- (commandline -ct))
+
+    __hyprkeys_debug "args: $args"
+    __hyprkeys_debug "last arg: $lastArg"
+
+    # Disable ActiveHelp which is not supported for fish shell
+    set -l requestComp "HYPRKEYS_ACTIVE_HELP=0 $args[1] __complete $args[2..-1] $lastArg"
+
+    __hyprkeys_debug "Calling $requestComp"
+    set -l results (eval $requestComp 2> /dev/null)
+
+    # Some programs may output extra empty lines after the directive.
+    # Let's ignore them or else it will break completion.
+    # Ref: https://github.com/spf13/cobra/issues/1279
+    for line in $results[-1..1]
+        if test (string trim -- $line) = ""
+            # Found an empty line, remove it
+            set results $results[1..-2]
+        else
+            # Found non-empty line, we have our proper output
+            break
+        end
+    end
+
+    set -l comps $results[1..-2]
+    set -l directiveLine $results[-1]
+
+    # For Fish, when completing a flag with an = (e.g., <program> -n=<TAB>)
+    # completions must be prefixed with the flag
+    set -l flagPrefix (string match -r -- '-.*=' "$lastArg")
+
+    __hyprkeys_debug "Comps: $comps"
+    __hyprkeys_debug "DirectiveLine: $directiveLine"
+    __hyprkeys_debug "flagPrefix: $flagPrefix"
+
+    for comp in $comps
+        printf "%s%s\n" "$flagPrefix" "$comp"
+    end
+
+    printf "%s\n" "$directiveLine"
+end
+
+# this function limits calls to __hyprkeys_perform_completion, by caching the result behind $__hyprkeys_perform_completion_once_result
+function __hyprkeys_perform_completion_once
+    __hyprkeys_debug "Starting __hyprkeys_perform_completion_once"
+
+    if test -n "$__hyprkeys_perform_completion_once_result"
+        __hyprkeys_debug "Seems like a valid result already exists, skipping __hyprkeys_perform_completion"
+        return 0
+    end
+
+    set --global __hyprkeys_perform_completion_once_result (__hyprkeys_perform_completion)
+    if test -z "$__hyprkeys_perform_completion_once_result"
+        __hyprkeys_debug "No completions, probably due to a failure"
+        return 1
+    end
+
+    __hyprkeys_debug "Performed completions and set __hyprkeys_perform_completion_once_result"
+    return 0
+end
+
+# this function is used to clear the $__hyprkeys_perform_completion_once_result variable after completions are run
+function __hyprkeys_clear_perform_completion_once_result
+    __hyprkeys_debug ""
+    __hyprkeys_debug "========= clearing previously set __hyprkeys_perform_completion_once_result variable =========="
+    set --erase __hyprkeys_perform_completion_once_result
+    __hyprkeys_debug "Succesfully erased the variable __hyprkeys_perform_completion_once_result"
+end
+
+function __hyprkeys_requires_order_preservation
+    __hyprkeys_debug ""
+    __hyprkeys_debug "========= checking if order preservation is required =========="
+
+    __hyprkeys_perform_completion_once
+    if test -z "$__hyprkeys_perform_completion_once_result"
+        __hyprkeys_debug "Error determining if order preservation is required"
+        return 1
+    end
+
+    set -l directive (string sub --start 2 $__hyprkeys_perform_completion_once_result[-1])
+    __hyprkeys_debug "Directive is: $directive"
+
+    set -l shellCompDirectiveKeepOrder 32
+    set -l keeporder (math (math --scale 0 $directive / $shellCompDirectiveKeepOrder) % 2)
+    __hyprkeys_debug "Keeporder is: $keeporder"
+
+    if test $keeporder -ne 0
+        __hyprkeys_debug "This does require order preservation"
+        return 0
+    end
+
+    __hyprkeys_debug "This doesn't require order preservation"
+    return 1
+end
+
+
+
+function __hyprkeys_prepare_completions
+    __hyprkeys_debug ""
+    __hyprkeys_debug "========= starting completion logic =========="
+
+    # Start fresh
+    set --erase __hyprkeys_comp_results
+
+    __hyprkeys_perform_completion_once
+    __hyprkeys_debug "Completion results: $__hyprkeys_perform_completion_once_result"
+
+    if test -z "$__hyprkeys_perform_completion_once_result"
+        __hyprkeys_debug "No completion, probably due to a failure"
+        # Might as well do file completion, in case it helps
+        return 1
+    end
+
+    set -l directive (string sub --start 2 $__hyprkeys_perform_completion_once_result[-1])
+    set --global __hyprkeys_comp_results $__hyprkeys_perform_completion_once_result[1..-2]
+
+    __hyprkeys_debug "Completions are: $__hyprkeys_comp_results"
+    __hyprkeys_debug "Directive is: $directive"
+
+    set -l shellCompDirectiveError 1
+    set -l shellCompDirectiveNoSpace 2
+    set -l shellCompDirectiveNoFileComp 4
+    set -l shellCompDirectiveFilterFileExt 8
+    set -l shellCompDirectiveFilterDirs 16
+
+    if test -z "$directive"
+        set directive 0
+    end
+
+    set -l compErr (math (math --scale 0 $directive / $shellCompDirectiveError) % 2)
+    if test $compErr -eq 1
+        __hyprkeys_debug "Received error directive: aborting."
+        # Might as well do file completion, in case it helps
+        return 1
+    end
+
+    set -l filefilter (math (math --scale 0 $directive / $shellCompDirectiveFilterFileExt) % 2)
+    set -l dirfilter (math (math --scale 0 $directive / $shellCompDirectiveFilterDirs) % 2)
+    if test $filefilter -eq 1; or test $dirfilter -eq 1
+        __hyprkeys_debug "File extension filtering or directory filtering not supported"
+        # Do full file completion instead
+        return 1
+    end
+
+    set -l nospace (math (math --scale 0 $directive / $shellCompDirectiveNoSpace) % 2)
+    set -l nofiles (math (math --scale 0 $directive / $shellCompDirectiveNoFileComp) % 2)
+
+    __hyprkeys_debug "nospace: $nospace, nofiles: $nofiles"
+
+    if test $nospace -ne 0; or test $nofiles -eq 0
+        set -l prefix (commandline -t | string escape --style=regex)
+        __hyprkeys_debug "prefix: $prefix"
+
+        set -l completions (string match -r -- "^$prefix.*" $__hyprkeys_comp_results)
+        set --global __hyprkeys_comp_results $completions
+        __hyprkeys_debug "Filtered completions are: $__hyprkeys_comp_results"
+
+        # Important not to quote the variable for count to work
+        set -l numComps (count $__hyprkeys_comp_results)
+        __hyprkeys_debug "numComps: $numComps"
+
+        if test $numComps -eq 1; and test $nospace -ne 0
+            # We must first split on \t to get rid of the descriptions to be
+            # able to check what the actual completion will be.
+            # We don't need descriptions anyway since there is only a single
+            # real completion which the shell will expand immediately.
+            set -l split (string split --max 1 \t $__hyprkeys_comp_results[1])
+
+            # Fish won't add a space if the completion ends with any
+            # of the following characters: @=/:.,
+            set -l lastChar (string sub -s -1 -- $split)
+            if not string match -r -q "[@=/:.,]" -- "$lastChar"
+                __hyprkeys_debug "Adding second completion to perform nospace directive"
+                set --global __hyprkeys_comp_results $split[1] $split[1].
+                __hyprkeys_debug "Completions are now: $__hyprkeys_comp_results"
+            end
+        end
+
+        if test $numComps -eq 0; and test $nofiles -eq 0
+            __hyprkeys_debug "Requesting file completion"
+            return 1
+        end
+    end
+
+    return 0
+end
+
+
+if type -q "hyprkeys"
+   complete --do-complete "hyprkeys " > /dev/null 2>&1
+end
+
+# Remove any pre-existing completions for the program since we will be handling all of them.
+complete -c hyprkeys -e
+complete -c hyprkeys -n '__hyprkeys_clear_perform_completion_once_result'
+complete -c hyprkeys -n 'not __hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
+complete -k -c hyprkeys -n '__hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
+
+set fzf_preview_dir_cmd eza --all --color=always
+set fzf_diff_highlighter delta --paging=never --width=20
+set fzf_diff_highlighter diff-so-fancy
+set fzf_fd_opts --hidden --max-depth 5
+
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .gradle"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
